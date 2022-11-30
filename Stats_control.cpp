@@ -5,7 +5,7 @@
 #include <string>
 #include <ctime>
 #include <iomanip>
-#include "struct.h"
+#include "Show.h"
 #include "Stats_control.h"
 using namespace std;
 
