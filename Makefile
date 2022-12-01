@@ -8,7 +8,7 @@ Stats_control.o: majoryear.h minoryear.h show.h Stats_control.h Stats_control.cp
 	g++ -c -pedantic-errors -std=c++11 Stats_control.cpp
 
 main: main.cpp majoryear.h minoryear.h show.h Stats_control.h
-	g++ -pedantic-errors -std=c++11 main.cpp .o majoryear.o minoryear.o Stats_control.o -o main
+	g++ -pedantic-errors -std=c++11 main.cpp majoryear.o minoryear.o Stats_control.o -o main
 
 play: main
 	./main
