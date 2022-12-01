@@ -1,42 +1,43 @@
-// outputs the results of events at ages 20-23
+// outputs the results of events at ages 26-29
 // inputs: chosen index, player's stats as a pass-by reference
 void resultsEvents20_to_23( int index, Stats &s, ofstream & fout ) {
 	int choice;
 	cout << "Please enter the choice number when prompted!" << endl;
-  cout << "--------------------------------------------------" << endl;
+  cout << "Your relationship partner got tired of you, they think that you’re a workaholic and wanted to break up, what do you do?" << endl;
 	switch ( index ) {
 		case 0:
-			cout << "1. 11111111111111" << endl;
-			cout << "2. 22222222222222" << endl;
-			cout << "3. 33333333333333" << endl;
+			cout << "1. Tell them “Sorry YOU felt that way”, and continue with your current lifestyle." << endl;
+			cout << "2. Spare more time to spend with them, you have decided to go grab something nice to eat together during the weekend." << endl;
+			cout << "3. You negotiated with your partner; you told her it is necessary for you to prioritise your professional life before the relationship. And promised them a bright future." << endl;
 			cout << "Enter choice: ";
 			cin >> choice;
 
 			if ( choice == 1 ) {
-				cout << "444444444444444444444444" << endl;
-				cout << "<5555555555555>" << endl;
-
+				cout << "Oops, she decided to break up with you and go back to their ex. You’re all alone again, sad and depressed." << endl;
+				cout << "<Satisfaction –2>" << endl;
+				ChangeStats(( s, 0, 0, -2 );
+				
 				// save game
-				fout << endl << "Choice: 1111111111111." << endl;
-				fout << "4444444444444444444444444" << endl;
+				fout << endl << "Choice: Tell them “Sorry YOU felt that way”, and continue with your current lifestyle." << endl;
+				fout << "Oops, she decided to break up with you and go back to their ex. You’re all alone again, sad and depressed. " << endl;
 			}
 			else if ( choice == 2 ) {
-				cout << "6666666666666666666666666666" << endl;
-				cout << "<55555555555>" << endl;
-				ChangeStats(( s, -1, 0, 0 );
+				cout << "Your partner was very happy that you prioritised your relationship first, you guys went to Ritz Carlton and had a wonderful meal. But you weren’t so happy anymore when you saw the bill…" << endl;
+				cout << "<Satisfaction +1, Wealth –1>" << endl;
+				ChangeStats(( s, -1, 0, +1 );
 
 				//save game
-				fout << endl << "Choice: 222222222222222222" << endl;
-				fout << "666666666666666666666666666" << endl;
+				fout << endl << "Choice: Spare more time to spend with them, you have decided to go grab something nice to eat together during the weekend." << endl;
+				fout << "Your partner was very happy that you prioritised your relationship first, you guys went to Ritz Carlton and had a wonderful meal. But you weren’t so happy anymore when you saw the bill… " << endl;
 			}
 			else if ( choice == 3 ) {
-				cout << "777777777777777777777777777." << endl;
-				cout << "<55555555555555>" << endl;
-				ChangeStats(( s, 0, 0, -1 );
+				cout << "Surprisingly your partner was very accommodating, they understood how important this is to you and had decided to support you along the way. Meanwhile, your presentation last week was a blast, you got promoted to a VP position within the firm, congratulations!" << endl;
+				cout << "<Wealth +2>" << endl;
+				ChangeStats(( s, +2, 0, 0 );
 
 				//save game
-				fout << endl << "Choice: 333333333333333333" << endl;
-				fout << "77777777777777777" << endl;
+				fout << endl << "Choice: You negotiated with your partner; you told her it is necessary for you to prioritise your professional life before the relationship. And promised them a bright future." << endl;
+				fout << "Surprisingly your partner was very accommodating, they understood how important this is to you and had decided to support you along the way. Meanwhile, your presentation last week was a blast, you got promoted to a VP position within the firm, congratulations!" << endl;
 			}
 			break;
 
