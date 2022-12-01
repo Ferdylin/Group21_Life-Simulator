@@ -1,10 +1,7 @@
-majorYear.o: majorYear.h majorYears21_23.h struct.h manipulateStats.h minorYears.h majorYears13_18.cpp 
-	g++ -c -pedantic-errors -std=c++11 majorYears13_18.cpp
+majorYear.o: 
+	g++ -c -pedantic-errors -std=c++11 majorYear.cpp
 
-majorYears21_23.o: majorYears13_18.h majorYears21_23.h struct.h manipulateStats.h minorYears.h majorYears21_23.cpp 
-	g++ -c -pedantic-errors -std=c++11 majorYears21_23.cpp
-
-minorYears.o: majorYears13_18.h majorYears21_23.h struct.h manipulateStats.h minorYears.h minorYears.cpp 
+minorYears.o: 
 	g++ -c -pedantic-errors -std=c++11 minorYears.cpp
 
 manipulateStats.o: majorYears13_18.h majorYears21_23.h struct.h manipulateStats.h minorYears.h manipulateStats.cpp 
