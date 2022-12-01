@@ -175,8 +175,9 @@ void resultsEvents24( int index, Stats &s, ofstream & fout ) {
 void resultsEvents25( int index, Stats &s, ofstream & fout ) {
 	int choice;
 	cout << "Please enter the choice number when prompted!" << endl;
-  cout << "You have been working OT these days, but your work is not recognized by anyone, everyone else has been promoted before except you because your boss hates you, what do you do?" << endl;
+  cout << "--------------------------------------------------" << endl;
 	
+	cout << "You have been working OT these days, but your work is not recognized by anyone, everyone else has been promoted before except you because your boss hates you, what do you do?" << endl;
 	cout << "1. Hand in that resignation letter, and prepare for job hunting" << endl;
 	cout << "2. Keep up with the hard work because you believe that your work would be recognized one day" << endl;
 	cout << "3. Slack off during work because why not" << endl;
@@ -216,8 +217,9 @@ void resultsEvents25( int index, Stats &s, ofstream & fout ) {
 void resultsEvents30( int index, Stats &s, ofstream & fout ) {
 	int choice;
 	cout << "Please enter the choice number when prompted!" << endl;
-  cout << "Your mother-in-law got very sick, and your partner is suggesting sending her to Australia for treatment therapy. What should you do?" << endl;
+  cout << "--------------------------------------------------" << endl;
 	
+	cout << "Your mother-in-law got very sick, and your partner is suggesting sending her to Australia for treatment therapy. What should you do?" << endl;
 	cout << "1. Agree with them completely, you sold one of your apartments in Hong Kong, and decided to do everything you can to help your mother-in-law out" << endl;
 	cout << "2. You told your partner frankly that you currently just do not have enough money to send their mother to the treatment therapy, you suggested to transfer your mother-in-law to a local hospital where you had connection with" << endl;
 	cout << "3. You told your partner that you cannot afford to send your mother-in-law to Australia but still wanted to find them a solution" << endl;
@@ -257,8 +259,8 @@ void resultsEvents30( int index, Stats &s, ofstream & fout ) {
 void resultsEvents31( int index, Stats &s, ofstream & fout ) {
 	int choice;
 	cout << "Please enter the choice number when prompted!" << endl;
-  cout << "You and your lover are considering whether to welcome a new family member while you are still young and, after much deliberation, at the age of 30, you have chosen to:" << endl;
-	
+  cout << "--------------------------------------------------" << endl;
+  	cout << "You and your lover are considering whether to welcome a new family member while you are still young and, after much deliberation, at the age of 30, you have chosen to:" << endl;
 	cout << "1. Giving birth" << endl;
 	cout << "2. Not considering the child " << endl;
 	cout << "Enter choice: ";
@@ -288,8 +290,8 @@ void resultsEvents31( int index, Stats &s, ofstream & fout ) {
 void resultsEvents36( int index, Stats &s, ofstream & fout ) {
 	int choice;
 	cout << "Please enter the choice number when prompted!" << endl;
-  cout << "You have reached a bottleneck in your career, and you want to move up further and improve the quality of life for your family, you decide to" << endl;
-	
+  cout << "--------------------------------------------------" << endl;
+  	cout << "You have reached a bottleneck in your career, and you want to move up further and improve the quality of life for your family, you decide to" << endl;
 	cout << "1. Take a class to learn professional knowledge" << endl;
 	cout << "2. Get together with your boss more often and buy your clients drinks" << endl;
 	cout << "3. You're happy to be a salty fish" << endl;
