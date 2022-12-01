@@ -1,17 +1,12 @@
 // This file contains functions related to the minor years
 
 #include <iostream>
-#include <fstream>
-#include <string>
 #include <cstdlib>
-#include <iomanip>
+#include <string>
 #include <ctime>
-#include "struct.h"
-#include "manipulateStats.h"
-#include "majorYears13_18.h"
-#include "majorYears21_23.h"
-#include "minorYears.h"
-
+#include <iomanip>
+#include "Show.h"
+#include "Stats_control.h"
 using namespace std;
 
 // outputs the results of events at ages 14-17
@@ -39,7 +34,7 @@ void resultsEvents14_to_17( int index, Stats &s, ofstream & fout ) {
 			else if ( choice == 2 ) {
 				cout << "6666666666666666666666666666" << endl;
 				cout << "<55555555555>" << endl;
-				updateStats( s, -1, 0, 0 );
+				ChangeStats(( s, -1, 0, 0 );
 
 				//save game
 				fout << endl << "Choice: 222222222222222222" << endl;
@@ -48,7 +43,7 @@ void resultsEvents14_to_17( int index, Stats &s, ofstream & fout ) {
 			else if ( choice == 3 ) {
 				cout << "777777777777777777777777777." << endl;
 				cout << "<55555555555555>" << endl;
-				updateStats( s, 0, 0, -1 );
+				ChangeStats(( s, 0, 0, -1 );
 
 				//save game
 				fout << endl << "Choice: 333333333333333333" << endl;
@@ -74,7 +69,7 @@ void resultsEvents14_to_17( int index, Stats &s, ofstream & fout ) {
 			else if ( choice == 2 ) {
 				cout << "6666666666666666666666666666" << endl;
 				cout << "<55555555555>" << endl;
-				updateStats( s, -1, 0, 0 );
+				ChangeStats(( s, -1, 0, 0 );
 
 				//save game
 				fout << endl << "Choice: 222222222222222222" << endl;
@@ -83,7 +78,7 @@ void resultsEvents14_to_17( int index, Stats &s, ofstream & fout ) {
 			else if ( choice == 3 ) {
 				cout << "777777777777777777777777777." << endl;
 				cout << "<55555555555555>" << endl;
-				updateStats( s, 0, 0, -1 );
+				ChangeStats(( s, 0, 0, -1 );
 
 				//save game
 				fout << endl << "Choice: 333333333333333333" << endl;
@@ -109,7 +104,7 @@ void resultsEvents14_to_17( int index, Stats &s, ofstream & fout ) {
 			else if ( choice == 2 ) {
 				cout << "6666666666666666666666666666" << endl;
 				cout << "<55555555555>" << endl;
-				updateStats( s, -1, 0, 0 );
+				ChangeStats(( s, -1, 0, 0 );
 
 				//save game
 				fout << endl << "Choice: 222222222222222222" << endl;
@@ -144,7 +139,7 @@ void resultsEvents14_to_17( int index, Stats &s, ofstream & fout ) {
 			else if ( choice == 2 ) {
 				cout << "6666666666666666666666666666" << endl;
 				cout << "<55555555555>" << endl;
-				updateStats( s, -1, 0, 0 );
+				ChangeStats(( s, -1, 0, 0 );
 
 				//save game
 				fout << endl << "Choice: 222222222222222222" << endl;
@@ -153,7 +148,7 @@ void resultsEvents14_to_17( int index, Stats &s, ofstream & fout ) {
 			else if ( choice == 3 ) {
 				cout << "777777777777777777777777777." << endl;
 				cout << "<55555555555555>" << endl;
-				updateStats( s, 0, 0, -1 );
+				ChangeStats(( s, 0, 0, -1 );
 
 				//save game
 				fout << endl << "Choice: 333333333333333333" << endl;
@@ -188,7 +183,7 @@ void resultsEvents14_to_17( int index, Stats &s, ofstream & fout ) {
 			else if ( choice == 3 ) {
 				cout << "777777777777777777777777777." << endl;
 				cout << "<55555555555555>" << endl;
-				updateStats( s, 0, 0, -1 );
+				ChangeStats(( s, 0, 0, -1 );
 
 				//save game
 				fout << endl << "Choice: 333333333333333333" << endl;
@@ -214,7 +209,7 @@ void resultsEvents14_to_17( int index, Stats &s, ofstream & fout ) {
 			else if ( choice == 2 ) {
 				cout << "6666666666666666666666666666" << endl;
 				cout << "<55555555555>" << endl;
-				updateStats( s, -1, 0, 0 );
+				ChangeStats(( s, -1, 0, 0 );
 
 				//save game
 				fout << endl << "Choice: 222222222222222222" << endl;
@@ -223,7 +218,7 @@ void resultsEvents14_to_17( int index, Stats &s, ofstream & fout ) {
 			else if ( choice == 3 ) {
 				cout << "777777777777777777777777777." << endl;
 				cout << "<55555555555555>" << endl;
-				updateStats( s, 0, 0, -1 );
+				ChangeStats(( s, 0, 0, -1 );
 
 				//save game
 				fout << endl << "Choice: 333333333333333333" << endl;
@@ -249,7 +244,7 @@ void resultsEvents14_to_17( int index, Stats &s, ofstream & fout ) {
 			else if ( choice == 2 ) {
 				cout << "6666666666666666666666666666" << endl;
 				cout << "<55555555555>" << endl;
-				updateStats( s, -1, 0, 0 );
+				ChangeStats(( s, -1, 0, 0 );
 
 				//save game
 				fout << endl << "Choice: 222222222222222222" << endl;
@@ -258,7 +253,7 @@ void resultsEvents14_to_17( int index, Stats &s, ofstream & fout ) {
 			else if ( choice == 3 ) {
 				cout << "777777777777777777777777777." << endl;
 				cout << "<55555555555555>" << endl;
-				updateStats( s, 0, 0, -1 );
+				ChangeStats(( s, 0, 0, -1 );
 
 				//save game
 				fout << endl << "Choice: 333333333333333333" << endl;
@@ -291,7 +286,7 @@ void resultsEvents20_to_23( int index, Stats &s, ofstream & fout ) {
 			else if ( choice == 2 ) {
 				cout << "6666666666666666666666666666" << endl;
 				cout << "<55555555555>" << endl;
-				updateStats( s, -1, 0, 0 );
+				ChangeStats(( s, -1, 0, 0 );
 
 				//save game
 				fout << endl << "Choice: 222222222222222222" << endl;
@@ -300,7 +295,7 @@ void resultsEvents20_to_23( int index, Stats &s, ofstream & fout ) {
 			else if ( choice == 3 ) {
 				cout << "777777777777777777777777777." << endl;
 				cout << "<55555555555555>" << endl;
-				updateStats( s, 0, 0, -1 );
+				ChangeStats(( s, 0, 0, -1 );
 
 				//save game
 				fout << endl << "Choice: 333333333333333333" << endl;
@@ -326,7 +321,7 @@ void resultsEvents20_to_23( int index, Stats &s, ofstream & fout ) {
 			else if ( choice == 2 ) {
 				cout << "6666666666666666666666666666" << endl;
 				cout << "<55555555555>" << endl;
-				updateStats( s, -1, 0, 0 );
+				ChangeStats(( s, -1, 0, 0 );
 
 				//save game
 				fout << endl << "Choice: 222222222222222222" << endl;
@@ -335,7 +330,7 @@ void resultsEvents20_to_23( int index, Stats &s, ofstream & fout ) {
 			else if ( choice == 3 ) {
 				cout << "777777777777777777777777777." << endl;
 				cout << "<55555555555555>" << endl;
-				updateStats( s, 0, 0, -1 );
+				ChangeStats(( s, 0, 0, -1 );
 
 				//save game
 				fout << endl << "Choice: 333333333333333333" << endl;
@@ -361,7 +356,7 @@ void resultsEvents20_to_23( int index, Stats &s, ofstream & fout ) {
 			else if ( choice == 2 ) {
 				cout << "6666666666666666666666666666" << endl;
 				cout << "<55555555555>" << endl;
-				updateStats( s, -1, 0, 0 );
+				ChangeStats(( s, -1, 0, 0 );
 
 				//save game
 				fout << endl << "Choice: 222222222222222222" << endl;
@@ -370,7 +365,7 @@ void resultsEvents20_to_23( int index, Stats &s, ofstream & fout ) {
 			else if ( choice == 3 ) {
 				cout << "777777777777777777777777777." << endl;
 				cout << "<55555555555555>" << endl;
-				updateStats( s, 0, 0, -1 );
+				ChangeStats(( s, 0, 0, -1 );
 
 				//save game
 				fout << endl << "Choice: 333333333333333333" << endl;
@@ -396,7 +391,7 @@ void resultsEvents20_to_23( int index, Stats &s, ofstream & fout ) {
 			else if ( choice == 2 ) {
 				cout << "6666666666666666666666666666" << endl;
 				cout << "<55555555555>" << endl;
-				updateStats( s, -1, 0, 0 );
+				ChangeStats(( s, -1, 0, 0 );
 
 				//save game
 				fout << endl << "Choice: 222222222222222222" << endl;
@@ -405,7 +400,7 @@ void resultsEvents20_to_23( int index, Stats &s, ofstream & fout ) {
 			else if ( choice == 3 ) {
 				cout << "777777777777777777777777777." << endl;
 				cout << "<55555555555555>" << endl;
-				updateStats( s, 0, 0, -1 );
+				ChangeStats(( s, 0, 0, -1 );
 
 				//save game
 				fout << endl << "Choice: 333333333333333333" << endl;
@@ -431,7 +426,7 @@ void resultsEvents20_to_23( int index, Stats &s, ofstream & fout ) {
 			else if ( choice == 2 ) {
 				cout << "6666666666666666666666666666" << endl;
 				cout << "<55555555555>" << endl;
-				updateStats( s, -1, 0, 0 );
+				ChangeStats(( s, -1, 0, 0 );
 
 				//save game
 				fout << endl << "Choice: 222222222222222222" << endl;
@@ -440,7 +435,7 @@ void resultsEvents20_to_23( int index, Stats &s, ofstream & fout ) {
 			else if ( choice == 3 ) {
 				cout << "777777777777777777777777777." << endl;
 				cout << "<55555555555555>" << endl;
-				updateStats( s, 0, 0, -1 );
+				ChangeStats(( s, 0, 0, -1 );
 
 				//save game
 				fout << endl << "Choice: 333333333333333333" << endl;
@@ -475,7 +470,7 @@ void resultsEvents20_to_23( int index, Stats &s, ofstream & fout ) {
 			else if ( choice == 3 ) {
 				cout << "777777777777777777777777777." << endl;
 				cout << "<55555555555555>" << endl;
-				updateStats( s, 0, 0, -1 );
+				ChangeStats(( s, 0, 0, -1 );
 
 				//save game
 				fout << endl << "Choice: 333333333333333333" << endl;
@@ -501,7 +496,7 @@ void resultsEvents20_to_23( int index, Stats &s, ofstream & fout ) {
 			else if ( choice == 2 ) {
 				cout << "6666666666666666666666666666" << endl;
 				cout << "<55555555555>" << endl;
-				updateStats( s, -1, 0, 0 );
+				ChangeStats(( s, -1, 0, 0 );
 
 				//save game
 				fout << endl << "Choice: 222222222222222222" << endl;
@@ -510,7 +505,7 @@ void resultsEvents20_to_23( int index, Stats &s, ofstream & fout ) {
 			else if ( choice == 3 ) {
 				cout << "777777777777777777777777777." << endl;
 				cout << "<55555555555555>" << endl;
-				updateStats( s, 0, 0, -1 );
+				ChangeStats(( s, 0, 0, -1 );
 
 				//save game
 				fout << endl << "Choice: 333333333333333333" << endl;
@@ -546,7 +541,7 @@ void resultsEvents32_to_35( int index, Stats &s, ofstream & fout ) {
 			else if ( choice == 2 ) {
 				cout << "6666666666666666666666666666" << endl;
 				cout << "<55555555555>" << endl;
-				updateStats( s, -1, 0, 0 );
+				ChangeStats(( s, -1, 0, 0 );
 
 				//save game
 				fout << endl << "Choice: 222222222222222222" << endl;
@@ -555,7 +550,7 @@ void resultsEvents32_to_35( int index, Stats &s, ofstream & fout ) {
 			else if ( choice == 3 ) {
 				cout << "777777777777777777777777777." << endl;
 				cout << "<55555555555555>" << endl;
-				updateStats( s, 0, 0, -1 );
+				ChangeStats(( s, 0, 0, -1 );
 
 				//save game
 				fout << endl << "Choice: 333333333333333333" << endl;
@@ -581,7 +576,7 @@ void resultsEvents32_to_35( int index, Stats &s, ofstream & fout ) {
 			else if ( choice == 2 ) {
 				cout << "6666666666666666666666666666" << endl;
 				cout << "<55555555555>" << endl;
-				updateStats( s, -1, 0, 0 );
+				ChangeStats(( s, -1, 0, 0 );
 
 				//save game
 				fout << endl << "Choice: 222222222222222222" << endl;
@@ -590,7 +585,7 @@ void resultsEvents32_to_35( int index, Stats &s, ofstream & fout ) {
 			else if ( choice == 3 ) {
 				cout << "777777777777777777777777777." << endl;
 				cout << "<55555555555555>" << endl;
-				updateStats( s, 0, 0, -1 );
+				ChangeStats( s, 0, 0, -1 );
 
 				//save game
 				fout << endl << "Choice: 333333333333333333" << endl;
@@ -616,7 +611,7 @@ void resultsEvents32_to_35( int index, Stats &s, ofstream & fout ) {
 			else if ( choice == 2 ) {
 				cout << "6666666666666666666666666666" << endl;
 				cout << "<55555555555>" << endl;
-				updateStats( s, -1, 0, 0 );
+				ChangeStats( s, -1, 0, 0 );
 
 				//save game
 				fout << endl << "Choice: 222222222222222222" << endl;
@@ -625,7 +620,7 @@ void resultsEvents32_to_35( int index, Stats &s, ofstream & fout ) {
 			else if ( choice == 3 ) {
 				cout << "777777777777777777777777777." << endl;
 				cout << "<55555555555555>" << endl;
-				updateStats( s, 0, 0, -1 );
+				ChangeStats( s, 0, 0, -1 );
 
 				//save game
 				fout << endl << "Choice: 333333333333333333" << endl;
@@ -651,7 +646,7 @@ void resultsEvents32_to_35( int index, Stats &s, ofstream & fout ) {
 			else if ( choice == 2 ) {
 				cout << "6666666666666666666666666666" << endl;
 				cout << "<55555555555>" << endl;
-				updateStats( s, -1, 0, 0 );
+				ChangeStats( s, -1, 0, 0 );
 
 				//save game
 				fout << endl << "Choice: 222222222222222222" << endl;
@@ -660,7 +655,7 @@ void resultsEvents32_to_35( int index, Stats &s, ofstream & fout ) {
 			else if ( choice == 3 ) {
 				cout << "777777777777777777777777777." << endl;
 				cout << "<55555555555555>" << endl;
-				updateStats( s, 0, 0, -1 );
+				ChangeStats( s, 0, 0, -1 );
 
 				//save game
 				fout << endl << "Choice: 333333333333333333" << endl;
@@ -686,7 +681,7 @@ void resultsEvents32_to_35( int index, Stats &s, ofstream & fout ) {
 			else if ( choice == 2 ) {
 				cout << "6666666666666666666666666666" << endl;
 				cout << "<55555555555>" << endl;
-				updateStats( s, -1, 0, 0 );
+				ChangeStats( s, -1, 0, 0 );
 
 				//save game
 				fout << endl << "Choice: 222222222222222222" << endl;
@@ -695,7 +690,7 @@ void resultsEvents32_to_35( int index, Stats &s, ofstream & fout ) {
 			else if ( choice == 3 ) {
 				cout << "777777777777777777777777777." << endl;
 				cout << "<55555555555555>" << endl;
-				updateStats( s, 0, 0, -1 );
+				ChangeStats( s, 0, 0, -1 );
 
 				//save game
 				fout << endl << "Choice: 333333333333333333" << endl;
@@ -721,7 +716,7 @@ void resultsEvents32_to_35( int index, Stats &s, ofstream & fout ) {
 			else if ( choice == 2 ) {
 				cout << "6666666666666666666666666666" << endl;
 				cout << "<55555555555>" << endl;
-				updateStats( s, -1, 0, 0 );
+				ChangeStats( s, -1, 0, 0 );
 
 				//save game
 				fout << endl << "Choice: 222222222222222222" << endl;
@@ -730,7 +725,7 @@ void resultsEvents32_to_35( int index, Stats &s, ofstream & fout ) {
 			else if ( choice == 3 ) {
 				cout << "777777777777777777777777777." << endl;
 				cout << "<55555555555555>" << endl;
-				updateStats( s, 0, 0, -1 );
+				ChangeStats( s, 0, 0, -1 );
 
 				//save game
 				fout << endl << "Choice: 333333333333333333" << endl;
@@ -756,7 +751,7 @@ void resultsEvents32_to_35( int index, Stats &s, ofstream & fout ) {
 			else if ( choice == 2 ) {
 				cout << "6666666666666666666666666666" << endl;
 				cout << "<55555555555>" << endl;
-				updateStats( s, -1, 0, 0 );
+				ChangeStats( s, -1, 0, 0 );
 
 				//save game
 				fout << endl << "Choice: 222222222222222222" << endl;
@@ -765,7 +760,7 @@ void resultsEvents32_to_35( int index, Stats &s, ofstream & fout ) {
 			else if ( choice == 3 ) {
 				cout << "777777777777777777777777777." << endl;
 				cout << "<55555555555555>" << endl;
-				updateStats( s, 0, 0, -1 );
+				ChangeStats( s, 0, 0, -1 );
 
 				//save game
 				fout << endl << "Choice: 333333333333333333" << endl;
