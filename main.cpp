@@ -23,6 +23,7 @@ How to play:
 */
 
 #include <iostream>
+#include <ifstream>
 #include <cstdlib>
 #include <string>
 #include <ctime>
