@@ -451,7 +451,7 @@ int main() {
 				Events13( player, name, fout );
         break;
 
-			case 14:
+       case 14:
         cout << "Age: 14" << endl;
         cout << "-------" << endl;
 
