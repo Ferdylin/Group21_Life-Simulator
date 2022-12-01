@@ -3,9 +3,10 @@
 void resultsEvents20_to_23( int index, Stats &s, ofstream & fout ) {
 	int choice;
 	cout << "Please enter the choice number when prompted!" << endl;
-  cout << "Your relationship partner got tired of you, they think that you’re a workaholic and wanted to break up, what do you do?" << endl;
+  cout << "--------------------------------------------------" << endl;
 	switch ( index ) {
 		case 0:
+			cout << "Your relationship partner got tired of you, they think that you’re a workaholic and wanted to break up, what do you do?" << endl;
 			cout << "1. Tell them “Sorry YOU felt that way”, and continue with your current lifestyle." << endl;
 			cout << "2. Spare more time to spend with them, you have decided to go grab something nice to eat together during the weekend." << endl;
 			cout << "3. You negotiated with your partner; you told her it is necessary for you to prioritise your professional life before the relationship. And promised them a bright future." << endl;
@@ -42,212 +43,226 @@ void resultsEvents20_to_23( int index, Stats &s, ofstream & fout ) {
 			break;
 
 		case 1:
-			cout << "1. 11111111111111" << endl;
-			cout << "2. 22222222222222" << endl;
-			cout << "3. 33333333333333" << endl;
+			cout << "You felt that you don’t enjoy what you do anymore, you like the workplace and the people but not the job itself anymore. What are the next steps that you’re going to take?" << endl;
+			cout << "1.You found out that you’re passionate about education and you enjoy helping students out, you’ve decided to start a new venture as an entrepreneur!" << endl;
+			cout << "2. You believe this is just a phase and have decided to stick with the current job still." << endl;
+			cout << "3. Apply for other jobs that fit your skill sets and which you found interesting." << endl;
 			cout << "Enter choice: ";
 			cin >> choice;
 
 			if ( choice == 1 ) {
-				cout << "444444444444444444444444" << endl;
-				cout << "<5555555555555>" << endl;
+				cout << "Yes, starting a business is hard, but you have succeeded! You have earned 3Mn revenue in the first year and your business is on the rise." << endl;
+				cout << "<Wealth +3, Satisfaction +1>" << endl;
+				ChangeStats(( s, +3, 0, +1 );
 
 				// save game
-				fout << endl << "Choice: 1111111111111." << endl;
-				fout << "4444444444444444444444444" << endl;
+				fout << endl << "Choice: You found out that you’re passionate about education and you enjoy helping students out, you’ve decided to start a new venture as an entrepreneur!" << endl;
+				fout << "Yes, starting a business is hard, but you have succeeded! You have earned 3Mn revenue in the first year and your business is on the rise." << endl;
 			}
 			else if ( choice == 2 ) {
-				cout << "6666666666666666666666666666" << endl;
-				cout << "<55555555555>" << endl;
-				ChangeStats(( s, -1, 0, 0 );
+				cout << "You got promoted to a more senior position, but you realised that you have grown to hate your job even more…" << endl;
+				cout << "<Wealth +1, Satisfaction -1>" << endl;
+				ChangeStats(( s, +1, 0, -1 );
 
 				//save game
-				fout << endl << "Choice: 222222222222222222" << endl;
-				fout << "666666666666666666666666666" << endl;
+				fout << endl << "Choice: You believe this is just a phase and have decided to stick with the current job still." << endl;
+				fout << "You got promoted to a more senior position, but you realised that you have grown to hate your job even more…" << endl;
 			}
 			else if ( choice == 3 ) {
-				cout << "777777777777777777777777777." << endl;
-				cout << "<55555555555555>" << endl;
-				ChangeStats(( s, 0, 0, -1 );
+				cout << "Sorry but nothing really happened, you should’ve known that job hunting isn’t easy…and you’ve decided to stay with your current company." << endl;
+				cout << "<->" << endl;
+				ChangeStats(( s, 0, 0, 0 );
 
 				//save game
-				fout << endl << "Choice: 333333333333333333" << endl;
-				fout << "77777777777777777" << endl;
+				fout << endl << "Choice: Apply for other jobs that fit your skill sets and which you found interesting." << endl;
+				fout << "Sorry but nothing really happened, you should’ve known that job hunting isn’t easy…and you’ve decided to stay with your current company." << endl;
 			}
 			break;
 
 		case 2:
-			cout << "1. 11111111111111" << endl;
-			cout << "2. 22222222222222" << endl;
-			cout << "3. 33333333333333" << endl;
+			cout << "You got bored so you started making Tik Tok with your friends, after doing some research, you’ve decided to make videos on:" << endl;
+			cout << "1. Tiktok Dance" << endl;
+			cout << "2. Social Experiment Channel" << endl;
+			cout << "3. Random funny reels" << endl;
 			cout << "Enter choice: ";
 			cin >> choice;
 
 			if ( choice == 1 ) {
-				cout << "444444444444444444444444" << endl;
-				cout << "<5555555555555>" << endl;
+				cout << "You found out that you really love dancing, and this is something that you’re truly passionate about and enjoy the most. You felt really happy." << endl;
+				cout << "<Satisfaction +2>" << endl;
+				ChangeStats(( s, 0, 0, +2 );
 
 				// save game
-				fout << endl << "Choice: 1111111111111." << endl;
-				fout << "4444444444444444444444444" << endl;
+				fout << endl << "Choice: Tiktok Dance." << endl;
+				fout << "You found out that you really love dancing, and this is something that you’re truly passionate about and enjoy the most. You felt really happy. " << endl;
 			}
 			else if ( choice == 2 ) {
-				cout << "6666666666666666666666666666" << endl;
-				cout << "<55555555555>" << endl;
-				ChangeStats(( s, -1, 0, 0 );
+				cout << "YES, you made it. It was a huge hit and people really like your channel, you got over 2million likes in total, and also tons of money flowing into your bank account, what an influencer!" << endl;
+				cout << "<Wealth +2>" << endl;
+				ChangeStats(( s, +2, 0, 0 );
 
 				//save game
-				fout << endl << "Choice: 222222222222222222" << endl;
-				fout << "666666666666666666666666666" << endl;
+				fout << endl << "Choice: Social Experiment Channel" << endl;
+				fout << "YES, you made it. It was a huge hit and people really like your channel, you got over 2million likes in total, and also tons of money flowing into your bank account, what an influencer!" << endl;
 			}
 			else if ( choice == 3 ) {
-				cout << "777777777777777777777777777." << endl;
-				cout << "<55555555555555>" << endl;
-				ChangeStats(( s, 0, 0, -1 );
+				cout << "7You started doing stupid stuff like running around and asking stupid questions at strangers, the market is saturated so you’re not getting as many likes as you expected, but at least you’re getting healthier with more exercise." << endl;
+				cout << "<Health +1>" << endl;
+				ChangeStats(( s, 0, +1, 0 );
 
 				//save game
-				fout << endl << "Choice: 333333333333333333" << endl;
-				fout << "77777777777777777" << endl;
+				fout << endl << "Choice: Random funny reels" << endl;
+				fout << "You started doing stupid stuff like running around and asking stupid questions at strangers, the market is saturated so you’re not getting as many likes as you expected, but at least you’re getting healthier with more exercise." << endl;
 			}
 			break;
 		
 		case 3:
-			cout << "1. 11111111111111" << endl;
-			cout << "2. 22222222222222" << endl;
-			cout << "3. 33333333333333" << endl;
+			cout << "You’ve decided to stop by a coffee shop one night but later you realised that Beyonce was at the cashier but struggling to make the payment to her order! What do you do?" << endl;
+			cout << "1. Pay for her bill and ask her to take pictures with you" << endl;
+			cout << "2. Pretend you didn’t see her and walk away" << endl;
+			cout << "3. Freaked out and screamed out “Beyonce is here!" << endl;
 			cout << "Enter choice: ";
 			cin >> choice;
 
 			if ( choice == 1 ) {
-				cout << "444444444444444444444444" << endl;
-				cout << "<5555555555555>" << endl;
+				cout << "You got invited to Beyonce’s secret album reveal session, she also gave you a front seat VIP ticket to her concert (which worth 70K hkd) and you’ve decided to sell it out." << endl;
+				cout << "<Satisfaction +2, Wealth +1>" << endl;
+				ChangeStats(( s, +1, 0, +2 );
 
 				// save game
-				fout << endl << "Choice: 1111111111111." << endl;
-				fout << "4444444444444444444444444" << endl;
+				fout << endl << "Choice: Pay for her bill and ask her to take pictures with you." << endl;
+				fout << "You got invited to Beyonce’s secret album reveal session, she also gave you a front seat VIP ticket to her concert (which worth 70K hkd) and you’ve decided to sell it out." << endl;
 			}
 			else if ( choice == 2 ) {
-				cout << "6666666666666666666666666666" << endl;
-				cout << "<55555555555>" << endl;
-				ChangeStats(( s, -1, 0, 0 );
+				cout << "You got punched in the face by an aggressive Beyonce fan for ignoring their queen, you nose is severely injured and required an immediate surgery." << endl;
+				cout << "<Health -2>" << endl;
+				ChangeStats(( s, 0, -2, 0 );
 
 				//save game
-				fout << endl << "Choice: 222222222222222222" << endl;
-				fout << "666666666666666666666666666" << endl;
+				fout << endl << "Choice: Pretend you didn’t see her and walk away" << endl;
+				fout << "You got punched in the face by an aggressive Beyonce fan for ignoring their queen, you nose is severely injured and required an immediate surgery." << endl;
 			}
 			else if ( choice == 3 ) {
-				cout << "777777777777777777777777777." << endl;
-				cout << "<55555555555555>" << endl;
+				cout << "You then got paparazzis following you around, you even got posted on Instagram. You felt very anxious about this." << endl;
+				cout << "<Satisfaction -1>" << endl;
 				ChangeStats(( s, 0, 0, -1 );
 
 				//save game
-				fout << endl << "Choice: 333333333333333333" << endl;
-				fout << "77777777777777777" << endl;
+				fout << endl << "Choice: Freaked out and screamed out “Beyonce is here!" << endl;
+				fout << "You then got paparazzis following you around, you even got posted on Instagram. You felt very anxious about this." << endl;
 			}
 			break;
 		
 		case 4:
-			cout << "1. 11111111111111" << endl;
-			cout << "2. 22222222222222" << endl;
-			cout << "3. 33333333333333" << endl;
+			cout << "Crypto and Web 3 is the new trend now and everyone’s crazy about it. You recently just discovered a new platform for crypto trading and wanted to invest in some crypto assets, what do you do:" << endl;
+			cout << "1. You think crypto is BS and had decided not to invest your money eventually" << endl;
+			cout << "2. You are a big fan of blockchain technology, and you believe that crypto trading is the future, you had decided to invest 50% of your idle cash in the platform" << endl;
+			cout << "3. You don’t know much about crypto but had decided to diversify your investment portfolio anyway, so you had invested 20% of your idle cash. You also took some spare time of yours to learn about Web3 and crypto." << endl;
 			cout << "Enter choice: ";
 			cin >> choice;
 
 			if ( choice == 1 ) {
-				cout << "444444444444444444444444" << endl;
-				cout << "<5555555555555>" << endl;
+				cout << "The crypto market crashed in only one day after FTX’s (the largest crypto trading platform) bankruptcy, thank god that you didn’t invest! By the way your other investments are making huge returns!" << endl;
+				cout << "<Wealth +3>" << endl;
+				ChangeStats(( s, +3, 0, 0 );
 
 				// save game
-				fout << endl << "Choice: 1111111111111." << endl;
-				fout << "4444444444444444444444444" << endl;
+				fout << endl << "Choice: You think crypto is BS and had decided not to invest your money eventually." << endl;
+				fout << "The crypto market crashed in only one day after FTX’s (the largest crypto trading platform) bankruptcy, thank god that you didn’t invest! By the way your other investments are making huge returns!" << endl;
 			}
 			else if ( choice == 2 ) {
-				cout << "6666666666666666666666666666" << endl;
-				cout << "<55555555555>" << endl;
-				ChangeStats(( s, -1, 0, 0 );
+				cout << "Oops, the crypto market crashed, and you’ve lost almost all your money, but you’re not the only one so don’t be too disappointed!" << endl;
+				cout << "<Wealth –4>" << endl;
+				ChangeStats(( s, -4, 0, 0 );
 
 				//save game
-				fout << endl << "Choice: 222222222222222222" << endl;
-				fout << "666666666666666666666666666" << endl;
+				fout << endl << "Choice: You are a big fan of blockchain technology, and you believe that crypto trading is the future, you had decided to invest 50% of your idle cash in the platform" << endl;
+				fout << "Oops, the crypto market crashed, and you’ve lost almost all your money, but you’re not the only one so don’t be too disappointed!" << endl;
 			}
 			else if ( choice == 3 ) {
-				cout << "777777777777777777777777777." << endl;
-				cout << "<55555555555555>" << endl;
-				ChangeStats(( s, 0, 0, -1 );
+				cout << "Oops, the crypto market crashed but at least you did not invest all your idle cash into the platform. Smart business guy!" << endl;
+				cout << "<Wealth - 2, Satisfaction +2>" << endl;
+				ChangeStats(( s, -2, 0, +2 );
 
 				//save game
-				fout << endl << "Choice: 333333333333333333" << endl;
-				fout << "77777777777777777" << endl;
+				fout << endl << "Choice: You don’t know much about crypto but had decided to diversify your investment portfolio anyway, so you had invested 20% of your idle cash. You also took some spare time of yours to learn about Web3 and crypto." << endl;
+				fout << "Oops, the crypto market crashed but at least you did not invest all your idle cash into the platform. Smart business guy!" << endl;
 			}
 			break;
 
 		case 5:
-			cout << "1. 11111111111111" << endl;
-			cout << "2. 22222222222222" << endl;
-			cout << "3. 33333333333333" << endl;
+			cout << "For a rare holiday, you choose to:" << endl;
+			cout << "1. Skiing in Hokkaido" << endl;
+			cout << "2. Drive to a party with friends" << endl;
+			cout << "3. Going to Cheung Chau Island" << endl;
 			cout << "Enter choice: ";
 			cin >> choice;
 
 			if ( choice == 1 ) {
-				cout << "444444444444444444444444" << endl;
-				cout << "<5555555555555>" << endl;
+				cout << "You went skiing in Hokkaido and fell and broke a bone due to improper handling." << endl;
+				cout << "<Health -1>" << endl;
+				ChangeStats(( s, 0, -1, 0 );
+
 
 				// save game
-				fout << endl << "Choice: 1111111111111." << endl;
-				fout << "4444444444444444444444444" << endl;
+				fout << endl << "Choice: Skiing in Hokkaido." << endl;
+				fout << "You went skiing in Hokkaido and fell and broke a bone due to improper handling." << endl;
 			}
 			else if ( choice == 2 ) {
-				cout << "6666666666666666666666666666" << endl;
-				cout << "<55555555555>" << endl;
-				updateStats( s, -1, 0, 0 );
+				cout << "You had a little drink and were caught and fined by the traffic police on your way home." << endl;
+				cout << "<Wealth-1>" << endl;
+				ChangeStats(( s, -1, 0, 0 );
 
 				//save game
-				fout << endl << "Choice: 222222222222222222" << endl;
-				fout << "666666666666666666666666666" << endl;
+				fout << endl << "Choice: Drive to a party with friends" << endl;
+				fout << "You had a little drink and were caught and fined by the traffic police on your way home." << endl;
 			}
 			else if ( choice == 3 ) {
-				cout << "777777777777777777777777777." << endl;
-				cout << "<55555555555555>" << endl;
+				cout << "You have an argument with a local resident and are left with an unpleasant experience." << endl;
+				cout << "<Satisfaction-1>" << endl;
 				ChangeStats(( s, 0, 0, -1 );
 
 				//save game
-				fout << endl << "Choice: 333333333333333333" << endl;
-				fout << "77777777777777777" << endl;
+				fout << endl << "Choice: Going to Cheung Chau Island" << endl;
+				fout << "You have an argument with a local resident and are left with an unpleasant experience." << endl;
 			}
 			break;
 
 		case 6:
-			cout << "1. 11111111111111" << endl;
-			cout << "2. 22222222222222" << endl;
-			cout << "3. 33333333333333" << endl;
+			cout << "You found out that your ex was severely injured in a car accident, you guys broke up without conflicts and are still friends. You’re currently very happy in your relationship too but doing something stupid might trigger your partner, you will:" << endl;
+			cout << "1. Go visit your ex and offered to pay for their medical expenses" << endl;
+			cout << "2. Go visit your ex with your current partner" << endl;
+			cout << "3. Not visit your ex, nor contact them anymore" << endl;
 			cout << "Enter choice: ";
 			cin >> choice;
 
 			if ( choice == 1 ) {
-				cout << "444444444444444444444444" << endl;
-				cout << "<5555555555555>" << endl;
+				cout << "Turns out your ex was secretly a billionaire. They were very touched that you offered them with such kind gestures and had decided to buy you an apartment at Repulse Bay. But your partner, however, was angry that you still had feelings for her and wanted a divorce." << endl;
+				cout << "<Wealth +2, Satisfaction -2>" << endl;
+				ChangeStats(( s, +2, 0, -1 );
+
 
 				// save game
-				fout << endl << "Choice: 1111111111111." << endl;
-				fout << "4444444444444444444444444" << endl;
+				fout << endl << "Choice: Go visit your ex and offered to pay for their medical expenses." << endl;
+				fout << "Turns out your ex was secretly a billionaire. They were very touched that you offered them with such kind gestures and had decided to buy you an apartment at Repulse Bay. But your partner, however, was angry that you still had feelings for her and wanted a divorce." << endl;
 			}
 			else if ( choice == 2 ) {
-				cout << "6666666666666666666666666666" << endl;
-				cout << "<55555555555>" << endl;
-				ChangeStats(( s, -1, 0, 0 );
-
-				//save game
-				fout << endl << "Choice: 222222222222222222" << endl;
-				fout << "666666666666666666666666666" << endl;
-			}
-			else if ( choice == 3 ) {
-				cout << "777777777777777777777777777." << endl;
-				cout << "<55555555555555>" << endl;
+				cout << "Your ex indeed still has feelings for you and was not very pleased with you bringing your partner to visit them. They started crying which made you feel quite bad." << endl;
+				cout << "<Satisfaction -1>" << endl;
 				ChangeStats(( s, 0, 0, -1 );
 
 				//save game
-				fout << endl << "Choice: 333333333333333333" << endl;
-				fout << "77777777777777777" << endl;
+				fout << endl << "Choice: Go visit your ex with your current partner" << endl;
+				fout << "Your ex indeed still has feelings for you and was not very pleased with you bringing your partner to visit them. They started crying which made you feel quite bad." << endl;
+			}
+			else if ( choice == 3 ) {
+				cout << "Your partner was very pleased with your loyalty and your commitment for their relationship, they have decided to buy a big house for you in Hong Kong Island but however, you have no idea where the money comes from…" << endl;
+				cout << "<Wealth +2>" << endl;
+				ChangeStats(( s, +2, 0, 0 );
+
+				//save game
+				fout << endl << "Choice: Not visit your ex, nor contact them anymore" << endl;
+				fout << "Your partner was very pleased with your loyalty and your commitment for their relationship, they have decided to buy a big house for you in Hong Kong Island but however, you have no idea where the money comes from…" << endl;
 			}
 			break;
 
@@ -262,37 +277,39 @@ void resultsEvents32_to_35( int index, Stats &s, ofstream & fout ) {
   cout << "--------------------------------------------------" << endl;
 	switch ( index ) {
 		case 0:
-			cout << "1. 11111111111111" << endl;
-			cout << "2. 22222222222222" << endl;
-			cout << "3. 33333333333333" << endl;
+			cout << "Your career is becoming stable, and you don't need to worry about it, you think:" << endl;
+			cout << "1. Go on a trip" << endl;
+			cout << "2. Attend swimming classes" << endl;
+			cout << "3. Play video games with old friends" << endl;
 			cout << "Enter choice: ";
 			cin >> choice;
 
 			if ( choice == 1 ) {
-				cout << "444444444444444444444444" << endl;
-				cout << "<5555555555555>" << endl;
+				cout << "You travel to a country you have longed to visit, experience the local scenery and feel psychologically satisfied despite the cost." << endl;
+				cout << "<Satisfaction +1, Wealth -1, Health +1>" << endl;
+				ChangeStats(( s, -1, +1, +1 );
 
 				// save game
-				fout << endl << "Choice: 1111111111111." << endl;
-				fout << "4444444444444444444444444" << endl;
+				fout << endl << "Choice: Go on a trip" << endl;
+				fout << "You travel to a country you have longed to visit, experience the local scenery and feel psychologically satisfied despite the cost." << endl;
 			}
 			else if ( choice == 2 ) {
-				cout << "6666666666666666666666666666" << endl;
-				cout << "<55555555555>" << endl;
-				ChangeStats(( s, -1, 0, 0 );
+				cout << "You paid for swimming lessons, went swimming every evening after work and met good people." << endl;
+				cout << "<Satisfaction +1, Wealth -1, Health +1>" << endl;
+				ChangeStats(( s, -1, +1, +1 );
 
 				//save game
-				fout << endl << "Choice: 222222222222222222" << endl;
-				fout << "666666666666666666666666666" << endl;
+				fout << endl << "Choice: Attend swimming classes" << endl;
+				fout << "You paid for swimming lessons, went swimming every evening after work and met good people." << endl;
 			}
 			else if ( choice == 3 ) {
-				cout << "777777777777777777777777777." << endl;
-				cout << "<55555555555555>" << endl;
-				ChangeStats(( s, 0, 0, -1 );
+				cout << "You get together with old friends to play video games and it seems like you've got your fun back, but you feel uncomfortable with your wrists and eyes while playing." << endl;
+				cout << "<Satisfaction +1, Health -1>" << endl;
+				ChangeStats(( s, 0, -1, +1 );
 
 				//save game
-				fout << endl << "Choice: 333333333333333333" << endl;
-				fout << "77777777777777777" << endl;
+				fout << endl << "Choice: Play video games with old friends" << endl;
+				fout << "You get together with old friends to play video games and it seems like you've got your fun back, but you feel uncomfortable with your wrists and eyes while playing." << endl;
 			}
 			break;
 
