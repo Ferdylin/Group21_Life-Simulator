@@ -368,20 +368,20 @@ int main() {
 		cout << "Enter choice: ";
 		cin >> * upgrade;
 		if ( * upgrade == "1" ) {
-			updateStats( player, 1, 0, 0 );
+                        ChangeStats( player, 1, 0, 0 );
 		}
 		else if ( * upgrade == "2" ) {
-			updateStats( player, 0, 1, 0 );
+			ChangeStats( player, 0, 1, 0 );
 		}
 		else if ( * upgrade == "3" ) { 
-			updateStats( player, 0, 0, 1 );
+			ChangeStats( player, 0, 0, 1 );
 		}
 
 		delete upgrade; // frees the upgrade dynamic variable
 
 		cout << endl;
 
-		printStats( player , name );
+		ShowStats( player , name );
 
 		// initialization of age 
 		* age = 13;
@@ -459,7 +459,7 @@ int main() {
         fout << "-------" << endl;
 
         printEvents14_17( player, fout );
-        printStats( player, name );
+        ShowStats( player, name );
 				break;
 
       case 15:
@@ -470,7 +470,7 @@ int main() {
         fout << "-------" << endl;
 
         printEvents14_17( player, fout );
-        printStats( player, name );		
+        ShowStats( player, name );		
 				break;
 
       case 16:
@@ -481,7 +481,7 @@ int main() {
         fout << "-------" << endl;		
 
         printEvents14_17( player, fout );
-        printStats( player, name );
+        ShowStats( player, name );
 				break;
 
       case 17:
@@ -492,7 +492,7 @@ int main() {
         fout << "-------" << endl;
 
         printEvents14_17( player, fout );
-        printStats( player, name );	
+        ShowStats( player, name );	
 				break;
 
       case 18:
@@ -523,7 +523,7 @@ int main() {
         fout << "-------" << endl;
 
         printEvents20_23( player, fout );
-        printStats( player, name );
+        ShowStats( player, name );
         break;
 
 ******************** 我不知道case 21 和 case 23 有什么特殊的 所以21 23 我都没改
@@ -546,7 +546,7 @@ int main() {
         fout << "-------" << endl;
 
         printEvents20_23( player, fout );
-        printStats( player, name );	
+        ShowStats( player, name );	
         break;
 
       case 23:
@@ -587,7 +587,7 @@ int main() {
         fout << "-------" << endl;
 
         printEvents26_29( player, fout );
-        printStats( player, name );	
+        ShowStats( player, name );	
         break;
 
       case 27:
@@ -598,7 +598,7 @@ int main() {
         fout << "-------" << endl;
 
         printEvents26_29( player, fout );
-        printStats( player, name );	
+        ShowStats( player, name );	
         break;
       
       case 28:
@@ -609,7 +609,7 @@ int main() {
         fout << "-------" << endl;
 
         printEvents26_29( player, fout );
-        printStats( player, name );	
+        ShowStats( player, name );	
         break;
 
       case 29:
@@ -620,7 +620,7 @@ int main() {
         fout << "-------" << endl;
 
         printEvents26_29( player, fout );
-        printStats( player, name );	
+        ShowStats( player, name );	
         break;
 
       case 30:
@@ -651,7 +651,7 @@ int main() {
         fout << "-------" << endl;
 
         printEvents32_35( player, fout );
-        printStats( player, name );	
+        ShowStats( player, name );	
         break;
       
       case 33:
@@ -662,7 +662,7 @@ int main() {
         fout << "-------" << endl;
 
         printEvents32_35( player, fout );
-        printStats( player, name );	
+        ShowStats( player, name );	
         break;
 
       case 34:
@@ -673,7 +673,7 @@ int main() {
         fout << "-------" << endl;
 
         printEvents32_35( player, fout );
-        printStats( player, name );	
+        ShowStats( player, name );	
         break;
 
       case 35:
@@ -684,7 +684,7 @@ int main() {
         fout << "-------" << endl;
 
         printEvents32_35( player, fout );
-        printStats( player, name );	
+        ShowStats( player, name );	
         break;
 
       case 36:
@@ -744,7 +744,7 @@ int main() {
 	copy.close();
 
   // calls the final function to output a summary of the game
-	printStats( player, name );
+	ShowStats( player, name );
   finalFunc( player.health, player.wealth, player.satisfaction );
 	
 	// informs player that a summary of their game can be viewed in the file they provided
