@@ -14,7 +14,7 @@ UID(s):
 Project: 
 <BitTeenLife>
 Description: 
-A game that parodies the mobile game BitLife, for ages [13, 45]
+A game that parodies the mobile game BitLife, for ages [13, 36]
 CS Academy Server tested on: 
 <academy11>
 How to play:
