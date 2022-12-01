@@ -23,16 +23,12 @@ How to play:
 */
 
 #include <iostream>
-#include <fstream>
-#include <string>
 #include <cstdlib>
-#include <iomanip>
+#include <string>
 #include <ctime>
-#include "struct.h"
-#include "manipulateStats.h"
-#include "majorYears13_18.h"
-#include "majorYears21_23.h"
-#include "minorYears.h"
+#include <iomanip>
+#include "Show.h"
+#include "Stats_control.h"
 
 using namespace std;
 
