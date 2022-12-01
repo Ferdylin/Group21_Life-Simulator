@@ -52,7 +52,6 @@ void resultsEvents13( int index, Show &s, ofstream & fout ) {
         fout << endl << "Choice: You force yourself to wear baggy clothes and keep a low profile everyday. " << endl;
         fout << "This is driving you crazy and you feel more and more ashamed of your body, and you are not as confident as usual." << endl;
     }
-    break;
 }
 		
 void resultsEvents18( int index, Show &s, ofstream & fout ) {
@@ -94,7 +93,6 @@ void resultsEvents18( int index, Show &s, ofstream & fout ) {
         fout << endl << "Choice:  I really have to study hard! I can do it!" << endl;
         fout << "Confidence keeps you going. Your hard work finally pays off!!" << endl;
     }
-    break;
 }
 			    
 void resultsEvents19( int index, Show &s, ofstream & fout ) {
@@ -135,7 +133,6 @@ void resultsEvents19( int index, Show &s, ofstream & fout ) {
         fout << endl << "Choice:  What? Shouldn’t college students be in lecture halls? Nah, I don’t need internships." << endl;
         fout << "You at job interviews after graduation: what do you mean “you won’t consider college graduates with no internship experiences”?!" << endl;
     }
-    break;
 }
 		    
 		    
@@ -169,7 +166,6 @@ void resultsEvents21( int index, Show &s, ofstream & fout ) {
                 fout << "You fail to get into a school you like. Guess you have to join the workforce anyway." << endl;
             }
             
-            break;
         }
 
         void resultsEvents22( int index, Show &s, ofstream & fout ) {
@@ -210,7 +206,6 @@ void resultsEvents21( int index, Show &s, ofstream & fout ) {
                 fout << endl << "Choice: Financial industry, IBD." << endl;
                 fout << "You land a shiny job. But bad news is… you have to work around the clock." << endl;
             }
-            break;
         }		    
 			  
 void resultsEvents23( int index, Show &s, ofstream & fout ) {
@@ -261,7 +256,6 @@ void resultsEvents23( int index, Show &s, ofstream & fout ) {
         fout << endl << "Choice: Join a start-up." << endl;
         fout << "The job is very demanding and tiring. But there is always a chance that you make the right bet." << endl;
     }
-    break;
 }
 			    
 void resultsEvents25( int index, Show &s, ofstream & fout ) {
