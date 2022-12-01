@@ -50,7 +50,6 @@ void resultsEvents13( int index, Show &s, ofstream & fout ) {
 		fout << endl << "Choice: 333333333333333333" << endl;
 		fout << "77777777777777777" << endl;
 	}
-	break;
 }
 		
 void resultsEvents18( int index, Show &s, ofstream & fout ) {
@@ -90,7 +89,6 @@ void resultsEvents18( int index, Show &s, ofstream & fout ) {
 		fout << endl << "Choice: 333333333333333333" << endl;
 		fout << "77777777777777777" << endl;
 	}
-	break;
 }
 			    
 void resultsEvents19( int index, Show &s, ofstream & fout ) {
@@ -130,7 +128,6 @@ void resultsEvents19( int index, Show &s, ofstream & fout ) {
 		fout << endl << "Choice: 333333333333333333" << endl;
 		fout << "77777777777777777" << endl;
 	}
-	break;
 }
 			  
 void resultsEvents24( int index, Show &s, ofstream & fout ) {
@@ -170,7 +167,6 @@ void resultsEvents24( int index, Show &s, ofstream & fout ) {
 		fout << endl << "Choice: 333333333333333333" << endl;
 		fout << "77777777777777777" << endl;
 	}
-	break;
 }
 			    
 void resultsEvents25( int index, Show &s, ofstream & fout ) {
@@ -212,7 +208,6 @@ void resultsEvents25( int index, Show &s, ofstream & fout ) {
 		fout << endl << "Choice: Slack off during work because why not" << endl;
 		fout << "Your colleague dropped by and asked what happened, you told them how toxic your boss is, and they helped you transfer to another division within the workplace. Your salary got boosted. " << endl;
 	}
-	break;
 }
 			    
 void resultsEvents30( int index, Show &s, ofstream & fout ) {
@@ -254,7 +249,6 @@ void resultsEvents30( int index, Show &s, ofstream & fout ) {
 		fout << endl << "Choice: You told your partner that you cannot afford to send your mother-in-law to Australia but still wanted to find them a solution" << endl;
 		fout << "You and your partner fought, they wanted to break up and thought that you’re a cold-blooded monster. You felt very helpless and didn't know what to do. " << endl;
 	}
-	break;
 }
 			    
 void resultsEvents31( int index, Show &s, ofstream & fout ) {
@@ -285,7 +279,6 @@ void resultsEvents31( int index, Show &s, ofstream & fout ) {
 		fout << endl << "Choice: Not considering the child " << endl;
 		fout << "You think about it and decide not to have children, to give yourself more personal time and the energy to do your own thing." << endl;
 	}
-	break;
 }
 			    
 void resultsEvents36( int index, Show &s, ofstream & fout ) {
@@ -326,5 +319,4 @@ void resultsEvents36( int index, Show &s, ofstream & fout ) {
 		fout << endl << "Choice: You're happy to be a salty fish" << endl;
 		fout << "You decide to go with the flow, and you think that when the time comes, you will be promoted." << endl;
 	}
-	break;
 }
