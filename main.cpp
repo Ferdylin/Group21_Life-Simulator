@@ -77,9 +77,6 @@ string events_32_to_44[7] = {
 "ffffffu",
 "ttttttu",
 };
-******** 这个note我不知道还要不要
-// NOTE: functions that print stuff are defined here as they involve manipulating the global arrays above 
-*******
 
 /*
 FUNCTION: prints choice-based events for ages 14-17
@@ -226,7 +223,6 @@ void printEvents32_35( Stats &s, ofstream & fout ) {
 	return;
 }
 
-**************************************************************************以下
 /* 
 FUNCTION: 
 Gives player choice to: 
@@ -356,9 +352,6 @@ int main() {
 
 		
 		string * upgrade = new string;  // initialization of dynamic variable for storing upgrade choice
-
-
-*************************************以上部分未做修改
 
 		// prompt user for upgrade choice
 		cout << "You get to upgrade one of your stats! " << endl;
@@ -525,8 +518,6 @@ int main() {
         printEvents20_23( player, fout );
         ShowStats( player, name );
         break;
-
-******************** 我不知道case 21 和 case 23 有什么特殊的 所以21 23 我都没改
 
       case 21:
         cout << "Age: 21" << endl;
@@ -698,10 +689,6 @@ int main() {
         break;
 
 		}
-*************************** 因为我知道他原本的 21 23 为什么是不一样的 所以以上可能还要修改
-
-
-
 
 		// call function to determine whether player wants to continue or quit game
 		bool continuePlaying = growUpOrQuit( age, filename, tempfile, player, name );
