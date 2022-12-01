@@ -289,7 +289,7 @@ void resultsEvents31( int index, Stats &s, ofstream & fout ) {
 	break;
 }
 			    
-void resultsEvents45( int index, Stats &s, ofstream & fout ) {
+void resultsEvents36( int index, Stats &s, ofstream & fout ) {
 	int choice;
 	cout << "Please enter the choice number when prompted!" << endl;
   cout << "--------------------------------------------------" << endl;
