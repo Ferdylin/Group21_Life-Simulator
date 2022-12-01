@@ -30,7 +30,7 @@ void resultsEvents14_to_17( int index, Show &s, ofstream & fout ) {
 			if ( choice == 1 ) {
 				cout << "You spend too much time on gaming that your grades are negatively affected. But you achieve high in the game anyway." << endl;
 				cout << "<5555555555555>" << endl;
-				ChangeStats( s, -1, -1, +2);
+				ChangeStats(( s, -1, -1, +2);
 				
 
 				// save game
@@ -41,7 +41,7 @@ void resultsEvents14_to_17( int index, Show &s, ofstream & fout ) {
 			else if ( choice == 2 ) {
 				cout << "You maintain good grades, and have fun in gaming." << endl;
 				cout << "<55555555555>" << endl;
-				ChangeStats( s, +1, 0, +1 );
+				ChangeStats(( s, +1, 0, +1 );
 
 				//save game
 				fout << endl << "Play the game but try not to indulge in it. School and your life and other gaming are equally important." << endl;
@@ -59,7 +59,7 @@ void resultsEvents14_to_17( int index, Show &s, ofstream & fout ) {
 			if ( choice == 1 ) {
 				cout << "Your crush never knows your affection. You feel depressed for not open about your feelings." << endl;
 				cout << "<5555555555555>" << endl;
-				ChangeStats(s, 0, 0, -1);
+				ChangeStats(s, 0, 0, -1)
 
 				// save game
 				fout << endl << "Choice: Burry your feelings and act as if nothing happens." << endl;
@@ -68,7 +68,7 @@ void resultsEvents14_to_17( int index, Show &s, ofstream & fout ) {
 			else if ( choice == 2 ) {
 				cout << "“Wow… I like you too!” You become a cute couple. First love is so sweet!" << endl;
 				cout << "<55555555555>" << endl;
-				ChangeStats( s, 0, 0, +2 );
+				ChangeStats(( s, 0, 0, +2 );
 
 				//save game
 				fout << endl << "Choice: Be brave to express your affection." << endl;
@@ -77,7 +77,7 @@ void resultsEvents14_to_17( int index, Show &s, ofstream & fout ) {
 			else if ( choice == 3 ) {
 				cout << "Your crush hates you and everyone think you are mean. You feel awful." << endl;
 				cout << "<55555555555555>" << endl;
-				ChangeStats( s, 0, 0, -2 );
+				ChangeStats(( s, 0, 0, -2 );
 
 				//save game
 				fout << endl << "Choice: Tease your crush to get attention." << endl;
@@ -97,7 +97,7 @@ void resultsEvents14_to_17( int index, Show &s, ofstream & fout ) {
 			if ( choice == 1 ) {
 				cout << "They are really impressed by your performance! The play turns out to be a huge success. You made great friends and this become a memory of a lifetime." << endl;
 				cout << "satisfaction+2" << endl;
-				ChangeStats(s, 0, 0, +1);
+				ChangeStats((s, 0, 0, +1)
 
 				// save game
 				fout << endl << "Choice:  I’ll go to the audition!" << endl;
@@ -106,7 +106,7 @@ void resultsEvents14_to_17( int index, Show &s, ofstream & fout ) {
 			else if ( choice == 2 ) {
 				cout << "Bad choice! If you want something, just go for it!" << endl;
 				cout << "<55555555555>" << endl;
-				ChangeStats( s, 0, 0, -1 );
+				ChangeStats(( s, 0, 0, -1 );
 
 				//save game
 				fout << endl << "Choice: Maybe… I’ll try next time?" << endl;
@@ -115,7 +115,7 @@ void resultsEvents14_to_17( int index, Show &s, ofstream & fout ) {
 			
 		
 		case 3:
-			cout << "School trip! Please select your destination: ";	    
+			cout << "School trip! Please select your destination: "		    
 			cout << "1. Zoo." << endl;
 			cout << "2. Disneyland." << endl;
 			cout << "3. Ocean Park." << endl;
@@ -156,7 +156,7 @@ void resultsEvents14_to_17( int index, Show &s, ofstream & fout ) {
 				fout << endl << "Choice: Universal Studios." << endl;
 				fout << endl << "Yeah great time at Universal Studios!" << endl;
 			}	
-			cout << "satisfaction+1";
+			cout << "satisfaction+1"
 			ChangeStats (s, 0, 0, +1);
 
 		
@@ -234,7 +234,7 @@ void resultsEvents20( int index, Show &s, ofstream & fout ) {
 			else if ( choice == 2 ) {
 				cout << "Oh no, you’ve overestimated yourself." << endl;
 				cout << "<wealth-1 satisfaction+1>" << endl;
-				ChangeStats( s, 0, -1, +1 );
+				ChangeStats(( s, 0, -1, +1 );
 
 				//save game
 				fout << endl << "Choice:  Surely I can balance my study and love life." << endl;
@@ -243,7 +243,7 @@ void resultsEvents20( int index, Show &s, ofstream & fout ) {
 			else if ( choice == 3 ) {
 				cout << "GPA++! Everything seems great except the sad fact that you remain single throughout college.." << endl;
 				cout << "<satisfaction-1>" << endl;
-				ChangeStats( s, 0, 0, -1 );
+				ChangeStats(( s, 0, 0, -1 );
 
 				//save game
 				fout << endl << "Choice: Getting into Stanford is all I want." << endl;
@@ -252,9 +252,9 @@ void resultsEvents20( int index, Show &s, ofstream & fout ) {
 
 
 		case 1:
-			cout << "1. Your favourite pop star is coming to Hong Kong on her global tour, but the ticket is so expensive. You will:" << endl;
-			cout << "2. OMG this is a once-in-a-lifetime opportunity! I need to save every penny to get a ticket!" << endl;
-			cout << "3. 33333333333333" << endl;
+			cout << "Your favourite pop star is coming to Hong Kong on her global tour, but the ticket is so expensive. You will:" << endl;
+			cout << "1. OMG this is a once-in-a-lifetime opportunity! I need to save every penny to get a ticket!" << endl;
+			cout << "2. Sounds like I can only give it up ." << endl;
 			cout << "Enter choice: ";
 			cin >> choice;
 
@@ -268,198 +268,61 @@ void resultsEvents20( int index, Show &s, ofstream & fout ) {
 				fout << "This indeed turns out to be an experience of a lifetime." << endl;
 			}
 			else if ( choice == 2 ) {
-				cout << "6666666666666666666666666666" << endl;
-				cout << "<55555555555>" << endl;
-				ChangeStats( s, -1, 0, 0 );
+				
+				cout << "<satisfaction-1>" << endl;
+				ChangeStats(( s, 0, 0, -1 );
 
 				//save game
-				fout << endl << "Choice: OMG this is a once-in-a-lifetime opportunity! I need to save every penny to get a ticket!" << endl;
+				fout << endl << "Sounds like I can only give it up ." << endl;
 				fout << "666666666666666666666666666" << endl;
 			}
-			else if ( choice == 3 ) {
-				cout << "777777777777777777777777777." << endl;
-				cout << "<55555555555555>" << endl;
-				ChangeStats( s, 0, 0, -1 );
-
-				//save game
-				fout << endl << "Choice: 333333333333333333" << endl;
-				fout << "77777777777777777" << endl;
-			}
-
-
+			
 		case 2:
-			cout << "1. 11111111111111" << endl;
-			cout << "2. 22222222222222" << endl;
-			cout << "3. 33333333333333" << endl;
+			cout << "You have a growing passion about music. At age 20, you have finally decided to pick up a musical instrument from scratch. You have shortlisted several options. Please make the final decision:" << endl;		
+			cout << "1. Piano" << endl;
+			cout << "2. Violin" << endl;
+			cout << "3. Guitar" << endl;
+			cout << "4. Drum" << endl;
 			cout << "Enter choice: ";
 			cin >> choice;
 
 			if ( choice == 1 ) {
-				cout << "444444444444444444444444" << endl;
-				cout << "<5555555555555>" << endl;
+				cout << "Piano turns out to be your lifelong interest." << endl;
+				
 
 				// save game
-				fout << endl << "Choice: 1111111111111." << endl;
-				fout << "4444444444444444444444444" << endl;
+				fout << endl << "Choice: Piano." << endl;
+				fout << "Piano turns out to be your lifelong interest." << endl;
 			}
 			else if ( choice == 2 ) {
-				cout << "6666666666666666666666666666" << endl;
+				cout << "Violin turns out to be your lifelong interest." << endl;
 				cout << "<55555555555>" << endl;
-				ChangeStats( s, -1, 0, 0 );
+				
 
 				//save game
-				fout << endl << "Choice: 222222222222222222" << endl;
-				fout << "666666666666666666666666666" << endl;
+				fout << endl << "Choice: Violin" << endl;
+				fout << "Violin turns out to be your lifelong interest." << endl;
 			}
 			else if ( choice == 3 ) {
-				cout << "777777777777777777777777777." << endl;
-				cout << "<55555555555555>" << endl;
-				ChangeStats( s, 0, 0, -1 );
+				cout << "Guitar turns out to be your lifelong interest.." << endl;
+				
 
 				//save game
-				fout << endl << "Choice: 333333333333333333" << endl;
-				fout << "77777777777777777" << endl;
+				fout << endl << "Choice: Guitar" << endl;
+				fout << "Guitar turns out to be your lifelong interest." << endl;
 			}
+			else if ( choice == 4 ){
+				cout << "Drum turns out to be your lifelong interest.." << endl;
+				
+
+				//save game
+				fout << endl << "Choice: Drum" << endl;
+				fout << "Drum turns out to be your lifelong interest." << endl;
+			}
+			cout << "<satisfaction+1 wealth-1>" << endl;
+			ChangeStats(s, 0, -1, +1);
 
 		
-		case 3:
-			cout << "1. 11111111111111" << endl;
-			cout << "2. 22222222222222" << endl;
-			cout << "3. 33333333333333" << endl;
-			cout << "Enter choice: ";
-			cin >> choice;
-
-			if ( choice == 1 ) {
-				cout << "444444444444444444444444" << endl;
-				cout << "<5555555555555>" << endl;
-
-				// save game
-				fout << endl << "Choice: 1111111111111." << endl;
-				fout << "4444444444444444444444444" << endl;
-			}
-			else if ( choice == 2 ) {
-				cout << "6666666666666666666666666666" << endl;
-				cout << "<55555555555>" << endl;
-				ChangeStats( s, -1, 0, 0 );
-
-				//save game
-				fout << endl << "Choice: 222222222222222222" << endl;
-				fout << "666666666666666666666666666" << endl;
-			}
-			else if ( choice == 3 ) {
-				cout << "777777777777777777777777777." << endl;
-				cout << "<55555555555555>" << endl;
-				ChangeStats( s, 0, 0, -1 );
-
-				//save game
-				fout << endl << "Choice: 333333333333333333" << endl;
-				fout << "77777777777777777" << endl;
-			}
-
-		
-		case 4:
-			cout << "1. 11111111111111" << endl;
-			cout << "2. 22222222222222" << endl;
-			cout << "3. 33333333333333" << endl;
-			cout << "Enter choice: ";
-			cin >> choice;
-
-			if ( choice == 1 ) {
-				cout << "444444444444444444444444" << endl;
-				cout << "<5555555555555>" << endl;
-
-				// save game
-				fout << endl << "Choice: 1111111111111." << endl;
-				fout << "4444444444444444444444444" << endl;
-			}
-			else if ( choice == 2 ) {
-				cout << "6666666666666666666666666666" << endl;
-				cout << "<55555555555>" << endl;
-				ChangeStats( s, -1, 0, 0 );
-
-				//save game
-				fout << endl << "Choice: 222222222222222222" << endl;
-				fout << "666666666666666666666666666" << endl;
-			}
-			else if ( choice == 3 ) {
-				cout << "777777777777777777777777777." << endl;
-				cout << "<55555555555555>" << endl;
-				ChangeStats( s, 0, 0, -1 );
-
-				//save game
-				fout << endl << "Choice: 333333333333333333" << endl;
-				fout << "77777777777777777" << endl;
-			}
-
-		case 5:
-			cout << "1. 11111111111111" << endl;
-			cout << "2. 22222222222222" << endl;
-			cout << "3. 33333333333333" << endl;
-			cout << "Enter choice: ";
-			cin >> choice;
-
-			if ( choice == 1 ) {
-				cout << "444444444444444444444444" << endl;
-				cout << "<5555555555555>" << endl;
-
-				// save game
-				fout << endl << "Choice: 1111111111111." << endl;
-				fout << "4444444444444444444444444" << endl;
-			}
-			else if ( choice == 2 ) {
-				cout << "6666666666666666666666666666" << endl;
-				cout << "<55555555555>" << endl;
-				ChangeStats( s, -1, 0, 0 );
-
-				//save game
-				fout << endl << "Choice: 222222222222222222" << endl;
-				fout << "666666666666666666666666666" << endl;
-			}
-			else if ( choice == 3 ) {
-				cout << "777777777777777777777777777." << endl;
-				cout << "<55555555555555>" << endl;
-				ChangeStats( s, 0, 0, -1 );
-
-				//save game
-				fout << endl << "Choice: 333333333333333333" << endl;
-				fout << "77777777777777777" << endl;
-			}
-
-
-		case 6:
-			cout << "1. 11111111111111" << endl;
-			cout << "2. 22222222222222" << endl;
-			cout << "3. 33333333333333" << endl;
-			cout << "Enter choice: ";
-			cin >> choice;
-
-			if ( choice == 1 ) {
-				cout << "444444444444444444444444" << endl;
-				cout << "<5555555555555>" << endl;
-
-				// save game
-				fout << endl << "Choice: 1111111111111." << endl;
-				fout << "4444444444444444444444444" << endl;
-			}
-			else if ( choice == 2 ) {
-				cout << "6666666666666666666666666666" << endl;
-				cout << "<55555555555>" << endl;
-				ChangeStats( s, -1, 0, 0 );
-
-				//save game
-				fout << endl << "Choice: 222222222222222222" << endl;
-				fout << "666666666666666666666666666" << endl;
-			}
-			else if ( choice == 3 ) {
-				cout << "777777777777777777777777777." << endl;
-				cout << "<55555555555555>" << endl;
-				ChangeStats( s, 0, 0, -1 );
-
-				//save game
-				fout << endl << "Choice: 333333333333333333" << endl;
-				fout << "77777777777777777" << endl;
-            }
-    }
 }
     
 	          
@@ -492,7 +355,7 @@ void resultsEvents32_to_35( int index, Show &s, ofstream & fout ) {
 			else if ( choice == 2 ) {
 				cout << "6666666666666666666666666666" << endl;
 				cout << "<55555555555>" << endl;
-				ChangeStats( s, -1, 0, 0 );
+				ChangeStats(( s, -1, 0, 0 );
 
 				//save game
 				fout << endl << "Choice: 222222222222222222" << endl;
@@ -501,7 +364,7 @@ void resultsEvents32_to_35( int index, Show &s, ofstream & fout ) {
 			else if ( choice == 3 ) {
 				cout << "777777777777777777777777777." << endl;
 				cout << "<55555555555555>" << endl;
-				ChangeStats( s, 0, 0, -1 );
+				ChangeStats(( s, 0, 0, -1 );
 
 				//save game
 				fout << endl << "Choice: 333333333333333333" << endl;
@@ -527,7 +390,7 @@ void resultsEvents32_to_35( int index, Show &s, ofstream & fout ) {
 			else if ( choice == 2 ) {
 				cout << "6666666666666666666666666666" << endl;
 				cout << "<55555555555>" << endl;
-				ChangeStats( s, -1, 0, 0 );
+				ChangeStats(( s, -1, 0, 0 );
 
 				//save game
 				fout << endl << "Choice: 222222222222222222" << endl;
