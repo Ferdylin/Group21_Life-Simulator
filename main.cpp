@@ -86,7 +86,7 @@ INPUT(s):
 OUTPUT(s): 
 1. a random event for ages 14-17
 */
-void printEvents14_17( Stats &s, ofstream & fout ) {
+void printEvents14_17( Show &s, ofstream & fout ) {
 	cout << endl;
 	cout << "[ Random Event ]";
 	fout << "[ Random Event ]" << endl;
@@ -123,7 +123,7 @@ INPUT(s):
 OUTPUT(s): 
 1. a random event for ages 20-23
 */
-void printEvents20_23( Stats &s, ofstream & fout ) {
+void printEvents20_23( Show &s, ofstream & fout ) {
 	cout << endl;
 	cout << "[ Random Event ]";
 	fout << "[ Random Event ]" << endl;
@@ -159,7 +159,7 @@ INPUT(s):
 OUTPUT(s): 
 1. a random event for ages 26-29
 */
-void printEvents26_29( Stats &s, ofstream & fout ) {
+void printEvents26_29( Show &s, ofstream & fout ) {
 	cout << endl;
 	cout << "[ Random Event ]";
 	fout << "[ Random Event ]" << endl;
@@ -195,7 +195,7 @@ INPUT(s):
 OUTPUT(s): 
 1. a random event for ages 32-35
 */
-void printEvents32_35( Stats &s, ofstream & fout ) {
+void printEvents32_35( Show &s, ofstream & fout ) {
 	cout << endl;
 	cout << "[ Random Event ]";
 	fout << "[ Random Event ]" << endl;
@@ -278,8 +278,8 @@ bool growUpOrQuit( int * &age, string filename, string tempfile, Stats player, s
 		save << name << endl;
 		save << * age << endl;
 		save << player.health << endl;
-		save << player.money << endl;
-		save << player.happiness << endl << endl;
+		save << player.wealth << endl;
+		save << player.satisfaction << endl << endl;
 
 		// declare ifstream object for reading game progress in temporary file <tempfile> 
 		ifstream copy;
