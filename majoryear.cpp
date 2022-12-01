@@ -37,7 +37,7 @@ void resultsEvents13( int index, Show &s, ofstream & fout ) {
     else if ( choice == 2 ) {
         cout << "The teasing stopped. But some of the classmates continue to make fun of other students behind your back and they see you as a traitor." << endl;
         cout << "<satisfaction+1>" << endl;
-        ChangeStats(( s, 0, 0, +1 );
+        ChangeStats( s, 0, 0, +1 );
 
         //save game
         fout << endl << "Choice: Tell your teacher about it and hope he will scold them." << endl;
@@ -46,7 +46,7 @@ void resultsEvents13( int index, Show &s, ofstream & fout ) {
     else if ( choice == 3 ) {
         cout << "This is driving you crazy and you feel more and more ashamed of your body, and you are not as confident as usual.." << endl;
         cout << "<satisfaction-1>" << endl;
-        ChangeStats(( s, 0, 0, -1 );
+        ChangeStats( s, 0, 0, -1 );
 
         //save game
         fout << endl << "Choice: You force yourself to wear baggy clothes and keep a low profile everyday. " << endl;
@@ -88,7 +88,7 @@ void resultsEvents18( int index, Stats &s, ofstream & fout ) {
     else if ( choice == 3 ) {
         cout << "Confidence keeps you going. Your hard work finally pays off!!." << endl;
         cout << "<satisfaction+2>" << endl;
-        ChangeStats(( s, 0, 0, +2 );
+        ChangeStats( s, 0, 0, +2 );
 
         //save game
         fout << endl << "Choice:  I really have to study hard! I can do it!" << endl;
@@ -120,7 +120,7 @@ void resultsEvents19( int index, Stats &s, ofstream & fout ) {
     else if ( choice == 2 ) {
         cout << "Sorry but there are barely any internship opportunities to your needs." << endl;
         cout << "health-1" << endl;
-        ChangeStats(( s, -1, 0, 0 );
+        ChangeStats( s, -1, 0, 0 );
 
         //save game
         fout << endl << "Choice: Dealing with my study as usual, meanwhile looking for remote internships and winter / summer internships." << endl;
@@ -129,7 +129,7 @@ void resultsEvents19( int index, Stats &s, ofstream & fout ) {
     else if ( choice == 3 ) {
         cout << "You at job interviews after graduation: what do you mean “you won’t consider college graduates with no internship experiences”?!" << endl;
         cout << "health+1 satisfaction+2" << endl;
-        ChangeStats(( s, +1, 0, +2 );
+        ChangeStats( s, +1, 0, +2 );
 
         //save game
         fout << endl << "Choice:  What? Shouldn’t college students be in lecture halls? Nah, I don’t need internships." << endl;
@@ -162,7 +162,7 @@ void resultsEvents21( int index, Stats &s, ofstream & fout ) {
             else if ( choice == 2 ) {
                 cout << "You fail to get into a school you like. Guess you have to join the workforce anyway." << endl;
                 cout << "<wealth+1 satisfaction-2>" << endl;
-                ChangeStats(( s, 0, +1, -2 );
+                ChangeStats( s, 0, +1, -2 );
 
                 //save game
                 fout << endl << "Choice: Continue study." << endl;
@@ -195,7 +195,7 @@ void resultsEvents21( int index, Stats &s, ofstream & fout ) {
             else if ( choice == 2 ) {
                 cout << "I’m sooooo tired! But good news is… you get to learn a lot about the industry?" << endl;
                 cout << "<health-1 wealth+1>" << endl;
-                ChangeStats(( s, -1, +1, 0 );
+                ChangeStats( s, -1, +1, 0 );
 
                 //save game
                 fout << endl << "Choice: Financial industry, equity research." << endl;
@@ -204,7 +204,7 @@ void resultsEvents21( int index, Stats &s, ofstream & fout ) {
             else if ( choice == 3 ) {
                 cout << "You land a shiny job. But bad news is… you have to work around the clock.." << endl;
                 cout << "<health-1 wealth+1>" << endl;
-                ChangeStats(( s, -1, +1, 0 );
+                ChangeStats( s, -1, +1, 0 );
 
                 //save game
                 fout << endl << "Choice: Financial industry, IBD." << endl;
@@ -237,7 +237,7 @@ void resultsEvents23( int index, Stats &s, ofstream & fout ) {
     else if ( choice == 2 ) {
         cout << "Work pressure ++ Salary--" << endl;
         cout << "<wealth+1 health-1>" << endl;
-        ChangeStats(( s, -1, +1, 0 );
+        ChangeStats( s, -1, +1, 0 );
 
         //save game
         fout << endl << "Choice: Switch to a big company." << endl;
@@ -246,7 +246,7 @@ void resultsEvents23( int index, Stats &s, ofstream & fout ) {
     else if ( choice == 3 ) {
         cout << "Miserable life ahead. Your job at the company is boring, repetitive, low-pay and there’s hardly any chances of promotion. Soon before you decide to quit and find a job again." << endl;
         cout << "<satisfaction-1>" << endl;
-        ChangeStats(( s, 0, 0, -1 );
+        ChangeStats( s, 0, 0, -1 );
 
         //save game
         fout << endl << "Choice: Get a job in a small enterprise." << endl;
@@ -255,7 +255,7 @@ void resultsEvents23( int index, Stats &s, ofstream & fout ) {
     else if ( choice == 4 ) {
         cout << "The job is very demanding and tiring. But there is always a chance that you make the right bet." << endl;
         cout << "<health-1 satisfaction+1>" << endl;
-        ChangeStats(( s, -1, 0, +1 );
+        ChangeStats( s, -1, 0, +1 );
 
         //save game
         fout << endl << "Choice: Join a start-up." << endl;
