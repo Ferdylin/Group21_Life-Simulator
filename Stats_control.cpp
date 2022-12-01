@@ -130,19 +130,19 @@ void FinalStats( int health, int wealth, int satisfaction ) {
     cout << "Wow guess you're super healthy, congrats for being alive" << endl;
   }
   else if (health < 3 && wealth == 3 && satisfaction < 3) {
-    cout << "Smart entrepreneur or a workaholic, anyways, congrats for being rich"
+    cout << "Smart entrepreneur or a workaholic, anyways, congrats for being rich";
   }
   else if (health < 3 && wealth < 3 && satisfaction == 3) {
-    cout << "Wow you looked so happy, what happened ?!"
+    cout << "Wow you looked so happy, what happened ?!";
   }
   else if (health < 2 && wealth <= 2 && satisfaction <= 2) {
-    cout << "Dang look at your own health, can't say that you're a good decision maker but at least you've made it through!"
+    cout << "Dang look at your own health, can't say that you're a good decision maker but at least you've made it through!";
   }
   else if (health <=2 && wealth < 2 && satisfaction <=2) {
-    cout << "You're kinda broke, sorry things need to be said..."
+    cout << "You're kinda broke, sorry things need to be said...";
   }
   else if (health <=2 && wealth <=2 && satisfaction < 2) {
-    cout << "Life is hard don't be too depressed my friend"
+    cout << "Life is hard don't be too depressed my friend";
   }
   else {
     cout << "I guess you've had a...ummm pretty normal life" << endl;
