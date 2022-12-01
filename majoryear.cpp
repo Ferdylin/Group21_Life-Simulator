@@ -55,7 +55,7 @@ void resultsEvents13( int index, Show &s, ofstream & fout ) {
     break;
 }
 		
-void resultsEvents18( int index, Stats &s, ofstream & fout ) {
+void resultsEvents18( int index, Show &s, ofstream & fout ) {
     int choice;
     cout << "Please enter the choice number when prompted!" << endl;
   cout << "--------------------------------------------------" << endl;
@@ -97,7 +97,7 @@ void resultsEvents18( int index, Stats &s, ofstream & fout ) {
     break;
 }
 			    
-void resultsEvents19( int index, Stats &s, ofstream & fout ) {
+void resultsEvents19( int index, Show &s, ofstream & fout ) {
     int choice;
     cout << "Please enter the choice number when prompted!" << endl;
   cout << "--------------------------------------------------" << endl;
@@ -139,7 +139,7 @@ void resultsEvents19( int index, Stats &s, ofstream & fout ) {
 }
 		    
 		    
-void resultsEvents21( int index, Stats &s, ofstream & fout ) {
+void resultsEvents21( int index, Show &s, ofstream & fout ) {
             int choice;
             cout << "Please enter the choice number when prompted!" << endl;
           cout << "--------------------------------------------------" << endl;
@@ -172,7 +172,7 @@ void resultsEvents21( int index, Stats &s, ofstream & fout ) {
             break;
         }
 
-        void resultsEvents22( int index, Stats &s, ofstream & fout ) {
+        void resultsEvents22( int index, Show &s, ofstream & fout ) {
             int choice;
             cout << "Please enter the choice number when prompted!" << endl;
           cout << "--------------------------------------------------" << endl;
@@ -213,7 +213,7 @@ void resultsEvents21( int index, Stats &s, ofstream & fout ) {
             break;
         }		    
 			  
-void resultsEvents23( int index, Stats &s, ofstream & fout ) {
+void resultsEvents23( int index, Show &s, ofstream & fout ) {
     int choice;
     cout << "Please enter the choice number when prompted!" << endl;
   cout << "--------------------------------------------------" << endl;
