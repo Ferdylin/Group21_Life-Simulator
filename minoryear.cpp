@@ -15,7 +15,7 @@ using namespace std;
 
 // outputs the results of events at ages 14-17
 // inputs: chosen index, player's stats as a pass-by reference
-void resultsEvents14_to_17( int index, Stats &s, ofstream & fout ) {
+void resultsEvents14_to_17( int index, Show &s, ofstream & fout ) {
 	int choice;
 	cout << "Please enter the choice number when prompted!" << endl;
   cout << "--------------------------------------------------" << endl;
@@ -47,8 +47,6 @@ void resultsEvents14_to_17( int index, Stats &s, ofstream & fout ) {
 				fout << endl << "Play the game but try not to indulge in it. School and your life and other gaming are equally important." << endl;
 				fout << "You maintain good grades, and have fun in gaming." << endl;
 			}
-			
-			break;
 
 		case 1:
 			cout << "For the first time in your life, you have a crush on someone. It feels wonderful but you are shy to approach that person. What will you do?" << endl;
@@ -85,7 +83,6 @@ void resultsEvents14_to_17( int index, Stats &s, ofstream & fout ) {
 				fout << endl << "Choice: Tease your crush to get attention." << endl;
 				fout << "Your crush hates you and everyone think you are mean. You feel awful" << endl;
 			}
-			break;
 
 		case 2:
 			cout << "Drama Society is recruiting. "
@@ -114,9 +111,8 @@ void resultsEvents14_to_17( int index, Stats &s, ofstream & fout ) {
 				//save game
 				fout << endl << "Choice: Maybe… I’ll try next time?" << endl;
 				fout << "Bad choice! If you want something, just go for it!" << endl;
-			}
+		}
 			
-			break;
 		
 		case 3:
 			cout << "School trip! Please select your destination: "		    
@@ -162,7 +158,7 @@ void resultsEvents14_to_17( int index, Stats &s, ofstream & fout ) {
 			}	
 			cout << "satisfaction+1"
 			ChangeStats (s, 0, 0, +1);
-			break;
+
 		
 		case 4:
 			cout << "You are learning how to drive an automatic transmission car. In your driving test you:" << endl;
@@ -191,7 +187,7 @@ void resultsEvents14_to_17( int index, Stats &s, ofstream & fout ) {
 				fout << "Congratulations on your driver’s licence" << endl;
 			}
 			
-			break;
+
 
 		case 5:
 			cout << "Best Friends Movie Night! You are so lucky to have each other~" << endl;
@@ -200,18 +196,20 @@ void resultsEvents14_to_17( int index, Stats &s, ofstream & fout ) {
 					    
 			//save game
 			?		    
-			break;
+
 
 		case 6:
 			cout << "Just get back from the hair salon. AWFUL haircut." << endl;
 			cout << "satisfaction-1 wealth-1" << endl;
 			ChangeStats(s, 0, -1, -1);
-			//save game?		    
-			break;
+			//save game?
+		}			    
+	 }
+
 
 // outputs the results of events at ages 20-23
 // inputs: chosen index, player's stats as a pass-by reference
-void resultsEvents20_to_23( int index, Stats &s, ofstream & fout ) {
+void resultsEvents20_to_23( int index, Show &s, ofstream & fout ) {
 	int choice;
 	cout << "Please enter the choice number when prompted!" << endl;
   cout << "--------------------------------------------------" << endl;
@@ -250,7 +248,7 @@ void resultsEvents20_to_23( int index, Stats &s, ofstream & fout ) {
 				fout << endl << "Choice: 333333333333333333" << endl;
 				fout << "77777777777777777" << endl;
 			}
-			break;
+
 
 		case 1:
 			cout << "1. 11111111111111" << endl;
@@ -285,7 +283,7 @@ void resultsEvents20_to_23( int index, Stats &s, ofstream & fout ) {
 				fout << endl << "Choice: 333333333333333333" << endl;
 				fout << "77777777777777777" << endl;
 			}
-			break;
+
 
 		case 2:
 			cout << "1. 11111111111111" << endl;
@@ -320,7 +318,7 @@ void resultsEvents20_to_23( int index, Stats &s, ofstream & fout ) {
 				fout << endl << "Choice: 333333333333333333" << endl;
 				fout << "77777777777777777" << endl;
 			}
-			break;
+
 		
 		case 3:
 			cout << "1. 11111111111111" << endl;
@@ -355,7 +353,7 @@ void resultsEvents20_to_23( int index, Stats &s, ofstream & fout ) {
 				fout << endl << "Choice: 333333333333333333" << endl;
 				fout << "77777777777777777" << endl;
 			}
-			break;
+
 		
 		case 4:
 			cout << "1. 11111111111111" << endl;
@@ -390,7 +388,6 @@ void resultsEvents20_to_23( int index, Stats &s, ofstream & fout ) {
 				fout << endl << "Choice: 333333333333333333" << endl;
 				fout << "77777777777777777" << endl;
 			}
-			break;
 
 		case 5:
 			cout << "1. 11111111111111" << endl;
@@ -425,7 +422,7 @@ void resultsEvents20_to_23( int index, Stats &s, ofstream & fout ) {
 				fout << endl << "Choice: 333333333333333333" << endl;
 				fout << "77777777777777777" << endl;
 			}
-			break;
+
 
 		case 6:
 			cout << "1. 11111111111111" << endl;
@@ -459,15 +456,18 @@ void resultsEvents20_to_23( int index, Stats &s, ofstream & fout ) {
 				//save game
 				fout << endl << "Choice: 333333333333333333" << endl;
 				fout << "77777777777777777" << endl;
-			}
-			break;
+            }
+    }
+}
+    
+	          
 
 
 
 // outputs the results of events at ages 32-35
 // inputs: chosen index, player's stats as a pass-by reference
 
-void resultsEvents32_to_35( int index, Stats &s, ofstream & fout ) {
+void resultsEvents32_to_35( int index, Show &s, ofstream & fout ) {
 	int choice;
 	cout << "Please enter the choice number when prompted!" << endl;
   cout << "--------------------------------------------------" << endl;
@@ -505,7 +505,7 @@ void resultsEvents32_to_35( int index, Stats &s, ofstream & fout ) {
 				fout << endl << "Choice: 333333333333333333" << endl;
 				fout << "77777777777777777" << endl;
 			}
-			break;
+
 
 		case 1:
 			cout << "1. 11111111111111" << endl;
@@ -540,7 +540,7 @@ void resultsEvents32_to_35( int index, Stats &s, ofstream & fout ) {
 				fout << endl << "Choice: 333333333333333333" << endl;
 				fout << "77777777777777777" << endl;
 			}
-			break;
+
 
 		case 2:
 			cout << "1. 11111111111111" << endl;
@@ -575,7 +575,7 @@ void resultsEvents32_to_35( int index, Stats &s, ofstream & fout ) {
 				fout << endl << "Choice: 333333333333333333" << endl;
 				fout << "77777777777777777" << endl;
 			}
-			break;
+
 		
 		case 3:
 			cout << "1. 11111111111111" << endl;
@@ -610,7 +610,7 @@ void resultsEvents32_to_35( int index, Stats &s, ofstream & fout ) {
 				fout << endl << "Choice: 333333333333333333" << endl;
 				fout << "77777777777777777" << endl;
 			}
-			break;
+
 		
 		case 4:
 			cout << "1. 11111111111111" << endl;
@@ -645,7 +645,8 @@ void resultsEvents32_to_35( int index, Stats &s, ofstream & fout ) {
 				fout << endl << "Choice: 333333333333333333" << endl;
 				fout << "77777777777777777" << endl;
 			}
-			break;
+
+
 
 		case 5:
 			cout << "1. 11111111111111" << endl;
@@ -680,7 +681,6 @@ void resultsEvents32_to_35( int index, Stats &s, ofstream & fout ) {
 				fout << endl << "Choice: 333333333333333333" << endl;
 				fout << "77777777777777777" << endl;
 			}
-			break;
 
 		case 6:
 			cout << "1. 11111111111111" << endl;
@@ -715,8 +715,7 @@ void resultsEvents32_to_35( int index, Stats &s, ofstream & fout ) {
 				fout << endl << "Choice: 333333333333333333" << endl;
 				fout << "77777777777777777" << endl;
 			}
-			break;
+    }
   }
 
 	return;
-}
