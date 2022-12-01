@@ -18,155 +18,250 @@ void resultsEvents13( int index, Show &s, ofstream & fout ) {
 	cout << "Please enter the choice number when prompted!" << endl;
   cout << "--------------------------------------------------" << endl;
 	
-	cout << "1. 11111111111111" << endl;
-	cout << "2. 22222222222222" << endl;
-	cout << "3. 33333333333333" << endl;
-	cout << "Enter choice: ";
-	cin >> choice;
+	cout << "You enter puberty, and your body is going through a series of changes. You overhear someone making fun of you. " << endl;
+    cout << "1. Tell them about the proper sex education knowledge you learnt." << endl;
+    cout << "2. Tell your teacher about it and hope he will scold them." << endl;
+    cout << "3. You force yourself to wear baggy clothes and keep a low profile everyday. " << endl;
+    cout << "Enter choice: ";
+    cin >> choice;
 
-	if ( choice == 1 ) {
-		cout << "444444444444444444444444" << endl;
-		cout << "<5555555555555>" << endl;
+    if ( choice == 1 ) {
+        cout << "Your classmates are impressed by you. Most of them began to treat it properly." << endl;
+        cout << "<satisfaction+2>" << endl;
+        ChangeStats(s, 0, 0, +2);
 
-		// save game
-		fout << endl << "Choice: 1111111111111." << endl;
-		fout << "4444444444444444444444444" << endl;
-	}
-	else if ( choice == 2 ) {
-		cout << "6666666666666666666666666666" << endl;
-		cout << "<55555555555>" << endl;
-		ChangeStats( s, -1, 0, 0 );
+        // save game
+        fout << endl << "Choice: Tell them about the proper sex education knowledge you learnt.." << endl;
+        fout << "Your classmates are impressed by you. Most of them began to treat it properly." << endl;
+    }
+    else if ( choice == 2 ) {
+        cout << "The teasing stopped. But some of the classmates continue to make fun of other students behind your back and they see you as a traitor." << endl;
+        cout << "<satisfaction+1>" << endl;
+        ChangeStats(( s, 0, 0, +1 );
 
-		//save game
-		fout << endl << "Choice: 222222222222222222" << endl;
-		fout << "666666666666666666666666666" << endl;
-	}
-	else if ( choice == 3 ) {
-		cout << "777777777777777777777777777." << endl;
-		cout << "<55555555555555>" << endl;
-		ChangeStats( s, 0, 0, -1 );
+        //save game
+        fout << endl << "Choice: Tell your teacher about it and hope he will scold them." << endl;
+        fout << "The teasing stopped. But some of the classmates continue to make fun of other students behind your back and they see you as a traitor." << endl;
+    }
+    else if ( choice == 3 ) {
+        cout << "This is driving you crazy and you feel more and more ashamed of your body, and you are not as confident as usual.." << endl;
+        cout << "<satisfaction-1>" << endl;
+        ChangeStats(( s, 0, 0, -1 );
 
-		//save game
-		fout << endl << "Choice: 333333333333333333" << endl;
-		fout << "77777777777777777" << endl;
-	}
+        //save game
+        fout << endl << "Choice: You force yourself to wear baggy clothes and keep a low profile everyday. " << endl;
+        fout << "This is driving you crazy and you feel more and more ashamed of your body, and you are not as confident as usual." << endl;
+    }
+    break;
 }
 		
-void resultsEvents18( int index, Show &s, ofstream & fout ) {
-	int choice;
-	cout << "Please enter the choice number when prompted!" << endl;
+void resultsEvents18( int index, Stats &s, ofstream & fout ) {
+    int choice;
+    cout << "Please enter the choice number when prompted!" << endl;
   cout << "--------------------------------------------------" << endl;
-	
-	cout << "1. 11111111111111" << endl;
-	cout << "2. 22222222222222" << endl;
-	cout << "3. 33333333333333" << endl;
-	cout << "Enter choice: ";
-	cin >> choice;
+    
+    cout << "This is the final year of high school. You want to get into a university." << endl;
+    cout << "1. Stay up late every night to study." << endl;
+    cout << "2. I will definitely put efforts in my schoolwork. Just not today!" << endl;
+    cout << "3.  I really have to study hard! I can do it!" << endl;
+    cout << "Enter choice: ";
+    cin >> choice;
 
-	if ( choice == 1 ) {
-		cout << "444444444444444444444444" << endl;
-		cout << "<5555555555555>" << endl;
+    if ( choice == 1 ) {
+        cout << "a plus b minus 2… minus 2… 2…” Shit you are so sleepy you fell asleep in class!" << endl;
+        cout << "health-2 satisfaction-1" << endl;
+        ChangeStats(s, -2, 0, -1);
+        
+        // save game
+        fout << endl << "Choice: Stay up late every night to study." << endl;
+        fout << "a plus b minus 2… minus 2… 2…” Shit you are so sleepy you fell asleep in class!" << endl;
+    }
+    else if ( choice == 2 ) {
+        cout << "Procrastination is never the answer! Fighting deadlines makes you exhausted. But in the end you are smart enough to get into a university anyway." << endl;
+        cout << "<satisfaction-1>" << endl;
+        ChangeStats(( s, 0, 0, -1 );
 
-		// save game
-		fout << endl << "Choice: 1111111111111." << endl;
-		fout << "4444444444444444444444444" << endl;
-	}
-	else if ( choice == 2 ) {
-		cout << "6666666666666666666666666666" << endl;
-		cout << "<55555555555>" << endl;
-		ChangeStats( s, -1, 0, 0 );
+        //save game
+        fout << endl << "Choice: I will definitely put efforts in my schoolwork. Just not today!" << endl;
+        fout << "Procrastination is never the answer! Fighting deadlines makes you exhausted. But in the end you are smart enough to get into a university anyway." << endl;
+    }
+    else if ( choice == 3 ) {
+        cout << "Confidence keeps you going. Your hard work finally pays off!!." << endl;
+        cout << "<satisfaction+2>" << endl;
+        ChangeStats(( s, 0, 0, +2 );
 
-		//save game
-		fout << endl << "Choice: 222222222222222222" << endl;
-		fout << "666666666666666666666666666" << endl;
-	}
-	else if ( choice == 3 ) {
-		cout << "777777777777777777777777777." << endl;
-		cout << "<55555555555555>" << endl;
-		ChangeStats( s, 0, 0, -1 );
-
-		//save game
-		fout << endl << "Choice: 333333333333333333" << endl;
-		fout << "77777777777777777" << endl;
-	}
+        //save game
+        fout << endl << "Choice:  I really have to study hard! I can do it!" << endl;
+        fout << "Confidence keeps you going. Your hard work finally pays off!!" << endl;
+    }
+    break;
 }
 			    
-void resultsEvents19( int index, Show &s, ofstream & fout ) {
-	int choice;
-	cout << "Please enter the choice number when prompted!" << endl;
+void resultsEvents19( int index, Stats &s, ofstream & fout ) {
+    int choice;
+    cout << "Please enter the choice number when prompted!" << endl;
   cout << "--------------------------------------------------" << endl;
-	
-	cout << "1. 11111111111111" << endl;
-	cout << "2. 22222222222222" << endl;
-	cout << "3. 33333333333333" << endl;
-	cout << "Enter choice: ";
-	cin >> choice;
+    cout << "You find that everyone around you is either doing an internship or looking for one. You feel anxious because you have had zero internships. You will:" << endl;
+    cout << "1. Internship is super important!! I will do as many as I can, ever if I need to gap." << endl;
+    cout << "2. Dealing with my study as usual, meanwhile looking for remote internships and winter / summer internships." << endl;
+    cout << "3.  What? Shouldn’t college students be in lecture halls? Nah, I don’t need internships." << endl;
+    cout << "Enter choice: ";
+    cin >> choice;
 
-	if ( choice == 1 ) {
-		cout << "444444444444444444444444" << endl;
-		cout << "<5555555555555>" << endl;
+    if ( choice == 1 ) {
+        cout << "You end up with a pretty impressive CV. But you are burnt out." << endl;
+        cout << "health-1 wealth+1 satisfaction-1" << endl;
+        ChangeStats(s, -1, +1, -1);
 
-		// save game
-		fout << endl << "Choice: 1111111111111." << endl;
-		fout << "4444444444444444444444444" << endl;
-	}
-	else if ( choice == 2 ) {
-		cout << "6666666666666666666666666666" << endl;
-		cout << "<55555555555>" << endl;
-		ChangeStats( s, -1, 0, 0 );
+        // save game
+        fout << endl << "Choice: Internship is super important!! I will do as many as I can, ever if I need to gap." << endl;
+        fout << "You end up with a pretty impressive CV. But you are burnt out." << endl;
+    }
+    else if ( choice == 2 ) {
+        cout << "Sorry but there are barely any internship opportunities to your needs." << endl;
+        cout << "health-1" << endl;
+        ChangeStats(( s, -1, 0, 0 );
 
-		//save game
-		fout << endl << "Choice: 222222222222222222" << endl;
-		fout << "666666666666666666666666666" << endl;
-	}
-	else if ( choice == 3 ) {
-		cout << "777777777777777777777777777." << endl;
-		cout << "<55555555555555>" << endl;
-		ChangeStats( s, 0, 0, -1 );
+        //save game
+        fout << endl << "Choice: Dealing with my study as usual, meanwhile looking for remote internships and winter / summer internships." << endl;
+        fout << "Sorry but there are barely any internship opportunities to your needs." << endl;
+    }
+    else if ( choice == 3 ) {
+        cout << "You at job interviews after graduation: what do you mean “you won’t consider college graduates with no internship experiences”?!" << endl;
+        cout << "health+1 satisfaction+2" << endl;
+        ChangeStats(( s, +1, 0, +2 );
 
-		//save game
-		fout << endl << "Choice: 333333333333333333" << endl;
-		fout << "77777777777777777" << endl;
-	}
+        //save game
+        fout << endl << "Choice:  What? Shouldn’t college students be in lecture halls? Nah, I don’t need internships." << endl;
+        fout << "You at job interviews after graduation: what do you mean “you won’t consider college graduates with no internship experiences”?!" << endl;
+    }
+    break;
 }
+		    
+		    
+void resultsEvents21( int index, Stats &s, ofstream & fout ) {
+            int choice;
+            cout << "Please enter the choice number when prompted!" << endl;
+          cout << "--------------------------------------------------" << endl;
+            cout << "Graduation! When the fork in life comes, should I start work or continue my study?" << endl;
+            cout << "1. Get a job." << endl;
+            cout << "2. Continue study." << endl;
+            cout << "3. 33333333333333" << endl;
+            cout << "Enter choice: ";
+            cin >> choice;
+
+            if ( choice == 1 ) {
+                cout << "Congratulations on joining the workforce." << endl;
+                cout << "<wealth+1 satisfaction-1>" << endl;
+                ChangeStats(s, 0, +1, -1);
+
+                // save game
+                fout << endl << "Choice: Get a job.." << endl;
+                fout << "Congratulations on joining the workforce." << endl;
+            }
+            else if ( choice == 2 ) {
+                cout << "You fail to get into a school you like. Guess you have to join the workforce anyway." << endl;
+                cout << "<wealth+1 satisfaction-2>" << endl;
+                ChangeStats(( s, 0, +1, -2 );
+
+                //save game
+                fout << endl << "Choice: Continue study." << endl;
+                fout << "You fail to get into a school you like. Guess you have to join the workforce anyway." << endl;
+            }
+            
+            break;
+        }
+
+        void resultsEvents22( int index, Stats &s, ofstream & fout ) {
+            int choice;
+            cout << "Please enter the choice number when prompted!" << endl;
+          cout << "--------------------------------------------------" << endl;
+            cout << "You got several offers. Which one will you choose?" << endl;
+            cout << "1. Big Tech." << endl;
+            cout << "2. Financial industry, equity research" << endl;
+            cout << "3.  Financial industry, IBD" << endl;
+            cout << "Enter choice: ";
+            cin >> choice;
+
+            if ( choice == 1 ) {
+                cout << "Work-life-balance sucks. But the good news is…the pay is rather decent?" << endl;
+                cout << "<health-1 wealth+1>" << endl;
+                ChangeStats(s, -1, +1, 0);
+
+                // save game
+                fout << endl << "Choice: Big Tech." << endl;
+                fout << "Work-life-balance sucks. But the good news is…the pay is rather decent?" << endl;
+            }
+            else if ( choice == 2 ) {
+                cout << "I’m sooooo tired! But good news is… you get to learn a lot about the industry?" << endl;
+                cout << "<health-1 wealth+1>" << endl;
+                ChangeStats(( s, -1, +1, 0 );
+
+                //save game
+                fout << endl << "Choice: Financial industry, equity research." << endl;
+                fout << "I’m sooooo tired! But good news is… you get to learn a lot about the industry?" << endl;
+            }
+            else if ( choice == 3 ) {
+                cout << "You land a shiny job. But bad news is… you have to work around the clock.." << endl;
+                cout << "<health-1 wealth+1>" << endl;
+                ChangeStats(( s, -1, +1, 0 );
+
+                //save game
+                fout << endl << "Choice: Financial industry, IBD." << endl;
+                fout << "You land a shiny job. But bad news is… you have to work around the clock." << endl;
+            }
+            break;
+        }		    
 			  
-void resultsEvents24( int index, Show &s, ofstream & fout ) {
-	int choice;
-	cout << "Please enter the choice number when prompted!" << endl;
+void resultsEvents23( int index, Stats &s, ofstream & fout ) {
+    int choice;
+    cout << "Please enter the choice number when prompted!" << endl;
   cout << "--------------------------------------------------" << endl;
-	
-	cout << "1. 11111111111111" << endl;
-	cout << "2. 22222222222222" << endl;
-	cout << "3. 33333333333333" << endl;
-	cout << "Enter choice: ";
-	cin >> choice;
+    cout << "Unfortunately, due to the bad market economic environment, you were laid off. You will: " << endl;
+    cout << "1.  Start your own business." << endl;
+    cout << "2. Switch to a big company." << endl;
+    cout << "3. Get a job in a small enterprise." << endl;
+    cout << "4. Join a start-up." << endl;
+    cout << "Enter choice: ";
+    cin >> choice;
 
-	if ( choice == 1 ) {
-		cout << "444444444444444444444444" << endl;
-		cout << "<5555555555555>" << endl;
+    if ( choice == 1 ) {
+        cout << "Bad choice! The market condition makes it so hard to be an entrepreneur right now." << endl;
+        cout << "<wealth-1>" << endl;
+        ChangeStats(s, 0, -1, 0);
 
-		// save game
-		fout << endl << "Choice: 1111111111111." << endl;
-		fout << "4444444444444444444444444" << endl;
-	}
-	else if ( choice == 2 ) {
-		cout << "6666666666666666666666666666" << endl;
-		cout << "<55555555555>" << endl;
-		ChangeStats( s, -1, 0, 0 );
+        // save game
+        fout << endl << "Choice:  Start your own business.." << endl;
+        fout << "Bad choice! The market condition makes it so hard to be an entrepreneur right now." << endl;
+    }
+    else if ( choice == 2 ) {
+        cout << "Work pressure ++ Salary--" << endl;
+        cout << "<wealth+1 health-1>" << endl;
+        ChangeStats(( s, -1, +1, 0 );
 
-		//save game
-		fout << endl << "Choice: 222222222222222222" << endl;
-		fout << "666666666666666666666666666" << endl;
-	}
-	else if ( choice == 3 ) {
-		cout << "777777777777777777777777777." << endl;
-		cout << "<55555555555555>" << endl;
-		ChangeStats( s, 0, 0, -1 );
+        //save game
+        fout << endl << "Choice: Switch to a big company." << endl;
+        fout << "Work pressure ++ Salary--" << endl;
+    }
+    else if ( choice == 3 ) {
+        cout << "Miserable life ahead. Your job at the company is boring, repetitive, low-pay and there’s hardly any chances of promotion. Soon before you decide to quit and find a job again." << endl;
+        cout << "<satisfaction-1>" << endl;
+        ChangeStats(( s, 0, 0, -1 );
 
-		//save game
-		fout << endl << "Choice: 333333333333333333" << endl;
-		fout << "77777777777777777" << endl;
-	}
+        //save game
+        fout << endl << "Choice: Get a job in a small enterprise." << endl;
+        fout << "Miserable life ahead. Your job at the company is boring, repetitive, low-pay and there’s hardly any chances of promotion. Soon before you decide to quit and find a job again." << endl;
+    }
+    else if ( choice == 4 ) {
+        cout << "The job is very demanding and tiring. But there is always a chance that you make the right bet." << endl;
+        cout << "<health-1 satisfaction+1>" << endl;
+        ChangeStats(( s, -1, 0, +1 );
+
+        //save game
+        fout << endl << "Choice: Join a start-up." << endl;
+        fout << "The job is very demanding and tiring. But there is always a chance that you make the right bet." << endl;
+    }
+    break;
 }
 			    
 void resultsEvents25( int index, Show &s, ofstream & fout ) {
