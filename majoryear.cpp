@@ -136,7 +136,7 @@ void resultsEvents19( int index, Show &s, ofstream & fout ) {
 }
 		    
 		    
-void resultsEvents21( int index, Show &s, ofstream & fout ) {
+void resultsEvents22( int index, Show &s, ofstream & fout ) {
             int choice;
             cout << "Please enter the choice number when prompted!" << endl;
           cout << "--------------------------------------------------" << endl;
@@ -168,7 +168,7 @@ void resultsEvents21( int index, Show &s, ofstream & fout ) {
             
         }
 
-        void resultsEvents22( int index, Show &s, ofstream & fout ) {
+        void resultsEvents23( int index, Show &s, ofstream & fout ) {
             int choice;
             cout << "Please enter the choice number when prompted!" << endl;
           cout << "--------------------------------------------------" << endl;
@@ -208,7 +208,7 @@ void resultsEvents21( int index, Show &s, ofstream & fout ) {
             }
         }		    
 			  
-void resultsEvents23( int index, Show &s, ofstream & fout ) {
+void resultsEvents24( int index, Show &s, ofstream & fout ) {
     int choice;
     cout << "Please enter the choice number when prompted!" << endl;
   cout << "--------------------------------------------------" << endl;
