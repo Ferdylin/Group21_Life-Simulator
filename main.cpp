@@ -36,7 +36,7 @@ using namespace std;
 
 // declaration and initialization of arrays containing events (ages 14-17)
 string events_14_to_17[7] = {
-"aaaaaa"
+"aaaaaa",
 "bbbbbbbb",
 "cccccccccc",
 "cccccccccccc",
@@ -63,8 +63,8 @@ string events_26_to_29[7] = {
 "ccccccy",
 "ddddddy",
 "eeeeeey",
-"ffffffy"
-"tttttty"
+"ffffffy",
+"tttttty",
 };
 
 // declaration and initialization of arrays containing events (age 32-34)
@@ -74,8 +74,8 @@ string events_32_to_44[7] = {
 "ccccccu",
 "ddddddu",
 "eeeeeeu",
-"ffffffu"
-"ttttttu"
+"ffffffu",
+"ttttttu",
 };
 ******** 这个note我不知道还要不要
 // NOTE: functions that print stuff are defined here as they involve manipulating the global arrays above 
