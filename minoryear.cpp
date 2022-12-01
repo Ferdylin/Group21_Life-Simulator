@@ -20,19 +20,20 @@ void resultsEvents14_to_17( int index, Stats &s, ofstream & fout ) {
   cout << "--------------------------------------------------" << endl;
 	switch ( index ) {
 		case 0:
-			cout << "1. 11111111111111" << endl;
-			cout << "2. 22222222222222" << endl;
-			cout << "3. 33333333333333" << endl;
+			cout << "There is a new video game. Every friend of yours seem obsessed with it. You find it interesting as well. They constantly invite you to play with them for long hours. What will you do?" << endl;
+			cout << "1: Join them and play the hell out of it. Friendship and glory!" << endl;
+			cout << "2: Play the game but try not to indulge in it. School and your life and other gaming are equally important." << endl;
 			cout << "Enter choice: ";
 			cin >> choice;
 
 			if ( choice == 1 ) {
-				cout << "444444444444444444444444" << endl;
+				cout << "You spend too much time on gaming that your grades are negatively affected. But you achieve high in the game anyway." << endl;
 				cout << "<5555555555555>" << endl;
 
 				// save game
-				fout << endl << "Choice: 1111111111111." << endl;
-				fout << "4444444444444444444444444" << endl;
+				fout << endl << "Choice: Join them and play the hell out of it. Friendship and glory!" << endl;
+				fout << "You spend too much time on gaming that your grades are negatively affected. But you achieve high in the game anyway." << endl;
+				ChangeStats(( s, -1, 0, 0 );
 			}
 			else if ( choice == 2 ) {
 				cout << "6666666666666666666666666666" << endl;
