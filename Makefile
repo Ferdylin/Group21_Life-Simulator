@@ -1,14 +1,14 @@
-majorYear.o: 
-	g++ -c -pedantic-errors -std=c++11 majorYear.cpp
+majoryear.o: majoryear.h minoryear.h show.h Stats_control.h major year.cpp
+	g++ -c -pedantic-errors -std=c++11 majoryear.cpp
 
-minorYears.o: 
-	g++ -c -pedantic-errors -std=c++11 minorYears.cpp
+minoryear.o: majoryear.h minoryear.h show.h Stats_control.h minor year.cpp
+	g++ -c -pedantic-errors -std=c++11 minoryears.cpp
 
-manipulateStats.o: majorYears13_18.h majorYears21_23.h struct.h manipulateStats.h minorYears.h manipulateStats.cpp 
-	g++ -c -pedantic-errors -std=c++11 manipulateStats.cpp
+Stats_control.o: major year.h minor year.h show.h Stats_control.h Stats_control.cpp
+	g++ -c -pedantic-errors -std=c++11 Stats_control.cpp
 
-main: main.cpp majorYears13_18.o majorYears21_23.o minorYears.o manipulateStats.o struct.h
-	g++ -pedantic-errors -std=c++11 main.cpp majorYears13_18.o majorYears21_23.o minorYears.o manipulateStats.o -o main
+main: main.cpp major year.h minor year.h show.h Stats_control.h
+	g++ -pedantic-errors -std=c++11 main.cpp .o majoryear.o minoryear.o Stats_control.o -o main
 
 play: main
 	./main
