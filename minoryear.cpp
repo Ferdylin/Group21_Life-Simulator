@@ -216,6 +216,7 @@ void resultsEvents20_to_23( int index, Stats &s, ofstream & fout ) {
   cout << "--------------------------------------------------" << endl;
 	switch ( index ) {
 		case 0:
+			cout << "Someone hot in uni wants to go on a date with you. You will:" << endl;
 			cout << "1. 11111111111111" << endl;
 			cout << "2. 22222222222222" << endl;
 			cout << "3. 33333333333333" << endl;
