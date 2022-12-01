@@ -1,6 +1,7 @@
 // This file contains functions related to the minor years
 
 #include <iostream>
+#include <fstream>
 #include <cstdlib>
 #include <string>
 #include <ctime>
