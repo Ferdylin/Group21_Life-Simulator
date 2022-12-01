@@ -7,6 +7,9 @@
 #include <iomanip>
 #include "Show.h"
 #include "Stats_control.h"
+#include "major year.h"
+#include "minor year.h"
+
 using namespace std;
 
 // outputs the results of events at ages 14-17
