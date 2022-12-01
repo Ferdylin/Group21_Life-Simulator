@@ -1,16 +1,16 @@
 /*
 Author(s): 
 1. Wu Hanbo
-2. XU Qingluo
-3. Chen Huiwen
+2. 
+3.
 4. Tang Chengxin
-5. Lin Junyan
+5.
 UID(s): 
 1. 3035834876
-2. 3035908108
-3. 3035790642
+2. 
+3.
 4. 3035845162
-5. 3035750018
+5.
 Project: 
 <BitTeenLife>
 Description: 
@@ -352,7 +352,7 @@ int main() {
 
 		// initialization of the struct variable
 		player = { 1, 1, 1 };
-		printStats( player, name );
+		ShowStats( player, name );
 
 		
 		string * upgrade = new string;  // initialization of dynamic variable for storing upgrade choice
