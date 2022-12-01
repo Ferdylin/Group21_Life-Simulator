@@ -314,212 +314,184 @@ void resultsEvents32_to_35( int index, Stats &s, ofstream & fout ) {
 			break;
 
 		case 1:
-			cout << "1. 11111111111111" << endl;
-			cout << "2. 22222222222222" << endl;
-			cout << "3. 33333333333333" << endl;
+			cout << "When the poor child you sponsored grew up, he/she was sent to:" << endl;
+			cout << "1. Happy school" << endl;
+			cout << "2. International schools that are expensive but are said to have good teachers" << endl;
 			cout << "Enter choice: ";
 			cin >> choice;
 
 			if ( choice == 1 ) {
-				cout << "444444444444444444444444" << endl;
-				cout << "<5555555555555>" << endl;
+				cout << "He/She attends the cheap Happy school and often shares with you the interesting things that happen in school." << endl;
+				cout << "<Satisfaction +2, Wealth +1>" << endl;
+				ChangeStats(( s, +1, 0, +2 );
 
 				// save game
-				fout << endl << "Choice: 1111111111111." << endl;
-				fout << "4444444444444444444444444" << endl;
+				fout << endl << "Choice: Happy school" << endl;
+				fout << "He/She attends the cheap Happy school and often shares with you the interesting things that happen in school." << endl;
 			}
 			else if ( choice == 2 ) {
-				cout << "6666666666666666666666666666" << endl;
-				cout << "<55555555555>" << endl;
-				ChangeStats(( s, -1, 0, 0 );
+				cout << "He/She occasionally complained that school work was a little difficult and that he had less time for play when he got home." << endl;
+				cout << "<Satisfaction +1, Wealth -1>" << endl;
+				ChangeStats(( s, -1, 0, +1 );
 
 				//save game
-				fout << endl << "Choice: 222222222222222222" << endl;
-				fout << "666666666666666666666666666" << endl;
-			}
-			else if ( choice == 3 ) {
-				cout << "777777777777777777777777777." << endl;
-				cout << "<55555555555555>" << endl;
-				ChangeStats( s, 0, 0, -1 );
-
-				//save game
-				fout << endl << "Choice: 333333333333333333" << endl;
-				fout << "77777777777777777" << endl;
+				fout << endl << "Choice: International schools that are expensive but are said to have good teachers" << endl;
+				fout << "He/She occasionally complained that school work was a little difficult and that he had less time for play when he got home." << endl;
 			}
 			break;
 
 		case 2:
-			cout << "1. 11111111111111" << endl;
-			cout << "2. 22222222222222" << endl;
-			cout << "3. 33333333333333" << endl;
+			cout << "You're tested for high blood pressure and high cholesterol, and you decide:" << endl;
+			cout << "1. Go to the doctor for a prescription" << endl;
+			cout << "2. Start exercising" << endl;
+			cout << "3. Ignore" << endl;
 			cout << "Enter choice: ";
 			cin >> choice;
 
 			if ( choice == 1 ) {
-				cout << "444444444444444444444444" << endl;
-				cout << "<5555555555555>" << endl;
+				cout << "You spend a lot of money on drugs with few side effects, and you think that following medical advice should be helpful to your health." << endl;
+				cout << "<Wealth -1, Health +1>" << endl;
+				ChangeStats( s, -1, +1, 0 );
 
 				// save game
-				fout << endl << "Choice: 1111111111111." << endl;
-				fout << "4444444444444444444444444" << endl;
+				fout << endl << "Choice: Go to the doctor for a prescription." << endl;
+				fout << "You spend a lot of money on drugs with few side effects, and you think that following medical advice should be helpful to your health." << endl;
 			}
 			else if ( choice == 2 ) {
-				cout << "6666666666666666666666666666" << endl;
-				cout << "<55555555555>" << endl;
-				ChangeStats( s, -1, 0, 0 );
+				cout << "You attribute your health problems to a lack of exercise and decide to work out every day to increase your physical fitness." << endl;
+				cout << "<Health +2, Satisfaction +1>" << endl;
+				ChangeStats( s, 0, +2, +1 );
 
 				//save game
-				fout << endl << "Choice: 222222222222222222" << endl;
-				fout << "666666666666666666666666666" << endl;
+				fout << endl << "Choice: Start exercising" << endl;
+				fout << "You attribute your health problems to a lack of exercise and decide to work out every day to increase your physical fitness." << endl;
 			}
 			else if ( choice == 3 ) {
-				cout << "777777777777777777777777777." << endl;
-				cout << "<55555555555555>" << endl;
-				ChangeStats( s, 0, 0, -1 );
+				cout << "You forgot about this inspection and are still eating and drinking as usual every day." << endl;
+				cout << "<Health -2, Satisfaction +1>" << endl;
+				ChangeStats( s, 0, -2, +1 );
 
 				//save game
-				fout << endl << "Choice: 333333333333333333" << endl;
-				fout << "77777777777777777" << endl;
+				fout << endl << "Choice: Ignore" << endl;
+				fout << "You forgot about this inspection and are still eating and drinking as usual every day." << endl;
 			}
 			break;
 		
 		case 3:
-			cout << "1. 11111111111111" << endl;
-			cout << "2. 22222222222222" << endl;
-			cout << "3. 33333333333333" << endl;
+			cout << "House prices have risen quite a lot recently and you want to:" << endl;
+			cout << "1. Take out a loan to buy a 200 sq m house." << endl;
+			cout << "2. Buy a house of 80 sq m with full payment." << endl;
 			cout << "Enter choice: ";
 			cin >> choice;
 
 			if ( choice == 1 ) {
-				cout << "444444444444444444444444" << endl;
-				cout << "<5555555555555>" << endl;
+				cout << "You decide to take out a loan to buy a bigger house to see if it appreciates in value later and to collect rent when you are old, but you are under a lot of pressure to pay the mortgage. " << endl;
+				cout << "<Health -1, Satisfaction -1>" << endl;
+				ChangeStats( s, 0, -1, -1 );
 
 				// save game
-				fout << endl << "Choice: 1111111111111." << endl;
-				fout << "4444444444444444444444444" << endl;
+				fout << endl << "Choice: Take out a loan to buy a 200 sq m house." << endl;
+				fout << "You decide to take out a loan to buy a bigger house to see if it appreciates in value later and to collect rent when you are old, but you are under a lot of pressure to pay the mortgage. " << endl;
 			}
 			else if ( choice == 2 ) {
-				cout << "6666666666666666666666666666" << endl;
-				cout << "<55555555555>" << endl;
-				ChangeStats( s, -1, 0, 0 );
+				cout << "You are quite content with the small house you bought with full payment, but it is too small, and the house is very cramped when you move in." << endl;
+				cout << "<Wealth-1, satisfaction +1>" << endl;
+				ChangeStats( s, -1, 0, +1 );
 
 				//save game
-				fout << endl << "Choice: 222222222222222222" << endl;
-				fout << "666666666666666666666666666" << endl;
-			}
-			else if ( choice == 3 ) {
-				cout << "777777777777777777777777777." << endl;
-				cout << "<55555555555555>" << endl;
-				ChangeStats( s, 0, 0, -1 );
-
-				//save game
-				fout << endl << "Choice: 333333333333333333" << endl;
-				fout << "77777777777777777" << endl;
+				fout << endl << "Choice: Buy a house of 80 sq m with full payment." << endl;
+				fout << "You are quite content with the small house you bought with full payment, but it is too small, and the house is very cramped when you move in." << endl;
 			}
 			break;
 		
 		case 4:
-			cout << "1. 11111111111111" << endl;
-			cout << "2. 22222222222222" << endl;
-			cout << "3. 33333333333333" << endl;
+			cout << "When the World Cup starts and you get together with old friends to watch the game, you decide to:" << endl;
+			cout << "1. Buy the opposite" << endl;
+			cout << "2. You still want to back your favorite Lionel Messi." << endl;
+			cout << "3. You think that you are unlucky and don't place a bet." << endl;
 			cout << "Enter choice: ";
 			cin >> choice;
 
 			if ( choice == 1 ) {
-				cout << "444444444444444444444444" << endl;
-				cout << "<5555555555555>" << endl;
+				cout << "You bet 10,000 on Saudi Arabia v Argentina 2:1." << endl;
+				cout << "<Wealth+1, Satisfaction +1>" << endl;
+				ChangeStats( s, +1, 0, +1 );
 
 				// save game
-				fout << endl << "Choice: 1111111111111." << endl;
-				fout << "4444444444444444444444444" << endl;
+				fout << endl << "Choice: Buy the opposite" << endl;
+				fout << "You bet 10,000 on Saudi Arabia v Argentina 2:1." << endl;
 			}
 			else if ( choice == 2 ) {
-				cout << "6666666666666666666666666666" << endl;
-				cout << "<55555555555>" << endl;
-				ChangeStats( s, -1, 0, 0 );
+				cout << "You bet 10,000 on Saudi Arabia v Argentina 0:2." << endl;
+				cout << "<Wealth -2, satisfaction +2>" << endl;
+				ChangeStats( s, -2, 0, +2 );
 
 				//save game
-				fout << endl << "Choice: 222222222222222222" << endl;
-				fout << "666666666666666666666666666" << endl;
+				fout << endl << "Choice: You still want to back your favorite Lionel Messi." << endl;
+				fout << "You bet 10,000 on Saudi Arabia v Argentina 0:2." << endl;
 			}
 			else if ( choice == 3 ) {
-				cout << "777777777777777777777777777." << endl;
-				cout << "<55555555555555>" << endl;
-				ChangeStats( s, 0, 0, -1 );
+				cout << "You look at the players on the TV and think back to your youth." << endl;
+				cout << "<Satisfaction +2>" << endl;
+				ChangeStats( s, 0, 0, +2 );
 
 				//save game
-				fout << endl << "Choice: 333333333333333333" << endl;
-				fout << "77777777777777777" << endl;
+				fout << endl << "Choice: You think that you are unlucky and don't place a bet." << endl;
+				fout << "You look at the players on the TV and think back to your youth." << endl;
 			}
 			break;
 
 		case 5:
-			cout << "1. 11111111111111" << endl;
-			cout << "2. 22222222222222" << endl;
-			cout << "3. 33333333333333" << endl;
+			cout << "You are walking along a street in Causeway Bay when you are suddenly stopped by a man claiming to be a talent scout who says he thinks you are very talented and wants to tap you as a star and take part in a talent show." << endl;
+			cout << "1. You are confident in your own strength and sign the contract without knowing more about the company." << endl;
+			cout << "2. You think he's a scam artist and don't want to believe him, so you just walk away." << endl;
 			cout << "Enter choice: ";
 			cin >> choice;
 
 			if ( choice == 1 ) {
-				cout << "444444444444444444444444" << endl;
-				cout << "<5555555555555>" << endl;
+				cout << "You sign the contract, follow your agent to an event, train hard every day but have few fans." << endl;
+				cout << "<Health -2, Wealth +1, Satisfaction +1>" << endl;
+				ChangeStats( s, +1, -2, +1 );
 
 				// save game
-				fout << endl << "Choice: 1111111111111." << endl;
-				fout << "4444444444444444444444444" << endl;
+				fout << endl << "Choice: You are confident in your own strength and sign the contract without knowing more about the company." << endl;
+				fout << "You sign the contract, follow your agent to an event, train hard every day but have few fans." << endl;
 			}
 			else if ( choice == 2 ) {
-				cout << "6666666666666666666666666666" << endl;
-				cout << "<55555555555>" << endl;
-				ChangeStats( s, -1, 0, 0 );
+				cout << "You think this kind of scouting is just a TV show and you don't know which scammer is so inexperienced." << endl;
+				cout << "<->" << endl;
+				ChangeStats( s, 0, 0, 0 );
 
 				//save game
-				fout << endl << "Choice: 222222222222222222" << endl;
-				fout << "666666666666666666666666666" << endl;
-			}
-			else if ( choice == 3 ) {
-				cout << "777777777777777777777777777." << endl;
-				cout << "<55555555555555>" << endl;
-				ChangeStats( s, 0, 0, -1 );
-
-				//save game
-				fout << endl << "Choice: 333333333333333333" << endl;
-				fout << "77777777777777777" << endl;
+				fout << endl << "Choice: You think he's a scam artist and don't want to believe him, so you just walk away." << endl;
+				fout << "You think this kind of scouting is just a TV show and you don't know which scammer is so inexperienced." << endl;
 			}
 			break;
 
 		case 6:
-			cout << "1. 11111111111111" << endl;
-			cout << "2. 22222222222222" << endl;
-			cout << "3. 33333333333333" << endl;
+			cout << "Your spendthrift brother says he has a business problem and needs money to run it urgently and asks you to borrow money, but you don't have much savings of your own, you decide:" << endl;
+			cout << "1. Not to lend it to him, you know your brother's personality and that money borrowed will never be repaid." << endl;
+			cout << "2. You lend him the money anyway because your mother and father are also struggling with your brother's business." << endl;
 			cout << "Enter choice: ";
 			cin >> choice;
 
 			if ( choice == 1 ) {
-				cout << "444444444444444444444444" << endl;
-				cout << "<5555555555555>" << endl;
-
-				// save game
-				fout << endl << "Choice: 1111111111111." << endl;
-				fout << "4444444444444444444444444" << endl;
-			}
-			else if ( choice == 2 ) {
-				cout << "6666666666666666666666666666" << endl;
-				cout << "<55555555555>" << endl;
-				ChangeStats( s, -1, 0, 0 );
-
-				//save game
-				fout << endl << "Choice: 222222222222222222" << endl;
-				fout << "666666666666666666666666666" << endl;
-			}
-			else if ( choice == 3 ) {
-				cout << "777777777777777777777777777." << endl;
-				cout << "<55555555555555>" << endl;
+				cout << "You decide not to lend him the money and explain to your brother that you don't have much money, but your brother doesn't listen to you and thinks you are selfish for not helping him." << endl;
+				cout << "<Satisfaction-1>" << endl;
 				ChangeStats( s, 0, 0, -1 );
 
+				// save game
+				fout << endl << "Choice: Not to lend it to him, you know your brother's personality and that money borrowed will never be repaid." << endl;
+				fout << "You decide not to lend him the money and explain to your brother that you don't have much money, but your brother doesn't listen to you and thinks you are selfish for not helping him." << endl;
+			}
+			else if ( choice == 2 ) {
+				cout << "You decide to lend him the money and your parents praise you but you are also worried that your savings are too insufficient." << endl;
+				cout << "<Wealth-1, Satisfaction-1>" << endl;
+				ChangeStats( s, -1, 0, -1 );
+
 				//save game
-				fout << endl << "Choice: 333333333333333333" << endl;
-				fout << "77777777777777777" << endl;
+				fout << endl << "Choice: You lend him the money anyway because your mother and father are also struggling with your brother's business." << endl;
+				fout << "You decide to lend him the money and your parents praise you but you are also worried that your savings are too insufficient." << endl;
 			}
 			break;
   }
