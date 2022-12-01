@@ -535,7 +535,7 @@ int main() {
         fout << "Age: 21" << endl;
         fout << "-------" << endl;
 
-        Events21( player, player.happiness, player.health, player.money, name, fout );
+        Events21( player, player.satisfaction, player.health, player.weaith, name, fout );
         break;
 
       case 22:
@@ -556,7 +556,7 @@ int main() {
         fout << "Age: 23" << endl;
         fout << "-------" << endl;
 
-        Events23( player, player.happiness, player.health, player.money, name, fout );
+        Events23( player, player.satisfaction, player.health, player.wealth, name, fout );
         break;
 		
       case 24:
