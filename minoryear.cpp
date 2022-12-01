@@ -203,7 +203,9 @@ void resultsEvents14_to_17( int index, Stats &s, ofstream & fout ) {
 
 		case 6:
 			cout << "Just get back from the hair salon. AWFUL haircut." << endl;
-			
+			cout << "satisfaction-1 wealth-1" << endl;
+			ChangeStats(s, 0, -1, -1);
+			//save game?		    
 			break;
 
 // outputs the results of events at ages 20-23
