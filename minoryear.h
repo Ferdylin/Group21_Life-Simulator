@@ -10,4 +10,4 @@ void resultsEvents20_to_23( int index, Show &s, ofstream & fout );
 
 void resultsEvents26_to_29( int index, Show &s, ofstream & fout );
 
-void resultsEvents32_20_35( int index, Show &s, ofstream & fout );
+void resultsEvents32_to_35( int index, Show &s, ofstream & fout );
