@@ -5,8 +5,8 @@
 #include <iomanip>
 #include "Show.h"
 #include "Stats_control.h"
-#include "major year.h"
-#include "minor year.h"
+#include "majoryear.h"
+#include "minoryear.h"
 
 using namespace std;
 
