@@ -78,7 +78,7 @@ void resultsEvents18( int index, Show &s, ofstream & fout ) {
     else if ( choice == 2 ) {
         cout << "Procrastination is never the answer! Fighting deadlines makes you exhausted. But in the end you are smart enough to get into a university anyway." << endl;
         cout << "<satisfaction-1>" << endl;
-        ChangeStats(( s, 0, 0, -1 );
+        ChangeStats( s, 0, 0, -1 );
 
         //save game
         fout << endl << "Choice: I will definitely put efforts in my schoolwork. Just not today!" << endl;
