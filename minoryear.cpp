@@ -29,7 +29,7 @@ void resultsEvents14_to_17( int index, Show &s, ofstream & fout ) {
 
 			if ( choice == 1 ) {
 				cout << "You spend too much time on gaming that your grades are negatively affected. But you achieve high in the game anyway." << endl;
-				cout << "<5555555555555>" << endl;
+				cout << "<happiness+2 wealth-1 health-1>" << endl;
 				ChangeStats( s, -1, -1, +2);
 				
 
@@ -40,7 +40,7 @@ void resultsEvents14_to_17( int index, Show &s, ofstream & fout ) {
 			}
 			else if ( choice == 2 ) {
 				cout << "You maintain good grades, and have fun in gaming." << endl;
-				cout << "<55555555555>" << endl;
+				cout << "<happiness+1 health+1>" << endl;
 				ChangeStats( s, +1, 0, +1 );
 
 				//save game
@@ -58,7 +58,7 @@ void resultsEvents14_to_17( int index, Show &s, ofstream & fout ) {
 
 			if ( choice == 1 ) {
 				cout << "Your crush never knows your affection. You feel depressed for not open about your feelings." << endl;
-				cout << "<5555555555555>" << endl;
+				cout << "<satisfaction -1>" << endl;
 				ChangeStats(s, 0, 0, -1);
 
 				// save game
@@ -67,7 +67,7 @@ void resultsEvents14_to_17( int index, Show &s, ofstream & fout ) {
 			}
 			else if ( choice == 2 ) {
 				cout << "“Wow… I like you too!” You become a cute couple. First love is so sweet!" << endl;
-				cout << "<55555555555>" << endl;
+				cout << "<satisfaction +2>" << endl;
 				ChangeStats( s, 0, 0, +2 );
 
 				//save game
@@ -76,7 +76,7 @@ void resultsEvents14_to_17( int index, Show &s, ofstream & fout ) {
 			}
 			else if ( choice == 3 ) {
 				cout << "Your crush hates you and everyone think you are mean. You feel awful." << endl;
-				cout << "<55555555555555>" << endl;
+				cout << "<satisfaction -2>" << endl;
 				ChangeStats( s, 0, 0, -2 );
 
 				//save game
@@ -96,7 +96,7 @@ void resultsEvents14_to_17( int index, Show &s, ofstream & fout ) {
 
 			if ( choice == 1 ) {
 				cout << "They are really impressed by your performance! The play turns out to be a huge success. You made great friends and this become a memory of a lifetime." << endl;
-				cout << "satisfaction+2" << endl;
+				cout << "<satisfaction+2>" << endl;
 				ChangeStats(s, 0, 0, +1);
 
 				// save game
@@ -105,7 +105,7 @@ void resultsEvents14_to_17( int index, Show &s, ofstream & fout ) {
 			}
 			else if ( choice == 2 ) {
 				cout << "Bad choice! If you want something, just go for it!" << endl;
-				cout << "<55555555555>" << endl;
+				cout << "<satisfaction-2>" << endl;
 				ChangeStats( s, 0, 0, -1 );
 
 				//save game
@@ -156,7 +156,7 @@ void resultsEvents14_to_17( int index, Show &s, ofstream & fout ) {
 				fout << endl << "Choice: Universal Studios." << endl;
 				fout << endl << "Yeah great time at Universal Studios!" << endl;
 			}	
-			cout << "satisfaction+1";
+			cout << "<satisfaction+1>";
 			ChangeStats (s, 0, 0, +1);
 
 		
@@ -170,7 +170,7 @@ void resultsEvents14_to_17( int index, Show &s, ofstream & fout ) {
 
 			if ( choice == 1 ) {
 				cout << "!!!Car Crash Warning!!! Failed your test." << endl;
-				cout << "satisfaction-1" << endl;
+				cout << "<satisfaction-1>" << endl;
 				ChangeStats(s, -1, 0, -1);
 
 				// save game
@@ -179,7 +179,7 @@ void resultsEvents14_to_17( int index, Show &s, ofstream & fout ) {
 			}
 			else if ( choice == 2 ) {
 				cout << "Congratulations on your driver’s licence!" << endl;
-				cout << "satisfaction+!" << endl;
+				cout << "<satisfaction+!>" << endl;
 				ChangeStats( s, 0, 0, +1 );
 
 				//save game
@@ -191,7 +191,7 @@ void resultsEvents14_to_17( int index, Show &s, ofstream & fout ) {
 
 		case 5:
 			cout << "Best Friends Movie Night! You are so lucky to have each other~" << endl;
-			cout << "satisfaction+2" << endl;
+			cout << "<satisfaction+2>" << endl;
 			ChangeStats(s, 0, 0, +2);
 					    
 			//save game
@@ -200,7 +200,7 @@ void resultsEvents14_to_17( int index, Show &s, ofstream & fout ) {
 
 		case 6:
 			cout << "Just get back from the hair salon. AWFUL haircut." << endl;
-			cout << "satisfaction-1 wealth-1" << endl;
+			cout << "<satisfaction-1 wealth-1>" << endl;
 			ChangeStats(s, 0, -1, -1);
 			//save game?
 		}			    
