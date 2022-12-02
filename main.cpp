@@ -733,7 +733,7 @@ int main() {
 
   // calls the final function to output a summary of the game
 	ShowStats( player, name );
-  finalFunc( player.health, player.wealth, player.satisfaction );
+  FinalFunc( player.health, player.wealth, player.satisfaction );
 	
 	// informs player that a summary of their game can be viewed in the file they provided
 	cout << endl << "To view your game summary, open the <.txt> file you provided at the start of the game!" << endl;
