@@ -320,9 +320,9 @@ void resultsEvents20_to_21( int index, Show &s, ofstream & fout ) {
 			}
 			cout << "<satisfaction+1 wealth-1>" << endl;
 			ChangeStats(s, 0, -1, +1);
+	}
 
 		
-}
     
 	          
 
