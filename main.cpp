@@ -527,7 +527,7 @@ int main() {
         fout << "Age: 21" << endl;
         fout << "-------" << endl;
 
-        Events21( player, player.satisfaction, player.health, player.wealth, name, fout );
+        Events21( player, name, fout );
         break;
 
       case 22:
@@ -548,7 +548,7 @@ int main() {
         fout << "Age: 23" << endl;
         fout << "-------" << endl;
 
-        Events23( player, player.satisfaction, player.health, player.wealth, name, fout );
+        Events23( player, name, fout );
         break;
 		
       case 24:
@@ -733,7 +733,7 @@ int main() {
 
   // calls the final function to output a summary of the game
 	ShowStats( player, name );
-  FinalFunc( player.health, player.wealth, player.satisfaction );
+  FinalStats( player.health, player.wealth, player.satisfaction );
 	
 	// informs player that a summary of their game can be viewed in the file they provided
 	cout << endl << "To view your game summary, open the <.txt> file you provided at the start of the game!" << endl;
