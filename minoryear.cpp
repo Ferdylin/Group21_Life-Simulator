@@ -598,7 +598,7 @@ void resultsEvents26_to_29( int index, Show &s, ofstream & fout ) {
 // outputs the results of events at ages 32-35
 // inputs: chosen index, player's stats as a pass-by reference
 
-void resultsEvents32_to_35( int index, Stats &s, ofstream & fout ) {
+void resultsEvents32_to_35( int index, Show &s, ofstream & fout ) {
 	int choice;
 	cout << "Please enter the choice number when prompted!" << endl;
   cout << "--------------------------------------------------" << endl;
