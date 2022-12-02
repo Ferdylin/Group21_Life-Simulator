@@ -194,8 +194,7 @@ void resultsEvents14_to_17( int index, Show &s, ofstream & fout ) {
 			cout << "<satisfaction+2>" << endl;
 			ChangeStats(s, 0, 0, +2);
 					    
-			//save game
-			?		    
+			//save game	    
 
 
 		case 6:
@@ -331,7 +330,7 @@ void resultsEvents20_to_21( int index, Show &s, ofstream & fout ) {
 
 // outputs the results of events at ages 26-29
 // inputs: chosen index, player's stats as a pass-by reference
-void resultsEvents26_to_29( int index, Stats &s, ofstream & fout ) {
+void resultsEvents26_to_29( int index, Show &s, ofstream & fout ) {
 	int choice;
 	cout << "Please enter the choice number when prompted!" << endl;
   cout << "--------------------------------------------------" << endl;
@@ -371,7 +370,7 @@ void resultsEvents26_to_29( int index, Stats &s, ofstream & fout ) {
 				fout << endl << "Choice: You negotiated with your partner; you told her it is necessary for you to prioritise your professional life before the relationship. And promised them a bright future." << endl;
 				fout << "Surprisingly your partner was very accommodating, they understood how important this is to you and had decided to support you along the way. Meanwhile, your presentation last week was a blast, you got promoted to a VP position within the firm, congratulations!" << endl;
 			}
-			break;
+
 
 		case 1:
 			cout << "You felt that you don’t enjoy what you do anymore, you like the workplace and the people but not the job itself anymore. What are the next steps that you’re going to take?" << endl;
@@ -408,7 +407,6 @@ void resultsEvents26_to_29( int index, Stats &s, ofstream & fout ) {
 				fout << endl << "Choice: Apply for other jobs that fit your skill sets and which you found interesting." << endl;
 				fout << "Sorry but nothing really happened, you should’ve known that job hunting isn’t easy…and you’ve decided to stay with your current company." << endl;
 			}
-			break;
 
 		case 2:
 			cout << "You got bored so you started making Tik Tok with your friends, after doing some research, you’ve decided to make videos on:" << endl;
@@ -445,7 +443,6 @@ void resultsEvents26_to_29( int index, Stats &s, ofstream & fout ) {
 				fout << endl << "Choice: Random funny reels" << endl;
 				fout << "You started doing stupid stuff like running around and asking stupid questions at strangers, the market is saturated so you’re not getting as many likes as you expected, but at least you’re getting healthier with more exercise." << endl;
 			}
-			break;
 		
 		case 3:
 			cout << "You’ve decided to stop by a coffee shop one night but later you realised that Beyonce was at the cashier but struggling to make the payment to her order! What do you do?" << endl;
@@ -482,7 +479,6 @@ void resultsEvents26_to_29( int index, Stats &s, ofstream & fout ) {
 				fout << endl << "Choice: Freaked out and screamed out “Beyonce is here!" << endl;
 				fout << "You then got paparazzis following you around, you even got posted on Instagram. You felt very anxious about this." << endl;
 			}
-			break;
 		
 		case 4:
 			cout << "Crypto and Web 3 is the new trend now and everyone’s crazy about it. You recently just discovered a new platform for crypto trading and wanted to invest in some crypto assets, what do you do:" << endl;
@@ -519,7 +515,6 @@ void resultsEvents26_to_29( int index, Stats &s, ofstream & fout ) {
 				fout << endl << "Choice: You don’t know much about crypto but had decided to diversify your investment portfolio anyway, so you had invested 20% of your idle cash. You also took some spare time of yours to learn about Web3 and crypto." << endl;
 				fout << "Oops, the crypto market crashed but at least you did not invest all your idle cash into the platform. Smart business guy!" << endl;
 			}
-			break;
 
 		case 5:
 			cout << "For a rare holiday, you choose to:" << endl;
@@ -557,7 +552,6 @@ void resultsEvents26_to_29( int index, Stats &s, ofstream & fout ) {
 				fout << endl << "Choice: Going to Cheung Chau Island" << endl;
 				fout << "You have an argument with a local resident and are left with an unpleasant experience." << endl;
 			}
-			break;
 
 		case 6:
 			cout << "You found out that your ex was severely injured in a car accident, you guys broke up without conflicts and are still friends. You’re currently very happy in your relationship too but doing something stupid might trigger your partner, you will:" << endl;
@@ -595,7 +589,6 @@ void resultsEvents26_to_29( int index, Stats &s, ofstream & fout ) {
 				fout << endl << "Choice: Not visit your ex, nor contact them anymore" << endl;
 				fout << "Your partner was very pleased with your loyalty and your commitment for their relationship, they have decided to buy a big house for you in Hong Kong Island but however, you have no idea where the money comes from…" << endl;
 			}
-			break;
 
 
 
@@ -642,7 +635,6 @@ void resultsEvents32_to_35( int index, Stats &s, ofstream & fout ) {
 				fout << endl << "Choice: Play video games with old friends" << endl;
 				fout << "You get together with old friends to play video games and it seems like you've got your fun back, but you feel uncomfortable with your wrists and eyes while playing." << endl;
 			}
-			break;
 
 		case 1:
 			cout << "When the poor child you sponsored grew up, he/she was sent to:" << endl;
@@ -669,7 +661,6 @@ void resultsEvents32_to_35( int index, Stats &s, ofstream & fout ) {
 				fout << endl << "Choice: International schools that are expensive but are said to have good teachers" << endl;
 				fout << "He/She occasionally complained that school work was a little difficult and that he had less time for play when he got home." << endl;
 			}
-			break;
 
 		case 2:
 			cout << "You're tested for high blood pressure and high cholesterol, and you decide:" << endl;
@@ -706,7 +697,6 @@ void resultsEvents32_to_35( int index, Stats &s, ofstream & fout ) {
 				fout << endl << "Choice: Ignore" << endl;
 				fout << "You forgot about this inspection and are still eating and drinking as usual every day." << endl;
 			}
-			break;
 		
 		case 3:
 			cout << "House prices have risen quite a lot recently and you want to:" << endl;
@@ -733,7 +723,6 @@ void resultsEvents32_to_35( int index, Stats &s, ofstream & fout ) {
 				fout << endl << "Choice: Buy a house of 80 sq m with full payment." << endl;
 				fout << "You are quite content with the small house you bought with full payment, but it is too small, and the house is very cramped when you move in." << endl;
 			}
-			break;
 		
 		case 4:
 			cout << "When the World Cup starts and you get together with old friends to watch the game, you decide to:" << endl;
@@ -770,7 +759,6 @@ void resultsEvents32_to_35( int index, Stats &s, ofstream & fout ) {
 				fout << endl << "Choice: You think that you are unlucky and don't place a bet." << endl;
 				fout << "You look at the players on the TV and think back to your youth." << endl;
 			}
-			break;
 
 		case 5:
 			cout << "You are walking along a street in Causeway Bay when you are suddenly stopped by a man claiming to be a talent scout who says he thinks you are very talented and wants to tap you as a star and take part in a talent show." << endl;
@@ -797,7 +785,6 @@ void resultsEvents32_to_35( int index, Stats &s, ofstream & fout ) {
 				fout << endl << "Choice: You think he's a scam artist and don't want to believe him, so you just walk away." << endl;
 				fout << "You think this kind of scouting is just a TV show and you don't know which scammer is so inexperienced." << endl;
 			}
-			break;
 
 		case 6:
 			cout << "Your spendthrift brother says he has a business problem and needs money to run it urgently and asks you to borrow money, but you don't have much savings of your own, you decide:" << endl;
@@ -824,7 +811,6 @@ void resultsEvents32_to_35( int index, Stats &s, ofstream & fout ) {
 				fout << endl << "Choice: You lend him the money anyway because your mother and father are also struggling with your brother's business." << endl;
 				fout << "You decide to lend him the money and your parents praise you but you are also worried that your savings are too insufficient." << endl;
 			}
-			break;
   }
 
 	return;
