@@ -207,13 +207,13 @@ void printEvents32_35( Show &s, ofstream & fout ) {
 	while ( true ) {
 		selection = rand() % 7;
 		if ( events_32_to_44[selection] != "Taken" ) {
-			cout << events_32_to_35[selection] << endl;
+			cout << events_32_to_44[selection] << endl;
 
 			// saves game progress in temporary file
-			fout << events_32_to_35[selection];
+			fout << events_32_to_44[selection];
 			
       // changes the element to "Taken" so the same event won't be outputted twice
-			events_32_to_35[selection] = "Taken";
+			events_32_to_44[selection] = "Taken";
 
 			break;
 		}
@@ -242,7 +242,7 @@ OUTPUT(s):
 RETURN VALUE:
 1. bool variable indicating player's choice to continue / quit game.
 */
-bool growUpOrQuit( int * &age, string filename, string tempfile, Stats player, string name ) {
+bool growUpOrQuit( int * &age, string filename, string tempfile, Show player, string name ) {
 	// declaration of string and bool variables for storing user choice
   string truefalse; 
 	bool choice; 
@@ -315,7 +315,7 @@ int main() {
 
 	srand( time( NULL ) ); // initiates the random seed
 	string name; // declare string variable for player name
-	Stats player; // declare struct variable for player stats
+	Sthow player; // declare struct variable for player stats
 	int * age = new int( 0 ); // declare and initialize dynamic variable for age
 
 	// file I/O requirement 
