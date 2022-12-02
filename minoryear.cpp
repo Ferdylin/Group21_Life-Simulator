@@ -321,6 +321,7 @@ void resultsEvents20_to_21( int index, Show &s, ofstream & fout ) {
 			cout << "<satisfaction+1 wealth-1>" << endl;
 			ChangeStats(s, 0, -1, +1);
 	}
+}
 
 		
     
@@ -589,6 +590,8 @@ void resultsEvents26_to_29( int index, Show &s, ofstream & fout ) {
 				fout << endl << "Choice: Not visit your ex, nor contact them anymore" << endl;
 				fout << "Your partner was very pleased with your loyalty and your commitment for their relationship, they have decided to buy a big house for you in Hong Kong Island but however, you have no idea where the money comes from…" << endl;
 			}
+    }
+}
 
 
 
