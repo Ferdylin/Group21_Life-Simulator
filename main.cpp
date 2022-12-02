@@ -315,7 +315,7 @@ int main() {
 
 	srand( time( NULL ) ); // initiates the random seed
 	string name; // declare string variable for player name
-	Sthow player; // declare struct variable for player stats
+	Show player; // declare struct variable for player stats
 	int * age = new int( 0 ); // declare and initialize dynamic variable for age
 
 	// file I/O requirement 
@@ -527,7 +527,7 @@ int main() {
         fout << "Age: 21" << endl;
         fout << "-------" << endl;
 
-        Events21( player, player.satisfaction, player.health, player.weaith, name, fout );
+        Events21( player, player.satisfaction, player.health, player.wealth, name, fout );
         break;
 
       case 22:
