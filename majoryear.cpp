@@ -192,6 +192,10 @@ void Events22(Show &s, string name, ofstream &fout){
     cout << "Please enter the choice number when prompted!" << endl;
     cout << "--------------------------------------------------" << endl;
     cout << "First year of work passes~" << endl;
+    cout << "<wealth+1>" << endl;
+    ChangeStats(s, 0, +1, 0);
+    
+    fout << endl << "wealth+1>" << endl;
 
 void Events23(Show &s, string name, ofstream &fout) {
     int choice;
