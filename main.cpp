@@ -69,7 +69,7 @@ string events_26_to_29[7] = {
 };
 
 // declaration and initialization of arrays containing events (age 32-34)
-string events_32_to_44[7] = {
+string events_32_to_35[7] = {
 "aaaaaau",
 "bbbbbbu",
 "ccccccu",
@@ -206,14 +206,14 @@ void printEvents32_35( Show &s, ofstream & fout ) {
 
 	while ( true ) {
 		selection = rand() % 7;
-		if ( events_32_to_44[selection] != "Taken" ) {
-			cout << events_32_to_44[selection] << endl;
+		if ( events_32_to_35[selection] != "Taken" ) {
+			cout << events_32_to_35[selection] << endl;
 
 			// saves game progress in temporary file
-			fout << events_32_to_44[selection];
+			fout << events_32_to_35[selection];
 			
       // changes the element to "Taken" so the same event won't be outputted twice
-			events_32_to_44[selection] = "Taken";
+			events_32_to_35[selection] = "Taken";
 
 			break;
 		}
