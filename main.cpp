@@ -117,14 +117,14 @@ void printEvents14_17( Show &s, ofstream & fout ) {
 
 
 /*
-FUNCTION: prints choice-based events for ages 20
+FUNCTION: prints choice-based events for ages 20-23
 INPUT(s): 
 1. pass-by-reference player stats
 2. pass-by-reference output file stream (for saving game progress in temporary file)
 OUTPUT(s): 
-1. a random event for ages 20
+1. a random event for ages 20-23
 */
-void printEvents20( Show &s, ofstream & fout ) {
+void printEvents20_23( Show &s, ofstream & fout ) {
 	cout << endl;
 	cout << "[ Random Event ]";
 	fout << "[ Random Event ]" << endl;
@@ -133,21 +133,21 @@ void printEvents20( Show &s, ofstream & fout ) {
 	int selection;
 
 	while ( true ) {
-		selection = rand() % 3;
-		if ( events_20[selection] != "Taken" ) {
-			cout << events_20[selection] << endl;
+		selection = rand() % 7;
+		if ( events_20_to_23[selection] != "Taken" ) {
+			cout << events_20_to_23[selection] << endl;
 
 			// saves game progress in temporary file
-			fout << events_20[selection];
+			fout << events_20_to_23[selection];
 			
       // changes the element to "Taken" so the same event won't be outputted twice
-			events_20[selection] = "Taken";
+			events_20_to_23[selection] = "Taken";
 
 			break;
 		}
 	}
 
-	resultsEvents20( selection, s, fout );
+	resultsEvents20_to_23( selection, s, fout );
 
 	return;
 }
