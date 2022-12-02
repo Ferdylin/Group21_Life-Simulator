@@ -1,12 +1,12 @@
 # Group21_Life-Simulator
-##Team members
-###Author(s): 
+## Team members
+### Author(s): 
 1. Wu Hanbo
 2. Chen Huiwen
 3.
 4. Tang Chengxin
 5. Lin Junyan
-###UID(s): 
+### UID(s): 
 1. 3035834876
 2. 3035790642
 3.
