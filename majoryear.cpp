@@ -187,6 +187,12 @@ void Events21(Show &s, string name, ofstream &fout) {
 
 }
 
+void Events22(Show &s, string name, ofstream &fout){
+    int choice;
+    cout << "Please enter the choice number when prompted!" << endl;
+    cout << "--------------------------------------------------" << endl;
+    cout << "First year of work passes~" << endl;
+
 void Events23(Show &s, string name, ofstream &fout) {
     int choice;
     cout << "Please enter the choice number when prompted!" << endl;
