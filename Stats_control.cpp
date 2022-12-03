@@ -50,6 +50,7 @@ void ChangeStats( Show &s, int health, int wealth, int satisfaction) {
           }
 	  else if (wealth == 2 && s.wealth == 2) {
 		s.wealth = 3;
+	  }
           else if (wealth == 1 && s.wealth ==2) {
 		s.wealth = 3;
 	  }
