@@ -37,20 +37,20 @@ using namespace std;
 
 // declaration and initialization of arrays containing events (ages 14-17)
 string events_14_to_17[7] = {
-"aaaaaa",
-"bbbbbbbb",
-"cccccccccc",
-"cccccccccccc",
-"dddddddddd",
+"There is a new video game. Every friend of yours seem obsessed with it. You find it interesting as well. They constantly invite you to play with them for long hours. What will you do?",
+"For the first time in your life, you have a crush on someone. It feels wonderful but you are shy to approach that person. What will you do?",
+"Drama Society is recruiting. ou always wanted to try being an actor and this is precious opportunity. But you are worried about too much stress of performing a complete play in front of everyone. What will you do?",
+"School trip! Please select your destination...",
+"You are learning how to drive an automatic transmission car. In your driving test you...",
 "eeeeeeeeeeeee",
 "xxxxxxxxxxxxxxxx",
 };
 
 // declaration and initialization of arrays containing events (age 20-23)
 string events_20_to_23[7] = {
-"aaaaaax",
-"bbbbbbx",
-"ccccccx",
+"Someone hot in uni wants to go on a date with you. You will...",
+"Your favourite pop star is coming to Hong Kong on her global tour, but the ticket is so expensive. You will...",
+"You have a growing passion about music. You have finally decided to pick up a musical instrument from scratch. You have shortlisted several options. Please make the final decision....",
 "ddddddx",
 "eeeeeex",
 "ffffffx",
