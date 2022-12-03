@@ -4,6 +4,6 @@ using namespace std;
 
 void ShowStats( Show s, string name ); //originally printstats
 
-void ChangeStats( Show &s, int health, int money, int happiness ); //originally updateStats
+void ChangeStats( Show &s, int health, int money, int satisfaction ); //originally updateStats
 
 void FinalStats( int health, int money, int happiness );  //original finalFunc
