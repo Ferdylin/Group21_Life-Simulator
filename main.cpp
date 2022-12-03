@@ -59,23 +59,23 @@ string events_20_to_23[7] = {
 
 // declaration and initialization of arrays containing events (age 26-29)
 string events_26_to_29[7] = {
-"aaaaaay",
-"bbbbbby",
-"ccccccy",
-"ddddddy",
-"eeeeeey",
-"ffffffy",
-"tttttty",
+"Your relationship partner got tired of you, they think that you’re a workaholic and wanted to break up, what do you do?",
+"You felt that you don’t enjoy what you do anymore, you like the workplace and the people but not the job itself anymore. What are the next steps that you’re going to take?",
+"You got bored so you started making Tik Tok with your friends, after doing some research, you’ve decided to make videos on:",
+"You’ve decided to stop by a coffee shop one night, but later, you realize that Beyonce was at the cashier but struggling to make the payment for her order! What do you do?",
+"Crypto and Web 3 is the new trend now and everyone’s crazy about it. You recently just discovered a new platform for crypto trading and wanted to invest in some crypto assets, what do you do:",
+"For a rare holiday, you choose to:",
+"You found out that your ex was severely injured in a car accident, you guys broke up without conflicts and are still friends. You’re currently very happy in your relationship too but doing something stupid might trigger your partner, you will:",
 };
 
 // declaration and initialization of arrays containing events (age 32-34)
 string events_32_to_35[7] = {
-"aaaaaau",
-"bbbbbbu",
-"ccccccu",
-"ddddddu",
-"eeeeeeu",
-"ffffffu",
+"Your career is becoming stable, and you don't need to worry about it, you think:",
+"You're tested for high blood pressure and high cholesterol, and you decide:",
+"House prices have risen quite a lot recently and you want to:",
+"When the World Cup starts and you get together with old friends to watch the game, you decide to:",
+"You are walking along a street in Causeway Bay when you are suddenly stopped by a man claiming to be a talent scout who says he thinks you are very talented and wants to tap you as a star and take part in a talent show.",
+"Your spendthrift brother says he has a business problem and needs money to run it urgently and asks you to borrow money, but you don't have much savings of your own, you decide:",
 "ttttttu",
 };
 
