@@ -48,10 +48,13 @@ void ChangeStats( Show &s, int health, int wealth, int satisfaction) {
           else if (wealth == -2 && s.wealth <= 2) {
                 s.wealth = 0;
           }
-	  else if (wealth == 2 && s.wealth == 2) {
+	  else if (wealth == 2 && s.wealth >= 2) {
 		s.wealth = 3;
 	  }
-          else if (wealth == 1 && s.wealth ==2) {
+          else if (wealth == 1 && s.wealth == 2) {
+		s.wealth = 3;
+	  }
+	  else if (wealth == 2 && s.wealth == 1){
 		s.wealth = 3;
 	  }
           else if ( wealth == -3 ) {
@@ -74,10 +77,13 @@ void ChangeStats( Show &s, int health, int wealth, int satisfaction) {
           else if (health == -2 && s.health <= 2) {
                 s.health = 0;
           }
-	  else if (health == 2 && s.health == 2) {
+	  else if (health == 2 && s.health >= 2) {
 		s.health = 3;
 	  }
           else if (health == 1 && s.health ==2) {
+		s.health = 3;
+	  }
+	  else if (health == 2 && s.health == 1){
 		s.health = 3;
 	  }
           else if ( health == -3 ) {
@@ -100,10 +106,13 @@ void ChangeStats( Show &s, int health, int wealth, int satisfaction) {
           else if (satisfaction == -2 && s.satisfaction <= 2) {
                 s.satisfaction = 0;
           }
-	  else if (satisfaction == 2 && s.satisfaction == 2) {
+	  else if (satisfaction == 2 && s.satisfaction >= 2) {
 		s.satisfaction = 3;
 	  }
           else if (satisfaction == 1 && s.satisfaction ==2) {
+		s.satisfaction = 3;
+	  }
+	  else if (satisfaction == 2 && s.satisfaction == 1) {
 		s.satisfaction = 3;
 	  }
           else if ( satisfaction == -3 ) {
