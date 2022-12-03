@@ -19,6 +19,7 @@ void Events13(Show &s, string name, ofstream &fout) {
     cout << "--------------------------------------------------" << endl;
 
     cout << "You enter puberty, and your body is going through a series of changes. You overhear someone making fun of you. "<< endl;
+    fout << "You enter puberty, and your body is going through a series of changes. You overhear someone making fun of you. ";
     cout << "1. Tell them about the proper sex education knowledge you learnt." << endl;
     cout << "2. Tell your teacher about it and hope he will scold them." << endl;
     cout << "3. You force yourself to wear baggy clothes and keep a low profile everyday. " << endl;
@@ -68,6 +69,7 @@ void Events18(Show &s, string name, ofstream &fout) {
     cout << "--------------------------------------------------" << endl;
 
     cout << "This is the final year of high school. You want to get into a university." << endl;
+    fout << "This is the final year of high school. You want to get into a university." ;
     cout << "1. Stay up late every night to study." << endl;
     cout << "2. I will definitely put efforts in my schoolwork. Just not today!" << endl;
     cout << "3.  I really have to study hard! I can do it!" << endl;
@@ -106,6 +108,7 @@ void Events19(Show &s, string name, ofstream &fout) {
     cout << "Please enter the choice number when prompted!" << endl;
     cout << "--------------------------------------------------" << endl;
     cout << "You find that everyone around you is either doing an internship or looking for one. You feel anxious because you have had zero internships. You will:" << endl;
+    fout << "You find that everyone around you is either doing an internship or looking for one. You feel anxious because you have had zero internships. You will:"; 
     cout << "1. Internship is super important!! I will do as many as I can, ever if I need to gap." << endl;
     cout << "2. Dealing with my study as usual, meanwhile looking for remote internships and winter / summer internships."
             << endl;
@@ -155,6 +158,7 @@ void Events24(Show &s, string name, ofstream &fout) {
     cout << "Please enter the choice number when prompted!" << endl;
     cout << "--------------------------------------------------" << endl;
     cout << "Unfortunately, due to the bad market economic environment, you were laid off. You will: " << endl;
+    fout << "Unfortunately, due to the bad market economic environment, you were laid off. You will: " ;
     cout << "1.  Start your own business." << endl;
     cout << "2. Switch to a big company." << endl;
     cout << "3. Get a job in a small enterprise." << endl;
@@ -203,6 +207,7 @@ void Events25(Show &s, string name, ofstream &fout) {
     cout << "--------------------------------------------------" << endl;
 
     cout << "You have been working OT these days, but your work is not recognized by anyone, everyone else has been promoted before except you because your boss hates you, what do you do?" << endl;
+    fout << "You have been working OT these days, but your work is not recognized by anyone, everyone else has been promoted before except you because your boss hates you, what do you do?" ;
     cout << "1. Hand in that resignation letter, and prepare for job hunting" << endl;
     cout << "2. Keep up with the hard work because you believe that your work would be recognized one day" << endl;
     cout << "3. Slack off during work because why not" << endl;
@@ -243,6 +248,7 @@ void Events30(Show &s, string name, ofstream &fout) {
     cout << "--------------------------------------------------" << endl;
 
     cout << "Your mother-in-law got very sick, and your partner is suggesting sending her to Australia for treatment therapy. What should you do?" << endl;
+    fout << "Your mother-in-law got very sick, and your partner is suggesting sending her to Australia for treatment therapy. What should you do?" ;
     cout << "1. Agree with them completely, you sold one of your apartments in Hong Kong, and decided to do everything you can to help your mother-in-law out" << endl;
     
     cout << "2. You told your partner frankly that you currently just do not have enough money to send their mother to the treatment therapy, you suggested to transfer your mother-in-law to a local hospital where you had connection with" << endl;
@@ -284,6 +290,7 @@ void Events31(Show &s, string name, ofstream &fout) {
     cout << "Please enter the choice number when prompted!" << endl;
     cout << "--------------------------------------------------" << endl;
     cout << "You and your lover are considering whether to welcome a new family member while you are still young and, after much deliberation, at the age of 30, you have chosen to:" << endl;
+    fout << "You and your lover are considering whether to welcome a new family member while you are still young and, after much deliberation, at the age of 30, you have chosen to:" ;
     cout << "1. Giving birth" << endl;
     cout << "2. Not considering the child " << endl;
     cout << "Enter choice: ";
@@ -314,6 +321,7 @@ void Events36(Show &s, string name, ofstream &fout) {
     cout << "Please enter the choice number when prompted!" << endl;
     cout << "--------------------------------------------------" << endl;
     cout << "You have reached a bottleneck in your career, and you want to move up further and improve the quality of life for your family, you decide to" << endl;
+    fout << "You have reached a bottleneck in your career, and you want to move up further and improve the quality of life for your family, you decide to" ;
     cout << "1. Take a class to learn professional knowledge" << endl;
     cout << "2. Get together with your boss more often and buy your clients drinks" << endl;
     cout << "3. You're happy to be a salty fish" << endl;
