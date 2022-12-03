@@ -436,20 +436,22 @@ int main() {
 
   // main structure of the entire game
 	while ( * age != 36 ) {
-		fout << endl;
+	fout << endl;
 
-		switch ( * age ) {
-			case 13:
+	switch ( * age ) {
+	
+	case 13:
         cout << "Age: 13" << endl;
         cout << "-------" << endl;
 
-				fout << "Age: 13" << endl;
+	fout << "Age: 13" << endl;
         fout << "-------" << endl;
 
-				Events13( player, name, fout );
+	Events13( player, name, fout );
+	ShowStats( player, name );
         break;
-
-       case 14:
+	
+	case 14:
         cout << "Age: 14" << endl;
         cout << "-------" << endl;
 
@@ -458,7 +460,7 @@ int main() {
 
         showevents14_17( player, fout );
         ShowStats( player, name );
-				break;
+	break;
 
       case 15:
         cout << "Age: 15" << endl;
@@ -469,7 +471,7 @@ int main() {
 
         showevents14_17( player, fout );
         ShowStats( player, name );		
-				break;
+	break;
 
       case 16:
         cout << "Age: 16" << endl;
@@ -480,7 +482,7 @@ int main() {
 
         showevents14_17( player, fout );
         ShowStats( player, name );
-				break;
+	break;
 
       case 17:
         cout << "Age: 17" << endl;
@@ -491,7 +493,7 @@ int main() {
 
         showevents14_17( player, fout );
         ShowStats( player, name );	
-				break;
+	break;
 
       case 18:
         cout << "Age: 18" << endl;
@@ -500,8 +502,9 @@ int main() {
         fout << "Age: 18" << endl;
         fout << "-------" << endl;		
 
-				Events18( player, name, fout );
-				break;
+	Events18( player, name, fout );
+	ShowStats( player, name );
+	break;
 
       case 19:
         cout << "Age: 19" << endl;
@@ -511,6 +514,7 @@ int main() {
         fout << "-------" << endl;
 
         Events19( player, name, fout );
+	ShowStats( player, name );
         break;
 
       case 20:
@@ -565,6 +569,7 @@ int main() {
         fout << "-------" << endl;
 
         Events24( player, name, fout );
+	ShowStats( player, name );
         break;      
        
       case 25:
@@ -575,7 +580,8 @@ int main() {
         fout << "-------" << endl;
 
         Events25( player, name, fout );
-        break;
+        ShowStats( player, name );
+	break;
 
       case 26:
         cout << "Age: 26" << endl;
@@ -629,6 +635,7 @@ int main() {
         fout << "-------" << endl;
 
         Events30( player, name, fout );
+	ShowStats( player, name );
         break;
 
       case 31:
@@ -639,6 +646,7 @@ int main() {
         fout << "-------" << endl;
 
         Events31( player, name, fout );
+	ShowStats( player, name );
         break;
 
       case 32:
@@ -693,6 +701,7 @@ int main() {
         fout << "-------" << endl;
 
         Events36( player, name, fout );
+	ShowStats( player, name );
         break;
 
 		}
