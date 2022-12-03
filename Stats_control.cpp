@@ -129,7 +129,7 @@ void ChangeStats( Show &s, int health, int wealth, int satisfaction) {
 void FinalStats( int health, int wealth, int satisfaction ) {
   cout << endl;
   cout << "Congratulations, this is the end of your game." << endl;
-  cout << "Let's see what you got, do you feel like you've lived what's so called a good life?" << endl;
+  cout << "Let's see what you got. Do you feel like you've lived what's so called a good life?" << endl;
 
   if ( health == 0 && wealth == 0 && satisfaction == 0 ) {
     cout << "Can't say that you're a good life decisions maker...you died of several illnesses and were broke and hunrgy when you passed away" << endl;
@@ -165,6 +165,6 @@ void FinalStats( int health, int wealth, int satisfaction ) {
     cout << "I guess you've had a...ummm pretty normal life" << endl;
   }
 
-  cout << "Thanks for playing! Please feel free to play this game as many time as you want to discover different life/career paths for yourself!" << endl;
+  cout << endl << "Thanks for playing! Please feel free to play this game as many times as you want to discover different life/career paths for yourself!" << endl;
 	  return;
 }
