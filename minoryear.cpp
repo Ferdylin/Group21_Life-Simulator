@@ -17,8 +17,6 @@ using namespace std;
 // inputs: chosen index, player's stats as a pass-by reference
 void resultsevents14_to_17( int index, Show &s, ofstream & fout ) {
 	int choice;
-	cout << "Please enter the choice number when prompted!" << endl;
-  cout << "--------------------------------------------------" << endl;
 	switch ( index ) {
 		case 0:
 			cout << "1. Join them and play the hell out of it. Friendship and glory!" << endl;
@@ -225,8 +223,6 @@ void resultsevents14_to_17( int index, Show &s, ofstream & fout ) {
 // inputs: chosen index, player's stats as a pass-by reference
 void resultsevents20_to_23( int index, Show &s, ofstream & fout ) {
 	int choice;
-	cout << "Please enter the choice number when prompted!" << endl;
-  cout << "--------------------------------------------------" << endl;
 	switch ( index ) {
 		case 0:
 			cout << "1. Hey it's college, step aside GPA! I only care about my love life." << endl;
@@ -509,8 +505,6 @@ void resultsevents20_to_23( int index, Show &s, ofstream & fout ) {
 // inputs: chosen index, player's stats as a pass-by reference
 void resultsevents26_to_29( int index, Show &s, ofstream & fout ) {
 	int choice;
-	cout << "Please enter the choice number when prompted!" << endl;
-  cout << "--------------------------------------------------" << endl;
 	switch ( index ) {
 		case 0:
 			cout << "1. Tell them “Sorry YOU felt that way”, and continue with your current lifestyle." << endl;
@@ -776,8 +770,7 @@ void resultsevents26_to_29( int index, Show &s, ofstream & fout ) {
 
 void resultsevents32_to_35( int index, Show &s, ofstream & fout ) {
 	int choice;
-	cout << "Please enter the choice number when prompted!" << endl;
-  cout << "--------------------------------------------------" << endl;
+	
 	switch ( index ) {
 		case 0:
 			cout << "1. Go on a trip" << endl;
