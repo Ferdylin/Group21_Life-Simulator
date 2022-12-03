@@ -769,19 +769,21 @@ int main() {
 		exit( 1 );
 	}
 
+
+  	// calls the final function to output a summary of the game
+	// ShowStats( player, name );
+  	FinalStats( player.health, player.wealth, player.satisfaction );
+	
 	string linecopy; // string variable for storing file lines while reading <tempfile>
 	while( getline( copy, linecopy ) ) {
 		save << linecopy << endl; // saves game summary by copying from temporary file
-		cout << linecopy << endl; //displays summary of game
+		//cout << linecopy << endl; //displays summary of game
 	}
-
+	
 	// close all files
 	save.close();
 	copy.close();
 
-  	// calls the final function to output a summary of the game
-	ShowStats( player, name );
-  	FinalStats( player.health, player.wealth, player.satisfaction );
 	
 	// informs player that a summary of their game can be viewed in the file they provided
 	cout << endl << "To view your game summary, open the <.txt> file you provided at the start of the game!" << endl;
