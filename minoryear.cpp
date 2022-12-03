@@ -242,13 +242,13 @@ void resultsevents20_to_23( int index, Show &s, ofstream & fout ) {
 				fout << "Congratulations on a very romantic college experience! Unfortunately, now you have a really fucked-up GPA." << endl;
 			}
 			else if ( choice == 2 ) {
-				cout << "Oh no, you’ve overestimated yourself." << endl;
+				cout << "Oh no, you have overestimated yourself." << endl;
 				cout << "<wealth -1 satisfaction +1>" << endl;
 				ChangeStats( s, 0, -1, +1 );
 
 				//save game
 				fout << endl << "Choice:  Surely I can balance my study and love life." << endl;
-				fout << "Oh no, you’ve overestimated yourself." << endl;
+				fout << "Oh no, you have overestimated yourself." << endl;
 			}
 			else if ( choice == 3 ) {
 				cout << "GPA++! Everything seems great except the sad fact that you remain single throughout college.." << endl;
@@ -346,7 +346,7 @@ void resultsevents20_to_23( int index, Show &s, ofstream & fout ) {
         			fout << endl << "Choice: Get a job." << endl;
         			fout << "Congratulations on joining the workforce." << endl;
 				
-			else if ( choice == 2 ) {
+			} else if ( choice == 2 ) {
 				cout << "You fail to get into a school you like. Guess you have to join the workforce anyway." << endl;
         			cout << "<wealth +1 satisfaction -2>" << endl;
         			ChangeStats(s, 0, +1, -2);
@@ -497,7 +497,7 @@ void resultsevents20_to_23( int index, Show &s, ofstream & fout ) {
 
 // outputs the results of events at ages 26-29
 // inputs: chosen index, player's stats as a pass-by reference
-void resultsevents26_to_29( int index, Show &s, ofstream & fout ) {
+void resultsEvents26_to_29( int index, Show &s, ofstream & fout ) {
 	int choice;
 	cout << "Please enter the choice number when prompted!" << endl;
   cout << "--------------------------------------------------" << endl;
@@ -757,7 +757,7 @@ void resultsevents26_to_29( int index, Show &s, ofstream & fout ) {
 // outputs the results of events at ages 32-35
 // inputs: chosen index, player's stats as a pass-by reference
 
-void resultsevents32_to_35( int index, Show &s, ofstream & fout ) {
+void resultsEvents32_to_35( int index, Show &s, ofstream & fout ) {
 	int choice;
 	cout << "Please enter the choice number when prompted!" << endl;
   cout << "--------------------------------------------------" << endl;
@@ -966,7 +966,9 @@ void resultsevents32_to_35( int index, Show &s, ofstream & fout ) {
 				fout << endl << "Choice: You lend him the money anyway because your mother and father are also struggling with your brother's business." << endl;
 				fout << "You decide to lend him the money and your parents praise you but you are also worried that your savings are too insufficient." << endl;
 			}
+	}
+    return;
   }
 
-	return;
-}
+	
+
