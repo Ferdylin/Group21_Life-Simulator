@@ -714,7 +714,6 @@ int main() {
 
         Events36( player, name, fout );
 	ShowStats( player, name );
-		fout.close();
 	
 	}
 
