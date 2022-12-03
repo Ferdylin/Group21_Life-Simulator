@@ -341,7 +341,7 @@ int main() {
     "|    |__(  <_> )   /\\  ___/" <<endl<<
     "|_______ \\____/ \\_/  \\___  >" <<endl<<
     "        \\/               \\/          " << endl << endl;
-  cout << "Welcome to LiveLoveLaugh, your own life-simulator!" << endl; 
+  cout << "Welcome to LiveLaughLove, your own life-simulator!" << endl; 
   cout << "Here you will live a life from 13 to 36." << endl;
   cout << endl << "But bear in mind that this game is just for fun. PLEASE don't take it seriously." << endl;
   cout << "Please make sure that:" << endl;
