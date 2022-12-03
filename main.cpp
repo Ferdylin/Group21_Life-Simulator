@@ -104,7 +104,7 @@ void showevents14_17( Show &s, ofstream & fout ) {
 		if ( events_14_to_17[selection] != "Taken" ) {
 			cout << "Please enter the choice number when prompted!" << endl;
   			cout << "--------------------------------------------------" << endl;
-			cout << "[ Random Event ]";
+			cout << "[ Random Event ]" << endl;
 			cout << events_14_to_17[selection] << endl;
 
 			// saves game progress in temporary file
@@ -144,7 +144,7 @@ void showevents20_23( Show &s, ofstream & fout ) {
 		if ( events_20_to_23[selection] != "Taken" ) {
 			cout << "Please enter the choice number when prompted!" << endl;
   			cout << "--------------------------------------------------" << endl;
-			cout << "[ Random Event ]";
+			cout << "[ Random Event ]" << endl;
 			cout << events_20_to_23[selection] << endl;
 
 			// saves game progress in temporary file
@@ -183,7 +183,7 @@ void showevents26_29( Show &s, ofstream & fout ) {
 		if ( events_26_to_29[selection] != "Taken" ) {
 			cout << "Please enter the choice number when prompted!" << endl;
   			cout << "--------------------------------------------------" << endl;
-			cout << "[ Random Event ]";
+			cout << "[ Random Event ]" << endl;
 			cout << events_26_to_29[selection] << endl;
 
 			// saves game progress in temporary file
@@ -222,7 +222,7 @@ void showevents32_35( Show &s, ofstream & fout ) {
 		if ( events_32_to_35[selection] != "Taken" ) {
 			cout << "Please enter the choice number when prompted!" << endl;
   			cout << "--------------------------------------------------" << endl;
-			cout << "[ Random Event ]";
+			cout << "[ Random Event ]" << endl;
 			cout << events_32_to_35[selection] << endl;
 
 			// saves game progress in temporary file
@@ -450,9 +450,9 @@ int main() {
   // main structure of the entire game
 	while ( * age != 36 ) {
 	fout << endl;
+	cout << endl << "~~~~~~~";
 
 	switch ( * age ) {
-	cout << endl << "~~~~~~~";
 			
 	case 13:
         cout << "Age: 13" << endl;
