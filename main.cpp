@@ -113,7 +113,7 @@ void showevents14_17( Show &s, ofstream & fout ) {
 		}
 	}
 
-	resultsEvents14_to_17( selection, s, fout );
+	resultsevents14_to_17( selection, s, fout );
 
 	return;
 }
