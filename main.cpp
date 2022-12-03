@@ -265,7 +265,7 @@ bool growUpOrQuit( int * &age, string filename, string tempfile, Show player, st
 
 	//prompt user for choice
   cout << "You're all done for this year. Grow up or quit?" << endl;
-  cout << "1. Grow up by one year." << endl << "2. Save and quit game." << endl << "Enter:" ;
+  cout << "1. Grow up by one year." << endl << "2. Save and quit game." << endl << "Enter choice:" ;
 
 	// store user choice in string variable
   cin >> truefalse;
@@ -395,7 +395,7 @@ int main() {
 
 		// prompt user for upgrade choice
 		cout << "You get to upgrade one of your stats! " << endl;
-		cout << "<1> health" << endl << "<2> wealth" << endl << "<3> satisfaction" << endl;
+		cout << "1. health" << endl << "2. wealth" << endl << "3. satisfaction" << endl;
 
 		// facilitates the upgrade of a single stat
 		cout << "Enter choice: ";
