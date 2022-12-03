@@ -148,12 +148,12 @@ void resultsEvents14_to_17( int index, Show &s, ofstream & fout ) {
 			}
 			else if ( choice == 4 ){
 				cout << "Yeah great time at Universal Studios!" << endl;
+				cout << "<satisfaction +1>";
+				ChangeStats (s, 0, 0, +1);
 				
 				//save game
 				fout << endl << "Choice: Universal Studios." << endl;
 				fout << endl << "Yeah great time at Universal Studios!" << endl;
-				cout << "<satisfaction +1>";
-				ChangeStats (s, 0, 0, +1);
 			}	
 			
 
@@ -427,51 +427,61 @@ void resultsEvents20_to_23( int index, Show &s, ofstream & fout ) {
     			}
 		case 6: 
 			cout << "1. Designer clothes and shoes." << endl;
-			cout << "2. Sports Car." << endl;
+			cout << "2. Sports car." << endl;
 			cout << "3. Villa." << endl;
 			cout << "4. World Trip." << endl;
-			cout << "5. Save / invest it." << endl;
-			cout << "6. Donote it." << endl;
+			cout << "5. Donate." << endl;
 			cout << "Enter choice: ";
 			cin >> choice;
 
 			if ( choice == 1 ) {
-				cout << "Yeah great time at the zoo!" << endl;
+				cout << "Wow a complete personal image changeover!" << endl;
 				cout << "<satisfaction +1>";
 				ChangeStats (s, 0, 0, +1);
 
 				// save game
-				fout << endl << "Choice: zoo." << endl;
-				fout << "Yeah great time at the zoo!" << endl;
+				fout << endl << "Choice: Designer clothes and shoes." << endl;
+				fout << "Wow a complete personal image changeover!" << endl;
 			}
 			else if ( choice == 2 ) {
-				cout << "Yeah great time at Disneyland!" << endl;
-				cout << "<satisfaction +1>";
-				ChangeStats (s, 0, 0, +1);
+				cout << "Racing sets me on fire!" << endl;
+				cout << "<health -1 satisfaction +1>";
+				ChangeStats (s, -1, 0, +1);
 				
 
 				//save game
-				fout << endl << "Choice: Disneyland." << endl;
-				fout << "Yeah great time at Disneyland!" << endl;
+				fout << endl << "Choice: Sports car." << endl;
+				fout << "Racing sets me on fire!" << endl;
 			}
 			else if ( choice == 3 ) {
-				cout << "Yeah great time at Ocean Park!" << endl;
+				cout << "Wonderful villa!!!" << endl;
 				cout << "<satisfaction +1>";
 				ChangeStats (s, 0, 0, +1);
 				
 
 				//save game
-				fout << endl << "Choice: Ocean Park." << endl;
-				fout << "Yeah great time at Ocean Park!" << endl;
+				fout << endl << "Choice: Villa." << endl;
+				fout << "Wonderful villa!!!" << endl;
 			}
 			else if ( choice == 4 ){
-				cout << "Yeah great time at Universal Studios!" << endl;
+				cout << "This trip leaves you countless precious memories." << endl;
+				cout << "<satisfaction +2>";
+				ChangeStats (s, 0, 0, +2);
 				
 				//save game
-				fout << endl << "Choice: Universal Studios." << endl;
-				fout << endl << "Yeah great time at Universal Studios!" << endl;
-				cout << "<satisfaction +1>";
-				ChangeStats (s, 0, 0, +1);
+				fout << endl << "Choice: World trip." << endl;
+				fout << endl << "This trip leaves you countless precious memories." << endl;
+				
+			}	
+			else if ( choice == 5 ){
+				cout << "You are a person with a big, big heart." << endl;
+				cout << "<satisfaction +2>";
+				ChangeStats (s, 0, 0, +2);
+				
+				//save game
+				fout << endl << "Choice: Donate" << endl;
+				fout << endl << "You are a person with a big, big heart." << endl;
+				
 			}	
 				
 				
