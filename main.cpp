@@ -1,28 +1,29 @@
 /*
-Author(s): 
+【LiveLaughLove_Simulator】
+
+Student Names: 
 1. Wu Hanbo
 2. Chen Huiwen
 3.
 4. Tang Chengxin
 5. Lin Junyan
+
 UID(s): 
 1. 3035834876
 2. 3035790642
 3.
 4. 3035845162
 5. 3035750018
-Project: 
-
-Better change the name?
-<BitTeenLife>
 
 Description: 
-A game that parodies the mobile game BitLife, for ages [13, 36]
+A life simulator game simulating a players' life for the age of[13 - 36]
 CS Academy Server tested on: 
 <academy11>
-How to play:
-1. Go to shell terminal
-2. Type 'make play'
+
+Instructions on starting the game:
+1. Save this game file to your computer
+2. cd to the correct directory (Make sure to the game files)
+2. Type in 'make play'
 */
 
 #include <iostream>
@@ -308,13 +309,13 @@ bool growUpOrQuit( int * &age, string filename, string tempfile, Show player, st
 	return choice;
 }
 
+//general user guidline (message prompt will be provided below:
 int main() {
-  // print out game to-knows 
-  cout << "Welcome to BitTeenLife, a short parody of BitLife! " << endl; 
-  cout << "For optimal experience, play with your terminal maximized to Fullscreen!" << endl;
-  cout << "Various assumptions on input:" << endl;
-  cout << "1. All inputs must be VALID" << endl;
-  cout << "2. Name must be a SINGLE word" << endl << endl;
+  cout << "Welcome to your own life-simulator" << endl; 
+  cout << "Here you will live a life from the age of 3 - 35" << endl;
+  cout << "Please make sure that:" << endl;
+  cout << "1. All inputs entered are VALID INPUTS" << endl;
+  cout << "2. Name should consist of characters ONLY" << endl << endl;
 
 	srand( time( NULL ) ); // initiates the random seed
 	string name; // declare string variable for player name
