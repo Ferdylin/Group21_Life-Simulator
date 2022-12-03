@@ -509,7 +509,7 @@ int main() {
         fout << "Age: 19" << endl;
         fout << "-------" << endl;
 
-        resultEvents14_17( player, name, fout );
+        resultsEvents14_17( player, name, fout );
         break;
 
       case 20:
@@ -530,7 +530,7 @@ int main() {
         fout << "Age: 21" << endl;
         fout << "-------" << endl;
 
-        resultEvents20_23( player, name, fout);
+        resultsEvents20_23( player, name, fout);
         break;
 
       case 22:
@@ -551,7 +551,7 @@ int main() {
         fout << "Age: 23" << endl;
         fout << "-------" << endl;
 
-        resultEvent20_23( player, name, fout);
+        resultsEvent20_23( player, name, fout);
         break;
 		
       case 24:
@@ -571,7 +571,7 @@ int main() {
         fout << "Age: 25" << endl;
         fout << "-------" << endl;
 
-        resultEvents26_29( player, name, fout );
+        resultsEvents26_29( player, name, fout );
         break;
 
       case 26:
@@ -689,7 +689,7 @@ int main() {
         fout << "Age: 36" << endl;
         fout << "-------" << endl;
 
-        resultEvents32_35( player, name, fout );
+        resultsEvents32_35( player, name, fout );
         break;
 
 		}
