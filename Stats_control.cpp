@@ -158,7 +158,7 @@ void FinalStats( int health, int wealth, int satisfaction ) {
   }
   else if (health < 3 && wealth < 3 && satisfaction == 3) {
     cout << "Wow you looked so happy, what happened ?!" << endl;
-	  
+  }	  
   else if (health < 2 && wealth <= 2 && satisfaction <= 2) {
     cout << "Dang look at your own health, can't say that you're a good decision maker but at least you've made it through!" << endl;
 	  
