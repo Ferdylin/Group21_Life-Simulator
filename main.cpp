@@ -435,7 +435,7 @@ int main() {
 	}
 
   // main structure of the entire game
-	while ( * age != 36 ) {
+	while ( * age != 37 ) {
 	fout << endl;
 
 	switch ( * age ) {
