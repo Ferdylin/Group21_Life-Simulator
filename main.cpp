@@ -751,23 +751,9 @@ int main() {
 	}
 
   	delete age; // delete dynamic variable
-	fout.close(); // close temporary file
+	
 
-	// declare ofstream object for copying contents in <tempfile> to <filename>
-	ofstream save;
-	save.open( filename.c_str() ); // open user-provided file <filename> for saving game progress 
-	if ( save.fail() ) {
-		cout << "Error opening file for saving!" << endl;
-		exit( 1 );
-	}
-
-	// declare ifstream object for reading from <tempfile>
-	ifstream copy;
-	copy.open( tempfile.c_str() ); // open temporary file containing game progress 
-	if ( copy.fail() ) {
-		cout << "Error opening file for copying!" << endl;
-		exit( 1 );
-	}
+	
 
 
   	// calls the final function to output a summary of the game
@@ -784,6 +770,22 @@ int main() {
   	fout << "**================================================**" << endl;
   	fout << endl;
 	
+	// declare ofstream object for copying contents in <tempfile> to <filename>
+	ofstream save;
+	save.open( filename.c_str() ); // open user-provided file <filename> for saving game progress 
+	if ( save.fail() ) {
+		cout << "Error opening file for saving!" << endl;
+		exit( 1 );
+	}
+
+	// declare ifstream object for reading from <tempfile>
+	ifstream copy;
+	copy.open( tempfile.c_str() ); // open temporary file containing game progress 
+	if ( copy.fail() ) {
+		cout << "Error opening file for copying!" << endl;
+		exit( 1 );
+	}
+	
 	string linecopy; // string variable for storing file lines while reading <tempfile>
 	while( getline( copy, linecopy ) ) {
 		save << linecopy << endl; // saves game summary by copying from temporary file
@@ -793,6 +795,7 @@ int main() {
 	// close all files
 	save.close();
 	copy.close();
+	fout.close(); // close temporary file
 
 	
 	// informs player that a summary of their game can be viewed in the file they provided
