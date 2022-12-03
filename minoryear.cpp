@@ -330,6 +330,31 @@ void resultsEvents20_to_23( int index, Show &s, ofstream & fout ) {
 				fout << endl << "Choice: Drum." << endl;
 				fout << "Drum turns out to be your lifelong interest." << endl;
 			}
+		case 3: 
+			cout << "1. Get a job." << endl;
+			cout << "2. Continue study." << endl;
+			
+			cout << "Enter choice: ";
+			cin >> choice;
+
+			if ( choice == 1 ) {
+				cout << "Congratulations on joining the workforce." << endl;
+        			cout << "<wealth +1 satisfaction -1>" << endl;
+        			ChangeStats(s, 0, +1, -1);
+
+        			// save game
+        			fout << endl << "Choice: Get a job." << endl;
+        			fout << "Congratulations on joining the workforce." << endl;
+				
+			else if ( choice == 2 ) {
+				cout << "You fail to get into a school you like. Guess you have to join the workforce anyway." << endl;
+        			cout << "<wealth +1 satisfaction -2>" << endl;
+        			ChangeStats(s, 0, +1, -2);
+
+        			//save game
+        			fout << endl << "Choice: Continue study." << endl;
+        			fout << "You fail to get into a school you like. Guess you have to join the workforce anyway." << endl;
+			}
 			
 	}
 }
