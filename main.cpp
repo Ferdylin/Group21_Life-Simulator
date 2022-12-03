@@ -265,7 +265,7 @@ bool growUpOrQuit( int * &age, string filename, string tempfile, Show player, st
 
 	//prompt user for choice
   cout << "You're all done for this year. Grow up or quit?" << endl;
-  cout << "Enter:" << endl << "<1> grow up" << endl << "<2> save and quit game" << endl;
+  cout << "1. Grow up by one year." << endl << "2. Save and quit game." << endl << "Enter:" ;
 
 	// store user choice in string variable
   cin >> truefalse;
