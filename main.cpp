@@ -450,7 +450,7 @@ int main() {
   // main structure of the entire game
 	while ( * age != 36 ) {
 	fout << endl;
-	cout << endl << "~~~~~~~";
+	cout << endl << "~~~~~~~" << endl;
 
 	switch ( * age ) {
 			
