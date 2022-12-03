@@ -382,7 +382,7 @@ void resultsEvents20_to_23( int index, Show &s, ofstream & fout ) {
         			fout << "I’m sooooo tired! But good news is… you get to learn a lot about the industry?" << endl;
     			} 
 			else if (choice == 3) {
-        			cout << "You land a shiny job. But bad news is… you have to work around the clock.." << endl;
+        			cout << "You land a shiny job. But bad news is… you have to work around the clock." << endl;
         			cout << "<health -1 wealth +1>" << endl;
         			ChangeStats(s, -1, +1, 0);
 
@@ -390,6 +390,91 @@ void resultsEvents20_to_23( int index, Show &s, ofstream & fout ) {
         			fout << endl << "Choice: Financial industry, IBD." << endl;
         			fout << "You land a shiny job. But bad news is… you have to work around the clock." << endl;
     			}
+		case 5: 
+			cout << "1. Get my own apartment." << endl;
+			cout << "2. Share an apartment." << endl;
+			cout << "3. Stay in a hotel." << endl;
+			
+			cout << "Enter choice: ";
+			cin >> choice;
+
+			if (choice == 1) {
+        			cout << "You enjoy privacy in your apartment." << endl;
+        			cout << "<wealth -2 satisfaction +1>" << endl;
+        			ChangeStats(s, 0, -2, +1);
+
+        			// save game
+        			fout << endl << "Choice: Big Tech." << endl;
+        			fout << "Work-life-balance sucks. But the good news is…the pay is rather decent?" << endl;
+    			} 
+			else if (choice == 2) {
+        			cout << "The rent is quite affordable." << endl;
+        			cout << "<wealth -1 satisfaction-1>" << endl;
+        			ChangeStats(s, 0, -1, +1);
+
+        			//save game
+        			fout << endl << "Choice: Share an apartment." << endl;
+        			fout << "The rent is quite affordable." << endl;
+    			} 
+			else if (choice == 3) {
+        			cout << "Most comfortable!" << endl;
+        			cout << "<wealth -3 satisfaction +2>" << endl;
+        			ChangeStats(s, 0, -3, +2);
+
+        			//save game
+        			fout << endl << "Choice: Stay in a hotel." << endl;
+        			fout << "Most comfortable!" << endl;
+    			}
+		case 6: 
+			cout << "1. Designer clothes and shoes." << endl;
+			cout << "2. Sports Car." << endl;
+			cout << "3. Villa." << endl;
+			cout << "4. World Trip." << endl;
+			cout << "5. Save / invest it." << endl;
+			cout << "6. Donote it." << endl;
+			cout << "Enter choice: ";
+			cin >> choice;
+
+			if ( choice == 1 ) {
+				cout << "Yeah great time at the zoo!" << endl;
+				cout << "<satisfaction +1>";
+				ChangeStats (s, 0, 0, +1);
+
+				// save game
+				fout << endl << "Choice: zoo." << endl;
+				fout << "Yeah great time at the zoo!" << endl;
+			}
+			else if ( choice == 2 ) {
+				cout << "Yeah great time at Disneyland!" << endl;
+				cout << "<satisfaction +1>";
+				ChangeStats (s, 0, 0, +1);
+				
+
+				//save game
+				fout << endl << "Choice: Disneyland." << endl;
+				fout << "Yeah great time at Disneyland!" << endl;
+			}
+			else if ( choice == 3 ) {
+				cout << "Yeah great time at Ocean Park!" << endl;
+				cout << "<satisfaction +1>";
+				ChangeStats (s, 0, 0, +1);
+				
+
+				//save game
+				fout << endl << "Choice: Ocean Park." << endl;
+				fout << "Yeah great time at Ocean Park!" << endl;
+			}
+			else if ( choice == 4 ){
+				cout << "Yeah great time at Universal Studios!" << endl;
+				
+				//save game
+				fout << endl << "Choice: Universal Studios." << endl;
+				fout << endl << "Yeah great time at Universal Studios!" << endl;
+				cout << "<satisfaction +1>";
+				ChangeStats (s, 0, 0, +1);
+			}	
+				
+				
 			
 	}
 }
