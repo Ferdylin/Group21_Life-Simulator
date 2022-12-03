@@ -113,7 +113,7 @@ void showevents14_17( Show &s, ofstream & fout ) {
 		}
 	}
 
-	resultsEvents14_to_17( selection, s, fout );
+	resultsevents14_to_17( selection, s, fout );
 
 	return;
 }
@@ -150,7 +150,7 @@ void showevents20_23( Show &s, ofstream & fout ) {
 		}
 	}
 
-	resultsEvents20_to_23( selection, s, fout );
+	resultsevents20_to_23( selection, s, fout );
 
 	return;
 }
@@ -186,7 +186,7 @@ void showevents26_29( Show &s, ofstream & fout ) {
 		}
 	}
 
-	resultsEvents26_to_29( selection, s, fout );
+	resultsevents26_to_29( selection, s, fout );
 
 	return;
 }
@@ -222,7 +222,7 @@ void showevents32_35( Show &s, ofstream & fout ) {
 		}
 	}
 
-	resultsEvents32_to_35( selection, s, fout );
+	resultsevents32_to_35( selection, s, fout );
 
 	return;
 }
