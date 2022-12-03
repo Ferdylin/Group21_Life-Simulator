@@ -452,7 +452,8 @@ int main() {
 	fout << endl;
 
 	switch ( * age ) {
-	
+	cout << endl << "~~~~~~~";
+			
 	case 13:
         cout << "Age: 13" << endl;
         cout << "-------" << endl;
