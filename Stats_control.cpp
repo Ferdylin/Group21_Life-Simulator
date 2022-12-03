@@ -1,4 +1,4 @@
-// This file contains code related to functions that manipulate player stats
+// This file contains code related to functions that manipulate player stats and also the display of final results
 
 #include <iostream>
 #include <cstdlib>
@@ -20,12 +20,12 @@ using namespace std;
 void ShowStats( Show s, string name ) {
 	cout << endl;
   cout << name << "'s stats: " << endl;
-  cout << "**====================================================**" << endl;
+  cout << "**================================================**" << endl;
   cout << "HEALTH: " << s.health << setw( 17 );
   cout << "WEALTH: " << s.wealth << setw( 22 );
   cout << "SATISFACTION: " << s.satisfaction;
   cout << endl;
-  cout << "**=====================================================**" << endl;
+  cout << "**=================================================**" << endl;
 	cout << endl;
 
   return;
