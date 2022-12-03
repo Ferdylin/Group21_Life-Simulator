@@ -188,7 +188,7 @@ void resultsevents14_to_17( int index, Show &s, ofstream & fout ) {
 
 
 		case 5:
-			cout << "Please enter '1' to continue with the game: " << endl;
+			cout << "Please enter '1' to continue with the game: ";
 			cin >> choice;
 			if (choice == 1){
 				cout << "You are so lucky to have each oter~" << endl;
@@ -203,7 +203,7 @@ void resultsevents14_to_17( int index, Show &s, ofstream & fout ) {
 
 
 		case 6:
-			cout << "Please enter '1' to continue with the game: " << endl;
+			cout << "Please enter '1' to continue with the game: ";
 			cin >> choice;
 			if (choice == 1){
 				cout << "You are given an AWFUL haircut. Bad luck :( " << endl;
