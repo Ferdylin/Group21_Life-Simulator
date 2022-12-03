@@ -323,6 +323,24 @@ bool growUpOrQuit( int * &age, string filename, string tempfile, Show player, st
 
 //general user guidline (message prompt will be provided below:
 int main() {
+	cout << ".____    .__" << endl<<
+    "|    |   |__|__  __ ____" <<endl<<
+    "|    |   |  \\  \\/ // __ \\" <<endl<<
+    "|    |___|  |\\   /\\  ___/" <<endl<<
+    "|_______ \\__| \\_/  \\___  >" <<endl<<
+    "        \\/             \\/" <<endl<<
+    ".____                        .__" <<endl<<
+    "|    |   _____   __ __  ____ |  |__" <<endl<<
+    "|    |   \\__  \\ |  |  \\/ ___\\|  |  \\" <<endl<<
+    "|    |___ / __ \\|  |  / /_/  >   Y  \\" <<endl<<
+    "|_______ (____  /____/\\___  /|___|  /" <<endl<<
+    "        \\/    \\/     /_____/      \\/" <<endl<<
+    ".____" <<endl<<
+    "|    |    _______  __ ____" <<endl<<
+    "|    |   /  _ \\  \\/ // __ \\" <<endl<<
+    "|    |__(  <_> )   /\\  ___/" <<endl<<
+    "|_______ \\____/ \\_/  \\___  >" <<endl<<
+    "        \\/               \\/          " << endl << endl;
   cout << "Welcome to LiveLoveLaugh, your own life-simulator!" << endl; 
   cout << "Here you will live a life from 13 to 36." << endl;
   cout << endl << "But bear in mind that this game is just for fun. PLEASE don't take it seriously." << endl;
