@@ -325,7 +325,7 @@ bool growUpOrQuit( int * &age, string filename, string tempfile, Show player, st
 int main() {
   cout << "Welcome to LiveLoveLaugh, your own life-simulator!" << endl; 
   cout << "Here you will live a life from 13 to 36." << endl;
-  cout << << endl << "But bear in mind that this game is just for fun. PLEASE don't take it seriously." << endl;
+  cout << endl << "But bear in mind that this game is just for fun. PLEASE don't take it seriously." << endl;
   cout << "Please make sure that:" << endl;
   cout << "1. All inputs entered are VALID INPUTS." << endl;
   cout << "2. Name should consist of characters ONLY." << endl << endl;
