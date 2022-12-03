@@ -92,7 +92,7 @@ OUTPUT(s):
 1. a random event for ages 14-17
 */
 void showevents14_17( Show &s, ofstream & fout ) {
-	cout << endl;
+	
 	cout << "[ Random Event ]";
 	fout << "[ Random Event ]" << endl;
 	cout << endl;
@@ -131,7 +131,7 @@ OUTPUT(s):
 1. a random event for ages 20-23
 */
 void showevents20_23( Show &s, ofstream & fout ) {
-	cout << endl;
+	
 	cout << "[ Random Event ]";
 	fout << "[ Random Event ]" << endl;
 	cout << endl;
@@ -169,7 +169,7 @@ OUTPUT(s):
 1. a random event for ages 26-29
 */
 void showevents26_29( Show &s, ofstream & fout ) {
-	cout << endl;
+	
 	cout << "[ Random Event ]";
 	fout << "[ Random Event ]" << endl;
 	cout << endl;
@@ -207,7 +207,7 @@ OUTPUT(s):
 1. a random event for ages 32-35
 */
 void showevents32_35( Show &s, ofstream & fout ) {
-	cout << endl;
+	
 	cout << "[ Random Event ]";
 	fout << "[ Random Event ]" << endl;
 	cout << endl;
