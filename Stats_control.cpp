@@ -18,7 +18,7 @@ using namespace std;
 //It will output player's stats after each event
 
 void ShowStats( Show s, string name ) {
-	cout << endl;
+  cout << endl;
   cout << name << "'s stats: " << endl;
   cout << "**================================================**" << endl;
   cout << "HEALTH: " << s.health << setw( 17 );
@@ -26,7 +26,7 @@ void ShowStats( Show s, string name ) {
   cout << "SATISFACTION: " << s.satisfaction;
   cout << endl;
   cout << "**================================================**" << endl;
-	cout << endl;
+  cout << endl;
 
   return;
 }
@@ -128,8 +128,8 @@ void ChangeStats( Show &s, int health, int wealth, int satisfaction) {
 //Results defined based on players' final status, different stats will trigger different output lines
 void FinalStats( int health, int wealth, int satisfaction ) {
   cout << endl;
-  cout << "Congratulations, this is the end of your game." << endl;
-  cout << "Let's see what you got. Do you feel like you've lived what's so called a good life?" << endl;
+  cout << "Congratulations! This is the end of your game." << endl;
+  cout << "Let's see what you got. Do you feel like you've lived what's so called a 'good life'?" << endl;
 
   if ( health == 0 && wealth == 0 && satisfaction == 0 ) {
     cout << "Can't say that you're a good life decisions maker...you died of several illnesses and were broke and hunrgy when you passed away" << endl;
@@ -166,5 +166,5 @@ void FinalStats( int health, int wealth, int satisfaction ) {
   }
 
   cout << endl << "Thanks for playing! Please feel free to play this game as many times as you want to discover different life/career paths for yourself!" << endl;
-	  return;
+  return;
 }
