@@ -327,7 +327,6 @@ void resultsEvents26_to_29( int index, Show &s, ofstream & fout ) {
   cout << "--------------------------------------------------" << endl;
 	switch ( index ) {
 		case 0:
-			cout << "Your relationship partner got tired of you, they think that you’re a workaholic and wanted to break up, what do you do?" << endl;
 			cout << "1. Tell them “Sorry YOU felt that way”, and continue with your current lifestyle." << endl;
 			cout << "2. Spare more time to spend with them, you have decided to go grab something nice to eat together during the weekend." << endl;
 			cout << "3. You negotiated with your partner; you told her it is necessary for you to prioritise your professional life before the relationship. And promised them a bright future." << endl;
@@ -364,7 +363,6 @@ void resultsEvents26_to_29( int index, Show &s, ofstream & fout ) {
 
 
 		case 1:
-			cout << "You felt that you don’t enjoy what you do anymore, you like the workplace and the people but not the job itself anymore. What are the next steps that you’re going to take?" << endl;
 			cout << "1.You found out that you’re passionate about education and you enjoy helping students out, you’ve decided to start a new venture as an entrepreneur!" << endl;
 			cout << "2. You believe this is just a phase and have decided to stick with the current job still." << endl;
 			cout << "3. Apply for other jobs that fit your skill sets and which you found interesting." << endl;
@@ -400,7 +398,6 @@ void resultsEvents26_to_29( int index, Show &s, ofstream & fout ) {
 			}
 
 		case 2:
-			cout << "You got bored so you started making Tik Tok with your friends, after doing some research, you’ve decided to make videos on:" << endl;
 			cout << "1. Tiktok Dance" << endl;
 			cout << "2. Social Experiment Channel" << endl;
 			cout << "3. Random funny reels" << endl;
@@ -436,7 +433,6 @@ void resultsEvents26_to_29( int index, Show &s, ofstream & fout ) {
 			}
 		
 		case 3:
-			cout << "You’ve decided to stop by a coffee shop one night but later you realised that Beyonce was at the cashier but struggling to make the payment to her order! What do you do?" << endl;
 			cout << "1. Pay for her bill and ask her to take pictures with you" << endl;
 			cout << "2. Pretend you didn’t see her and walk away" << endl;
 			cout << "3. Freaked out and screamed out “Beyonce is here!" << endl;
@@ -472,7 +468,6 @@ void resultsEvents26_to_29( int index, Show &s, ofstream & fout ) {
 			}
 		
 		case 4:
-			cout << "Crypto and Web 3 is the new trend now and everyone’s crazy about it. You recently just discovered a new platform for crypto trading and wanted to invest in some crypto assets, what do you do:" << endl;
 			cout << "1. You think crypto is BS and had decided not to invest your money eventually" << endl;
 			cout << "2. You are a big fan of blockchain technology, and you believe that crypto trading is the future, you had decided to invest 50% of your idle cash in the platform" << endl;
 			cout << "3. You don’t know much about crypto but had decided to diversify your investment portfolio anyway, so you had invested 20% of your idle cash. You also took some spare time of yours to learn about Web3 and crypto." << endl;
@@ -508,7 +503,6 @@ void resultsEvents26_to_29( int index, Show &s, ofstream & fout ) {
 			}
 
 		case 5:
-			cout << "For a rare holiday, you choose to:" << endl;
 			cout << "1. Skiing in Hokkaido" << endl;
 			cout << "2. Drive to a party with friends" << endl;
 			cout << "3. Going to Cheung Chau Island" << endl;
@@ -545,7 +539,6 @@ void resultsEvents26_to_29( int index, Show &s, ofstream & fout ) {
 			}
 
 		case 6:
-			cout << "You found out that your ex was severely injured in a car accident, you guys broke up without conflicts and are still friends. You’re currently very happy in your relationship too but doing something stupid might trigger your partner, you will:" << endl;
 			cout << "1. Go visit your ex and offered to pay for their medical expenses" << endl;
 			cout << "2. Go visit your ex with your current partner" << endl;
 			cout << "3. Not visit your ex, nor contact them anymore" << endl;
@@ -594,7 +587,6 @@ void resultsEvents32_to_35( int index, Show &s, ofstream & fout ) {
   cout << "--------------------------------------------------" << endl;
 	switch ( index ) {
 		case 0:
-			cout << "Your career is becoming stable, and you don't need to worry about it, you think:" << endl;
 			cout << "1. Go on a trip" << endl;
 			cout << "2. Attend swimming classes" << endl;
 			cout << "3. Play video games with old friends" << endl;
@@ -630,7 +622,6 @@ void resultsEvents32_to_35( int index, Show &s, ofstream & fout ) {
 			}
 
 		case 1:
-			cout << "When the poor child you sponsored grew up, he/she was sent to:" << endl;
 			cout << "1. Happy school" << endl;
 			cout << "2. International schools that are expensive but are said to have good teachers" << endl;
 			cout << "Enter choice: ";
@@ -656,7 +647,6 @@ void resultsEvents32_to_35( int index, Show &s, ofstream & fout ) {
 			}
 
 		case 2:
-			cout << "You're tested for high blood pressure and high cholesterol, and you decide:" << endl;
 			cout << "1. Go to the doctor for a prescription" << endl;
 			cout << "2. Start exercising" << endl;
 			cout << "3. Ignore" << endl;
@@ -692,7 +682,6 @@ void resultsEvents32_to_35( int index, Show &s, ofstream & fout ) {
 			}
 		
 		case 3:
-			cout << "House prices have risen quite a lot recently and you want to:" << endl;
 			cout << "1. Take out a loan to buy a 200 sq m house." << endl;
 			cout << "2. Buy a house of 80 sq m with full payment." << endl;
 			cout << "Enter choice: ";
@@ -718,7 +707,6 @@ void resultsEvents32_to_35( int index, Show &s, ofstream & fout ) {
 			}
 		
 		case 4:
-			cout << "When the World Cup starts and you get together with old friends to watch the game, you decide to:" << endl;
 			cout << "1. Buy the opposite" << endl;
 			cout << "2. You still want to back your favorite Lionel Messi." << endl;
 			cout << "3. You think that you are unlucky and don't place a bet." << endl;
@@ -754,7 +742,6 @@ void resultsEvents32_to_35( int index, Show &s, ofstream & fout ) {
 			}
 
 		case 5:
-			cout << "You are walking along a street in Causeway Bay when you are suddenly stopped by a man claiming to be a talent scout who says he thinks you are very talented and wants to tap you as a star and take part in a talent show." << endl;
 			cout << "1. You are confident in your own strength and sign the contract without knowing more about the company." << endl;
 			cout << "2. You think he's a scam artist and don't want to believe him, so you just walk away." << endl;
 			cout << "Enter choice: ";
@@ -780,7 +767,6 @@ void resultsEvents32_to_35( int index, Show &s, ofstream & fout ) {
 			}
 
 		case 6:
-			cout << "Your spendthrift brother says he has a business problem and needs money to run it urgently and asks you to borrow money, but you don't have much savings of your own, you decide:" << endl;
 			cout << "1. Not to lend it to him, you know your brother's personality and that money borrowed will never be repaid." << endl;
 			cout << "2. You lend him the money anyway because your mother and father are also struggling with your brother's business." << endl;
 			cout << "Enter choice: ";
