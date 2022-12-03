@@ -12,7 +12,10 @@ UID(s):
 4. 3035845162
 5. 3035750018
 Project: 
+
+Better change the name?
 <BitTeenLife>
+
 Description: 
 A game that parodies the mobile game BitLife, for ages [13, 36]
 CS Academy Server tested on: 
@@ -39,22 +42,22 @@ using namespace std;
 string events_14_to_17[7] = {
 "There is a new video game. Every friend of yours seem obsessed with it. You find it interesting as well. They constantly invite you to play with them for long hours. What will you do?",
 "For the first time in your life, you have a crush on someone. It feels wonderful but you are shy to approach that person. What will you do?",
-"Drama Society is recruiting. ou always wanted to try being an actor and this is precious opportunity. But you are worried about too much stress of performing a complete play in front of everyone. What will you do?",
+"Drama Society is recruiting. You always wanted to try being an actor and this is precious opportunity. But you are worried about too much stress of performing a complete play in front of everyone. What will you do?",
 "School trip! Please select your destination...",
 "You are learning how to drive an automatic transmission car. In your driving test you...",
-"eeeeeeeeeeeee",
-"xxxxxxxxxxxxxxxx",
+"BFF movienight!!!",
+"Just get back from the hair salon.",
 };
 
 // declaration and initialization of arrays containing events (age 20-23)
 string events_20_to_23[7] = {
 "Someone hot in uni wants to go on a date with you. You will...",
-"Your favourite pop star is coming to Hong Kong on her global tour, but the ticket is so expensive. You will...",
+"Your favourite pop star is coming to Hong Kong on her global tour, but the ticket is so expensive. What will you do?",
 "You have a growing passion about music. You have finally decided to pick up a musical instrument from scratch. You have shortlisted several options. Please make the final decision....",
-"ddddddx",
-"eeeeeex",
-"ffffffx",
-"ttttttx",
+"Graduation! When the fork in life comes, what will you do?",
+"You got several job offers. Which one will you choose?",
+"You are looking for places to live. Which one will you choose?",
+"One of your distant aunts recently passed away and she left you a generous inheritance. How will you spend this small fortune?",
 };
 
 // declaration and initialization of arrays containing events (age 26-29)
