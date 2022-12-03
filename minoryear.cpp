@@ -15,7 +15,7 @@ using namespace std;
 
 // outputs the results of events at ages 14-17
 // inputs: chosen index, player's stats as a pass-by reference
-void resultsEvents14_to_17( int index, Show &s, ofstream & fout ) {
+void resultsevents14_to_17( int index, Show &s, ofstream & fout ) {
 	int choice;
 	cout << "Please enter the choice number when prompted!" << endl;
   cout << "--------------------------------------------------" << endl;
@@ -220,7 +220,7 @@ void resultsEvents14_to_17( int index, Show &s, ofstream & fout ) {
 
 // outputs the results of events at ages 20-23
 // inputs: chosen index, player's stats as a pass-by reference
-void resultsEvents20_to_23( int index, Show &s, ofstream & fout ) {
+void resultsevents20_to_23( int index, Show &s, ofstream & fout ) {
 	int choice;
 	cout << "Please enter the choice number when prompted!" << endl;
   cout << "--------------------------------------------------" << endl;
@@ -497,7 +497,7 @@ void resultsEvents20_to_23( int index, Show &s, ofstream & fout ) {
 
 // outputs the results of events at ages 26-29
 // inputs: chosen index, player's stats as a pass-by reference
-void resultsEvents26_to_29( int index, Show &s, ofstream & fout ) {
+void resultsevents26_to_29( int index, Show &s, ofstream & fout ) {
 	int choice;
 	cout << "Please enter the choice number when prompted!" << endl;
   cout << "--------------------------------------------------" << endl;
@@ -757,7 +757,7 @@ void resultsEvents26_to_29( int index, Show &s, ofstream & fout ) {
 // outputs the results of events at ages 32-35
 // inputs: chosen index, player's stats as a pass-by reference
 
-void resultsEvents32_to_35( int index, Show &s, ofstream & fout ) {
+void resultsevents32_to_35( int index, Show &s, ofstream & fout ) {
 	int choice;
 	cout << "Please enter the choice number when prompted!" << endl;
   cout << "--------------------------------------------------" << endl;
