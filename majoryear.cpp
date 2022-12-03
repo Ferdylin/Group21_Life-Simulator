@@ -112,7 +112,7 @@ void Events19(Show &s, string name, ofstream &fout) {
     cout << "1. Internship is super important!! I will do as many as I can, ever if I need to gap." << endl;
     cout << "2. Dealing with my study as usual, meanwhile looking for remote internships and winter / summer internships."
             << endl;
-    cout << "3.  What? Shouldn’t college students be in lecture halls? Nah, I don’t need internships." << endl;
+    cout << "3. What? Shouldn’t college students be in lecture halls? Nah, I don’t need internships." << endl;
     cout << "Enter choice: ";
     cin >> choice;
 
