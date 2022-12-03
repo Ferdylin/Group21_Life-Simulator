@@ -64,13 +64,13 @@ void resultsevents14_to_17( int index, Show &s, ofstream & fout ) {
 				fout << "Your crush never knows your affection. You feel depressed for not open about your feelings." << endl;
 			}
 			else if ( choice == 2 ) {
-				cout << "“Wow… I like you too!” You become a cute couple. First love is so sweet!" << endl;
+				cout << "'Wow… I like you too!' You become a cute couple. First love is so sweet!" << endl;
 				cout << "<satisfaction +2>" << endl;
 				ChangeStats( s, 0, 0, +2 );
 
 				//save game
 				fout << endl << "Choice: Be brave to express your affection." << endl;
-				fout << "\"Wow… I like you too!\" You become a cute couple. First love is so sweet!" << endl;
+				fout << "'Wow… I like you too!' You become a cute couple. First love is so sweet!" << endl;
 			}
 			else if ( choice == 3 ) {
 				cout << "Your crush hates you and everyone think you are mean. You feel awful." << endl;
@@ -119,7 +119,7 @@ void resultsevents14_to_17( int index, Show &s, ofstream & fout ) {
 
 			if ( choice == 1 ) {
 				cout << "Yeah great time at the zoo!" << endl;
-				cout << "<satisfaction +1>";
+				cout << "<satisfaction +1>" << endl;
 				ChangeStats (s, 0, 0, +1);
 
 				// save game
@@ -128,7 +128,7 @@ void resultsevents14_to_17( int index, Show &s, ofstream & fout ) {
 			}
 			else if ( choice == 2 ) {
 				cout << "Yeah great time at Disneyland!" << endl;
-				cout << "<satisfaction +1>";
+				cout << "<satisfaction +1>" << endl;
 				ChangeStats (s, 0, 0, +1);
 				
 
@@ -138,7 +138,7 @@ void resultsevents14_to_17( int index, Show &s, ofstream & fout ) {
 			}
 			else if ( choice == 3 ) {
 				cout << "Yeah great time at Ocean Park!" << endl;
-				cout << "<satisfaction +1>";
+				cout << "<satisfaction +1>" << endl;
 				ChangeStats (s, 0, 0, +1);
 				
 
@@ -148,7 +148,7 @@ void resultsevents14_to_17( int index, Show &s, ofstream & fout ) {
 			}
 			else if ( choice == 4 ){
 				cout << "Yeah great time at Universal Studios!" << endl;
-				cout << "<satisfaction +1>";
+				cout << "<satisfaction +1>"  << endl;
 				ChangeStats (s, 0, 0, +1);
 				
 				//save game
