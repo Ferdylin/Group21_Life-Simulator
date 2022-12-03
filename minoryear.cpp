@@ -202,10 +202,18 @@ void resultsEvents14_to_17( int index, Show &s, ofstream & fout ) {
 
 
 		case 6:
-			cout << "Just get back from the hair salon. AWFUL haircut." << endl;
-			cout << "<satisfaction-1 wealth-1>" << endl;
-			ChangeStats(s, 0, -1, -1);
-			//save game?
+			cout << "Please enter '1' to continue with the game: " << endl;
+			cin >> choice;
+			if (choice == 1){
+				cout << "You are given an AWFUL haircut. Bad luck :( " << endl;
+				cout << "<wealth -1 satisfaction -1>" << endl;
+				ChangeStats(s, 0, -1, -1);
+				
+				//save game
+				fout << endl << < "No choice made." << endl;
+				fout << "You are given an AWFUL haircut. Bad luck :(" << endl;
+			}
+			
 		}			    
 	 }
 
