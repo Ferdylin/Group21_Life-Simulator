@@ -12,38 +12,28 @@
 
 using namespace std;
 
-// STATS RELATED FUNCTIONS 
-/* 
-[Display Player Stats]
-Inputs: 
-1. Data structure on player stats
-2. Character name
-Outputs:
-1. Player's current stats
-*/
+
+//Stats defined functions for displaying user name, and stats
+// uses data structure
+//It will output player's stats after each event
+
 void ShowStats( Show s, string name ) {
 	cout << endl;
   cout << name << "'s stats: " << endl;
-  cout << "====================================================" << endl;
+  cout << "**====================================================**" << endl;
   cout << "HEALTH: " << s.health << setw( 17 );
-  cout << "WEALTH: " << s.wealth << setw( 17 );
+  cout << "WEALTH: " << s.wealth << setw( 22 );
   cout << "SATISFACTION: " << s.satisfaction;
   cout << endl;
-  cout << "=====================================================" << endl;
+  cout << "**=====================================================**" << endl;
 	cout << endl;
 
   return;
 }
 
-/* 
-[Update Player Stats]
-Inputs:
-1. Data structure on player stats
-2. Effects of events on player stats
-Outputs:
--
-note: range = [0, 2]: increment stats only if they're < 2, decrement stats only if they're > 1; effects which max/min out stats considered separately.
-*/
+//Stats function for updating players' stats, will be incorporated into main.cpp
+//Updating health, wealth and satisfaction accordingly based on events
+
 void ChangeStats( Show &s, int health, int wealth, int satisfaction) {
     //changing health
     if ( wealth == 1 && s.wealth < 3) {
@@ -85,7 +75,7 @@ void ChangeStats( Show &s, int health, int wealth, int satisfaction) {
 		s.health = 3;
 	  }
 
-
+   //changing satisfaction
    if ( satisfaction == 1 && s.satisfaction < 3) {
 		s.satisfaction++;
 	  } 
@@ -108,7 +98,7 @@ void ChangeStats( Show &s, int health, int wealth, int satisfaction) {
 	  return;
 }
 
-//[Summary of the players' inputs]
+//Results defined based on players' final status, different stats will trigger different output lines
 void FinalStats( int health, int wealth, int satisfaction ) {
   cout << endl;
   cout << "Congratulations, this is the end of your game." << endl;
