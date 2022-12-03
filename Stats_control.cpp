@@ -127,59 +127,56 @@ void ChangeStats( Show &s, int health, int wealth, int satisfaction) {
 
 //Results defined based on players' final status, different stats will trigger different output lines
 void FinalStats( int health, int wealth, int satisfaction ) {
-	ofstream fout;
-	fout.open( tempfile.c_str() );
+	
   cout << endl;
   cout << "Congratulations! This is the end of your game." << endl;
   cout << "Let's see what you got. Do you feel like you've lived what's so called a 'good life'?" << endl;
 
   if ( health == 0 && wealth == 0 && satisfaction == 0 ) {
     cout << "Can't say that you're a good life decisions maker...you died of several illnesses and were broke and hunrgy when you passed away" << endl;
-	  fout << "Can't say that you're a good life decisions maker...you died of several illnesses and were broke and hunrgy when you passed away" << endl;
+	  
   }
   else if ( health == 1 && wealth == 1 && satisfaction == 1 ) {
     cout << "You ended up broke and single but at least you're still alive!" << endl;
-	  fout << "You ended up broke and single but at least you're still alive!" << endl;
+	  
   }
   else if ( health == 2 && wealth == 2 && satisfaction == 2 ) {
     cout << "Hey yo, you've lived a pretty decent life, can you tell me how you did that??" << endl;
-	  fout << "Hey yo, you've lived a pretty decent life, can you tell me how you did that??" << endl;
+	  
   }
   else if ( health == 3 && wealth == 3 && satisfaction == 3 ) {
     cout << "Smart, ambitious, rich, and fit! Everyone's jealous of you did you know that?" << endl;
-	  fout << "Smart, ambitious, rich, and fit! Everyone's jealous of you did you know that?" << endl;
+	  
   }
   else if ( health == 3 && wealth < 3 && satisfaction < 3) {
     cout << "Wow guess you're super healthy, congrats for being alive" << endl;
-	  fout << "Wow guess you're super healthy, congrats for being alive" << endl;
+	  
   }
   else if (health < 3 && wealth == 3 && satisfaction < 3) {
     cout << "Smart entrepreneur or a workaholic, anyways, congrats for being rich";
-	  fout << "Smart entrepreneur or a workaholic, anyways, congrats for being rich";
+	  
   }
   else if (health < 3 && wealth < 3 && satisfaction == 3) {
     cout << "Wow you looked so happy, what happened ?!" << endl;
-	  fout << "Wow you looked so happy, what happened ?!" << endl;
-  }
+	  
   else if (health < 2 && wealth <= 2 && satisfaction <= 2) {
     cout << "Dang look at your own health, can't say that you're a good decision maker but at least you've made it through!" << endl;
-	  fout << "Dang look at your own health, can't say that you're a good decision maker but at least you've made it through!" << endl;
+	  
   }
   else if (health <=2 && wealth < 2 && satisfaction <=2) {
     cout << "You're kinda broke, sorry things need to be said..." << endl;
-	  fout << "You're kinda broke, sorry things need to be said..." << endl;
+	  
   }
   else if (health <=2 && wealth <=2 && satisfaction < 2) {
     cout << "Life is hard don't be too depressed my friend" << endl;
-	  fout << "Life is hard don't be too depressed my friend" << endl;
 	  
   }
   else {
     cout << "I guess you've had a...ummm pretty normal life" << endl;
-	  fout << "I guess you've had a...ummm pretty normal life" << endl;
+
   }
 
   cout << endl << "Thanks for playing! Please feel free to play this game as many times as you want to discover different life/career paths for yourself!" << endl;
-	fout.close;
+	
   return;
 }
