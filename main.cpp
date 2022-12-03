@@ -102,6 +102,8 @@ void showevents14_17( Show &s, ofstream & fout ) {
 	while ( true ) {
 		selection = rand() % 7;
 		if ( events_14_to_17[selection] != "Taken" ) {
+			cout << "Please enter the choice number when prompted!" << endl;
+  			cout << "--------------------------------------------------" << endl;
 			cout << events_14_to_17[selection] << endl;
 
 			// saves game progress in temporary file
@@ -139,6 +141,8 @@ void showevents20_23( Show &s, ofstream & fout ) {
 	while ( true ) {
 		selection = rand() % 7;
 		if ( events_20_to_23[selection] != "Taken" ) {
+			cout << "Please enter the choice number when prompted!" << endl;
+  			cout << "--------------------------------------------------" << endl;
 			cout << events_20_to_23[selection] << endl;
 
 			// saves game progress in temporary file
@@ -175,6 +179,8 @@ void showevents26_29( Show &s, ofstream & fout ) {
 	while ( true ) {
 		selection = rand() % 7;
 		if ( events_26_to_29[selection] != "Taken" ) {
+			cout << "Please enter the choice number when prompted!" << endl;
+  			cout << "--------------------------------------------------" << endl;
 			cout << events_26_to_29[selection] << endl;
 
 			// saves game progress in temporary file
@@ -211,6 +217,8 @@ void showevents32_35( Show &s, ofstream & fout ) {
 	while ( true ) {
 		selection = rand() % 7;
 		if ( events_32_to_35[selection] != "Taken" ) {
+			cout << "Please enter the choice number when prompted!" << endl;
+  			cout << "--------------------------------------------------" << endl;
 			cout << events_32_to_35[selection] << endl;
 
 			// saves game progress in temporary file
