@@ -738,6 +738,7 @@ int main() {
 		}
   }
 	if (*age == 36){
+		fout << endl;
 		cout << "Age: 36" << endl;
         cout << "-------" << endl;
 
