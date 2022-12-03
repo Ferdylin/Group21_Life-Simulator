@@ -223,7 +223,7 @@ void Events25(Show &s, string name, ofstream &fout) {
         ChangeStats(s, 0, 0, -2);
 
         //save game
-        fout << endl << "Choice: Keep up with the hard work because you believe that your work would be recognized one day"
+        fout << endl << "Choice: Keep up with the hard work because you believe that your work would be recognized one day" << endl;
         fout << "Your work still was not recognized by any colleagues, and they just kept gossiping about you because they know that you’re not liked by the boss" << endl;
         
     } else if (choice == 3) {
