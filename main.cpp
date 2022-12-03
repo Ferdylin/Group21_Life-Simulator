@@ -68,7 +68,7 @@ string events_26_to_29[7] = {
 "You found out that your ex was severely injured in a car accident, you guys broke up without conflicts and are still friends. You’re currently very happy in your relationship too but doing something stupid might trigger your partner, you will:",
 };
 
-// declaration and initialization of arrays containing events (age 32-34)
+// declaration and initialization of arrays containing events (age 32-35)
 string events_32_to_35[7] = {
 "Your career is becoming stable, and you don't need to worry about it, you think:",
 "When the poor child you sponsored grew up, he/she was sent to:",
