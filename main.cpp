@@ -739,7 +739,7 @@ int main() {
 	string linecopy; // string variable for storing file lines while reading <tempfile>
 	while( getline( copy, linecopy ) ) {
 		save << linecopy << endl; // saves game summary by copying from temporary file
-		//cout << linecopy << endl; // displays summary of game
+		cout << linecopy << endl; //displays summary of game
 	}
 
 	// close all files
