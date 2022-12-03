@@ -28,7 +28,7 @@ void resultsEvents14_to_17( int index, Show &s, ofstream & fout ) {
 
 			if ( choice == 1 ) {
 				cout << "You spend too much time on gaming that your grades are negatively affected. But you achieve high in the game anyway." << endl;
-				cout << "<happiness+2 wealth-1 health-1>" << endl;
+				cout << "<health -1 wealth -1 health -1 satisfaction +2>" << endl;
 				ChangeStats( s, -1, -1, +2);
 				
 
@@ -39,7 +39,7 @@ void resultsEvents14_to_17( int index, Show &s, ofstream & fout ) {
 			}
 			else if ( choice == 2 ) {
 				cout << "You maintain good grades, and have fun in gaming." << endl;
-				cout << "<happiness+1 health+1>" << endl;
+				cout << "<health +1 satisfaction +1>" << endl;
 				ChangeStats( s, +1, 0, +1 );
 
 				//save game
@@ -70,7 +70,7 @@ void resultsEvents14_to_17( int index, Show &s, ofstream & fout ) {
 
 				//save game
 				fout << endl << "Choice: Be brave to express your affection." << endl;
-				fout << "“Wow… I like you too!” You become a cute couple. First love is so sweet!" << endl;
+				fout << "\"Wow… I like you too!\" You become a cute couple. First love is so sweet!" << endl;
 			}
 			else if ( choice == 3 ) {
 				cout << "Your crush hates you and everyone think you are mean. You feel awful." << endl;
@@ -91,7 +91,7 @@ void resultsEvents14_to_17( int index, Show &s, ofstream & fout ) {
 
 			if ( choice == 1 ) {
 				cout << "They are really impressed by your performance! The play turns out to be a huge success. You made great friends and this become a memory of a lifetime." << endl;
-				cout << "<satisfaction+2>" << endl;
+				cout << "<satisfaction +2>" << endl;
 				ChangeStats(s, 0, 0, +1);
 
 				// save game
@@ -100,7 +100,7 @@ void resultsEvents14_to_17( int index, Show &s, ofstream & fout ) {
 			}
 			else if ( choice == 2 ) {
 				cout << "Bad choice! If you want something, just go for it!" << endl;
-				cout << "<satisfaction-2>" << endl;
+				cout << "<satisfaction -1>" << endl;
 				ChangeStats( s, 0, 0, -1 );
 
 				//save game
@@ -119,7 +119,8 @@ void resultsEvents14_to_17( int index, Show &s, ofstream & fout ) {
 
 			if ( choice == 1 ) {
 				cout << "Yeah great time at the zoo!" << endl;
-				
+				cout << "<satisfaction +1>";
+				ChangeStats (s, 0, 0, +1);
 
 				// save game
 				fout << endl << "Choice: zoo." << endl;
@@ -127,7 +128,8 @@ void resultsEvents14_to_17( int index, Show &s, ofstream & fout ) {
 			}
 			else if ( choice == 2 ) {
 				cout << "Yeah great time at Disneyland!" << endl;
-				
+				cout << "<satisfaction +1>";
+				ChangeStats (s, 0, 0, +1);
 				
 
 				//save game
@@ -136,7 +138,8 @@ void resultsEvents14_to_17( int index, Show &s, ofstream & fout ) {
 			}
 			else if ( choice == 3 ) {
 				cout << "Yeah great time at Ocean Park!" << endl;
-				
+				cout << "<satisfaction +1>";
+				ChangeStats (s, 0, 0, +1);
 				
 
 				//save game
@@ -149,9 +152,10 @@ void resultsEvents14_to_17( int index, Show &s, ofstream & fout ) {
 				//save game
 				fout << endl << "Choice: Universal Studios." << endl;
 				fout << endl << "Yeah great time at Universal Studios!" << endl;
+				cout << "<satisfaction +1>";
+				ChangeStats (s, 0, 0, +1);
 			}	
-			cout << "<satisfaction+1>";
-			ChangeStats (s, 0, 0, +1);
+			
 
 		
 		case 4:
@@ -163,7 +167,7 @@ void resultsEvents14_to_17( int index, Show &s, ofstream & fout ) {
 
 			if ( choice == 1 ) {
 				cout << "!!!Car Crash Warning!!! Failed your test." << endl;
-				cout << "<satisfaction-1>" << endl;
+				cout << "<health-1 satisfaction -1>" << endl;
 				ChangeStats(s, -1, 0, -1);
 
 				// save game
@@ -172,7 +176,7 @@ void resultsEvents14_to_17( int index, Show &s, ofstream & fout ) {
 			}
 			else if ( choice == 2 ) {
 				cout << "Congratulations on your driver’s licence!" << endl;
-				cout << "<satisfaction+!>" << endl;
+				cout << "<satisfaction+1>" << endl;
 				ChangeStats( s, 0, 0, +1 );
 
 				//save game
@@ -183,11 +187,18 @@ void resultsEvents14_to_17( int index, Show &s, ofstream & fout ) {
 
 
 		case 5:
-			cout << "Best Friends Movie Night! You are so lucky to have each other~" << endl;
-			cout << "<satisfaction+2>" << endl;
-			ChangeStats(s, 0, 0, +2);
-					    
-			//save game	    
+			cout << "Please enter '1' to continue with the game: " << endl;
+			cin >> choice;
+			if (choice == 1){
+				cout << "You are so lucky to have each oter~" << endl;
+				cout << "<satisfaction +2>" << endl;
+				ChangeStats(s, 0, 0, +2);
+				
+				//save game
+				fout << endl << < "No choice made." << endl;
+				fout << "You are so lucky to have each oter~" << endl;
+			}	
+				    
 
 
 		case 6:
