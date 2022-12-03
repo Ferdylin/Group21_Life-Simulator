@@ -774,6 +774,16 @@ int main() {
 	// ShowStats( player, name );
   	FinalStats( player.health, player.wealth, player.satisfaction );
 	
+	fout << endl;
+  	fout << name << "'s stats: " << endl;
+  	fout << "**================================================**" << endl;
+  	fout << "HEALTH: " << s.health << setw( 17 );
+  	fout << "WEALTH: " << s.wealth << setw( 22 );
+  	fout << "SATISFACTION: " << s.satisfaction;
+  	fout << endl;
+  	fout << "**================================================**" << endl;
+  	fout << endl;
+	
 	string linecopy; // string variable for storing file lines while reading <tempfile>
 	while( getline( copy, linecopy ) ) {
 		save << linecopy << endl; // saves game summary by copying from temporary file
