@@ -12,10 +12,6 @@ void Events18 ( Show &s, string name, ofstream & fout );
 
 void Events19 ( Show &s, string name, ofstream & fout );
 
-void Events21 ( Show &s, string name, ofstream & fout );
-
-void Events23 ( Show &s, string name, ofstream & fout );
-
 void Events24 ( Show &s, string name, ofstream & fout );
 
 void Events25 ( Show &s, string name, ofstream & fout );
