@@ -751,7 +751,7 @@ int main() {
 	}
 
   	delete age; // delete dynamic variable
-	
+	fout.close(); // close temporary file
 
 	
 
@@ -760,17 +760,9 @@ int main() {
 	// ShowStats( player, name );
   	FinalStats( player.health, player.wealth, player.satisfaction );
 	
-	fout << endl;
-  	fout << name << "'s stats: " << endl;
-  	fout << "**================================================**" << endl;
-  	fout << "HEALTH: " << s.health << setw( 17 );
-  	fout << "WEALTH: " << s.wealth << setw( 22 );
-  	fout << "SATISFACTION: " << s.satisfaction;
-  	fout << endl;
-  	fout << "**================================================**" << endl;
-  	fout << endl;
 	
-	fout.close(); // close temporary file
+	
+	
 	
 	// declare ofstream object for copying contents in <tempfile> to <filename>
 	ofstream save;
