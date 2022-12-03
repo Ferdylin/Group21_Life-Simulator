@@ -93,7 +93,7 @@ void Events18(Show &s, string name, ofstream &fout) {
         fout << endl << "Choice: I will definitely put efforts in my schoolwork. Just not today!" << endl;
         fout << "Procrastination is never the answer! Fighting deadlines makes you exhausted. But in the end you are smart enough to get into a university anyway." << endl;
     } else if (choice == 3) {
-        cout << "Confidence keeps you going. Your hard work finally pays off!!." << endl;
+        cout << "Confidence keeps you going. Your hard work finally pays off!!!" << endl;
         cout << "<satisfaction +2>" << endl;
         ChangeStats(s, 0, 0, +2);
 
