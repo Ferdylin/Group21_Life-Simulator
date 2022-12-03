@@ -770,6 +770,8 @@ int main() {
   	fout << "**================================================**" << endl;
   	fout << endl;
 	
+	fout.close(); // close temporary file
+	
 	// declare ofstream object for copying contents in <tempfile> to <filename>
 	ofstream save;
 	save.open( filename.c_str() ); // open user-provided file <filename> for saving game progress 
@@ -795,7 +797,7 @@ int main() {
 	// close all files
 	save.close();
 	copy.close();
-	fout.close(); // close temporary file
+	
 
 	
 	// informs player that a summary of their game can be viewed in the file they provided
