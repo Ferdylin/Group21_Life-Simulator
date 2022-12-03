@@ -227,14 +227,14 @@ void resultsEvents20_to_23( int index, Show &s, ofstream & fout ) {
 	switch ( index ) {
 		case 0:
 			cout << "1. Hey it's college, step aside GPA! I only care about my love life." << endl;
-			cout << "2.  Surely I can balance my study and love life." << endl;
+			cout << "2. Surely I can balance my study and love life." << endl;
 			cout << "3. Getting into Stanford is all I want." << endl;
 			cout << "Enter choice: ";
 			cin >> choice;
 
 			if ( choice == 1 ) {
 				cout << "Congratulations on a very romantic college experience! Unfortunately, now you have a really fucked-up GPA." << endl;
-				cout << "<health+1 wealth-1 satisfaction+1>" << endl;
+				cout << "<health +1 wealth -1 satisfaction +1>" << endl;
 				ChangeStats(s, +1, -1, +1);
 
 				// save game
@@ -243,7 +243,7 @@ void resultsEvents20_to_23( int index, Show &s, ofstream & fout ) {
 			}
 			else if ( choice == 2 ) {
 				cout << "Oh no, you’ve overestimated yourself." << endl;
-				cout << "<wealth-1 satisfaction+1>" << endl;
+				cout << "<wealth -1 satisfaction +1>" << endl;
 				ChangeStats( s, 0, -1, +1 );
 
 				//save game
@@ -252,7 +252,7 @@ void resultsEvents20_to_23( int index, Show &s, ofstream & fout ) {
 			}
 			else if ( choice == 3 ) {
 				cout << "GPA++! Everything seems great except the sad fact that you remain single throughout college.." << endl;
-				cout << "<satisfaction-1>" << endl;
+				cout << "<satisfaction -1>" << endl;
 				ChangeStats( s, 0, 0, -1 );
 
 				//save game
@@ -269,7 +269,7 @@ void resultsEvents20_to_23( int index, Show &s, ofstream & fout ) {
 
 			if ( choice == 1 ) {
 				cout << "This indeed turns out to be an experience of a lifetime." << endl;
-				cout << "<satisfaction+2 wealth-2>" << endl;
+				cout << "<satisfaction +2 wealth -2>" << endl;
 				ChangeStats(s, 0, -2, +2);
 
 				// save game
@@ -277,13 +277,13 @@ void resultsEvents20_to_23( int index, Show &s, ofstream & fout ) {
 				fout << "This indeed turns out to be an experience of a lifetime." << endl;
 			}
 			else if ( choice == 2 ) {
-				
-				cout << "<satisfaction-1>" << endl;
+				cout << ":)" << endl;
+				cout << "<satisfaction -1>" << endl;
 				ChangeStats( s, 0, 0, -1 );
 
 				//save game
-				fout << endl << "Sounds like I can only give it up ." << endl;
-				fout << "666666666666666666666666666" << endl;
+				fout << endl << "Choice: Sounds like I can only give it up ." << endl;
+				fout << ":)" << endl;
 			}
 			
 		case 2:	
@@ -296,16 +296,17 @@ void resultsEvents20_to_23( int index, Show &s, ofstream & fout ) {
 
 			if ( choice == 1 ) {
 				cout << "Piano turns out to be your lifelong interest." << endl;
-				
+				cout << "<satisfaction +1 wealth -1>" << endl;
+				ChangeStats(s, 0, -1, +1);
 
 				// save game
 				fout << endl << "Choice: Piano." << endl;
 				fout << "Piano turns out to be your lifelong interest." << endl;
 			}
 			else if ( choice == 2 ) {
-				cout << "Violin turns out to be your lifelong interest." << endl;
-				cout << "<55555555555>" << endl;
-				
+				cout << "<Violin turns out to be your lifelong interest.>" << endl;
+				cout << "<satisfaction +1 wealth -1>" << endl;
+				ChangeStats(s, 0, -1, +1);
 
 				//save game
 				fout << endl << "Choice: Violin" << endl;
@@ -313,22 +314,23 @@ void resultsEvents20_to_23( int index, Show &s, ofstream & fout ) {
 			}
 			else if ( choice == 3 ) {
 				cout << "Guitar turns out to be your lifelong interest.." << endl;
-				
+				cout << "<satisfaction +1 wealth -1>" << endl;
+				ChangeStats(s, 0, -1, +1);
 
 				//save game
-				fout << endl << "Choice: Guitar" << endl;
+				fout << endl << "Choice: Guitar." << endl;
 				fout << "Guitar turns out to be your lifelong interest." << endl;
 			}
 			else if ( choice == 4 ){
 				cout << "Drum turns out to be your lifelong interest.." << endl;
-				
+				cout << "<satisfaction +1 wealth -1>" << endl;
+				ChangeStats(s, 0, -1, +1);
 
 				//save game
-				fout << endl << "Choice: Drum" << endl;
+				fout << endl << "Choice: Drum." << endl;
 				fout << "Drum turns out to be your lifelong interest." << endl;
 			}
-			cout << "<satisfaction+1 wealth-1>" << endl;
-			ChangeStats(s, 0, -1, +1);
+			
 	}
 }
 
