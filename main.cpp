@@ -311,11 +311,12 @@ bool growUpOrQuit( int * &age, string filename, string tempfile, Show player, st
 
 //general user guidline (message prompt will be provided below:
 int main() {
-  cout << "Welcome to your own life-simulator" << endl; 
-  cout << "Here you will live a life from the age of 13 - 35" << endl;
+  cout << "Welcome to LoveLifeLaughter, your own life-simulator!" << endl; 
+  cout << "Here you will live a life from 13 to 36." << endl;
+  cout << "But bear in mind that this game is just for fun. PLEASE don't take it seriously." << endl;
   cout << "Please make sure that:" << endl;
-  cout << "1. All inputs entered are VALID INPUTS" << endl;
-  cout << "2. Name should consist of characters ONLY" << endl << endl;
+  cout << "1. All inputs entered are VALID INPUTS." << endl;
+  cout << "2. Name should consist of characters ONLY." << endl << endl;
 
 	srand( time( NULL ) ); // initiates the random seed
 	string name; // declare string variable for player name
