@@ -95,7 +95,7 @@ void showevents14_17( Show &s, ofstream & fout ) {
 	
 	
 	fout << "[ Random Event ]" << endl;
-	cout << endl;
+	
 
 	int selection;
 
@@ -135,7 +135,7 @@ void showevents20_23( Show &s, ofstream & fout ) {
 	
 	
 	fout << "[ Random Event ]" << endl;
-	cout << endl;
+	
 
 	int selection;
 
@@ -174,7 +174,7 @@ void showevents26_29( Show &s, ofstream & fout ) {
 	
 	
 	fout << "[ Random Event ]" << endl;
-	cout << endl;
+	
 
 	int selection;
 
@@ -213,7 +213,7 @@ void showevents32_35( Show &s, ofstream & fout ) {
 	
 	
 	fout << "[ Random Event ]" << endl;
-	cout << endl;
+	
 
 	int selection;
 
