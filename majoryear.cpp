@@ -140,6 +140,7 @@ void Events19(Show &s, string name, ofstream &fout) {
              << endl;
         fout << "Sorry but there are barely any internship opportunities to your needs." << endl;
     } else if (choice == 3) {
+        
         cout
                 << "You at job interviews after graduation: what do you mean “you won’t consider college graduates with no internship experiences”?!"
                 << endl;
@@ -152,17 +153,13 @@ void Events19(Show &s, string name, ofstream &fout) {
         fout
                 << "You at job interviews after graduation: what do you mean “you won’t consider college graduates with no internship experiences”?!"
                 << endl;
-    }
-}
-
-
 
         ChangeStats(s, 0, +1, -2);
 
         //save game
         fout << endl << "Choice: Continue study." << endl;
         fout << "You fail to get into a school you like. Guess you have to join the workforce anyway." << endl;
-    }
+        }
 
 }
 
