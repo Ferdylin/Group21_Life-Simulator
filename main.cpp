@@ -455,7 +455,7 @@ int main() {
         fout << "Age: 14" << endl;
         fout << "-------" << endl;
 
-        printEvents14_17( player, fout );
+        showevents14_17( player, fout );
         ShowStats( player, name );
 				break;
 
@@ -466,7 +466,7 @@ int main() {
         fout << "Age: 15" << endl;
         fout << "-------" << endl;
 
-        printEvents14_17( player, fout );
+        showevents14_17( player, fout );
         ShowStats( player, name );		
 				break;
 
@@ -477,7 +477,7 @@ int main() {
         fout << "Age: 16" << endl;
         fout << "-------" << endl;		
 
-        printEvents14_17( player, fout );
+        showevents14_17( player, fout );
         ShowStats( player, name );
 				break;
 
@@ -488,7 +488,7 @@ int main() {
         fout << "Age: 17" << endl;
         fout << "-------" << endl;
 
-        printEvents14_17( player, fout );
+        showevents14_17( player, fout );
         ShowStats( player, name );	
 				break;
 
@@ -509,7 +509,7 @@ int main() {
         fout << "Age: 19" << endl;
         fout << "-------" << endl;
 
-        Events19( player, name, fout );
+        resultEvents14_17( player, name, fout );
         break;
 
       case 20:
@@ -519,7 +519,7 @@ int main() {
         fout << "Age: 20" << endl;
         fout << "-------" << endl;
 
-        printEvents20_23( player, fout );
+        showevents20_23( player, fout );
         ShowStats( player, name );
         break;
 
@@ -530,7 +530,7 @@ int main() {
         fout << "Age: 21" << endl;
         fout << "-------" << endl;
 
-        Events21( player, name, fout);
+        resultEvents20_23( player, name, fout);
         break;
 
       case 22:
@@ -540,7 +540,7 @@ int main() {
         fout << "Age: 22" << endl;
         fout << "-------" << endl;
 
-        printEvents20_23( player, fout );
+        showevents20_23( player, fout );
         ShowStats( player, name );	
         break;
 
@@ -551,7 +551,7 @@ int main() {
         fout << "Age: 23" << endl;
         fout << "-------" << endl;
 
-        Events23( player, name, fout);
+        resultEvent20_23( player, name, fout);
         break;
 		
       case 24:
@@ -571,7 +571,7 @@ int main() {
         fout << "Age: 25" << endl;
         fout << "-------" << endl;
 
-        Events25( player, name, fout );
+        resultEvents26_29( player, name, fout );
         break;
 
       case 26:
@@ -581,7 +581,7 @@ int main() {
         fout << "Age: 26" << endl;
         fout << "-------" << endl;
 
-        printEvents26_29( player, fout );
+        showevents26_29( player, fout );
         ShowStats( player, name );	
         break;
 
@@ -592,7 +592,7 @@ int main() {
         fout << "Age: 27" << endl;
         fout << "-------" << endl;
 
-        printEvents26_29( player, fout );
+        showevents26_29( player, fout );
         ShowStats( player, name );	
         break;
       
@@ -603,7 +603,7 @@ int main() {
         fout << "Age: 28" << endl;
         fout << "-------" << endl;
 
-        printEvents26_29( player, fout );
+        showevents26_29( player, fout );
         ShowStats( player, name );	
         break;
 
@@ -614,7 +614,7 @@ int main() {
         fout << "Age: 29" << endl;
         fout << "-------" << endl;
 
-        printEvents26_29( player, fout );
+        showevents26_29( player, fout );
         ShowStats( player, name );	
         break;
 
@@ -645,7 +645,7 @@ int main() {
         fout << "Age: 32" << endl;
         fout << "-------" << endl;
 
-        printEvents32_35( player, fout );
+        showevents32_35( player, fout );
         ShowStats( player, name );	
         break;
       
@@ -656,7 +656,7 @@ int main() {
         fout << "Age: 33" << endl;
         fout << "-------" << endl;
 
-        printEvents32_35( player, fout );
+        showevents32_35( player, fout );
         ShowStats( player, name );	
         break;
 
@@ -667,7 +667,7 @@ int main() {
         fout << "Age: 34" << endl;
         fout << "-------" << endl;
 
-        printEvents32_35( player, fout );
+        showevents32_35( player, fout );
         ShowStats( player, name );	
         break;
 
@@ -678,7 +678,7 @@ int main() {
         fout << "Age: 35" << endl;
         fout << "-------" << endl;
 
-        printEvents32_35( player, fout );
+        showevents32_35( player, fout );
         ShowStats( player, name );	
         break;
 
@@ -689,7 +689,7 @@ int main() {
         fout << "Age: 36" << endl;
         fout << "-------" << endl;
 
-        Events36( player, name, fout );
+        resultEvents32_35( player, name, fout );
         break;
 
 		}
