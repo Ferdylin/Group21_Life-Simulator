@@ -716,6 +716,7 @@ int main() {
 	ShowStats( player, name );
 		fout.close();
 		delete age;
+	}
 
   delete age; // delete dynamic variable
 	fout.close(); // close temporary file
