@@ -46,6 +46,7 @@ void resultsevents14_to_17( int index, Show &s, ofstream & fout ) {
 				fout << endl << "Play the game but try not to indulge in it. School and your life and other gaming are equally important." << endl;
 				fout << "You maintain good grades, and have fun in gaming." << endl;
 			}
+			break;
 
 		case 1:
 			cout << "1. Burry your feelings and act as if nothing happens." << endl;
@@ -81,6 +82,7 @@ void resultsevents14_to_17( int index, Show &s, ofstream & fout ) {
 				fout << endl << "Choice: Tease your crush to get attention." << endl;
 				fout << "Your crush hates you and everyone think you are mean. You feel awful" << endl;
 			}
+			break;
 
 		case 2:  
 			cout << "1. I’ll go to the audition!" << endl;
@@ -106,7 +108,8 @@ void resultsevents14_to_17( int index, Show &s, ofstream & fout ) {
 				//save game
 				fout << endl << "Choice: Maybe… I’ll try next time?" << endl;
 				fout << "Bad choice! If you want something, just go for it!" << endl;
-		}
+			}
+			break;
 			
 		
 		case 3:	    
@@ -155,7 +158,7 @@ void resultsevents14_to_17( int index, Show &s, ofstream & fout ) {
 				fout << endl << "Choice: Universal Studios." << endl;
 				fout << endl << "Yeah great time at Universal Studios!" << endl;
 			}	
-			
+			break;
 
 		
 		case 4:
@@ -183,7 +186,7 @@ void resultsevents14_to_17( int index, Show &s, ofstream & fout ) {
 				fout << endl << "Choice: Use one foot to apply the brake and throttle." << endl;
 				fout << "Congratulations on your driver’s licence" << endl;
 			}
-			
+			break;
 
 
 		case 5:
@@ -198,7 +201,7 @@ void resultsevents14_to_17( int index, Show &s, ofstream & fout ) {
 				fout << endl << "No choice made." << endl;
 				fout << "You are so lucky to have each oter~" << endl;
 			}	
-				    
+			break;	    
 
 
 		case 6:
@@ -213,7 +216,7 @@ void resultsevents14_to_17( int index, Show &s, ofstream & fout ) {
 				fout << endl << "No choice made." << endl;
 				fout << "You are given an AWFUL haircut. Bad luck :(" << endl;
 			}
-			
+			break;
 		}			    
 	 }
 
@@ -259,6 +262,7 @@ void resultsevents20_to_23( int index, Show &s, ofstream & fout ) {
 				fout << endl << "Choice: Getting into Stanford is all I want." << endl;
 				fout << "GPA++! Everything seems great except the sad fact that you remain single throughout college." << endl;
 			}
+			break;
 
 
 		case 1:
@@ -285,6 +289,7 @@ void resultsevents20_to_23( int index, Show &s, ofstream & fout ) {
 				fout << endl << "Choice: Sounds like I can only give it up ." << endl;
 				fout << ":)" << endl;
 			}
+			break;
 			
 		case 2:	
 			cout << "1. Piano" << endl;
@@ -330,6 +335,8 @@ void resultsevents20_to_23( int index, Show &s, ofstream & fout ) {
 				fout << endl << "Choice: Drum." << endl;
 				fout << "Drum turns out to be your lifelong interest." << endl;
 			}
+			break;
+			
 		case 3: 
 			cout << "1. Get a job." << endl;
 			cout << "2. Continue study." << endl;
@@ -355,6 +362,7 @@ void resultsevents20_to_23( int index, Show &s, ofstream & fout ) {
         			fout << endl << "Choice: Continue study." << endl;
         			fout << "You fail to get into a school you like. Guess you have to join the workforce anyway." << endl;
 			}
+			break;
 		case 4: 
 			cout << "1. Big Tech." << endl;
 			cout << "2. Financial industry, equity research." << endl;
@@ -390,6 +398,7 @@ void resultsevents20_to_23( int index, Show &s, ofstream & fout ) {
         			fout << endl << "Choice: Financial industry, IBD." << endl;
         			fout << "You land a shiny job. But bad news is… you have to work around the clock." << endl;
     			}
+			break;
 		case 5: 
 			cout << "1. Get my own apartment." << endl;
 			cout << "2. Share an apartment." << endl;
@@ -425,6 +434,7 @@ void resultsevents20_to_23( int index, Show &s, ofstream & fout ) {
         			fout << endl << "Choice: Stay in a hotel." << endl;
         			fout << "Most comfortable!" << endl;
     			}
+			break;
 		case 6: 
 			cout << "1. Designer clothes and shoes." << endl;
 			cout << "2. Sports car." << endl;
@@ -483,7 +493,7 @@ void resultsevents20_to_23( int index, Show &s, ofstream & fout ) {
 				fout << endl << "You are a person with a big, big heart." << endl;
 				
 			}	
-				
+			break;	
 				
 			
 	}
@@ -536,6 +546,7 @@ void resultsevents26_to_29( int index, Show &s, ofstream & fout ) {
 				fout << endl << "Choice: You negotiated with your partner; you told her it is necessary for you to prioritise your professional life before the relationship. And promised them a bright future." << endl;
 				fout << "Surprisingly your partner was very accommodating, they understood how important this is to you and had decided to support you along the way. Meanwhile, your presentation last week was a blast, you got promoted to a VP position within the firm, congratulations!" << endl;
 			}
+			break;
 
 
 		case 1:
@@ -572,6 +583,7 @@ void resultsevents26_to_29( int index, Show &s, ofstream & fout ) {
 				fout << endl << "Choice: Apply for other jobs that fit your skill sets and which you found interesting." << endl;
 				fout << "Sorry but nothing really happened, you should’ve known that job hunting isn’t easy…and you’ve decided to stay with your current company." << endl;
 			}
+			break;
 
 		case 2:
 			cout << "1. Tiktok Dance" << endl;
@@ -607,6 +619,7 @@ void resultsevents26_to_29( int index, Show &s, ofstream & fout ) {
 				fout << endl << "Choice: Random funny reels" << endl;
 				fout << "You started doing stupid stuff like running around and asking stupid questions at strangers, the market is saturated so you’re not getting as many likes as you expected, but at least you’re getting healthier with more exercise." << endl;
 			}
+			break;
 		
 		case 3:
 			cout << "1. Pay for her bill and ask her to take pictures with you" << endl;
@@ -642,6 +655,7 @@ void resultsevents26_to_29( int index, Show &s, ofstream & fout ) {
 				fout << endl << "Choice: Freaked out and screamed out “Beyonce is here!" << endl;
 				fout << "You then got paparazzis following you around, you even got posted on Instagram. You felt very anxious about this." << endl;
 			}
+			break;
 		
 		case 4:
 			cout << "1. You think crypto is BS and had decided not to invest your money eventually" << endl;
@@ -677,6 +691,7 @@ void resultsevents26_to_29( int index, Show &s, ofstream & fout ) {
 				fout << endl << "Choice: You don’t know much about crypto but had decided to diversify your investment portfolio anyway, so you had invested 20% of your idle cash. You also took some spare time of yours to learn about Web3 and crypto." << endl;
 				fout << "Oops, the crypto market crashed but at least you did not invest all your idle cash into the platform. Smart business guy!" << endl;
 			}
+			break;
 
 		case 5:
 			cout << "1. Skiing in Hokkaido" << endl;
@@ -713,6 +728,7 @@ void resultsevents26_to_29( int index, Show &s, ofstream & fout ) {
 				fout << endl << "Choice: Going to Cheung Chau Island" << endl;
 				fout << "You have an argument with a local resident and are left with an unpleasant experience." << endl;
 			}
+			break;
 
 		case 6:
 			cout << "1. Go visit your ex and offered to pay for their medical expenses" << endl;
@@ -749,6 +765,7 @@ void resultsevents26_to_29( int index, Show &s, ofstream & fout ) {
 				fout << endl << "Choice: Not visit your ex, nor contact them anymore" << endl;
 				fout << "Your partner was very pleased with your loyalty and your commitment for their relationship, they have decided to buy a big house for you in Hong Kong Island but however, you have no idea where the money comes from…" << endl;
 			}
+			break;
     }
 }
 
@@ -796,6 +813,7 @@ void resultsevents32_to_35( int index, Show &s, ofstream & fout ) {
 				fout << endl << "Choice: Play video games with old friends" << endl;
 				fout << "You get together with old friends to play video games and it seems like you've got your fun back, but you feel uncomfortable with your wrists and eyes while playing." << endl;
 			}
+			break;
 
 		case 1:
 			cout << "1. Happy school" << endl;
@@ -821,6 +839,7 @@ void resultsevents32_to_35( int index, Show &s, ofstream & fout ) {
 				fout << endl << "Choice: International schools that are expensive but are said to have good teachers" << endl;
 				fout << "He/She occasionally complained that school work was a little difficult and that he had less time for play when he got home." << endl;
 			}
+			break;
 
 		case 2:
 			cout << "1. Go to the doctor for a prescription" << endl;
@@ -856,6 +875,7 @@ void resultsevents32_to_35( int index, Show &s, ofstream & fout ) {
 				fout << endl << "Choice: Ignore" << endl;
 				fout << "You forgot about this inspection and are still eating and drinking as usual every day." << endl;
 			}
+			break;
 		
 		case 3:
 			cout << "1. Take out a loan to buy a 200 sq m house." << endl;
@@ -881,6 +901,7 @@ void resultsevents32_to_35( int index, Show &s, ofstream & fout ) {
 				fout << endl << "Choice: Buy a house of 80 sq m with full payment." << endl;
 				fout << "You are quite content with the small house you bought with full payment, but it is too small, and the house is very cramped when you move in." << endl;
 			}
+			break;
 		
 		case 4:
 			cout << "1. Buy the opposite" << endl;
@@ -916,6 +937,7 @@ void resultsevents32_to_35( int index, Show &s, ofstream & fout ) {
 				fout << endl << "Choice: You think that you are unlucky and don't place a bet." << endl;
 				fout << "You look at the players on the TV and think back to your youth." << endl;
 			}
+			break;
 
 		case 5:
 			cout << "1. You are confident in your own strength and sign the contract without knowing more about the company." << endl;
@@ -941,6 +963,7 @@ void resultsevents32_to_35( int index, Show &s, ofstream & fout ) {
 				fout << endl << "Choice: You think he's a scam artist and don't want to believe him, so you just walk away." << endl;
 				fout << "You think this kind of scouting is just a TV show and you don't know which scammer is so inexperienced." << endl;
 			}
+			break;
 
 		case 6:
 			cout << "1. Not to lend it to him, you know your brother's personality and that money borrowed will never be repaid." << endl;
@@ -966,6 +989,7 @@ void resultsevents32_to_35( int index, Show &s, ofstream & fout ) {
 				fout << endl << "Choice: You lend him the money anyway because your mother and father are also struggling with your brother's business." << endl;
 				fout << "You decide to lend him the money and your parents praise you but you are also worried that your savings are too insufficient." << endl;
 			}
+			break;
 	}
     return;
   }
