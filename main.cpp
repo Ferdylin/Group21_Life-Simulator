@@ -93,7 +93,7 @@ OUTPUT(s):
 */
 void showevents14_17( Show &s, ofstream & fout ) {
 	
-	cout << "[ Random Event ]";
+	
 	fout << "[ Random Event ]" << endl;
 	cout << endl;
 
@@ -104,6 +104,7 @@ void showevents14_17( Show &s, ofstream & fout ) {
 		if ( events_14_to_17[selection] != "Taken" ) {
 			cout << "Please enter the choice number when prompted!" << endl;
   			cout << "--------------------------------------------------" << endl;
+			cout << "[ Random Event ]";
 			cout << events_14_to_17[selection] << endl;
 
 			// saves game progress in temporary file
@@ -132,7 +133,7 @@ OUTPUT(s):
 */
 void showevents20_23( Show &s, ofstream & fout ) {
 	
-	cout << "[ Random Event ]";
+	
 	fout << "[ Random Event ]" << endl;
 	cout << endl;
 
@@ -143,6 +144,7 @@ void showevents20_23( Show &s, ofstream & fout ) {
 		if ( events_20_to_23[selection] != "Taken" ) {
 			cout << "Please enter the choice number when prompted!" << endl;
   			cout << "--------------------------------------------------" << endl;
+			cout << "[ Random Event ]";
 			cout << events_20_to_23[selection] << endl;
 
 			// saves game progress in temporary file
@@ -170,7 +172,7 @@ OUTPUT(s):
 */
 void showevents26_29( Show &s, ofstream & fout ) {
 	
-	cout << "[ Random Event ]";
+	
 	fout << "[ Random Event ]" << endl;
 	cout << endl;
 
@@ -181,6 +183,7 @@ void showevents26_29( Show &s, ofstream & fout ) {
 		if ( events_26_to_29[selection] != "Taken" ) {
 			cout << "Please enter the choice number when prompted!" << endl;
   			cout << "--------------------------------------------------" << endl;
+			cout << "[ Random Event ]";
 			cout << events_26_to_29[selection] << endl;
 
 			// saves game progress in temporary file
@@ -208,7 +211,7 @@ OUTPUT(s):
 */
 void showevents32_35( Show &s, ofstream & fout ) {
 	
-	cout << "[ Random Event ]";
+	
 	fout << "[ Random Event ]" << endl;
 	cout << endl;
 
@@ -219,6 +222,7 @@ void showevents32_35( Show &s, ofstream & fout ) {
 		if ( events_32_to_35[selection] != "Taken" ) {
 			cout << "Please enter the choice number when prompted!" << endl;
   			cout << "--------------------------------------------------" << endl;
+			cout << "[ Random Event ]";
 			cout << events_32_to_35[selection] << endl;
 
 			// saves game progress in temporary file
