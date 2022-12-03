@@ -127,6 +127,8 @@ void ChangeStats( Show &s, int health, int wealth, int satisfaction) {
 
 //Results defined based on players' final status, different stats will trigger different output lines
 void FinalStats( int health, int wealth, int satisfaction ) {
+	ofstream fout;
+	fout.open( tempfile.c_str() );
   cout << endl;
   cout << "Congratulations! This is the end of your game." << endl;
   cout << "Let's see what you got. Do you feel like you've lived what's so called a 'good life'?" << endl;
@@ -178,5 +180,6 @@ void FinalStats( int health, int wealth, int satisfaction ) {
   }
 
   cout << endl << "Thanks for playing! Please feel free to play this game as many times as you want to discover different life/career paths for yourself!" << endl;
+	fout.close;
   return;
 }
