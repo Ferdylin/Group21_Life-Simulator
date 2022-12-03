@@ -115,7 +115,7 @@ void Events19(Show &s, string name, ofstream &fout) {
 
     if (choice == 1) {
         cout << "You end up with a pretty impressive CV. But you are also burnt out." << endl;
-        cout << "health -1 wealth +1 satisfaction -1" << endl;
+        cout << "<health -1 wealth +1 satisfaction -1>" << endl;
         ChangeStats(s, -1, +1, -1);
 
         // save game
@@ -124,7 +124,7 @@ void Events19(Show &s, string name, ofstream &fout) {
         fout << "You end up with a pretty impressive CV. But you are also burnt out." << endl;
     } else if (choice == 2) {
         cout << "Sorry but there are barely any internship opportunities to your needs." << endl;
-        cout << "health -1" << endl;
+        cout << "<health -1>" << endl;
         ChangeStats(s, -1, 0, 0);
 
         //save game
@@ -133,7 +133,7 @@ void Events19(Show &s, string name, ofstream &fout) {
     } else if (choice == 3) {
         
         cout << "You at job interviews after graduation: what do you mean “you won’t consider college graduates with no internship experiences”?!" << endl;
-        cout << "health +1 satisfaction +2" << endl;
+        cout << "<health +1 satisfaction +2>" << endl;
         ChangeStats(s, +1, 0, +2);
 
         //save game
