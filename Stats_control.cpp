@@ -25,7 +25,7 @@ void ShowStats( Show s, string name ) {
   cout << "WEALTH: " << s.wealth << setw( 22 );
   cout << "SATISFACTION: " << s.satisfaction;
   cout << endl;
-  cout << "**=================================================**" << endl;
+  cout << "**================================================**" << endl;
 	cout << endl;
 
   return;
