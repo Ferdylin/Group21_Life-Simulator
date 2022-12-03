@@ -71,12 +71,12 @@ string events_26_to_29[7] = {
 // declaration and initialization of arrays containing events (age 32-34)
 string events_32_to_35[7] = {
 "Your career is becoming stable, and you don't need to worry about it, you think:",
+"When the poor child you sponsored grew up, he/she was sent to:",
 "You're tested for high blood pressure and high cholesterol, and you decide:",
 "House prices have risen quite a lot recently and you want to:",
 "When the World Cup starts and you get together with old friends to watch the game, you decide to:",
 "You are walking along a street in Causeway Bay when you are suddenly stopped by a man claiming to be a talent scout who says he thinks you are very talented and wants to tap you as a star and take part in a talent show.",
 "Your spendthrift brother says he has a business problem and needs money to run it urgently and asks you to borrow money, but you don't have much savings of your own, you decide:",
-"ttttttu",
 };
 
 /*
