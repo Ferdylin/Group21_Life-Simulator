@@ -4,10 +4,10 @@
 
 using namespace std;
 
-void resultsEvents14_to_17( int index, Show &s, ofstream & fout );
+void resultsevents14_to_17( int index, Show &s, ofstream & fout );
 
-void resultsEvents20_to_23( int index, Show &s, ofstream & fout );
+void resultsevents20_to_23( int index, Show &s, ofstream & fout );
 
-void resultsEvents26_to_29( int index, Show &s, ofstream & fout );
+void resultsevents26_to_29( int index, Show &s, ofstream & fout );
 
-void resultsEvents32_to_35( int index, Show &s, ofstream & fout );
+void resultsevents32_to_35( int index, Show &s, ofstream & fout );
