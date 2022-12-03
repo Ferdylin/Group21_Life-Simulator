@@ -442,7 +442,7 @@ void resultsevents20_to_23( int index, Show &s, ofstream & fout ) {
 
 			if ( choice == 1 ) {
 				cout << "Wow a complete personal image changeover!" << endl;
-				cout << "<satisfaction +1>";
+				cout << "<satisfaction +1>" << endl;
 				ChangeStats (s, 0, 0, +1);
 
 				// save game
@@ -451,7 +451,7 @@ void resultsevents20_to_23( int index, Show &s, ofstream & fout ) {
 			}
 			else if ( choice == 2 ) {
 				cout << "Racing sets me on fire!" << endl;
-				cout << "<health -1 satisfaction +1>";
+				cout << "<health -1 satisfaction +1>" << endl;
 				ChangeStats (s, -1, 0, +1);
 				
 
@@ -461,7 +461,7 @@ void resultsevents20_to_23( int index, Show &s, ofstream & fout ) {
 			}
 			else if ( choice == 3 ) {
 				cout << "Wonderful villa!!!" << endl;
-				cout << "<satisfaction +1>";
+				cout << "<satisfaction +1>" << endl;
 				ChangeStats (s, 0, 0, +1);
 				
 
@@ -471,7 +471,7 @@ void resultsevents20_to_23( int index, Show &s, ofstream & fout ) {
 			}
 			else if ( choice == 4 ){
 				cout << "This trip leaves you countless precious memories." << endl;
-				cout << "<satisfaction +2>";
+				cout << "<satisfaction +2>" << endl;
 				ChangeStats (s, 0, 0, +2);
 				
 				//save game
@@ -481,7 +481,7 @@ void resultsevents20_to_23( int index, Show &s, ofstream & fout ) {
 			}	
 			else if ( choice == 5 ){
 				cout << "You are a person with a big, big heart." << endl;
-				cout << "<satisfaction +2>";
+				cout << "<satisfaction +2>" << endl;
 				ChangeStats (s, 0, 0, +2);
 				
 				//save game
