@@ -355,6 +355,41 @@ void resultsEvents20_to_23( int index, Show &s, ofstream & fout ) {
         			fout << endl << "Choice: Continue study." << endl;
         			fout << "You fail to get into a school you like. Guess you have to join the workforce anyway." << endl;
 			}
+		case 4: 
+			cout << "1. Big Tech." << endl;
+			cout << "2. Financial industry, equity research." << endl;
+			cout << "3. Financial industry, IBD." << endl;
+			
+			cout << "Enter choice: ";
+			cin >> choice;
+
+			if (choice == 1) {
+        			cout << "Work-life-balance sucks. But the good news is…the pay is rather decent?" << endl;
+        			cout << "<health -1 wealth +1>" << endl;
+        			ChangeStats(s, -1, +1, 0);
+
+        			// save game
+        			fout << endl << "Choice: Big Tech." << endl;
+        			fout << "Work-life-balance sucks. But the good news is…the pay is rather decent?" << endl;
+    			} 
+			else if (choice == 2) {
+        			cout << "I’m sooooo tired! But good news is… you get to learn a lot about the industry?" << endl;
+        			cout << "<health -1 wealth +1>" << endl;
+        			ChangeStats(s, -1, +1, 0);
+
+        			//save game
+        			fout << endl << "Choice: Financial industry, equity research." << endl;
+        			fout << "I’m sooooo tired! But good news is… you get to learn a lot about the industry?" << endl;
+    			} 
+			else if (choice == 3) {
+        			cout << "You land a shiny job. But bad news is… you have to work around the clock.." << endl;
+        			cout << "<health -1 wealth +1>" << endl;
+        			ChangeStats(s, -1, +1, 0);
+
+        			//save game
+        			fout << endl << "Choice: Financial industry, IBD." << endl;
+        			fout << "You land a shiny job. But bad news is… you have to work around the clock." << endl;
+    			}
 			
 	}
 }
