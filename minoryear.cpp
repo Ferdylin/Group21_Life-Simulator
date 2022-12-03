@@ -21,7 +21,6 @@ void resultsEvents14_to_17( int index, Show &s, ofstream & fout ) {
   cout << "--------------------------------------------------" << endl;
 	switch ( index ) {
 		case 0:
-			cout << "There is a new video game. Every friend of yours seem obsessed with it. You find it interesting as well. They constantly invite you to play with them for long hours. What will you do?" << endl;
 			cout << "1. Join them and play the hell out of it. Friendship and glory!" << endl;
 			cout << "2. Play the game but try not to indulge in it. School and your life and other gaming are equally important." << endl;
 			cout << "Enter choice: ";
@@ -49,7 +48,6 @@ void resultsEvents14_to_17( int index, Show &s, ofstream & fout ) {
 			}
 
 		case 1:
-			cout << "For the first time in your life, you have a crush on someone. It feels wonderful but you are shy to approach that person. What will you do?" << endl;
 			cout << "1. Burry your feelings and act as if nothing happens." << endl;
 			cout << "2. Be brave to express your affection." << endl;
 			cout << "3. Tease your crush to get attention." << endl;
@@ -84,10 +82,7 @@ void resultsEvents14_to_17( int index, Show &s, ofstream & fout ) {
 				fout << "Your crush hates you and everyone think you are mean. You feel awful" << endl;
 			}
 
-		case 2:
-			cout << "Drama Society is recruiting. "
-					    "You always wanted to try being an actor and this is precious opportunity. "
-					    "But you are worried about too much stress of performing a complete play in front of everyone. What will you do?" << endl;		    
+		case 2:  
 			cout << "1. I’ll go to the audition!" << endl;
 			cout << "2. Maybe… I’ll try next time?" << endl;
 			
@@ -114,8 +109,7 @@ void resultsEvents14_to_17( int index, Show &s, ofstream & fout ) {
 		}
 			
 		
-		case 3:
-			cout << "School trip! Please select your destination: ";	    
+		case 3:	    
 			cout << "1. Zoo." << endl;
 			cout << "2. Disneyland." << endl;
 			cout << "3. Ocean Park." << endl;
@@ -161,7 +155,6 @@ void resultsEvents14_to_17( int index, Show &s, ofstream & fout ) {
 
 		
 		case 4:
-			cout << "You are learning how to drive an automatic transmission car. In your driving test you:" << endl;
 			cout << "1. Use both feet to apply the brake and throttle." << endl;
 			cout << "2. Use one foot to apply the brake and throttle." << endl;
 			
@@ -214,7 +207,6 @@ void resultsEvents20_to_23( int index, Show &s, ofstream & fout ) {
   cout << "--------------------------------------------------" << endl;
 	switch ( index ) {
 		case 0:
-			cout << "Someone hot in uni wants to go on a date with you. You will:" << endl;
 			cout << "1. Hey it's college, step aside GPA! I only care about my love life." << endl;
 			cout << "2.  Surely I can balance my study and love life." << endl;
 			cout << "3. Getting into Stanford is all I want." << endl;
@@ -251,7 +243,6 @@ void resultsEvents20_to_23( int index, Show &s, ofstream & fout ) {
 
 
 		case 1:
-			cout << "Your favourite pop star is coming to Hong Kong on her global tour, but the ticket is so expensive. You will:" << endl;
 			cout << "1. OMG this is a once-in-a-lifetime opportunity! I need to save every penny to get a ticket!" << endl;
 			cout << "2. Sounds like I can only give it up ." << endl;
 			cout << "Enter choice: ";
@@ -276,8 +267,7 @@ void resultsEvents20_to_23( int index, Show &s, ofstream & fout ) {
 				fout << "666666666666666666666666666" << endl;
 			}
 			
-		case 2:
-			cout << "You have a growing passion about music. At age 20, you have finally decided to pick up a musical instrument from scratch. You have shortlisted several options. Please make the final decision:" << endl;		
+		case 2:	
 			cout << "1. Piano" << endl;
 			cout << "2. Violin" << endl;
 			cout << "3. Guitar" << endl;
