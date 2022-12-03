@@ -435,7 +435,7 @@ int main() {
 	}
 
   // main structure of the entire game
-	while ( * age != 37 ) {
+	while ( * age != 36 ) {
 	fout << endl;
 
 	switch ( * age ) {
@@ -693,8 +693,20 @@ int main() {
         ShowStats( player, name );	
         break;
 
-      case 36:
-        cout << "Age: 36" << endl;
+		}
+
+		// call function to determine whether player wants to continue or quit game
+		bool continuePlaying = growUpOrQuit( age, filename, tempfile, player, name );
+
+		// save amd quit game procedures
+    		if ( !continuePlaying ) {
+			fout.close(); // close temporary file 
+			delete age; // delete age dynamic variable
+			return 0; // exit game
+		}
+  }
+	if (*age == 36){
+		cout << "Age: 36" << endl;
         cout << "-------" << endl;
 
         fout << "Age: 36" << endl;
@@ -702,20 +714,8 @@ int main() {
 
         Events36( player, name, fout );
 	ShowStats( player, name );
-        break;
-
-		}
-
-		// call function to determine whether player wants to continue or quit game
-		bool continuePlaying = growUpOrQuit( age, filename, tempfile, player, name );
-
-		// save amd quit game procedures
-    if ( !continuePlaying ) {
-			fout.close(); // close temporary file 
-			delete age; // delete age dynamic variable
-			return 0; // exit game
-		}
-  }
+		fout.close();
+		delete age;
 
   delete age; // delete dynamic variable
 	fout.close(); // close temporary file
