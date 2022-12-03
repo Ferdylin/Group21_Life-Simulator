@@ -195,7 +195,7 @@ void resultsevents14_to_17( int index, Show &s, ofstream & fout ) {
 				ChangeStats(s, 0, 0, +2);
 				
 				//save game
-				fout << endl << < "No choice made." << endl;
+				fout << endl << "No choice made." << endl;
 				fout << "You are so lucky to have each oter~" << endl;
 			}	
 				    
@@ -210,7 +210,7 @@ void resultsevents14_to_17( int index, Show &s, ofstream & fout ) {
 				ChangeStats(s, 0, -1, -1);
 				
 				//save game
-				fout << endl << < "No choice made." << endl;
+				fout << endl << "No choice made." << endl;
 				fout << "You are given an AWFUL haircut. Bad luck :(" << endl;
 			}
 			
