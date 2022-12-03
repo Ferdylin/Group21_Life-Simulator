@@ -90,7 +90,7 @@ INPUT(s):
 OUTPUT(s): 
 1. a random event for ages 14-17
 */
-void printEvents14_17( Show &s, ofstream & fout ) {
+void showevents14_17( Show &s, ofstream & fout ) {
 	cout << endl;
 	cout << "[ Random Event ]";
 	fout << "[ Random Event ]" << endl;
@@ -127,7 +127,7 @@ INPUT(s):
 OUTPUT(s): 
 1. a random event for ages 20-23
 */
-void printEvents20_23( Show &s, ofstream & fout ) {
+void showevents20_23( Show &s, ofstream & fout ) {
 	cout << endl;
 	cout << "[ Random Event ]";
 	fout << "[ Random Event ]" << endl;
@@ -150,7 +150,7 @@ void printEvents20_23( Show &s, ofstream & fout ) {
 		}
 	}
 
-	resultsEvents20_to_23( selection, s, fout );
+	resultsevents20_to_23( selection, s, fout );
 
 	return;
 }
@@ -163,7 +163,7 @@ INPUT(s):
 OUTPUT(s): 
 1. a random event for ages 26-29
 */
-void printEvents26_29( Show &s, ofstream & fout ) {
+void showevents26_29( Show &s, ofstream & fout ) {
 	cout << endl;
 	cout << "[ Random Event ]";
 	fout << "[ Random Event ]" << endl;
@@ -186,7 +186,7 @@ void printEvents26_29( Show &s, ofstream & fout ) {
 		}
 	}
 
-	resultsEvents26_to_29( selection, s, fout );
+	resultsevents26_to_29( selection, s, fout );
 
 	return;
 }
@@ -199,7 +199,7 @@ INPUT(s):
 OUTPUT(s): 
 1. a random event for ages 32-35
 */
-void printEvents32_35( Show &s, ofstream & fout ) {
+void showevents32_35( Show &s, ofstream & fout ) {
 	cout << endl;
 	cout << "[ Random Event ]";
 	fout << "[ Random Event ]" << endl;
@@ -222,7 +222,7 @@ void printEvents32_35( Show &s, ofstream & fout ) {
 		}
 	}
 
-	resultsEvents32_to_35( selection, s, fout );
+	resultsevents32_to_35( selection, s, fout );
 
 	return;
 }
