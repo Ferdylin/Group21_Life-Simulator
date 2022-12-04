@@ -1,0 +1,594 @@
+.____    .__
+|    |   |__|__  __ ____
+|    |   |  \  \/ // __ \
+|    |___|  |\   /\  ___/
+|_______ \__| \_/  \___  >
+        \/             \/
+.____                        .__
+|    |   _____   __ __  ____ |  |__
+|    |   \__  \ |  |  \/ ___\|  |  \
+|    |___ / __ \|  |  / /_/  >   Y  \
+|_______ (____  /____/\___  /|___|  /
+        \/    \/     /_____/      \/
+.____
+|    |    _______  __ ____
+|    |   /  _ \  \/ // __ \
+|    |__(  <_> )   /\  ___/
+|_______ \____/ \_/  \___  >
+        \/               \/          
+
+Welcome to LiveLaughLove, your own life-simulator!
+Here you will live a life from 13 to 36.
+
+But bear in mind that this game is just for fun. PLEASE don't take it seriously.
+Please make sure that:
+1. All inputs entered are VALID INPUTS.
+2. Name should consist of characters ONLY.
+
+Do you want to load a new game or load a saved game?
+1. To load new game
+2. To load saved game
+Enter choice: 1
+Enter name of .txt file to save game progress: testing
+Enter your character's name: Chris
+
+
+Chris's stats: 
+**================================================**
+HEALTH: 1         WEALTH: 1        SATISFACTION: 1
+**================================================**
+
+You get to upgrade one of your stats! 
+1. health
+2. wealth
+3. satisfaction
+Enter choice: 1
+
+
+Chris's stats: 
+**================================================**
+HEALTH: 2         WEALTH: 1        SATISFACTION: 1
+**================================================**
+
+
+Age: 13
+-------
+Please enter the choice number when prompted!
+--------------------------------------------------
+You enter puberty, and your body is going through a series of changes. You overhear someone making fun of you. 
+1. Tell them about the proper sex education knowledge you learnt.
+2. Tell your teacher about it and hope he will scold them.
+3. Force yourself to wear baggy clothes and keep a low profile everyday. 
+Enter choice: 1
+Your classmates are impressed by you. Most of them began to treat it properly.
+<satisfaction +2>
+
+Chris's stats: 
+**================================================**
+HEALTH: 2         WEALTH: 1        SATISFACTION: 3
+**================================================**
+
+You're all done for this year. Grow up or quit?
+1. Grow up.
+2. Save and quit game.
+Enter choice: 1
+
+Age: 14
+-------
+Please enter the choice number when prompted!
+--------------------------------------------------
+[ Random Event ]
+BFF movienight!!!
+Please enter '1' to continue with the game: 1
+You are so lucky to have each oter~
+<satisfaction +2>
+
+Chris's stats: 
+**================================================**
+HEALTH: 2         WEALTH: 1        SATISFACTION: 3
+**================================================**
+
+You're all done for this year. Grow up or quit?
+1. Grow up.
+2. Save and quit game.
+Enter choice: 1
+
+Age: 15
+-------
+Please enter the choice number when prompted!
+--------------------------------------------------
+[ Random Event ]
+There is a new video game. Every friend of yours seems so obsessed with it. You find it interesting as well. They constantly ask you to play with them. What will you do?
+1. Join them and play the hell out of it. Friendship and glory!
+2. Play the game but try not to indulge. School and other stuff in life are equally important.
+Enter choice: 1
+You spend too much time on gaming that your grades are negatively affected. But you do achieve high in the game anyway.
+<health -1 wealth -1 satisfaction +2>
+
+Chris's stats: 
+**================================================**
+HEALTH: 1         WEALTH: 0        SATISFACTION: 3
+**================================================**
+
+You're all done for this year. Grow up or quit?
+1. Grow up.
+2. Save and quit game.
+Enter choice: 1
+
+Age: 16
+-------
+Please enter the choice number when prompted!
+--------------------------------------------------
+[ Random Event ]
+Drama Society is recruiting. You have always wanted to try being an actor and this is a precious opportunity. But you are worried about too much stress of performing a complete play in front of everyone. What will you do?
+1. I’ll go to the audition!
+2. Maybe… I’ll try next time?
+Enter choice: 1
+They are really impressed by your performance! The play turns out to be a huge success. You have made great friends and this becomes the memory of a lifetime.
+<satisfaction +2>
+
+Chris's stats: 
+**================================================**
+HEALTH: 1         WEALTH: 0        SATISFACTION: 3
+**================================================**
+
+You're all done for this year. Grow up or quit?
+1. Grow up.
+2. Save and quit game.
+Enter choice: 1
+
+Age: 17
+-------
+Please enter the choice number when prompted!
+--------------------------------------------------
+[ Random Event ]
+For the first time in your life, you have a crush on someone. It feels wonderful but you are shy to approach that person. What will you do?
+1. Burry your feelings and act as if nothing happens.
+2. Be brave to express your affection.
+3. Tease your crush to get attention.
+Enter choice: 1
+Your crush never knows your affection. You feel depressed for not open about your feelings.
+<satisfaction -1>
+
+Chris's stats: 
+**================================================**
+HEALTH: 1         WEALTH: 0        SATISFACTION: 2
+**================================================**
+
+You're all done for this year. Grow up or quit?
+1. Grow up.
+2. Save and quit game.
+Enter choice: 1
+
+Age: 18
+-------
+Please enter the choice number when prompted!
+--------------------------------------------------
+This is the final year of high school. You want to get into a university.
+1. Stay up late every night to study.
+2. I will definitely put efforts in my schoolwork. Just not today!
+3.  I really have to study hard! I can do it!
+Enter choice: 1
+'a plus b minus 2… minus 2… 2…' Damn you are so sleepy you fell asleep in class!
+<health -2 satisfaction -1
+
+Chris's stats: 
+**================================================**
+HEALTH: 0         WEALTH: 0        SATISFACTION: 1
+**================================================**
+
+You're all done for this year. Grow up or quit?
+1. Grow up.
+2. Save and quit game.
+Enter choice: 1
+
+Age: 19
+-------
+Please enter the choice number when prompted!
+--------------------------------------------------
+You find that everyone around you is either doing an internship or looking for one. You feel anxious because you have had zero internships. You will:
+1. Internship is super important!! I will do as many as I can, ever if I need to gap.
+2. Dealing with my study as usual, meanwhile looking for remote internships and winter / summer internships.
+3. What? Shouldn’t college students be in lecture halls? Nah, I don’t need internships.
+Enter choice: 1
+You end up with a pretty impressive CV. But you are also burnt out.
+<health -1 wealth +1 satisfaction -1>
+
+Chris's stats: 
+**================================================**
+HEALTH: 0         WEALTH: 1        SATISFACTION: 0
+**================================================**
+
+You're all done for this year. Grow up or quit?
+1. Grow up.
+2. Save and quit game.
+Enter choice: 1
+
+Age: 20
+-------
+Please enter the choice number when prompted!
+--------------------------------------------------
+[ Random Event ]
+Graduation! When the fork in life comes, what will you do?
+1. Get a job.
+2. Continue study.
+Enter choice: 1
+Congratulations on joining the workforce.
+<wealth +1 satisfaction -1>
+
+Chris's stats: 
+**================================================**
+HEALTH: 0         WEALTH: 2        SATISFACTION: 0
+**================================================**
+
+You're all done for this year. Grow up or quit?
+1. Grow up.
+2. Save and quit game.
+Enter choice: 1
+
+Age: 21
+-------
+Please enter the choice number when prompted!
+--------------------------------------------------
+[ Random Event ]
+You are looking for places to live. Which one will you choose?
+1. Get my own apartment.
+2. Share an apartment.
+3. Stay in a hotel.
+Enter choice: 1
+You really enjoy the privacy in your own apartment.
+<wealth -2 satisfaction +1>
+
+Chris's stats: 
+**================================================**
+HEALTH: 0         WEALTH: 0        SATISFACTION: 1
+**================================================**
+
+You're all done for this year. Grow up or quit?
+1. Grow up.
+2. Save and quit game.
+Enter choice: 1
+
+Age: 22
+-------
+Please enter the choice number when prompted!
+--------------------------------------------------
+[ Random Event ]
+One of your distant aunts recently passed away and she left you a generous inheritance. How will you spend this small fortune?
+1. Designer clothes and shoes.
+2. Sports car.
+3. Villa.
+4. World Trip.
+5. Donate.
+Enter choice: 1
+Wow a complete personal image changeover!
+<satisfaction +1>
+
+Chris's stats: 
+**================================================**
+HEALTH: 0         WEALTH: 0        SATISFACTION: 2
+**================================================**
+
+You're all done for this year. Grow up or quit?
+1. Grow up.
+2. Save and quit game.
+Enter choice: 1
+
+Age: 23
+-------
+Please enter the choice number when prompted!
+--------------------------------------------------
+[ Random Event ]
+You got several job offers. Which one will you choose?
+1. Big Tech.
+2. Financial industry, equity research.
+3. Financial industry, IBD.
+Enter choice: 1
+Work-life-balance sucks. But the good news is…the pay is rather decent?
+<health -1 wealth +1>
+
+Chris's stats: 
+**================================================**
+HEALTH: 0         WEALTH: 1        SATISFACTION: 2
+**================================================**
+
+You're all done for this year. Grow up or quit?
+1. Grow up.
+2. Save and quit game.
+Enter choice: 1
+
+Age: 24
+-------
+Please enter the choice number when prompted!
+--------------------------------------------------
+Unfortunately, due to the bad market economic environment, you were laid off. You will: 
+1. Start your own business.
+2. Switch to a big company.
+3. Get a job in a small enterprise.
+4. Join a start-up.
+Enter choice: 1
+Bad choice! The market condition makes it so hard to be an entrepreneur right now.
+<wealth-1>
+
+Chris's stats: 
+**================================================**
+HEALTH: 0         WEALTH: 0        SATISFACTION: 2
+**================================================**
+
+You're all done for this year. Grow up or quit?
+1. Grow up.
+2. Save and quit game.
+Enter choice: 1
+
+Age: 25
+-------
+Please enter the choice number when prompted!
+--------------------------------------------------
+You have been working OT these days, but your work is not recognized by anyone, everyone else has been promoted before except you because your boss hates you, what do you do?
+1. Hand in that resignation letter, and prepare for job hunting
+2. Keep up with the hard work because you believe that your work would be recognized one day
+3. Slack off during work because why not
+Enter choice: 1
+You got unemployed for over a month since you do not have enough work experiences, but eventually landed with a normal job in Hong Kong
+<Wealth -1>
+
+Chris's stats: 
+**================================================**
+HEALTH: 0         WEALTH: 0        SATISFACTION: 2
+**================================================**
+
+You're all done for this year. Grow up or quit?
+1. Grow up.
+2. Save and quit game.
+Enter choice: 1
+
+Age: 26
+-------
+Please enter the choice number when prompted!
+--------------------------------------------------
+[ Random Event ]
+You’ve decided to stop by a coffee shop one night, but later, you realize that Beyonce was at the cashier but struggling to make the payment for her order! What do you do?
+1. Pay for her bill and ask her to take pictures with you
+2. Pretend you didn’t see her and walk away
+3. Freaked out and screamed out “Beyonce is here!
+Enter choice: 1
+You got invited to Beyonce’s secret album reveal session, she also gave you a front seat VIP ticket to her concert (which worth 70K hkd) and you’ve decided to sell it out.
+<Satisfaction +2, Wealth +1>
+
+Chris's stats: 
+**================================================**
+HEALTH: 0         WEALTH: 1        SATISFACTION: 3
+**================================================**
+
+You're all done for this year. Grow up or quit?
+1. Grow up.
+2. Save and quit game.
+Enter choice: 1
+
+Age: 27
+-------
+Please enter the choice number when prompted!
+--------------------------------------------------
+[ Random Event ]
+You felt that you don’t enjoy what you do anymore, you like the workplace and the people but not the job itself anymore. What are the next steps that you’re going to take?
+1.You found out that you’re passionate about education and you enjoy helping students out, you’ve decided to start a new venture as an entrepreneur!
+2. You believe this is just a phase and have decided to stick with the current job still.
+3. Apply for other jobs that fit your skill sets and which you found interesting.
+Enter choice: 1
+Yes, starting a business is hard, but you have succeeded! You have earned 3Mn revenue in the first year and your business is on the rise.
+<Wealth +3, Satisfaction +1>
+
+Chris's stats: 
+**================================================**
+HEALTH: 0         WEALTH: 3        SATISFACTION: 3
+**================================================**
+
+You're all done for this year. Grow up or quit?
+1. Grow up.
+2. Save and quit game.
+Enter choice: 1
+
+Age: 28
+-------
+Please enter the choice number when prompted!
+--------------------------------------------------
+[ Random Event ]
+You found out that your ex was severely injured in a car accident, you guys broke up without conflicts and are still friends. You’re currently very happy in your relationship too but doing something stupid might trigger your partner, you will:
+1. Go visit your ex and offered to pay for their medical expenses
+2. Go visit your ex with your current partner
+3. Not visit your ex, nor contact them anymore
+Enter choice: 1
+Turns out your ex was secretly a billionaire. They were very touched that you offered them with such kind gestures and had decided to buy you an apartment at Repulse Bay. But your partner, however, was angry that you still had feelings for her and wanted a divorce.
+<Wealth +2, Satisfaction -2>
+
+Chris's stats: 
+**================================================**
+HEALTH: 0         WEALTH: 3        SATISFACTION: 1
+**================================================**
+
+You're all done for this year. Grow up or quit?
+1. Grow up.
+2. Save and quit game.
+Enter choice: 1
+
+Age: 29
+-------
+Please enter the choice number when prompted!
+--------------------------------------------------
+[ Random Event ]
+For a rare holiday, you choose to:
+1. Skiing in Hokkaido
+2. Drive to a party with friends
+3. Going to Cheung Chau Island
+Enter choice: 1
+You went skiing in Hokkaido and fell and broke a bone due to improper handling.
+<Health -1>
+
+Chris's stats: 
+**================================================**
+HEALTH: 0         WEALTH: 3        SATISFACTION: 1
+**================================================**
+
+You're all done for this year. Grow up or quit?
+1. Grow up.
+2. Save and quit game.
+Enter choice: 1
+
+Age: 30
+-------
+Please enter the choice number when prompted!
+--------------------------------------------------
+Your mother-in-law got very sick, and your partner is suggesting sending her to Australia for treatment therapy. What should you do?
+1. Agree with them completely, you sold one of your apartments in Hong Kong, and decided to do everything you can to help your mother-in-law out
+2. You told your partner frankly that you currently just do not have enough money to send their mother to the treatment therapy, you suggested to transfer your mother-in-law to a local hospital where you had connection with
+3. You told your partner that you cannot afford to send your mother-in-law to Australia but still wanted to find them a solution
+Enter choice: 1
+You used up a lot of your money, but your partner was very grateful for your effort. They have decided to cook healthy food for you to take to your workplace every day, you felt that your health is improving as you eat healthy.
+<Wealth -2, Health +1, Satisfaction +1>
+
+Chris's stats: 
+**================================================**
+HEALTH: 1         WEALTH: 1        SATISFACTION: 2
+**================================================**
+
+You're all done for this year. Grow up or quit?
+1. Grow up.
+2. Save and quit game.
+Enter choice: 1
+
+Age: 31
+-------
+Please enter the choice number when prompted!
+--------------------------------------------------
+You and your lover are considering whether to welcome a new family member while you are still young and, after much deliberation, at the age of 30, you have chosen to:
+1. Giving birth
+2. Not considering the child 
+Enter choice: 1
+You have a new family member, more laughter in the house, and with that comes an increased financial burden and more energy needed.
+<Satisfaction +1, Wealth -1, Health -1>
+
+Chris's stats: 
+**================================================**
+HEALTH: 0         WEALTH: 0        SATISFACTION: 3
+**================================================**
+
+You're all done for this year. Grow up or quit?
+1. Grow up.
+2. Save and quit game.
+Enter choice: 1
+
+Age: 32
+-------
+Please enter the choice number when prompted!
+--------------------------------------------------
+[ Random Event ]
+You are walking along a street in Causeway Bay when you are suddenly stopped by a man claiming to be a talent scout who says he thinks you are very talented and wants to tap you as a star and take part in a talent show.
+1. You are confident in your own strength and sign the contract without knowing more about the company.
+2. You think he's a scam artist and don't want to believe him, so you just walk away.
+Enter choice: 1
+You sign the contract, follow your agent to an event, train hard every day but have few fans.
+<Health -2, Wealth +1, Satisfaction +1>
+
+Chris's stats: 
+**================================================**
+HEALTH: 0         WEALTH: 1        SATISFACTION: 3
+**================================================**
+
+You're all done for this year. Grow up or quit?
+1. Grow up.
+2. Save and quit game.
+Enter choice: 1
+
+Age: 33
+-------
+Please enter the choice number when prompted!
+--------------------------------------------------
+[ Random Event ]
+You're tested for high blood pressure and high cholesterol, and you decide:
+1. Go to the doctor for a prescription
+2. Start exercising
+3. Ignore
+Enter choice: 1
+You spend a lot of money on drugs with few side effects, and you think that following medical advice should be helpful to your health.
+<Wealth -1, Health +1>
+
+Chris's stats: 
+**================================================**
+HEALTH: 1         WEALTH: 0        SATISFACTION: 3
+**================================================**
+
+You're all done for this year. Grow up or quit?
+1. Grow up.
+2. Save and quit game.
+Enter choice: 1
+
+Age: 34
+-------
+Please enter the choice number when prompted!
+--------------------------------------------------
+[ Random Event ]
+Your spendthrift brother says he has a business problem and needs money to run it urgently and asks you to borrow money, but you don't have much savings of your own, you decide:
+1. Not to lend it to him, you know your brother's personality and that money borrowed will never be repaid.
+2. You lend him the money anyway because your mother and father are also struggling with your brother's business.
+Enter choice: 1
+You decide not to lend him the money and explain to your brother that you don't have much money, but your brother doesn't listen to you and thinks you are selfish for not helping him.
+<Satisfaction-1>
+
+Chris's stats: 
+**================================================**
+HEALTH: 1         WEALTH: 0        SATISFACTION: 2
+**================================================**
+
+You're all done for this year. Grow up or quit?
+1. Grow up.
+2. Save and quit game.
+Enter choice: 1
+
+Age: 35
+-------
+Please enter the choice number when prompted!
+--------------------------------------------------
+[ Random Event ]
+Your career is becoming stable, and you don't need to worry about it, you think:
+1. Go on a trip
+2. Attend swimming classes
+3. Play video games with old friends
+Enter choice: 1
+You travel to a country you have longed to visit, experience the local scenery and feel psychologically satisfied despite the cost.
+<Satisfaction +1, Wealth -1, Health +1>
+
+Chris's stats: 
+**================================================**
+HEALTH: 2         WEALTH: 0        SATISFACTION: 3
+**================================================**
+
+You're all done for this year. Grow up or quit?
+1. Grow up.
+2. Save and quit game.
+Enter choice: 1
+Age: 36
+-------
+Please enter the choice number when prompted!
+--------------------------------------------------
+You have reached a bottleneck in your career, and you want to move up further and improve the quality of life for your family, you decide to
+1. Take a class to learn professional knowledge
+2. Get together with your boss more often and buy your clients drinks
+3. You're happy to be a salty fish
+Enter choice: 1
+You have spent some money on professional training to improve the ability of yourself.
+<Wealth -1, Satisfaction +1>
+
+Chris's stats: 
+**================================================**
+HEALTH: 2         WEALTH: 0        SATISFACTION: 3
+**================================================**
+
+
+Congratulations! This is the end of your game.
+Let's see what you got. Do you feel like you've lived what's so called a 'good life'?
+
+[ Comment ] Wow you looked so happy, what happened ?!
+
+Thanks for playing! Please feel free to play this game as many times as you want to discover different life/career paths for yourself!
+
+To view your game summary, open the <.txt> file you provided at the start of the game!
