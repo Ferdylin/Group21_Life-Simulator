@@ -20,19 +20,19 @@ void resultsevents14_to_17( int index, Show &s, ofstream & fout ) {
 	switch ( index ) {
 		case 0:
 			cout << "1. Join them and play the hell out of it. Friendship and glory!" << endl;
-			cout << "2. Play the game but try not to indulge in it. School and other stuff in life are equally important." << endl;
+			cout << "2. Play the game but try not to indulge. School and other stuff in life are equally important." << endl;
 			cout << "Enter choice: ";
 			cin >> choice;
 
 			if ( choice == 1 ) {
-				cout << "You spend too much time on gaming that your grades are negatively affected. But you achieve high in the game anyway." << endl;
+				cout << "You spend too much time on gaming that your grades are negatively affected. But you do achieve high in the game anyway." << endl;
 				cout << "<health -1 wealth -1 health -1 satisfaction +2>" << endl;
 				ChangeStats( s, -1, -1, +2);
 				
 
 				// save game
 				fout << endl << "Choice: Join them and play the hell out of it. Friendship and glory!" << endl;
-				fout << "You spend too much time on gaming that your grades are negatively affected. But you achieve high in the game anyway." << endl;
+				fout << "You spend too much time on gaming that your grades are negatively affected. But you do achieve high in the game anyway." << endl;
 				
 			}
 			else if ( choice == 2 ) {
