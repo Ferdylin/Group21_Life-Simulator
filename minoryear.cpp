@@ -26,7 +26,7 @@ void resultsevents14_to_17( int index, Show &s, ofstream & fout ) {
 
 			if ( choice == 1 ) {
 				cout << "You spend too much time on gaming that your grades are negatively affected. But you do achieve high in the game anyway." << endl;
-				cout << "<health -1 wealth -1 health -1 satisfaction +2>" << endl;
+				cout << "<health -1 wealth -1 satisfaction +2>" << endl;
 				ChangeStats( s, -1, -1, +2);
 				
 
