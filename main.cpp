@@ -371,7 +371,7 @@ int main() {
 	}
 
 	// prompts user for choice to load new or previously saved game
-	cout << "Enter:" << endl << "1. To load new game" << endl << "2. To load saved game" << endl;
+	cout << "Do you want to load a new game or load a saved game?" << endl << "1. To load new game" << endl << "2. To load saved game" << endl << "Enter choice: " ;
 	cin >> newOrLoad;
 
 	// new game 
