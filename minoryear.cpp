@@ -20,7 +20,7 @@ void resultsevents14_to_17( int index, Show &s, ofstream & fout ) {
 	switch ( index ) {
 		case 0:
 			cout << "1. Join them and play the hell out of it. Friendship and glory!" << endl;
-			cout << "2. Play the game but try not to indulge in it. School and your life and other gaming are equally important." << endl;
+			cout << "2. Play the game but try not to indulge in it. School and other stuff in life are equally important." << endl;
 			cout << "Enter choice: ";
 			cin >> choice;
 
