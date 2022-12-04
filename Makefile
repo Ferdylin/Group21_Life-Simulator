@@ -14,6 +14,6 @@ play: main
 	./main
 
 clean:
-	rm -rf *.o main
+	rm -rf *.o main tempfile.txt
 
 .PHONY: clean
