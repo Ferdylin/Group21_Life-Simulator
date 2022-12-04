@@ -214,9 +214,9 @@ void showevents32_35( Show &s, ofstream & fout ) {
 	while ( true ) {
 		selection = rand() % 7;
 		if ( events_32_to_35[selection] != "Exists" ) {
-			cout << "Please enter the choice number when prompted!" << endl;
+			cout << "Enter the choice number when prompted!" << endl;
   			cout << "--------------------------------------------------" << endl;
-			cout << "[ Random Event ]" << endl;
+			cout << "[ RANDOM EVENTS ]" << endl;
 			cout << events_32_to_35[selection] << endl;
 
 			// saves game progress in temporary file
@@ -258,8 +258,8 @@ bool growUpOrQuit( int * &age, string filename, string tempfile, Show player, st
 	bool choice; 
 
 	//prompt user for choice
-  cout << "You're all done for this year. Grow up or quit?" << endl;
-  cout << "1. Grow up." << endl << "2. Save and quit game." << endl << "Enter choice: " ;
+  cout << "You are done with the current age, choose to proceed to the next year or save the game progress: " << endl;
+  cout << "1. Proceed to my next age." << endl << "2. Quit and Save my game progress." << endl << "Please enter choice: " ;
 
 	// store user choice in string variable
   cin >> truefalse;
@@ -340,11 +340,12 @@ int main() {
 	
 	
   cout << "Welcome to LiveLaughLove, your own life-simulator!" << endl; 
-  cout << "Here you will live a life from 13 to 36." << endl;
-  cout << endl << "But bear in mind that this game is just for fun. PLEASE don't take it seriously." << endl;
+  cout << "Here you will live a life from age of 13 to 36." << endl;
+  cout << endl << "But bear in mind that this game is just for fun." << endl;
+  cout << "PLEASE don't take it personal." << endl;
   cout << "Please make sure that:" << endl;
   cout << "1. All inputs entered are VALID INPUTS." << endl;
-  cout << "2. Name should consist of characters ONLY." << endl << endl;
+  cout << "2. Name should consist of characters ONLY." << endl << "Else your game might be terminated accidentally" << endl;
 
 	srand( time( NULL ) ); // initiates the random seed
 	string name; // declare string variable for player name
@@ -410,11 +411,11 @@ int main() {
 
 		ShowStats( player , name );
 
-		// initialization of age 
+		// initialization of age of character 
 		* age = 13;
 	}	
 
-	// load saved game
+	// load a saved game
 	else if ( newOrLoad == "2" ) {
 		// prompt user for filename to load + save game progress and store it in the previously declared variable <filename>
 		cout << "Enter name of .txt file to load game progress: ";
