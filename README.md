@@ -21,6 +21,8 @@ This game simulates life from the age of 13 to 36, giving players a chance to re
 ## 3. Game rules
 #### Age range: 13-36
 #### Parameter: Health, Wealth, Satisfaction
-Each parameter ranges from 0 to 3. Note: There may be a case where the parameter is 0, but it doesn't mean the character will die for the zero parameters. 
+Each parameter ranges from 0 to 3. Note: There may be a case where the parameter is 0, but it doesn't mean the character will die for the zero parameters.A character's stats will not go below 0, or beyond 3. Final Results will be displayed based on player's final Stats. 
 #### 
+
+
  
