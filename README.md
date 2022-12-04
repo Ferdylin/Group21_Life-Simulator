@@ -19,8 +19,8 @@ Some lives are uneventful, some are bumpy, yet for most people, life is a path w
 This game simulates life from the age of 13 to 36, giving players a chance to restart their lives. Different choices will lead to changes in personal parameters, resulting in a variety of endings, allowing players to experience different life.
 
 ## 3. Game rules
-### Age range: 13-36
-### Parameter: Health, Wealth, Satisfaction
+#### Age range: 13-36
+#### Parameter: Health, Wealth, Satisfaction
 Each parameter ranges from 0 to 3. Note: There may be a case where the parameter is 0, but it doesn't mean the character will die for the zero parameters. 
-### 
+#### 
  
