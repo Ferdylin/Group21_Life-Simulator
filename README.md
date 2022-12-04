@@ -40,7 +40,7 @@ The user will be presented with a selection of replies to choice-based events fr
 
 8. To choose it, the user enters a number matching to the answer of their choosing.
 
-9. Each option may have an effect on one or more variables of the character's stats. Because the data have a range of 0-2, 0 is the least and 2 is the highest.
+9. Each option may have an effect on one or more variables of the character's stats.
 
 10. The user may view the.txt file that was used to save the game as a summary at the conclusion of the game.
 
