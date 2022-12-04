@@ -22,7 +22,7 @@ void Events13(Show &s, string name, ofstream &fout) {
     fout << "You enter puberty, and your body is going through a series of changes. You overhear someone making fun of you. ";
     cout << "1. Tell them about the proper sex education knowledge you learnt." << endl;
     cout << "2. Tell your teacher about it and hope he will scold them." << endl;
-    cout << "3. You force yourself to wear baggy clothes and keep a low profile everyday. " << endl;
+    cout << "3. Force yourself to wear baggy clothes and keep a low profile everyday. " << endl;
     cout << "Enter choice: ";
     cin >> choice;
 
