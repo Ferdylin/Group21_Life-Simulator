@@ -22,7 +22,7 @@ This game simulates life from the age of 13 to 36, giving players a chance to re
 #### Age range: 13-36
 #### 
 1. Character stats will be made up of three variables:
-#### health\wealth\satisfaction, Each variable will have a value between 0 and 3 (They cannot go beyond 3 or go below 0).
+####    health\wealth\satisfaction, Each variable will have a value between 0 and 3 (They cannot go beyond 3 or go below 0).
 
 2. At the beginning of the game, the player will choose whether to load a fresh game (by entering '1') or a saved game (by entering '2').
 
