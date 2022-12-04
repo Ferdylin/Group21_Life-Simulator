@@ -44,6 +44,9 @@ The user will be presented with a selection of replies to choice-based events fr
 
 10. The user may view the.txt file that was used to save the game as a summary at the conclusion of the game.
 
+## Features included according to the requirements of the project:
+1.
+
 ## Problem Statement:
 
 ### Assumptions with inputs:
