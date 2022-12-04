@@ -34,7 +34,7 @@ void ShowStats( Show s, string name ) {
 //Stats function for updating players' stats, will be incorporated into main.cpp
 //Updating health, wealth and satisfaction accordingly based on events
 
-void ChangeStats( Show &s, int wealth, int health, int satisfaction) {
+void ChangeStats( Show &s, int health, int wealth, int satisfaction) {
     //changing health
     if ( wealth == 1 && s.wealth < 3) {
 		s.wealth++;
@@ -126,7 +126,7 @@ void ChangeStats( Show &s, int wealth, int health, int satisfaction) {
 }
 
 //Results defined based on players' final status, different stats will trigger different output lines
-void FinalStats( int wealth, int health, int satisfaction ) {
+void FinalStats( int health, int wealth, int satisfaction ) {
 	
   cout << endl;
   cout << "Congratulations! This is the end of your game." << endl;
