@@ -34,7 +34,7 @@ void ShowStats( Show s, string name ) {
 //Stats function for updating players' stats, will be incorporated into main.cpp
 //Updating health, wealth and satisfaction accordingly based on events
 
-void ChangeStats( Show &s, int health, int wealth, int satisfaction) {
+void ChangeStats( Show &s, int wealth, int health, int satisfaction) {
     //changing health
     if ( wealth == 1 && s.wealth < 3) {
 		s.wealth++;
