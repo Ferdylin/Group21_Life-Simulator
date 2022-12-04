@@ -131,6 +131,7 @@ void FinalStats( int health, int wealth, int satisfaction ) {
   cout << endl;
   cout << "Congratulations! This is the end of your game." << endl;
   cout << "Let's see what you got. Do you feel like you've lived what's so called a 'good life'?" << endl;
+  cout << endl << "[ Comment ] ";
 
   if ( health == 0 && wealth == 0 && satisfaction == 0 ) {
     cout << "Can't say that you're a good life decisions maker...you died of several illnesses and were broke and hunrgy when you passed away" << endl;
