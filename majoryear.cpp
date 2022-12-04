@@ -11,7 +11,7 @@
 
 using namespace std;
 
-// outputs the results of events at ages 14-17
+// outputs the results of events at age 13, the event that occur is fixed
 // inputs: chosen index, player's stats as a pass-by reference
 void Events13(Show &s, string name, ofstream &fout) {
     int choice;
@@ -63,6 +63,8 @@ void Events13(Show &s, string name, ofstream &fout) {
     }
 }
 
+// outputs the results of events at age 18, the event that occur is fixed
+// inputs: chosen index, player's stats as a pass-by reference
 void Events18(Show &s, string name, ofstream &fout) {
     int choice;
     cout << "Please enter the choice number when prompted!" << endl;
@@ -103,6 +105,8 @@ void Events18(Show &s, string name, ofstream &fout) {
     }
 }
 
+// outputs the results of events at age 19, the event that occur is fixed
+// inputs: chosen index, player's stats as a pass-by reference
 void Events19(Show &s, string name, ofstream &fout) {
     int choice;
     cout << "Please enter the choice number when prompted!" << endl;
@@ -149,6 +153,8 @@ void Events19(Show &s, string name, ofstream &fout) {
 }
 
 
+// outputs the results of events at age 24, the event that occur is fixed
+// inputs: chosen index, player's stats as a pass-by reference
 void Events24(Show &s, string name, ofstream &fout) {
     int choice;
     cout << "Please enter the choice number when prompted!" << endl;
@@ -197,6 +203,8 @@ void Events24(Show &s, string name, ofstream &fout) {
     }
 }
 
+// outputs the results of events at age 25, the event that occur is fixed
+// inputs: chosen index, player's stats as a pass-by reference
 void Events25(Show &s, string name, ofstream &fout) {
     int choice;
     cout << "Please enter the choice number when prompted!" << endl;
@@ -238,6 +246,8 @@ void Events25(Show &s, string name, ofstream &fout) {
     }
 }
 
+// outputs the results of events at age 30, the event that occur is fixed
+// inputs: chosen index, player's stats as a pass-by reference
 void Events30(Show &s, string name, ofstream &fout) {
     int choice;
     cout << "Please enter the choice number when prompted!" << endl;
@@ -281,6 +291,8 @@ void Events30(Show &s, string name, ofstream &fout) {
     }
 }
 
+// outputs the results of events at age 31, the event that occur is fixed
+// inputs: chosen index, player's stats as a pass-by reference
 void Events31(Show &s, string name, ofstream &fout) {
     int choice;
     cout << "Please enter the choice number when prompted!" << endl;
