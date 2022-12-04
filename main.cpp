@@ -245,30 +245,30 @@ RETURN VALUE:
 1. bool variable indicating player's choice to continue / quit game.
 */
 bool growUpOrQuit( int * &age, string filename, string tempfile, Show player, string name ) {
-	// declaration of string and bool variables for storing user choice
+	// For the storage of users choices
   string truefalse; 
 	bool choice; 
 
-	//prompt user for choice
+	//Message prompt for player to either proceed with the next year or quit the game
   cout << "You are done with the current age, choose to proceed to the next year or save the game progress: " << endl;
   cout << "1. Proceed to my next age." << endl << "2. Quit and Save my game progress." << endl << "Please enter choice: " ;
 
-	// store user choice in string variable
+	// store user input choice in a string variable
   cin >> truefalse;
 
 	// continue playing
   if ( truefalse == "1" ) {
-		// increment age and store user choice
+		// inrease age by 1 and store input
 	* age += 1; 
 	choice = true; 
   }
 
 	// save and quit game
 	else if ( truefalse == "2" ) {
-		// increment age and store user choice
+		// inrease age by 1 and store input
 		* age += 1;
 		choice = false;
-		// declare ofstream object for copying game progress in temporary file <tempfile> to user-provided file <filename>
+		// define ofstream object for transferring game progress from tempfile> to user-supplied filename
 		ofstream save; 
 		save.open( filename.c_str() );
 		if ( save.fail() ) {
@@ -276,7 +276,7 @@ bool growUpOrQuit( int * &age, string filename, string tempfile, Show player, st
 			exit( 1 );
 		}
 
-		// saves player name, age, and stats in the first 5 lines of the file (purpose: for loading game)
+		// the first five lines of the file are used to save the player's name, age, and stats.
 		save << "[ FILE I/O INFORMATION ]" << endl;
 		save << name << endl;
 		save << * age << endl;
@@ -284,7 +284,7 @@ bool growUpOrQuit( int * &age, string filename, string tempfile, Show player, st
 		save << player.wealth << endl;
 		save << player.satisfaction << endl << endl;
 
-		// declare ifstream object for reading game progress in temporary file <tempfile> 
+		// declare an object of type ifstream for reading game progress from the temporary file referred to as tempfile.
 		ifstream copy;
 		copy.open( tempfile.c_str() );
 		if ( copy.fail() ) {
@@ -292,7 +292,7 @@ bool growUpOrQuit( int * &age, string filename, string tempfile, Show player, st
 			exit( 1 );
 		}
 
-		// copy game progress in <tempfile> to <filename> line by line
+		// The progress made in the game should be copied line by line from the 'tempfile' to the 'filename'.
 		save << "[ GAME PROGRESS ]" << endl;
 		string linecopy;
 		while( getline( copy, linecopy ) ) {
@@ -397,7 +397,7 @@ int main() {
 			ChangeStats( player, 0, 0, 1 );
 		}
 
-		delete upgrade; // frees the upgrade dynamic variable
+		delete upgrade; // frees dynamic variable
 
 		cout << endl;
 
@@ -409,7 +409,7 @@ int main() {
 
 	// load a saved game
 	else if ( newOrLoad == "2" ) {
-		// prompt user for filename to load + save game progress and store it in the previously declared variable <filename>
+		// Ask the player for the name of the file to load and save, then place the information in the variable named "filename" that was declared earlier.
 		cout << "Enter name of .txt file to load game progress: ";
 		cin >> filename;
 
@@ -421,27 +421,27 @@ int main() {
 			exit( 1 );
 		}
 
-		string resume; // declare string variable for reading lines in file
-		int linecount = 0; // declare int variable to track line number
+		string resume; // a string variable should be declared in order to read lines from the file.
+		int linecount = 0; // a line number tracking int variable should be declared.
 		
 		while ( getline( fin, resume ) ) {
-			// line 1 contains player name
+			// line 1 contains player's name
 			if ( linecount == 1 ) {
 				name = resume;
 			}
-			// line 2 contains player age
+			// line 2 contains player's age
 			else if ( linecount == 2 ) {
 				* age = stoi( resume );
 			}
-			// line 3 contains player health stat
+			// vice verca
 			else if ( linecount == 3 ) {
 				player.health = stoi( resume );
 			}
-			// line 4 contains player wealth stat
+
 			else if ( linecount == 4 ) {
 				player.wealth = stoi( resume );
 			}
-			// line 5 contains player satisfaction stat
+	
 			else if ( linecount == 5 ) {
 				player.satisfaction = stoi( resume ); 
 			}
@@ -456,7 +456,7 @@ int main() {
 		fin.close();
 	}
 
-  // main structure of the entire game
+  //The main structure of program starting from age 13
 	while ( * age != 36 ) {
 	fout << endl;
 	cout << endl;
@@ -718,14 +718,14 @@ int main() {
 
 		}
 
-		// call function to determine whether player wants to continue or quit game
+		// call the function to ascertain the player's intent about the game's continuation or termination.
 		bool continuePlaying = growUpOrQuit( age, filename, tempfile, player, name );
 
-		// save amd quit game procedures
+		// procedures on saving or quitting
     		if ( !continuePlaying ) {
-			fout.close(); // close temporary file 
+			fout.close(); // close temp file 
 			delete age; // delete age dynamic variable
-			return 0; // exit game
+			return 0; // exit
 		}
   }
 	if (*age == 36){
@@ -744,7 +744,7 @@ int main() {
   	delete age; // delete dynamic variable
 	fout.close(); // close temporary file
 
-  	// calls the final function to output a summary of the game
+  	// FinalStats gives summary of the players' events and choices
 	// ShowStats( player, name );
   	FinalStats( player.health, player.wealth, player.satisfaction );
 	
@@ -756,7 +756,7 @@ int main() {
 		exit( 1 );
 	}
 
-	// declare ifstream object for reading from <tempfile>
+	// declare an object of type ifstream for reading from the "tempfile"
 	ifstream copy;
 	copy.open( tempfile.c_str() ); // open temporary file containing game progress 
 	if ( copy.fail() ) {
