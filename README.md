@@ -44,4 +44,13 @@ The user will be presented with a selection of replies to choice-based events fr
 
 10. The user may view the.txt file that was used to save the game as a summary at the conclusion of the game.
 
- 
+## Problem Statement:
+
+### Assumptions with inputs:
+All the inputs should be valid.
+The role name must be numbers or letters
+The .txt file should exist and be valid.
+### Other things to watch out for:
+The provided sample test is just a play case, you may get different results even if the input is the same due to the random events.
+There will be a file called tempfile.txt created during compilation and execution. Please ignore the file and don’t add anythings to this file.
+3. Some events will repeat if you save the game during the major years due to the random selection.
