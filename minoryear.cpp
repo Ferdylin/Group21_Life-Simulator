@@ -90,7 +90,7 @@ void resultsevents14_to_17( int index, Show &s, ofstream & fout ) {
 			cin >> choice;
 
 			if ( choice == 1 ) {
-				cout << "They are really impressed by your performance! The play turns out to be a huge success. You made great friends and this become a memory of a lifetime." << endl;
+				cout << "They are really impressed by your performance! The play turns out to be a huge success. You have made great friends and this becomes the memory of a lifetime." << endl;
 				cout << "<satisfaction +2>" << endl;
 				ChangeStats(s, 0, 0, +2);
 
