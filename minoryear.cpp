@@ -404,18 +404,18 @@ void resultsevents20_to_23( int index, Show &s, ofstream & fout ) {
 			cin >> choice;
 
 			if (choice == 1) {
-        			cout << "You enjoy privacy in your apartment." << endl;
+        			cout << "You really enjoy the privacy in your own apartment." << endl;
         			cout << "<wealth -2 satisfaction +1>" << endl;
         			ChangeStats(s, 0, -2, +1);
 
         			// save game
-        			fout << endl << "Choice: Big Tech." << endl;
-        			fout << "Work-life-balance sucks. But the good news is…the pay is rather decent?" << endl;
+        			fout << endl << "Get my own apartment." << endl;
+        			fout << "You really enjoy the privacy in your own apartment." << endl;
     			} 
 			else if (choice == 2) {
         			cout << "The rent is quite affordable." << endl;
         			cout << "<wealth -1 satisfaction-1>" << endl;
-        			ChangeStats(s, 0, -1, +1);
+        			ChangeStats(s, 0, -1, -1);
 
         			//save game
         			fout << endl << "Choice: Share an apartment." << endl;
