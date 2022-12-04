@@ -58,6 +58,8 @@ The user will be presented with a selection of replies to choice-based events fr
 
 6. In addition, we use different files to write different functions, which is convenient for us to collaborate when writing code, and to locate specific functions when changing code. And we also provide input/output samples in the folder to facilitate players to understand the game details when they are not playing the game.
 
+7. Moreover, we use proper indentation and naming to make our code more readable, to make it easier for ourselves or others to read, and to understand and locate the code quickly if we need to change it. We also use in-code documentation.
+
 ## Problem Statement:
 
 ### Assumptions with inputs:
