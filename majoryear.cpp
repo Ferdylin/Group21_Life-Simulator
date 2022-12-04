@@ -78,7 +78,7 @@ void Events18(Show &s, string name, ofstream &fout) {
 
     if (choice == 1) {
         cout << "'a plus b minus 2… minus 2… 2…' Damn you are so sleepy you fell asleep in class!" << endl;
-        cout << "<health -2 satisfaction -1" << endl;
+        cout << "<health -2 satisfaction -1>" << endl;
         ChangeStats(s, -2, 0, -1);
 
         // save game
