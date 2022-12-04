@@ -155,7 +155,7 @@ void Events24(Show &s, string name, ofstream &fout) {
     cout << "--------------------------------------------------" << endl;
     cout << "Unfortunately, due to the bad market economic environment, you were laid off. You will: " << endl;
     fout << "Unfortunately, due to the bad market economic environment, you were laid off. You will: " ;
-    cout << "1.  Start your own business." << endl;
+    cout << "1. Start your own business." << endl;
     cout << "2. Switch to a big company." << endl;
     cout << "3. Get a job in a small enterprise." << endl;
     cout << "4. Join a start-up." << endl;
