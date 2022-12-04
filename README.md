@@ -47,15 +47,15 @@ The user will be presented with a selection of replies to choice-based events fr
 ## Problem Statement:
 
 ### Assumptions with inputs:
-1.All the inputs should be valid.
+1. All the inputs should be valid.
 
-2.The role name must be numbers or letters.
+2. The role name must be numbers or letters.
 
-3.The .txt file should exist and be valid.
+3. The .txt file should exist and be valid.
 
 ### Other things to watch out for:
-1.The provided sample test is just a play case, you may get different results even if the input is the same due to the random events.
+1. The provided sample test is just a play case, you may get different results even if the input is the same due to the random events.
 
-2.There will be a file called tempfile.txt created during compilation and execution. Please ignore the file and don’t add anythings to this file.
+2. There will be a file called tempfile.txt created during compilation and execution. Please ignore the file and don’t add anythings to this file.
 
 3. Some events will repeat if you save the game during the major years due to the random selection.
