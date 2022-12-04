@@ -126,7 +126,7 @@ void ChangeStats( Show &s, int wealth, int health, int satisfaction) {
 }
 
 //Results defined based on players' final status, different stats will trigger different output lines
-void FinalStats( int health, int wealth, int satisfaction ) {
+void FinalStats( int wealth, int health, int satisfaction ) {
 	
   cout << endl;
   cout << "Congratulations! This is the end of your game." << endl;
