@@ -793,6 +793,7 @@ int main() {
 	
 	// informs player that a summary of their game can be viewed in the file they provided
 	cout << endl << "To view your game summary, open the <.txt> file you provided at the start of the game!" << endl;
+	cout << "Please enter 'make clean' to remove the contemporary files!" << endl;
 
   return 0;
 }
