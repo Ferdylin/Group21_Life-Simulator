@@ -50,15 +50,15 @@ The user will be presented with a selection of replies to choice-based events fr
 
 2. When the user makes each event choice, an event comment and description will be output, as well as outputting the impact of the event choice on the game main character, and outputting the properties of the main character after the event, which provides feedback on the player's operation, making the gameplay and playability greatly increased.
 
-3. We use fixed events in few major age groups, and random events in most age groups. We will use a random function to generate an event from the possible event groups to present to the player, making the game more playable because the player will be exposed to different events every time he plays the game and thus can find excitement in the random events.
+3. We use fixed events in few major age groups, and ####random events#### in most age groups. We will ####use a random function#### to generate an event from the possible event groups to present to the player, making the game more playable because the player will be exposed to different events every time he plays the game and thus can find excitement in the random events.
 
-4. We used data structures to store random events, which made our operation more efficient; and used data structures to store the current status of members' characteristics, such as health, intelligence, etc. The appropriate use of dynamic memory is also a highlight of our coding.
+4. We used ####data structures#### to store random events, which made our operation more efficient; and used ####data structures#### to store the current status of members' characteristics, such as health, intelligence, etc. The appropriate use of dynamic memory is also a highlight of our coding.
 
-5. We will output a game summary to the player at the end of the game, which will make the player feel more achievement and make the game more addictive, this function we implement through file I/O.
+5. We will output a game summary to the player at the end of the game, which will make the player feel more achievement and make the game more addictive, this function we implement through ####file I/O####.
 
-6. In addition, we use different files to write different functions, which is convenient for us to collaborate when writing code, and to locate specific functions when changing code. And we also provide input/output samples in the folder to facilitate players to understand the game details when they are not playing the game.
+6. In addition, we use ####different files to write different functions####, which is convenient for us to collaborate when writing code, and to locate specific functions when changing code. And we also provide input/output samples in the folder to facilitate players to understand the game details when they are not playing the game.
 
-7. Moreover, we use proper indentation and naming to make our code more readable, to make it easier for ourselves or others to read, and to understand and locate the code quickly if we need to change it. We also use in-code documentation.
+7. Moreover, we use ####proper indentation and naming#### to make our code more readable, to make it easier for ourselves or others to read, and to understand and locate the code quickly if we need to change it. We also use ####in-code documentation####.
 
 ## Problem Statement:
 
