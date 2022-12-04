@@ -52,9 +52,9 @@ The user will be presented with a selection of replies to choice-based events fr
 
 3. We use fixed events in few major age groups, and **random events** in most age groups. We will **use a random function** to generate an event from the possible event groups to present to the player, making the game more playable because the player will be exposed to different events every time he plays the game and thus can find excitement in the random events.
 
-4. We used **data structures** to store random events, which made our operation more efficient; and used **data structures** to store the current status of members' characteristics, such as health, intelligence, etc. The appropriate use of dynamic memory is also a highlight of our coding.
+4. We used **data structures** to store random events, which made our operation more efficient; and used **data structures** to store the current status of members' characteristics, such as health, intelligence, etc. The appropriate use of **dynamic memory** is also a highlight of our coding.
 
-5. We will output a game summary to the player at the end of the game, which will make the player feel more achievement and make the game more addictive, this function we implement through **file I/O**.
+5. We will output a game summary to the player at the end of the game, which will make the player feel more achievement and make the game more addictive, this function we implement through **file I/O**. **File Input/Output** will also make it easier to load and store the state of the game.
 
 6. In addition, we use **different files to write different functions**, which is convenient for us to collaborate when writing code, and to locate specific functions when changing code. And we also provide input/output samples in the folder to facilitate players to understand the game details when they are not playing the game.
 
