@@ -13,7 +13,7 @@
 
 using namespace std;
 
-// outputs the results of events at ages 14-17
+// outputs the results of events at ages 14-17, the events that occur during this stage are random
 // inputs: chosen index, player's stats as a pass-by reference
 void resultsevents14_to_17( int index, Show &s, ofstream & fout ) {
 	int choice;
@@ -29,7 +29,6 @@ void resultsevents14_to_17( int index, Show &s, ofstream & fout ) {
 				cout << "<health -1 wealth -1 satisfaction +2>" << endl;
 				ChangeStats( s, -1, -1, +2);
 				
-
 				// save game
 				fout << endl << "Choice: Join them and play the hell out of it. Friendship and glory!" << endl;
 				fout << "You spend too much time on gaming that your grades are negatively affected. But you do achieve high in the game anyway." << endl;
@@ -108,7 +107,6 @@ void resultsevents14_to_17( int index, Show &s, ofstream & fout ) {
 				fout << "Bad choice! If you want something, just go for it!" << endl;
 			}
 			break;
-			
 		
 		case 3:	    
 			cout << "1. Zoo." << endl;
@@ -132,7 +130,6 @@ void resultsevents14_to_17( int index, Show &s, ofstream & fout ) {
 				cout << "<satisfaction +1>" << endl;
 				ChangeStats (s, 0, 0, +1);
 				
-
 				//save game
 				fout << endl << "Choice: Disneyland." << endl;
 				fout << "Yeah great time at Disneyland!" << endl;
@@ -142,7 +139,6 @@ void resultsevents14_to_17( int index, Show &s, ofstream & fout ) {
 				cout << "<satisfaction +1>" << endl;
 				ChangeStats (s, 0, 0, +1);
 				
-
 				//save game
 				fout << endl << "Choice: Ocean Park." << endl;
 				fout << "Yeah great time at Ocean Park!" << endl;
@@ -157,7 +153,6 @@ void resultsevents14_to_17( int index, Show &s, ofstream & fout ) {
 				fout << endl << "Yeah great time at Universal Studios!" << endl;
 			}	
 			break;
-
 		
 		case 4:
 			cout << "1. Use both feet to apply the brake and throttle." << endl;
@@ -186,7 +181,6 @@ void resultsevents14_to_17( int index, Show &s, ofstream & fout ) {
 			}
 			break;
 
-
 		case 5:
 			cout << "Please enter '1' to continue with the game: ";
 			cin >> choice;
@@ -200,7 +194,6 @@ void resultsevents14_to_17( int index, Show &s, ofstream & fout ) {
 				fout << "You are so lucky to have each oter~" << endl;
 			}	
 			break;	    
-
 
 		case 6:
 			cout << "Please enter '1' to continue with the game: ";
@@ -219,7 +212,7 @@ void resultsevents14_to_17( int index, Show &s, ofstream & fout ) {
 	 }
 
 
-// outputs the results of events at ages 20-23
+// outputs the results of events at ages 20-23, the events that occur during this stage are random
 // inputs: chosen index, player's stats as a pass-by reference
 void resultsevents20_to_23( int index, Show &s, ofstream & fout ) {
 	int choice;
@@ -259,7 +252,6 @@ void resultsevents20_to_23( int index, Show &s, ofstream & fout ) {
 				fout << "GPA++! Everything seems great except the sad fact that you remain single throughout college." << endl;
 			}
 			break;
-
 
 		case 1:
 			cout << "1. OMG this is a once-in-a-lifetime opportunity! I need to save every penny to get a ticket!" << endl;
@@ -454,7 +446,6 @@ void resultsevents20_to_23( int index, Show &s, ofstream & fout ) {
 				cout << "<health -1 satisfaction +1>" << endl;
 				ChangeStats (s, -1, 0, +1);
 				
-
 				//save game
 				fout << endl << "Choice: Sports car." << endl;
 				fout << "Racing sets me on fire!" << endl;
@@ -464,7 +455,6 @@ void resultsevents20_to_23( int index, Show &s, ofstream & fout ) {
 				cout << "<satisfaction +1>" << endl;
 				ChangeStats (s, 0, 0, +1);
 				
-
 				//save game
 				fout << endl << "Choice: Villa." << endl;
 				fout << "Wonderful villa!!!" << endl;
@@ -495,13 +485,7 @@ void resultsevents20_to_23( int index, Show &s, ofstream & fout ) {
 	}
 }
 
-		
-    
-	          
-
-
-
-// outputs the results of events at ages 26-29
+// outputs the results of events at ages 26-29, the events that occur during this stage are random
 // inputs: chosen index, player's stats as a pass-by reference
 void resultsevents26_to_29( int index, Show &s, ofstream & fout ) {
 	int choice;
@@ -541,7 +525,6 @@ void resultsevents26_to_29( int index, Show &s, ofstream & fout ) {
 				fout << "Surprisingly your partner was very accommodating, they understood how important this is to you and had decided to support you along the way. Meanwhile, your presentation last week was a blast, you got promoted to a VP position within the firm, congratulations!" << endl;
 			}
 			break;
-
 
 		case 1:
 			cout << "1.You found out that you’re passionate about education and you enjoy helping students out, you’ve decided to start a new venture as an entrepreneur!" << endl;
@@ -699,7 +682,6 @@ void resultsevents26_to_29( int index, Show &s, ofstream & fout ) {
 				cout << "<Health -1>" << endl;
 				ChangeStats( s, -1, 0, 0 );
 
-
 				// save game
 				fout << endl << "Choice: Skiing in Hokkaido." << endl;
 				fout << "You went skiing in Hokkaido and fell and broke a bone due to improper handling." << endl;
@@ -736,7 +718,6 @@ void resultsevents26_to_29( int index, Show &s, ofstream & fout ) {
 				cout << "<Wealth +2, Satisfaction -2>" << endl;
 				ChangeStats( s, 0, +2, -2 );
 
-
 				// save game
 				fout << endl << "Choice: Go visit your ex and offered to pay for their medical expenses." << endl;
 				fout << "Turns out your ex was secretly a billionaire. They were very touched that you offered them with such kind gestures and had decided to buy you an apartment at Repulse Bay. But your partner, however, was angry that you still had feelings for her and wanted a divorce." << endl;
@@ -763,9 +744,7 @@ void resultsevents26_to_29( int index, Show &s, ofstream & fout ) {
     }
 }
 
-
-
-// outputs the results of events at ages 32-35
+// outputs the results of events at ages 32-35, the events that occur during this stage are random
 // inputs: chosen index, player's stats as a pass-by reference
 
 void resultsevents32_to_35( int index, Show &s, ofstream & fout ) {
