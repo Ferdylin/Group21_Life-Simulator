@@ -41,13 +41,13 @@ using namespace std;
 
 // declaration and initialization of arrays containing events (ages 14-17)
 string events_14_to_17[7] = {
-"There is a new video game. Every friend of yours seem obsessed with it. You find it interesting as well. They constantly invite you to play with them for long hours. What will you do?",
+"There is a new video game. Every friend of yours seems so obsessed with it. You find it interesting as well. They constantly ask you to play with them. What will you do?",
 "For the first time in your life, you have a crush on someone. It feels wonderful but you are shy to approach that person. What will you do?",
-"Drama Society is recruiting. You always wanted to try being an actor and this is precious opportunity. But you are worried about too much stress of performing a complete play in front of everyone. What will you do?",
+"Drama Society is recruiting. You have always wanted to try being an actor and this is a precious opportunity. But you are worried about too much stress of performing a complete play in front of everyone. What will you do?",
 "School trip! Please select your destination...",
 "You are learning how to drive an automatic transmission car. In your driving test you...",
 "BFF movienight!!!",
-"Just get back from the hair salon.",
+"Just got back from the hair salon.",
 };
 
 // declaration and initialization of arrays containing events (age 20-23)
