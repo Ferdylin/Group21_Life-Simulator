@@ -1,19 +1,13 @@
 /*
 【LiveLaughLove_Simulator】
 
-Student Names: 
-1. Wu Hanbo
-2. Chen Huiwen
+Student Names & UIDs: 
+1. Wu Hanbo 3035834876
+2. Chen Huiwen 3035790642
 3.
-4. Tang Chengxin
-5. Lin Junyan
+4. Tang Chengxin 3035845162
+5. Lin Junyan 3035750018
 
-UID(s): 
-1. 3035834876
-2. 3035790642
-3.
-4. 3035845162
-5. 3035750018
 
 Description: 
 A life simulator game simulating a players' life for the age of[13 - 36]
@@ -101,7 +95,7 @@ void showevents14_17( Show &s, ofstream & fout ) {
 
 	while ( true ) {
 		selection = rand() % 7;
-		if ( events_14_to_17[selection] != "Taken" ) {
+		if ( events_14_to_17[selection] != "Exists" ) {
 			cout << "Please enter the choice number when prompted!" << endl;
   			cout << "--------------------------------------------------" << endl;
 			cout << "[ Random Event ]" << endl;
@@ -110,8 +104,8 @@ void showevents14_17( Show &s, ofstream & fout ) {
 			// saves game progress in temporary file
 			fout << events_14_to_17[selection];
 			
-      // changes the element to "Taken" so the same event won't be outputted twice
-			events_14_to_17[selection] = "Taken";
+      // changes the element to "Exists" so the same event won't be outputted twice
+			events_14_to_17[selection] = "Exists";
 
 			break;
 		}
@@ -141,7 +135,7 @@ void showevents20_23( Show &s, ofstream & fout ) {
 
 	while ( true ) {
 		selection = rand() % 7;
-		if ( events_20_to_23[selection] != "Taken" ) {
+		if ( events_20_to_23[selection] != "Exists" ) {
 			cout << "Please enter the choice number when prompted!" << endl;
   			cout << "--------------------------------------------------" << endl;
 			cout << "[ Random Event ]" << endl;
@@ -150,8 +144,8 @@ void showevents20_23( Show &s, ofstream & fout ) {
 			// saves game progress in temporary file
 			fout << events_20_to_23[selection];
 			
-      // changes the element to "Taken" so the same event won't be outputted twice
-			events_20_to_23[selection] = "Taken";
+      // changes the element to "Exists" so the same event won't be outputted twice
+			events_20_to_23[selection] = "Exists";
 
 			break;
 		}
@@ -180,7 +174,7 @@ void showevents26_29( Show &s, ofstream & fout ) {
 
 	while ( true ) {
 		selection = rand() % 7;
-		if ( events_26_to_29[selection] != "Taken" ) {
+		if ( events_26_to_29[selection] != "Exists" ) {
 			cout << "Please enter the choice number when prompted!" << endl;
   			cout << "--------------------------------------------------" << endl;
 			cout << "[ Random Event ]" << endl;
@@ -189,8 +183,8 @@ void showevents26_29( Show &s, ofstream & fout ) {
 			// saves game progress in temporary file
 			fout << events_26_to_29[selection];
 			
-      // changes the element to "Taken" so the same event won't be outputted twice
-			events_26_to_29[selection] = "Taken";
+      // changes the element to "Exists" so the same event won't be outputted twice
+			events_26_to_29[selection] = "Exists";
 
 			break;
 		}
@@ -219,7 +213,7 @@ void showevents32_35( Show &s, ofstream & fout ) {
 
 	while ( true ) {
 		selection = rand() % 7;
-		if ( events_32_to_35[selection] != "Taken" ) {
+		if ( events_32_to_35[selection] != "Exists" ) {
 			cout << "Please enter the choice number when prompted!" << endl;
   			cout << "--------------------------------------------------" << endl;
 			cout << "[ Random Event ]" << endl;
@@ -228,8 +222,8 @@ void showevents32_35( Show &s, ofstream & fout ) {
 			// saves game progress in temporary file
 			fout << events_32_to_35[selection];
 			
-      // changes the element to "Taken" so the same event won't be outputted twice
-			events_32_to_35[selection] = "Taken";
+      // changes the element to "Exists" so the same event won't be outputted twice
+			events_32_to_35[selection] = "Exists";
 
 			break;
 		}
