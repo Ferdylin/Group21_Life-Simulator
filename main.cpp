@@ -87,10 +87,8 @@ OUTPUT(s):
 */
 void showevents14_17( Show &s, ofstream & fout ) {
 	
-	
 	fout << "[ Random Event ]" << endl;
 	
-
 	int selection;
 
 	while ( true ) {
@@ -127,10 +125,8 @@ OUTPUT(s):
 */
 void showevents20_23( Show &s, ofstream & fout ) {
 	
-	
 	fout << "[ Random Event ]" << endl;
 	
-
 	int selection;
 
 	while ( true ) {
@@ -166,9 +162,7 @@ OUTPUT(s):
 */
 void showevents26_29( Show &s, ofstream & fout ) {
 	
-	
 	fout << "[ Random Event ]" << endl;
-	
 
 	int selection;
 
@@ -205,10 +199,8 @@ OUTPUT(s):
 */
 void showevents32_35( Show &s, ofstream & fout ) {
 	
-	
 	fout << "[ Random Event ]" << endl;
 	
-
 	int selection;
 
 	while ( true ) {
@@ -267,8 +259,8 @@ bool growUpOrQuit( int * &age, string filename, string tempfile, Show player, st
 	// continue playing
   if ( truefalse == "1" ) {
 		// increment age and store user choice
-    * age += 1; 
-		choice = true; 
+	* age += 1; 
+	choice = true; 
   }
 
 	// save and quit game
@@ -310,7 +302,7 @@ bool growUpOrQuit( int * &age, string filename, string tempfile, Show player, st
 		// close files 
 		save.close();
 		copy.close();
-  }
+	}
 
 	return choice;
 }
@@ -752,16 +744,9 @@ int main() {
   	delete age; // delete dynamic variable
 	fout.close(); // close temporary file
 
-	
-
-
   	// calls the final function to output a summary of the game
 	// ShowStats( player, name );
   	FinalStats( player.health, player.wealth, player.satisfaction );
-	
-	
-	
-	
 	
 	// declare ofstream object for copying contents in <tempfile> to <filename>
 	ofstream save;
@@ -788,9 +773,7 @@ int main() {
 	// close all files
 	save.close();
 	copy.close();
-	
 
-	
 	// informs player that a summary of their game can be viewed in the file they provided
 	cout << endl << "To view your game summary, open the <.txt> file you provided at the start of the game!" << endl;
 	cout << "Please enter 'make clean' to remove the contemporary files!" << endl;
