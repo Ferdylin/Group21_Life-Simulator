@@ -143,11 +143,7 @@ void Events19(Show &s, string name, ofstream &fout) {
         fout << endl << "Choice:  What? Shouldn’t college students be in lecture halls? Nah, I don’t need internships." << endl;
         fout << "You at job interviews after graduation: what do you mean “you won’t consider college graduates with no internship experiences”?!" << endl;
 
-        ChangeStats(s, 0, +1, -2);
-
-        //save game
-        fout << endl << "Choice: Continue study." << endl;
-        fout << "You fail to get into a school you like. Guess you have to join the workforce anyway." << endl;
+        
         }
 
 }
