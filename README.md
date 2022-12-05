@@ -13,6 +13,8 @@ This game simulates life from the age of 13 to 36, giving players a chance to re
 
 For university students nowadays, they are overconsumed with the anger of having to stay up late for revision, cracking that assignment, and landing a prestigious internship! Of course this shouldn't be the only thing that you care about, there should be much more to life than that right? Like getting a divorce or breaking up with your other half (Just joking:)). But anyways, we truly want you to experience your life in your 20s as well as your 30s to discover what alternative paths you could probably take to make your life less miserable:). 
 
+Please enjoy this game, you can simply download this zipfile and cd to the directory, then type in 'make play' to start off the game, can't wait to see what you will accomplish in this game!!
+
 ## 3. Game rules
 #### Age range: 13-36
 #### 
