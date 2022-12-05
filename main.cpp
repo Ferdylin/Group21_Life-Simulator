@@ -28,8 +28,8 @@ Instructions on starting the game:
 #include <iomanip>
 #include "Show.h"
 #include "Stats_control.h"
-#include "majoryear.h"
-#include "minoryear.h"
+#include "fixedevents.h"
+#include "randomevents.h"
 
 using namespace std;
 
