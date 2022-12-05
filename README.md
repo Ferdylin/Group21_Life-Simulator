@@ -45,7 +45,7 @@ The user will be presented with a selection of replies to choice-based events fr
 
 1. The player can make choices according to their own wishes, each choice will produce different results, and each choice will have an impact on the game's ending.
 
-2. When the user makes each event choice, an event comment and description will be output, as well as outputting the impact of the event choice on the game main character, and outputting the properties of the main character after the event, which provides feedback on the player's operation, making the gameplay and playability greatly increased.
+2. When the user makes each event choice, an event comment and description will be outputted, as well as outputting the impact of the event choice on the game main character, and outputting the properties of the main character after the event, which provides feedback on the player's operation, making the gameplay and playability greatly increased.
 
 3. We use fixed events in few major age groups, and **random events** in most age groups. We will **use a random function** to generate an event from the possible event groups to present to the player, making the game more playable because the player will be exposed to different events every time he plays the game and thus can find excitement in the random events.
 
