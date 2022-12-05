@@ -27,6 +27,7 @@ void resultsevents14_to_17( int index, Show &s, ofstream & fout ) {
 			cin >> choice;
 
 			if ( choice == 1 ) {
+				// The result and impact of this event choice
 				cout << "You spend too much time on gaming that your grades are negatively affected. But you do achieve high in the game anyway." << endl;
 				cout << "<health -1 wealth -1 satisfaction +2>" << endl;
 				ChangeStats( s, -1, -1, +2);
@@ -37,6 +38,7 @@ void resultsevents14_to_17( int index, Show &s, ofstream & fout ) {
 				
 			}
 			else if ( choice == 2 ) {
+				// The result and impact of this event choice
 				cout << "You maintain good grades, and have fun in gaming." << endl;
 				cout << "<health +1 satisfaction +1>" << endl;
 				ChangeStats( s, +1, 0, +1 );
@@ -56,6 +58,7 @@ void resultsevents14_to_17( int index, Show &s, ofstream & fout ) {
 			cin >> choice;
 
 			if ( choice == 1 ) {
+				// The result and impact of this event choice
 				cout << "Your crush never knows your affection. You feel depressed for not open about your feelings." << endl;
 				cout << "<satisfaction -1>" << endl;
 				ChangeStats(s, 0, 0, -1);
@@ -65,6 +68,7 @@ void resultsevents14_to_17( int index, Show &s, ofstream & fout ) {
 				fout << "Your crush never knows your affection. You feel depressed for not open about your feelings." << endl;
 			}
 			else if ( choice == 2 ) {
+				// The result and impact of this event choice
 				cout << "'Wow… I like you too!' You become a cute couple. First love is so sweet!" << endl;
 				cout << "<satisfaction +2>" << endl;
 				ChangeStats( s, 0, 0, +2 );
@@ -74,6 +78,7 @@ void resultsevents14_to_17( int index, Show &s, ofstream & fout ) {
 				fout << "'Wow… I like you too!' You become a cute couple. First love is so sweet!" << endl;
 			}
 			else if ( choice == 3 ) {
+				// The result and impact of this event choice
 				cout << "Your crush hates you and everyone think you are mean. You feel awful." << endl;
 				cout << "<satisfaction -2>" << endl;
 				ChangeStats( s, 0, 0, -2 );
@@ -93,6 +98,7 @@ void resultsevents14_to_17( int index, Show &s, ofstream & fout ) {
 			cin >> choice;
 
 			if ( choice == 1 ) {
+				// The result and impact of this event choice
 				cout << "They are really impressed by your performance! The play turns out to be a huge success. You have made great friends and this becomes the memory of a lifetime." << endl;
 				cout << "<satisfaction +2>" << endl;
 				ChangeStats(s, 0, 0, +2);
@@ -102,6 +108,7 @@ void resultsevents14_to_17( int index, Show &s, ofstream & fout ) {
 				fout << "They are really impressed by your performance! The play turns out to be a huge success. You made great friends and this become a memory of a lifetime." << endl;
 			}
 			else if ( choice == 2 ) {
+				// The result and impact of this event choice
 				cout << "Bad choice! If you want something, just go for it!" << endl;
 				cout << "<satisfaction -1>" << endl;
 				ChangeStats( s, 0, 0, -1 );
@@ -122,6 +129,7 @@ void resultsevents14_to_17( int index, Show &s, ofstream & fout ) {
 			cin >> choice;
 
 			if ( choice == 1 ) {
+				// The result and impact of this event choice
 				cout << "Yeah great time at the zoo!" << endl;
 				cout << "<satisfaction +1>" << endl;
 				ChangeStats (s, 0, 0, +1);
@@ -131,6 +139,7 @@ void resultsevents14_to_17( int index, Show &s, ofstream & fout ) {
 				fout << "Yeah great time at the zoo!" << endl;
 			}
 			else if ( choice == 2 ) {
+				// The result and impact of this event choice
 				cout << "Yeah great time at Disneyland!" << endl;
 				cout << "<satisfaction +1>" << endl;
 				ChangeStats (s, 0, 0, +1);
@@ -140,6 +149,7 @@ void resultsevents14_to_17( int index, Show &s, ofstream & fout ) {
 				fout << "Yeah great time at Disneyland!" << endl;
 			}
 			else if ( choice == 3 ) {
+				// The result and impact of this event choice
 				cout << "Yeah great time at Ocean Park!" << endl;
 				cout << "<satisfaction +1>" << endl;
 				ChangeStats (s, 0, 0, +1);
@@ -149,6 +159,7 @@ void resultsevents14_to_17( int index, Show &s, ofstream & fout ) {
 				fout << "Yeah great time at Ocean Park!" << endl;
 			}
 			else if ( choice == 4 ){
+				// The result and impact of this event choice
 				cout << "Yeah great time at Universal Studios!" << endl;
 				cout << "<satisfaction +1>"  << endl;
 				ChangeStats (s, 0, 0, +1);
@@ -168,6 +179,7 @@ void resultsevents14_to_17( int index, Show &s, ofstream & fout ) {
 			cin >> choice;
 
 			if ( choice == 1 ) {
+				// The result and impact of this event choice
 				cout << "!!!Car Crash Warning!!! Failed your test." << endl;
 				cout << "<health-1 satisfaction -1>" << endl;
 				ChangeStats(s, -1, 0, -1);
@@ -177,6 +189,7 @@ void resultsevents14_to_17( int index, Show &s, ofstream & fout ) {
 				fout << "!!!Car Crash Warning!!! Failed your test." << endl;
 			}
 			else if ( choice == 2 ) {
+				// The result and impact of this event choice
 				cout << "Congratulations on your driver’s licence!" << endl;
 				cout << "<satisfaction+1>" << endl;
 				ChangeStats( s, 0, 0, +1 );
@@ -192,6 +205,7 @@ void resultsevents14_to_17( int index, Show &s, ofstream & fout ) {
 			cout << "Please enter '1' to continue with the game: ";
 			cin >> choice;
 			if (choice == 1){
+				// The result and impact of this event choice
 				cout << "You are so lucky to have each other~" << endl;
 				cout << "<satisfaction +2>" << endl;
 				ChangeStats(s, 0, 0, +2);
@@ -207,6 +221,7 @@ void resultsevents14_to_17( int index, Show &s, ofstream & fout ) {
 			cout << "Please enter '1' to continue with the game: ";
 			cin >> choice;
 			if (choice == 1){
+				// The result and impact of this event choice
 				cout << "You are given an AWFUL haircut. Bad luck :( " << endl;
 				cout << "<wealth -1 satisfaction -1>" << endl;
 				ChangeStats(s, 0, -1, -1);
@@ -234,6 +249,7 @@ void resultsevents20_to_23( int index, Show &s, ofstream & fout ) {
 			cin >> choice;
 
 			if ( choice == 1 ) {
+				// The result and impact of this event choice
 				cout << "Congratulations on a very romantic college experience! Unfortunately, now you have a really fucked-up GPA." << endl;
 				cout << "<health +1 wealth -1 satisfaction +1>" << endl;
 				ChangeStats(s, +1, -1, +1);
@@ -243,6 +259,7 @@ void resultsevents20_to_23( int index, Show &s, ofstream & fout ) {
 				fout << "Congratulations on a very romantic college experience! Unfortunately, now you have a really fucked-up GPA." << endl;
 			}
 			else if ( choice == 2 ) {
+				// The result and impact of this event choice
 				cout << "Oh no, you have overestimated yourself." << endl;
 				cout << "<wealth -1 satisfaction +1>" << endl;
 				ChangeStats( s, 0, -1, +1 );
@@ -252,6 +269,7 @@ void resultsevents20_to_23( int index, Show &s, ofstream & fout ) {
 				fout << "Oh no, you have overestimated yourself." << endl;
 			}
 			else if ( choice == 3 ) {
+				// The result and impact of this event choice
 				cout << "GPA++! Everything seems great except the sad fact that you remain single throughout college.." << endl;
 				cout << "<satisfaction -1>" << endl;
 				ChangeStats( s, 0, 0, -1 );
@@ -270,6 +288,7 @@ void resultsevents20_to_23( int index, Show &s, ofstream & fout ) {
 			cin >> choice;
 
 			if ( choice == 1 ) {
+				// The result and impact of this event choice
 				cout << "This indeed turns out to be an experience of a lifetime." << endl;
 				cout << "<satisfaction +2 wealth -2>" << endl;
 				ChangeStats(s, 0, -2, +2);
@@ -279,6 +298,7 @@ void resultsevents20_to_23( int index, Show &s, ofstream & fout ) {
 				fout << "This indeed turns out to be an experience of a lifetime." << endl;
 			}
 			else if ( choice == 2 ) {
+				// The result and impact of this event choice
 				cout << ":)" << endl;
 				cout << "<satisfaction -1>" << endl;
 				ChangeStats( s, 0, 0, -1 );
@@ -299,6 +319,7 @@ void resultsevents20_to_23( int index, Show &s, ofstream & fout ) {
 			cin >> choice;
 
 			if ( choice == 1 ) {
+				// The result and impact of this event choice
 				cout << "Piano turns out to be your lifelong interest." << endl;
 				cout << "<satisfaction +1 wealth -1>" << endl;
 				ChangeStats(s, 0, -1, +1);
@@ -308,6 +329,7 @@ void resultsevents20_to_23( int index, Show &s, ofstream & fout ) {
 				fout << "Piano turns out to be your lifelong interest." << endl;
 			}
 			else if ( choice == 2 ) {
+				// The result and impact of this event choice
 				cout << "<Violin turns out to be your lifelong interest.>" << endl;
 				cout << "<satisfaction +1 wealth -1>" << endl;
 				ChangeStats(s, 0, -1, +1);
@@ -317,6 +339,7 @@ void resultsevents20_to_23( int index, Show &s, ofstream & fout ) {
 				fout << "Violin turns out to be your lifelong interest." << endl;
 			}
 			else if ( choice == 3 ) {
+				// The result and impact of this event choice
 				cout << "Guitar turns out to be your lifelong interest.." << endl;
 				cout << "<satisfaction +1 wealth -1>" << endl;
 				ChangeStats(s, 0, -1, +1);
@@ -326,6 +349,7 @@ void resultsevents20_to_23( int index, Show &s, ofstream & fout ) {
 				fout << "Guitar turns out to be your lifelong interest." << endl;
 			}
 			else if ( choice == 4 ){
+				// The result and impact of this event choice
 				cout << "Drum turns out to be your lifelong interest.." << endl;
 				cout << "<satisfaction +1 wealth -1>" << endl;
 				ChangeStats(s, 0, -1, +1);
@@ -345,6 +369,7 @@ void resultsevents20_to_23( int index, Show &s, ofstream & fout ) {
 			cin >> choice;
 
 			if ( choice == 1 ) {
+				// The result and impact of this event choice
 				cout << "Congratulations on joining the workforce." << endl;
         			cout << "<wealth +1 satisfaction -1>" << endl;
         			ChangeStats(s, 0, +1, -1);
@@ -354,6 +379,7 @@ void resultsevents20_to_23( int index, Show &s, ofstream & fout ) {
         			fout << "Congratulations on joining the workforce." << endl;
 				
 			} else if ( choice == 2 ) {
+				// The result and impact of this event choice
 				cout << "You fail to get into a school you like. Guess you have to join the workforce anyway." << endl;
         			cout << "<wealth +1 satisfaction -2>" << endl;
         			ChangeStats(s, 0, +1, -2);
@@ -374,6 +400,7 @@ void resultsevents20_to_23( int index, Show &s, ofstream & fout ) {
 			cin >> choice;
 
 			if (choice == 1) {
+				// The result and impact of this event choice
         			cout << "Work-life-balance sucks. But the good news is…the pay is rather decent?" << endl;
         			cout << "<health -1 wealth +1>" << endl;
         			ChangeStats(s, -1, +1, 0);
@@ -383,6 +410,7 @@ void resultsevents20_to_23( int index, Show &s, ofstream & fout ) {
         			fout << "Work-life-balance sucks. But the good news is…the pay is rather decent?" << endl;
     			} 
 			else if (choice == 2) {
+				// The result and impact of this event choice
         			cout << "I’m sooooo tired! But good news is… you get to learn a lot about the industry?" << endl;
         			cout << "<health -1 wealth +1>" << endl;
         			ChangeStats(s, -1, +1, 0);
@@ -392,6 +420,7 @@ void resultsevents20_to_23( int index, Show &s, ofstream & fout ) {
         			fout << "I’m sooooo tired! But good news is… you get to learn a lot about the industry?" << endl;
     			} 
 			else if (choice == 3) {
+				// The result and impact of this event choice
         			cout << "You land a shiny job. But bad news is… you have to work around the clock." << endl;
         			cout << "<health -1 wealth +1>" << endl;
         			ChangeStats(s, -1, +1, 0);
@@ -412,6 +441,7 @@ void resultsevents20_to_23( int index, Show &s, ofstream & fout ) {
 			cin >> choice;
 
 			if (choice == 1) {
+				// The result and impact of this event choice
         			cout << "You really enjoy the privacy in your own apartment." << endl;
         			cout << "<wealth -2 satisfaction +1>" << endl;
         			ChangeStats(s, 0, -2, +1);
@@ -421,6 +451,7 @@ void resultsevents20_to_23( int index, Show &s, ofstream & fout ) {
         			fout << "You really enjoy the privacy in your own apartment." << endl;
     			} 
 			else if (choice == 2) {
+				// The result and impact of this event choice
         			cout << "The rent is quite affordable." << endl;
         			cout << "<wealth -1 satisfaction-1>" << endl;
         			ChangeStats(s, 0, -1, -1);
@@ -430,6 +461,7 @@ void resultsevents20_to_23( int index, Show &s, ofstream & fout ) {
         			fout << "The rent is quite affordable." << endl;
     			} 
 			else if (choice == 3) {
+				// The result and impact of this event choice
         			cout << "Most comfortable!" << endl;
         			cout << "<wealth -3 satisfaction +2>" << endl;
         			ChangeStats(s, 0, -3, +2);
@@ -451,6 +483,7 @@ void resultsevents20_to_23( int index, Show &s, ofstream & fout ) {
 			cin >> choice;
 
 			if ( choice == 1 ) {
+				// The result and impact of this event choice
 				cout << "Wow a complete personal image changeover!" << endl;
 				cout << "<satisfaction +1>" << endl;
 				ChangeStats (s, 0, 0, +1);
@@ -460,6 +493,7 @@ void resultsevents20_to_23( int index, Show &s, ofstream & fout ) {
 				fout << "Wow a complete personal image changeover!" << endl;
 			}
 			else if ( choice == 2 ) {
+				// The result and impact of this event choice
 				cout << "Racing sets me on fire!" << endl;
 				cout << "<health -1 satisfaction +1>" << endl;
 				ChangeStats (s, -1, 0, +1);
@@ -469,6 +503,7 @@ void resultsevents20_to_23( int index, Show &s, ofstream & fout ) {
 				fout << "Racing sets me on fire!" << endl;
 			}
 			else if ( choice == 3 ) {
+				// The result and impact of this event choice
 				cout << "Wonderful villa!!!" << endl;
 				cout << "<satisfaction +1>" << endl;
 				ChangeStats (s, 0, 0, +1);
@@ -478,6 +513,7 @@ void resultsevents20_to_23( int index, Show &s, ofstream & fout ) {
 				fout << "Wonderful villa!!!" << endl;
 			}
 			else if ( choice == 4 ){
+				// The result and impact of this event choice
 				cout << "This trip leaves you countless precious memories." << endl;
 				cout << "<satisfaction +2>" << endl;
 				ChangeStats (s, 0, 0, +2);
@@ -488,6 +524,7 @@ void resultsevents20_to_23( int index, Show &s, ofstream & fout ) {
 				
 			}	
 			else if ( choice == 5 ){
+				// The result and impact of this event choice
 				cout << "You are a person with a big, big heart." << endl;
 				cout << "<satisfaction +2>" << endl;
 				ChangeStats (s, 0, 0, +2);
@@ -517,6 +554,7 @@ void resultsevents26_to_29( int index, Show &s, ofstream & fout ) {
 			cin >> choice;
 
 			if ( choice == 1 ) {
+				// The result and impact of this event choice
 				cout << "Oops, she decided to break up with you and go back to their ex. You’re all alone again, sad and depressed." << endl;
 				cout << "<Satisfaction –2>" << endl;
 				ChangeStats( s, 0, 0, -2 );
@@ -526,6 +564,7 @@ void resultsevents26_to_29( int index, Show &s, ofstream & fout ) {
 				fout << "Oops, she decided to break up with you and go back to their ex. You’re all alone again, sad and depressed. " << endl;
 			}
 			else if ( choice == 2 ) {
+				// The result and impact of this event choice
 				cout << "Your partner was very happy that you prioritised your relationship first, you guys went to Ritz Carlton and had a wonderful meal. But you weren’t so happy anymore when you saw the bill…" << endl;
 				cout << "<Satisfaction +1, Wealth –1>" << endl;
 				ChangeStats( s, 0, -1, +1 );
@@ -535,6 +574,7 @@ void resultsevents26_to_29( int index, Show &s, ofstream & fout ) {
 				fout << "Your partner was very happy that you prioritised your relationship first, you guys went to Ritz Carlton and had a wonderful meal. But you weren’t so happy anymore when you saw the bill… " << endl;
 			}
 			else if ( choice == 3 ) {
+				// The result and impact of this event choice
 				cout << "Surprisingly your partner was very accommodating, they understood how important this is to you and had decided to support you along the way. Meanwhile, your presentation last week was a blast, you got promoted to a VP position within the firm, congratulations!" << endl;
 				cout << "<Wealth +2>" << endl;
 				ChangeStats( s, 0, +2, 0 );
@@ -554,6 +594,7 @@ void resultsevents26_to_29( int index, Show &s, ofstream & fout ) {
 			cin >> choice;
 
 			if ( choice == 1 ) {
+				// The result and impact of this event choice
 				cout << "Yes, starting a business is hard, but you have succeeded! You have earned 3Mn revenue in the first year and your business is on the rise." << endl;
 				cout << "<Wealth +3, Satisfaction +1>" << endl;
 				ChangeStats( s, 0, +3, +1 );
@@ -563,6 +604,7 @@ void resultsevents26_to_29( int index, Show &s, ofstream & fout ) {
 				fout << "Yes, starting a business is hard, but you have succeeded! You have earned 3Mn revenue in the first year and your business is on the rise." << endl;
 			}
 			else if ( choice == 2 ) {
+				// The result and impact of this event choice
 				cout << "You got promoted to a more senior position, but you realised that you have grown to hate your job even more…" << endl;
 				cout << "<Wealth +1, Satisfaction -1>" << endl;
 				ChangeStats( s, 0, +1, -1 );
@@ -572,6 +614,7 @@ void resultsevents26_to_29( int index, Show &s, ofstream & fout ) {
 				fout << "You got promoted to a more senior position, but you realised that you have grown to hate your job even more…" << endl;
 			}
 			else if ( choice == 3 ) {
+				// The result and impact of this event choice
 				cout << "Sorry but nothing really happened, you should’ve known that job hunting isn’t easy…and you’ve decided to stay with your current company." << endl;
 				cout << "<->" << endl;
 				ChangeStats( s, 0, 0, 0 );
@@ -591,6 +634,7 @@ void resultsevents26_to_29( int index, Show &s, ofstream & fout ) {
 			cin >> choice;
 
 			if ( choice == 1 ) {
+				// The result and impact of this event choice
 				cout << "You found out that you really love dancing, and this is something that you’re truly passionate about and enjoy the most. You felt really happy." << endl;
 				cout << "<Satisfaction +2>" << endl;
 				ChangeStats( s, 0, 0, +2 );
@@ -600,6 +644,7 @@ void resultsevents26_to_29( int index, Show &s, ofstream & fout ) {
 				fout << "You found out that you really love dancing, and this is something that you’re truly passionate about and enjoy the most. You felt really happy. " << endl;
 			}
 			else if ( choice == 2 ) {
+				// The result and impact of this event choice
 				cout << "YES, you made it. It was a huge hit and people really like your channel, you got over 2million likes in total, and also tons of money flowing into your bank account, what an influencer!" << endl;
 				cout << "<Wealth +2>" << endl;
 				ChangeStats( s, 0, +2, 0 );
@@ -609,6 +654,7 @@ void resultsevents26_to_29( int index, Show &s, ofstream & fout ) {
 				fout << "YES, you made it. It was a huge hit and people really like your channel, you got over 2million likes in total, and also tons of money flowing into your bank account, what an influencer!" << endl;
 			}
 			else if ( choice == 3 ) {
+				// The result and impact of this event choice
 				cout << "7You started doing stupid stuff like running around and asking stupid questions at strangers, the market is saturated so you’re not getting as many likes as you expected, but at least you’re getting healthier with more exercise." << endl;
 				cout << "<Health +1>" << endl;
 				ChangeStats( s, +1, 0, 0 );
@@ -628,6 +674,7 @@ void resultsevents26_to_29( int index, Show &s, ofstream & fout ) {
 			cin >> choice;
 
 			if ( choice == 1 ) {
+				// The result and impact of this event choice
 				cout << "You got invited to Beyonce’s secret album reveal session, she also gave you a front seat VIP ticket to her concert (which worth 70K hkd) and you’ve decided to sell it out." << endl;
 				cout << "<Satisfaction +2, Wealth +1>" << endl;
 				ChangeStats( s, 0, +1, +2 );
@@ -637,6 +684,7 @@ void resultsevents26_to_29( int index, Show &s, ofstream & fout ) {
 				fout << "You got invited to Beyonce’s secret album reveal session, she also gave you a front seat VIP ticket to her concert (which worth 70K hkd) and you’ve decided to sell it out." << endl;
 			}
 			else if ( choice == 2 ) {
+				// The result and impact of this event choice
 				cout << "You got punched in the face by an aggressive Beyonce fan for ignoring their queen, you nose is severely injured and required an immediate surgery." << endl;
 				cout << "<Health -2>" << endl;
 				ChangeStats( s, -2, 0, 0 );
@@ -646,6 +694,7 @@ void resultsevents26_to_29( int index, Show &s, ofstream & fout ) {
 				fout << "You got punched in the face by an aggressive Beyonce fan for ignoring their queen, you nose is severely injured and required an immediate surgery." << endl;
 			}
 			else if ( choice == 3 ) {
+				// The result and impact of this event choice
 				cout << "You then got paparazzis following you around, you even got posted on Instagram. You felt very anxious about this." << endl;
 				cout << "<Satisfaction -1>" << endl;
 				ChangeStats( s, 0, 0, -1 );
@@ -665,6 +714,7 @@ void resultsevents26_to_29( int index, Show &s, ofstream & fout ) {
 			cin >> choice;
 
 			if ( choice == 1 ) {
+				// The result and impact of this event choice
 				cout << "The crypto market crashed in only one day after FTX’s (the largest crypto trading platform) bankruptcy, thank god that you didn’t invest! By the way your other investments are making huge returns!" << endl;
 				cout << "<Wealth +3>" << endl;
 				ChangeStats( s, 0, +3, 0 );
@@ -674,6 +724,7 @@ void resultsevents26_to_29( int index, Show &s, ofstream & fout ) {
 				fout << "The crypto market crashed in only one day after FTX’s (the largest crypto trading platform) bankruptcy, thank god that you didn’t invest! By the way your other investments are making huge returns!" << endl;
 			}
 			else if ( choice == 2 ) {
+				// The result and impact of this event choice
 				cout << "Oops, the crypto market crashed, and you’ve lost almost all your money, but you’re not the only one so don’t be too disappointed!" << endl;
 				cout << "<Wealth –4>" << endl;
 				ChangeStats( s, 0, -4, 0 );
@@ -683,6 +734,7 @@ void resultsevents26_to_29( int index, Show &s, ofstream & fout ) {
 				fout << "Oops, the crypto market crashed, and you’ve lost almost all your money, but you’re not the only one so don’t be too disappointed!" << endl;
 			}
 			else if ( choice == 3 ) {
+				// The result and impact of this event choice
 				cout << "Oops, the crypto market crashed but at least you did not invest all your idle cash into the platform. Smart business guy!" << endl;
 				cout << "<Wealth - 2, Satisfaction +2>" << endl;
 				ChangeStats( s, 0, -2, +2 );
@@ -702,6 +754,7 @@ void resultsevents26_to_29( int index, Show &s, ofstream & fout ) {
 			cin >> choice;
 
 			if ( choice == 1 ) {
+				// The result and impact of this event choice
 				cout << "You went skiing in Hokkaido and fell and broke a bone due to improper handling." << endl;
 				cout << "<Health -1>" << endl;
 				ChangeStats( s, -1, 0, 0 );
@@ -711,6 +764,7 @@ void resultsevents26_to_29( int index, Show &s, ofstream & fout ) {
 				fout << "You went skiing in Hokkaido and fell and broke a bone due to improper handling." << endl;
 			}
 			else if ( choice == 2 ) {
+				// The result and impact of this event choice
 				cout << "You had a little drink and were caught and fined by the traffic police on your way home." << endl;
 				cout << "<Wealth-1>" << endl;
 				ChangeStats( s, 0, -1, 0 );
@@ -720,6 +774,7 @@ void resultsevents26_to_29( int index, Show &s, ofstream & fout ) {
 				fout << "You had a little drink and were caught and fined by the traffic police on your way home." << endl;
 			}
 			else if ( choice == 3 ) {
+				// The result and impact of this event choice
 				cout << "You have an argument with a local resident and are left with an unpleasant experience." << endl;
 				cout << "<Satisfaction-1>" << endl;
 				ChangeStats( s, 0, 0, -1 );
@@ -739,6 +794,7 @@ void resultsevents26_to_29( int index, Show &s, ofstream & fout ) {
 			cin >> choice;
 
 			if ( choice == 1 ) {
+				// The result and impact of this event choice
 				cout << "Turns out your ex was secretly a billionaire. They were very touched that you offered them with such kind gestures and had decided to buy you an apartment at Repulse Bay. But your partner, however, was angry that you still had feelings for her and wanted a divorce." << endl;
 				cout << "<Wealth +2, Satisfaction -2>" << endl;
 				ChangeStats( s, 0, +2, -2 );
@@ -748,6 +804,7 @@ void resultsevents26_to_29( int index, Show &s, ofstream & fout ) {
 				fout << "Turns out your ex was secretly a billionaire. They were very touched that you offered them with such kind gestures and had decided to buy you an apartment at Repulse Bay. But your partner, however, was angry that you still had feelings for her and wanted a divorce." << endl;
 			}
 			else if ( choice == 2 ) {
+				// The result and impact of this event choice
 				cout << "Your ex indeed still has feelings for you and was not very pleased with you bringing your partner to visit them. They started crying which made you feel quite bad." << endl;
 				cout << "<Satisfaction -1>" << endl;
 				ChangeStats( s, 0, 0, -1 );
@@ -757,6 +814,7 @@ void resultsevents26_to_29( int index, Show &s, ofstream & fout ) {
 				fout << "Your ex indeed still has feelings for you and was not very pleased with you bringing your partner to visit them. They started crying which made you feel quite bad." << endl;
 			}
 			else if ( choice == 3 ) {
+				// The result and impact of this event choice
 				cout << "Your partner was very pleased with your loyalty and your commitment for their relationship, they have decided to buy a big house for you in Hong Kong Island but however, you have no idea where the money comes from…" << endl;
 				cout << "<Wealth +2>" << endl;
 				ChangeStats( s, 0, +2, 0 );
@@ -785,6 +843,7 @@ void resultsevents32_to_35( int index, Show &s, ofstream & fout ) {
 			cin >> choice;
 
 			if ( choice == 1 ) {
+				// The result and impact of this event choice
 				cout << "You travel to a country you have longed to visit, experience the local scenery and feel psychologically satisfied despite the cost." << endl;
 				cout << "<Satisfaction +1, Wealth -1, Health +1>" << endl;
 				ChangeStats( s, +1, -1, +1 );
@@ -794,6 +853,7 @@ void resultsevents32_to_35( int index, Show &s, ofstream & fout ) {
 				fout << "You travel to a country you have longed to visit, experience the local scenery and feel psychologically satisfied despite the cost." << endl;
 			}
 			else if ( choice == 2 ) {
+				// The result and impact of this event choice
 				cout << "You paid for swimming lessons, went swimming every evening after work and met good people." << endl;
 				cout << "<Satisfaction +1, Wealth -1, Health +1>" << endl;
 				ChangeStats( s, +1, -1, +1 );
@@ -803,6 +863,7 @@ void resultsevents32_to_35( int index, Show &s, ofstream & fout ) {
 				fout << "You paid for swimming lessons, went swimming every evening after work and met good people." << endl;
 			}
 			else if ( choice == 3 ) {
+				// The result and impact of this event choice
 				cout << "You get together with old friends to play video games and it seems like you've got your fun back, but you feel uncomfortable with your wrists and eyes while playing." << endl;
 				cout << "<Satisfaction +1, Health -1>" << endl;
 				ChangeStats( s, -1, 0, +1 );
@@ -821,6 +882,7 @@ void resultsevents32_to_35( int index, Show &s, ofstream & fout ) {
 			cin >> choice;
 
 			if ( choice == 1 ) {
+				// The result and impact of this event choice
 				cout << "He/She attends the cheap Happy school and often shares with you the interesting things that happen in school." << endl;
 				cout << "<Satisfaction +2, Wealth +1>" << endl;
 				ChangeStats( s, 0, +1, +2 );
@@ -830,6 +892,7 @@ void resultsevents32_to_35( int index, Show &s, ofstream & fout ) {
 				fout << "He/She attends the cheap Happy school and often shares with you the interesting things that happen in school." << endl;
 			}
 			else if ( choice == 2 ) {
+				// The result and impact of this event choice
 				cout << "He/She occasionally complained that school work was a little difficult and that he had less time for play when he got home." << endl;
 				cout << "<Satisfaction +1, Wealth -1>" << endl;
 				ChangeStats( s, 0, -1, +1 );
@@ -849,6 +912,7 @@ void resultsevents32_to_35( int index, Show &s, ofstream & fout ) {
 			cin >> choice;
 
 			if ( choice == 1 ) {
+				// The result and impact of this event choice
 				cout << "You spend a lot of money on drugs with few side effects, and you think that following medical advice should be helpful to your health." << endl;
 				cout << "<Wealth -1, Health +1>" << endl;
 				ChangeStats( s, +1, -1, 0 );
@@ -858,6 +922,7 @@ void resultsevents32_to_35( int index, Show &s, ofstream & fout ) {
 				fout << "You spend a lot of money on drugs with few side effects, and you think that following medical advice should be helpful to your health." << endl;
 			}
 			else if ( choice == 2 ) {
+				// The result and impact of this event choice
 				cout << "You attribute your health problems to a lack of exercise and decide to work out every day to increase your physical fitness." << endl;
 				cout << "<Health +2, Satisfaction +1>" << endl;
 				ChangeStats( s, +2, 0, +1 );
@@ -867,6 +932,7 @@ void resultsevents32_to_35( int index, Show &s, ofstream & fout ) {
 				fout << "You attribute your health problems to a lack of exercise and decide to work out every day to increase your physical fitness." << endl;
 			}
 			else if ( choice == 3 ) {
+				// The result and impact of this event choice
 				cout << "You forgot about this inspection and are still eating and drinking as usual every day." << endl;
 				cout << "<Health -2, Satisfaction +1>" << endl;
 				ChangeStats( s, -2, 0, +1 );
@@ -885,6 +951,7 @@ void resultsevents32_to_35( int index, Show &s, ofstream & fout ) {
 			cin >> choice;
 
 			if ( choice == 1 ) {
+				// The result and impact of this event choice
 				cout << "You decide to take out a loan to buy a bigger house to see if it appreciates in value later and to collect rent when you are old, but you are under a lot of pressure to pay the mortgage. " << endl;
 				cout << "<Health -1, Satisfaction -1>" << endl;
 				ChangeStats( s, -1, 0, -1 );
@@ -894,6 +961,7 @@ void resultsevents32_to_35( int index, Show &s, ofstream & fout ) {
 				fout << "You decide to take out a loan to buy a bigger house to see if it appreciates in value later and to collect rent when you are old, but you are under a lot of pressure to pay the mortgage. " << endl;
 			}
 			else if ( choice == 2 ) {
+				// The result and impact of this event choice
 				cout << "You are quite content with the small house you bought with full payment, but it is too small, and the house is very cramped when you move in." << endl;
 				cout << "<Wealth-1, satisfaction +1>" << endl;
 				ChangeStats( s, 0, -1, +1 );
@@ -913,6 +981,7 @@ void resultsevents32_to_35( int index, Show &s, ofstream & fout ) {
 			cin >> choice;
 
 			if ( choice == 1 ) {
+				// The result and impact of this event choice
 				cout << "You bet 10,000 on Saudi Arabia v Argentina 2:1." << endl;
 				cout << "<Wealth+1, Satisfaction +1>" << endl;
 				ChangeStats( s, 0, +1, +1 );
@@ -922,6 +991,7 @@ void resultsevents32_to_35( int index, Show &s, ofstream & fout ) {
 				fout << "You bet 10,000 on Saudi Arabia v Argentina 2:1." << endl;
 			}
 			else if ( choice == 2 ) {
+				// The result and impact of this event choice
 				cout << "You bet 10,000 on Saudi Arabia v Argentina 0:2." << endl;
 				cout << "<Wealth -2, satisfaction +2>" << endl;
 				ChangeStats( s, 0, -2, +2 );
@@ -931,6 +1001,7 @@ void resultsevents32_to_35( int index, Show &s, ofstream & fout ) {
 				fout << "You bet 10,000 on Saudi Arabia v Argentina 0:2." << endl;
 			}
 			else if ( choice == 3 ) {
+				// The result and impact of this event choice
 				cout << "You look at the players on the TV and think back to your youth." << endl;
 				cout << "<Satisfaction +2>" << endl;
 				ChangeStats( s, 0, 0, +2 );
@@ -949,6 +1020,7 @@ void resultsevents32_to_35( int index, Show &s, ofstream & fout ) {
 			cin >> choice;
 
 			if ( choice == 1 ) {
+				// The result and impact of this event choice
 				cout << "You sign the contract, follow your agent to an event, train hard every day but have few fans." << endl;
 				cout << "<Health -2, Wealth +1, Satisfaction +1>" << endl;
 				ChangeStats( s, -2, +1, +1 );
@@ -958,6 +1030,7 @@ void resultsevents32_to_35( int index, Show &s, ofstream & fout ) {
 				fout << "You sign the contract, follow your agent to an event, train hard every day but have few fans." << endl;
 			}
 			else if ( choice == 2 ) {
+				// The result and impact of this event choice
 				cout << "You think this kind of scouting is just a TV show and you don't know which scammer is so inexperienced." << endl;
 				cout << "<->" << endl;
 				ChangeStats( s, 0, 0, 0 );
@@ -976,6 +1049,7 @@ void resultsevents32_to_35( int index, Show &s, ofstream & fout ) {
 			cin >> choice;
 
 			if ( choice == 1 ) {
+				// The result and impact of this event choice
 				cout << "You decide not to lend him the money and explain to your brother that you don't have much money, but your brother doesn't listen to you and thinks you are selfish for not helping him." << endl;
 				cout << "<Satisfaction-1>" << endl;
 				ChangeStats( s, 0, 0, -1 );
@@ -985,6 +1059,7 @@ void resultsevents32_to_35( int index, Show &s, ofstream & fout ) {
 				fout << "You decide not to lend him the money and explain to your brother that you don't have much money, but your brother doesn't listen to you and thinks you are selfish for not helping him." << endl;
 			}
 			else if ( choice == 2 ) {
+				// The result and impact of this event choice
 				cout << "You decide to lend him the money and your parents praise you but you are also worried that your savings are too insufficient." << endl;
 				cout << "<Wealth-1, Satisfaction-1>" << endl;
 				ChangeStats( s, 0, -1, -1 );
