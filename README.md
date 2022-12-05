@@ -11,6 +11,8 @@
 Some lives are uneventful, some are bumpy, yet for most people, life is a path with no turning back and every choice is crucial to life.
 This game simulates life from the age of 13 to 36, giving players a chance to restart their lives. Different choices will lead to changes in personal parameters, resulting in a variety of endings, allowing players to experience different life.
 
+For university students nowadays, they are overconsumed with the anger of having to stay up late for revision, cracking that assignment, and landing a prestigious internship! Of course this shouldn't be the only thing that you care about, there should be much more to life than that right? Like getting a divorce or breaking up with your other half (Just joking:)). But anyways, we truly want you to experience your life in your 20s as well as your 30s to discover what alternative paths you could probably take to make your life less miserable:). 
+
 ## 3. Game rules
 #### Age range: 13-36
 #### 
