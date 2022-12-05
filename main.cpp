@@ -251,7 +251,7 @@ bool growUpOrQuit( int * &age, string filename, string tempfile, Show player, st
 
 	//Message prompt for player to either proceed with the next year or quit the game
   cout << "You are done with the current age, choose to proceed to the next year or save the game progress: " << endl;
-  cout << "1. Proceed to my next age." << endl << "2. Quit and Save my game progress." << endl << "Please enter choice: " ;
+  cout << "1. Proceed to my next age." << endl << "2. Quit and Save my game progress." << endl << "Enter choice: " ;
 
 	// store user input choice in a string variable
   cin >> truefalse;
