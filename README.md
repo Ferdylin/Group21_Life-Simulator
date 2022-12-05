@@ -46,7 +46,7 @@ The user will be presented with a selection of replies to choice-based events fr
 
 ## Features included in the code of our life simulator game
 
-1. The player can make choices according to their own wishes, each choice will produce different results, each choice will have an impact on the game's ending, and can even affect the occurrence of future events.
+1. The player can make choices according to their own wishes, each choice will produce different results, and each choice will have an impact on the game's ending.
 
 2. When the user makes each event choice, an event comment and description will be output, as well as outputting the impact of the event choice on the game main character, and outputting the properties of the main character after the event, which provides feedback on the player's operation, making the gameplay and playability greatly increased.
 
