@@ -206,7 +206,7 @@ void showevents32_35( Show &s, ofstream & fout ) {
 	while ( true ) {
 		selection = rand() % 7;
 		if ( events_32_to_35[selection] != "Exists" ) {
-			cout << "Enter the choice number when prompted!" << endl;
+			cout << "Please enter the choice number when prompted!" << endl;
   			cout << "--------------------------------------------------" << endl;
 			cout << "[ RANDOM EVENTS ]" << endl;
 			cout << events_32_to_35[selection] << endl;
