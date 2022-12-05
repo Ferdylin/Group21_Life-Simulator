@@ -18,11 +18,11 @@ Please enjoy this game, you can simply download this zipfile and cd to the direc
 ## 3. Game rules
 #### The age range from the beginning to the end: 13-36
 #### 
-**1. Character stats will be made up of three variables:  
-    health
-    wealth
-    satisfaction
-Each variable will have a value between 0 and 3 (They cannot go beyond 3 or go below 0).**
+**1. Character stats will be made up of three variables:  **
+    **health**
+    **wealth**
+    **satisfaction**
+**Each variable will have a value between 0 and 3 (They cannot go beyond 3 or go below 0).**
 
 2. At the beginning of the game, the player will choose whether to load a fresh game (by entering '1') or a saved game (by entering '2').
 
