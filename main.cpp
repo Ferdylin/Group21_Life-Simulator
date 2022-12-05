@@ -332,12 +332,18 @@ int main() {
 	
 	
   cout << "Welcome to LiveLaughLove, your own life-simulator!" << endl; 
-  cout << "Here you will live a life from age of 13 to 36." << endl;
+  cout << "Here you will live a life from the age of 13 to 36." << endl;
+  cout << "Each year an event occurs and you can make choices, ";
+  cout << "which results in the change in value of the three variables: health, wealth, and satisfaction." << endl;
+  cout << "After each year, you can either choose to continue with the game, or save and quit." << endl;
+  cout << "And at the end of the game, you can see a summary of the life you have lived." << endl;
   cout << endl << "But bear in mind that this game is just for fun." << endl;
-  cout << "PLEASE don't take it personal." << endl;
-  cout << "Please make sure that:" << endl;
+  cout << "PLEASE don't take it personally." << endl;
+  cout << endl << "Please make sure that:" << endl;
   cout << "1. All inputs entered are VALID INPUTS." << endl;
-  cout << "2. Name should consist of characters ONLY." << endl << "Else your game might be terminated accidentally" << endl;
+  cout << "2. Name should consist of characters ONLY." << endl; 
+  cout << "Else your game might be terminated accidentally!" << endl;
+  cout << "Ready? Let'go!" << endl << endl;
 
 	srand( time( NULL ) ); // initiates the random seed
 	string name; // declare string variable for player name
@@ -358,7 +364,7 @@ int main() {
 	}
 
 	// prompts user for choice to load new or previously saved game
-	cout << "Do you want to load a new game or load a saved game?" << endl << "1. To load new game" << endl << "2. To load saved game" << endl << "Enter choice: " ;
+	cout << "Do you want to load a new game or a saved game?" << endl << "1. To load new game" << endl << "2. To load saved game" << endl << "Enter choice: " ;
 	cin >> newOrLoad;
 
 	// new game 
@@ -745,7 +751,6 @@ int main() {
 	fout.close(); // close temporary file
 
   	// FinalStats gives summary of the players' events and choices
-	// ShowStats( player, name );
   	FinalStats( player.health, player.wealth, player.satisfaction );
 	
 	// declare ofstream object for copying contents in <tempfile> to <filename>
@@ -767,7 +772,7 @@ int main() {
 	string linecopy; // string variable for storing file lines while reading <tempfile>
 	while( getline( copy, linecopy ) ) {
 		save << linecopy << endl; // saves game summary by copying from temporary file
-		//cout << linecopy << endl; //displays summary of game
+		
 	}
 	
 	// close all files
