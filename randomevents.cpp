@@ -185,13 +185,13 @@ void resultsevents14_to_17( int index, Show &s, ofstream & fout ) {
 			cout << "Please enter '1' to continue with the game: ";
 			cin >> choice;
 			if (choice == 1){
-				cout << "You are so lucky to have each oter~" << endl;
+				cout << "You are so lucky to have each other~" << endl;
 				cout << "<satisfaction +2>" << endl;
 				ChangeStats(s, 0, 0, +2);
 				
 				//save game
 				fout << endl << "No choice made." << endl;
-				fout << "You are so lucky to have each oter~" << endl;
+				fout << "You are so lucky to have each other~" << endl;
 			}	
 			break;	    
 
