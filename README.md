@@ -1,18 +1,11 @@
 # Group21_Life-Simulator
 ## 1. Team members
 ### Author(s): 
-1. Wu Hanbo
-2. Chen Huiwen
-3. Xu Qingluo
-4. Tang Chengxin
-5. Lin Junyan
-
-### UID(s): 
-1. 3035834876
-2. 3035790642
-3. 3035908108
-4. 3035845162
-5. 3035750018
+1. Wu Hanbo 3035834876
+2. Chen Huiwen 3035790642
+3. Xu Qingluo 3035908108
+4. Tang Chengxin 3035845162
+5. Lin Junyan 3035750018
 
 ## 2. Game introduction
 Some lives are uneventful, some are bumpy, yet for most people, life is a path with no turning back and every choice is crucial to life.
@@ -65,13 +58,13 @@ The user will be presented with a selection of replies to choice-based events fr
 ### Assumptions with inputs:
 1. All the inputs should be valid.
 
-2. The role name must be numbers or letters.
+2. The role name must be of numbers or letters.
 
 3. The .txt file should exist and be valid.
 
 ### Other things to watch out for:
-1. The provided sample test is just a play case, you may get different results even if the input is the same due to the random events.
+1. The provided sample test is just a play case, you may get different results based on different random events generated.
 
-2. There will be a file called tempfile.txt created during compilation and execution. Please ignore the file and don’t add anythings to this file.
+2. There will be a file called tempfile.txt created during compilation and execution. Please ignore the file and add any changes to it.
 
 3. Some events will repeat if you save the game during the major years due to the random selection.
