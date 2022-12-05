@@ -73,4 +73,4 @@ The user will be presented with a selection of replies to choice-based events fr
 
 3. Some events will repeat if you save the game during the major years due to the random selection.
 
-## Have great fun!!!
+## Have a great time!!!
