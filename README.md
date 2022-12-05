@@ -16,7 +16,7 @@ For university students nowadays, they are overconsumed with the anger of having
 Please enjoy this game, you can simply download this zipfile and cd to the directory, then type in 'make play' to start off the game, can't wait to see what you will accomplish in this game!!
 
 ## 3. Game rules
-#### Age range: 13-36
+#### The age range from the beginning to the end
 #### 
 1. Character stats will be made up of three variables:
 ####    health\wealth\satisfaction, Each variable will have a value between 0 and 3 (They cannot go beyond 3 or go below 0).
