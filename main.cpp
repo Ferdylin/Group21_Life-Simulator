@@ -431,26 +431,32 @@ int main() {
 		int linecount = 0; // a line number tracking int variable should be declared.
 		
 		while ( getline( fin, resume ) ) {
+			
 			// line 1 contains player's name
 			if ( linecount == 1 ) {
 				name = resume;
 			}
+			
 			// line 2 contains player's age
 			else if ( linecount == 2 ) {
 				* age = stoi( resume );
 			}
-			// vice verca
+			
+			// get health
 			else if ( linecount == 3 ) {
 				player.health = stoi( resume );
 			}
-
+			
+			// get wealth
 			else if ( linecount == 4 ) {
 				player.wealth = stoi( resume );
 			}
-	
+			
+			// get satisfaction 
 			else if ( linecount == 5 ) {
 				player.satisfaction = stoi( resume ); 
 			}
+			
 			// remaining lines contain previous game progress
 			else if ( linecount > 6 ) {
 				fout << resume << endl;
@@ -463,266 +469,291 @@ int main() {
 	}
 
   //The main structure of program starting from age 13
-	while ( * age != 36 ) {
-	fout << endl;
-	cout << endl;
-
-	switch ( * age ) {
-			
-	case 13:
-        cout << "Age: 13" << endl;
-        cout << "-------" << endl;
-
-	fout << "Age: 13" << endl;
-        fout << "-------" << endl;
-
-	Events13( player, name, fout );
-	ShowStats( player, name );
-        break;
 	
-	case 14:
-        cout << "Age: 14" << endl;
-        cout << "-------" << endl;
+	// Operate before reaching the age of 36 years
+	while ( * age != 36 ) {
+		fout << endl;
+		cout << endl;
 
-        fout << "Age: 14" << endl;
-        fout << "-------" << endl;
+		switch ( * age ) {
+			
+		// event when age is 13
+		case 13:
+        	cout << "Age: 13" << endl;
+        	cout << "-------" << endl;
 
-        showevents14_17( player, fout );
-        ShowStats( player, name );
-	break;
+		fout << "Age: 13" << endl;
+       	 	fout << "-------" << endl;
 
-      case 15:
-        cout << "Age: 15" << endl;
-        cout << "-------" << endl;
+		Events13( player, name, fout );
+		ShowStats( player, name );
+        	break;
+	
+		// event when age is 14
+		case 14:
+        	cout << "Age: 14" << endl;
+        	cout << "-------" << endl;
 
-        fout << "Age: 15" << endl;
-        fout << "-------" << endl;
+        	fout << "Age: 14" << endl;
+        	fout << "-------" << endl;
 
-        showevents14_17( player, fout );
-        ShowStats( player, name );		
-	break;
+        	showevents14_17( player, fout );
+        	ShowStats( player, name );
+		break;
 
-      case 16:
-        cout << "Age: 16" << endl;
-        cout << "-------" << endl;
+		// event when age is 15
+      		case 15:
+        	cout << "Age: 15" << endl;
+        	cout << "-------" << endl;
 
-        fout << "Age: 16" << endl;
-        fout << "-------" << endl;		
+        	fout << "Age: 15" << endl;
+        	fout << "-------" << endl;
 
-        showevents14_17( player, fout );
-        ShowStats( player, name );
-	break;
+        	showevents14_17( player, fout );
+        	ShowStats( player, name );		
+		break;
 
-      case 17:
-        cout << "Age: 17" << endl;
-        cout << "-------" << endl;
+		// event when age is 16
+      		case 16:
+        	cout << "Age: 16" << endl;
+        	cout << "-------" << endl;
 
-        fout << "Age: 17" << endl;
-        fout << "-------" << endl;
+        	fout << "Age: 16" << endl;
+        	fout << "-------" << endl;		
 
-        showevents14_17( player, fout );
-        ShowStats( player, name );	
-	break;
+        	showevents14_17( player, fout );
+        	ShowStats( player, name );
+		break;
 
-      case 18:
-        cout << "Age: 18" << endl;
-        cout << "-------" << endl;
+		// event when age is 17
+      		case 17:
+        	cout << "Age: 17" << endl;
+        	cout << "-------" << endl;
+
+       	 	fout << "Age: 17" << endl;
+        	fout << "-------" << endl;
+
+        	showevents14_17( player, fout );
+        	ShowStats( player, name );	
+		break;
+
+		// event when age is 18
+      		case 18:
+        	cout << "Age: 18" << endl;
+        	cout << "-------" << endl;
 				
-        fout << "Age: 18" << endl;
-        fout << "-------" << endl;		
+        	fout << "Age: 18" << endl;
+        	fout << "-------" << endl;		
 
-	Events18( player, name, fout );
-	ShowStats( player, name );
-	break;
+		Events18( player, name, fout );
+		ShowStats( player, name );
+		break;
 
-      case 19:
-        cout << "Age: 19" << endl;
-        cout << "-------" << endl;
+		// event when age is 19
+      		case 19:
+        	cout << "Age: 19" << endl;
+        	cout << "-------" << endl;
 
-        fout << "Age: 19" << endl;
-        fout << "-------" << endl;
+       	 	fout << "Age: 19" << endl;
+        	fout << "-------" << endl;
 
-        Events19( player, name, fout );
-	ShowStats( player, name );
-        break;
+        	Events19( player, name, fout );
+		ShowStats( player, name );
+        	break;
 
-      case 20:
-        cout << "Age: 20" << endl;
-        cout << "-------" << endl;
+		// event when age is 20
+      		case 20:
+        	cout << "Age: 20" << endl;
+        	cout << "-------" << endl;
 
-        fout << "Age: 20" << endl;
-        fout << "-------" << endl;
+        	fout << "Age: 20" << endl;
+        	fout << "-------" << endl;
 
-        showevents20_23( player, fout );
-        ShowStats( player, name );
-        break;
+        	showevents20_23( player, fout );
+        	ShowStats( player, name );
+        	break;
 
-      case 21:
-        cout << "Age: 21" << endl;
-        cout << "-------" << endl;
+		// event when age is 21
+      		case 21:
+        	cout << "Age: 21" << endl;
+        	cout << "-------" << endl;
 
-        fout << "Age: 21" << endl;
-        fout << "-------" << endl;
+        	fout << "Age: 21" << endl;
+        	fout << "-------" << endl;
 
-        showevents20_23( player, fout );
-        ShowStats( player, name );
-        break;
+       	 	showevents20_23( player, fout );
+        	ShowStats( player, name );
+        	break;
 
-      case 22:
-        cout << "Age: 22" << endl;
-        cout << "-------" << endl;
+		// event when age is 22
+      		case 22:
+        	cout << "Age: 22" << endl;
+        	cout << "-------" << endl;
 
-        fout << "Age: 22" << endl;
-        fout << "-------" << endl;
+        	fout << "Age: 22" << endl;
+        	fout << "-------" << endl;
 
-        showevents20_23( player, fout );
-        ShowStats( player, name );	
-        break;
+        	showevents20_23( player, fout );
+        	ShowStats( player, name );	
+        	break;
 
-      case 23:
-        cout << "Age: 23" << endl;
-        cout << "-------" << endl;
+		// event when age is 23
+      		case 23:
+        	cout << "Age: 23" << endl;
+        	cout << "-------" << endl;
 
-        fout << "Age: 23" << endl;
-        fout << "-------" << endl;
+        	fout << "Age: 23" << endl;
+        	fout << "-------" << endl;
 
-        showevents20_23( player, fout );
-        ShowStats( player, name );
-        break;
+        	showevents20_23( player, fout );
+        	ShowStats( player, name );
+        	break;
 		
-      case 24:
-        cout << "Age: 24" << endl;
-        cout << "-------" << endl;
+		// event when age is 24
+      		case 24:
+        	cout << "Age: 24" << endl;
+        	cout << "-------" << endl;
 
-        fout << "Age: 24" << endl;
-        fout << "-------" << endl;
+        	fout << "Age: 24" << endl;
+        	fout << "-------" << endl;
 
-        Events24( player, name, fout );
-	ShowStats( player, name );
-        break;      
+        	Events24( player, name, fout );
+		ShowStats( player, name );
+        	break;      
        
-      case 25:
-        cout << "Age: 25" << endl;
-        cout << "-------" << endl;
+		// event when age is 25
+      		case 25:
+        	cout << "Age: 25" << endl;
+        	cout << "-------" << endl;
 
-        fout << "Age: 25" << endl;
-        fout << "-------" << endl;
+        	fout << "Age: 25" << endl;
+        	fout << "-------" << endl;
 
-        Events25( player, name, fout );
-        ShowStats( player, name );
-	break;
+        	Events25( player, name, fout );
+        	ShowStats( player, name );
+		break;
 
-      case 26:
-        cout << "Age: 26" << endl;
-        cout << "-------" << endl;
+		// event when age is 26
+      		case 26:
+        	cout << "Age: 26" << endl;
+        	cout << "-------" << endl;
 
-        fout << "Age: 26" << endl;
-        fout << "-------" << endl;
+        	fout << "Age: 26" << endl;
+        	fout << "-------" << endl;
 
-        showevents26_29( player, fout );
-        ShowStats( player, name );	
-        break;
+        	showevents26_29( player, fout );
+        	ShowStats( player, name );	
+        	break;
 
-      case 27:
-        cout << "Age: 27" << endl;
-        cout << "-------" << endl;
+		// event when age is 27
+      		case 27:
+        	cout << "Age: 27" << endl;
+        	cout << "-------" << endl;
 
-        fout << "Age: 27" << endl;
-        fout << "-------" << endl;
+        	fout << "Age: 27" << endl;
+        	fout << "-------" << endl;
 
-        showevents26_29( player, fout );
-        ShowStats( player, name );	
-        break;
+        	showevents26_29( player, fout );
+        	ShowStats( player, name );	
+        	break;
       
-      case 28:
-        cout << "Age: 28" << endl;
-        cout << "-------" << endl;
+		// event when age is 28
+      		case 28:
+        	cout << "Age: 28" << endl;
+        	cout << "-------" << endl;
 
-        fout << "Age: 28" << endl;
-        fout << "-------" << endl;
+        	fout << "Age: 28" << endl;
+        	fout << "-------" << endl;
 
-        showevents26_29( player, fout );
-        ShowStats( player, name );	
-        break;
+        	showevents26_29( player, fout );
+        	ShowStats( player, name );	
+        	break;
 
-      case 29:
-        cout << "Age: 29" << endl;
-        cout << "-------" << endl;
+		// event when age is 29
+      		case 29:
+        	cout << "Age: 29" << endl;
+        	cout << "-------" << endl;
 
-        fout << "Age: 29" << endl;
-        fout << "-------" << endl;
+        	fout << "Age: 29" << endl;
+        	fout << "-------" << endl;
 
-        showevents26_29( player, fout );
-        ShowStats( player, name );	
-        break;
+        	showevents26_29( player, fout );
+        	ShowStats( player, name );	
+        	break;
 
-      case 30:
-        cout << "Age: 30" << endl;
-        cout << "-------" << endl;
+		// event when age is 30
+      		case 30:
+        	cout << "Age: 30" << endl;
+        	cout << "-------" << endl;
 
-        fout << "Age: 30" << endl;
-        fout << "-------" << endl;
+        	fout << "Age: 30" << endl;
+        	fout << "-------" << endl;
 
-        Events30( player, name, fout );
-	ShowStats( player, name );
-        break;
+        	Events30( player, name, fout );
+		ShowStats( player, name );
+        	break;
 
-      case 31:
-        cout << "Age: 31" << endl;
-        cout << "-------" << endl;
+		// event when age is 31
+      		case 31:
+        	cout << "Age: 31" << endl;
+        	cout << "-------" << endl;
 
-        fout << "Age: 31" << endl;
-        fout << "-------" << endl;
+        	fout << "Age: 31" << endl;
+        	fout << "-------" << endl;
 
-        Events31( player, name, fout );
-	ShowStats( player, name );
-        break;
+        	Events31( player, name, fout );
+		ShowStats( player, name );
+        	break;
 
-      case 32:
-        cout << "Age: 32" << endl;
-        cout << "-------" << endl;
+		// event when age is 32
+      		case 32:
+        	cout << "Age: 32" << endl;
+        	cout << "-------" << endl;
 
-        fout << "Age: 32" << endl;
-        fout << "-------" << endl;
+        	fout << "Age: 32" << endl;
+        	fout << "-------" << endl;
 
-        showevents32_35( player, fout );
-        ShowStats( player, name );	
-        break;
+        	showevents32_35( player, fout );
+        	ShowStats( player, name );	
+        	break;
       
-      case 33:
-        cout << "Age: 33" << endl;
-        cout << "-------" << endl;
+		// event when age is 33
+      		case 33:
+        	cout << "Age: 33" << endl;
+        	cout << "-------" << endl;
 
-        fout << "Age: 33" << endl;
-        fout << "-------" << endl;
+        	fout << "Age: 33" << endl;
+        	fout << "-------" << endl;
 
-        showevents32_35( player, fout );
-        ShowStats( player, name );	
-        break;
+        	showevents32_35( player, fout );
+        	ShowStats( player, name );	
+        	break;
 
-      case 34:
-        cout << "Age: 34" << endl;
-        cout << "-------" << endl;
+		// event when age is 34
+      		case 34:
+        	cout << "Age: 34" << endl;
+        	cout << "-------" << endl;
 
-        fout << "Age: 34" << endl;
-        fout << "-------" << endl;
+        	fout << "Age: 34" << endl;
+        	fout << "-------" << endl;
 
-        showevents32_35( player, fout );
-        ShowStats( player, name );	
-        break;
+        	showevents32_35( player, fout );
+        	ShowStats( player, name );	
+        	break;
 
-      case 35:
-        cout << "Age: 35" << endl;
-        cout << "-------" << endl;
+		// event when age is 35
+      		case 35:
+        	cout << "Age: 35" << endl;
+        	cout << "-------" << endl;
 
-        fout << "Age: 35" << endl;
-        fout << "-------" << endl;
+        	fout << "Age: 35" << endl;
+        	fout << "-------" << endl;
 
-        showevents32_35( player, fout );
-        ShowStats( player, name );	
-        break;
+        	showevents32_35( player, fout );
+        	ShowStats( player, name );	
+        	break;
 
-		}
+	}
 
 		// call the function to ascertain the player's intent about the game's continuation or termination.
 		bool continuePlaying = growUpOrQuit( age, filename, tempfile, player, name );
