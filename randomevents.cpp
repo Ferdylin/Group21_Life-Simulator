@@ -18,6 +18,8 @@ using namespace std;
 void resultsevents14_to_17( int index, Show &s, ofstream & fout ) {
 	int choice;
 	switch ( index ) {
+			
+		// case 0 - One of the events that may happen at the age of 14 to 17
 		case 0:
 			cout << "1. Join them and play the hell out of it. Friendship and glory!" << endl;
 			cout << "2. Play the game but try not to indulge. School and other stuff in life are equally important." << endl;
@@ -45,6 +47,7 @@ void resultsevents14_to_17( int index, Show &s, ofstream & fout ) {
 			}
 			break;
 
+		// case 1 - One of the events that may happen at the age of 14 to 17
 		case 1:
 			cout << "1. Burry your feelings and act as if nothing happens." << endl;
 			cout << "2. Be brave to express your affection." << endl;
@@ -81,6 +84,7 @@ void resultsevents14_to_17( int index, Show &s, ofstream & fout ) {
 			}
 			break;
 
+		// case 2 - One of the events that may happen at the age of 14 to 17
 		case 2:  
 			cout << "1. I’ll go to the audition!" << endl;
 			cout << "2. Maybe… I’ll try next time?" << endl;
@@ -108,6 +112,7 @@ void resultsevents14_to_17( int index, Show &s, ofstream & fout ) {
 			}
 			break;
 		
+		// case 3 - One of the events that may happen at the age of 14 to 17
 		case 3:	    
 			cout << "1. Zoo." << endl;
 			cout << "2. Disneyland." << endl;
@@ -154,6 +159,7 @@ void resultsevents14_to_17( int index, Show &s, ofstream & fout ) {
 			}	
 			break;
 		
+		// case 4 - One of the events that may happen at the age of 14 to 17
 		case 4:
 			cout << "1. Use both feet to apply the brake and throttle." << endl;
 			cout << "2. Use one foot to apply the brake and throttle." << endl;
@@ -181,6 +187,7 @@ void resultsevents14_to_17( int index, Show &s, ofstream & fout ) {
 			}
 			break;
 
+		// case 5 - One of the events that may happen at the age of 14 to 17
 		case 5:
 			cout << "Please enter '1' to continue with the game: ";
 			cin >> choice;
@@ -195,6 +202,7 @@ void resultsevents14_to_17( int index, Show &s, ofstream & fout ) {
 			}	
 			break;	    
 
+		// case 6 - One of the events that may happen at the age of 14 to 17
 		case 6:
 			cout << "Please enter '1' to continue with the game: ";
 			cin >> choice;
@@ -217,6 +225,7 @@ void resultsevents14_to_17( int index, Show &s, ofstream & fout ) {
 void resultsevents20_to_23( int index, Show &s, ofstream & fout ) {
 	int choice;
 	switch ( index ) {
+		// case 0 - One of the events that may happen at the age of 20 to 23
 		case 0:
 			cout << "1. Hey it's college, step aside GPA! I only care about my love life." << endl;
 			cout << "2. Surely I can balance my study and love life." << endl;
@@ -253,6 +262,7 @@ void resultsevents20_to_23( int index, Show &s, ofstream & fout ) {
 			}
 			break;
 
+		// case 1 - One of the events that may happen at the age of 20 to 23
 		case 1:
 			cout << "1. OMG this is a once-in-a-lifetime opportunity! I need to save every penny to get a ticket!" << endl;
 			cout << "2. Sounds like I can only give it up ." << endl;
@@ -279,6 +289,7 @@ void resultsevents20_to_23( int index, Show &s, ofstream & fout ) {
 			}
 			break;
 			
+		// case 2 - One of the events that may happen at the age of 20 to 23
 		case 2:	
 			cout << "1. Piano" << endl;
 			cout << "2. Violin" << endl;
@@ -325,6 +336,7 @@ void resultsevents20_to_23( int index, Show &s, ofstream & fout ) {
 			}
 			break;
 			
+		// case 3 - One of the events that may happen at the age of 20 to 23
 		case 3: 
 			cout << "1. Get a job." << endl;
 			cout << "2. Continue study." << endl;
@@ -351,6 +363,8 @@ void resultsevents20_to_23( int index, Show &s, ofstream & fout ) {
         			fout << "You fail to get into a school you like. Guess you have to join the workforce anyway." << endl;
 			}
 			break;
+			
+		// case 4 - One of the events that may happen at the age of 20 to 23
 		case 4: 
 			cout << "1. Big Tech." << endl;
 			cout << "2. Financial industry, equity research." << endl;
@@ -387,6 +401,8 @@ void resultsevents20_to_23( int index, Show &s, ofstream & fout ) {
         			fout << "You land a shiny job. But bad news is… you have to work around the clock." << endl;
     			}
 			break;
+			
+		// case 5 - One of the events that may happen at the age of 20 to 23
 		case 5: 
 			cout << "1. Get my own apartment." << endl;
 			cout << "2. Share an apartment." << endl;
@@ -423,6 +439,8 @@ void resultsevents20_to_23( int index, Show &s, ofstream & fout ) {
         			fout << "Most comfortable!" << endl;
     			}
 			break;
+			
+		// case 6 - One of the events that may happen at the age of 20 to 23
 		case 6: 
 			cout << "1. Designer clothes and shoes." << endl;
 			cout << "2. Sports car." << endl;
@@ -490,6 +508,7 @@ void resultsevents20_to_23( int index, Show &s, ofstream & fout ) {
 void resultsevents26_to_29( int index, Show &s, ofstream & fout ) {
 	int choice;
 	switch ( index ) {
+		// case 0 - One of the events that may happen at the age of 26 to 29
 		case 0:
 			cout << "1. Tell them “Sorry YOU felt that way”, and continue with your current lifestyle." << endl;
 			cout << "2. Spare more time to spend with them, you have decided to go grab something nice to eat together during the weekend." << endl;
@@ -526,6 +545,7 @@ void resultsevents26_to_29( int index, Show &s, ofstream & fout ) {
 			}
 			break;
 
+		// case 1 - One of the events that may happen at the age of 26 to 29
 		case 1:
 			cout << "1.You found out that you’re passionate about education and you enjoy helping students out, you’ve decided to start a new venture as an entrepreneur!" << endl;
 			cout << "2. You believe this is just a phase and have decided to stick with the current job still." << endl;
@@ -562,6 +582,7 @@ void resultsevents26_to_29( int index, Show &s, ofstream & fout ) {
 			}
 			break;
 
+		// case 2 - One of the events that may happen at the age of 26 to 29
 		case 2:
 			cout << "1. Tiktok Dance" << endl;
 			cout << "2. Social Experiment Channel" << endl;
@@ -598,6 +619,7 @@ void resultsevents26_to_29( int index, Show &s, ofstream & fout ) {
 			}
 			break;
 		
+		// case 3 - One of the events that may happen at the age of 26 to 29
 		case 3:
 			cout << "1. Pay for her bill and ask her to take pictures with you" << endl;
 			cout << "2. Pretend you didn’t see her and walk away" << endl;
@@ -634,6 +656,7 @@ void resultsevents26_to_29( int index, Show &s, ofstream & fout ) {
 			}
 			break;
 		
+		// case 4 - One of the events that may happen at the age of 26 to 29
 		case 4:
 			cout << "1. You think crypto is BS and had decided not to invest your money eventually" << endl;
 			cout << "2. You are a big fan of blockchain technology, and you believe that crypto trading is the future, you had decided to invest 50% of your idle cash in the platform" << endl;
@@ -670,6 +693,7 @@ void resultsevents26_to_29( int index, Show &s, ofstream & fout ) {
 			}
 			break;
 
+		// case 5 - One of the events that may happen at the age of 26 to 29
 		case 5:
 			cout << "1. Skiing in Hokkaido" << endl;
 			cout << "2. Drive to a party with friends" << endl;
@@ -706,6 +730,7 @@ void resultsevents26_to_29( int index, Show &s, ofstream & fout ) {
 			}
 			break;
 
+		// case 6 - One of the events that may happen at the age of 26 to 29
 		case 6:
 			cout << "1. Go visit your ex and offered to pay for their medical expenses" << endl;
 			cout << "2. Go visit your ex with your current partner" << endl;
@@ -751,6 +776,7 @@ void resultsevents32_to_35( int index, Show &s, ofstream & fout ) {
 	int choice;
 	
 	switch ( index ) {
+		// case 0 - One of the events that may happen at the age of 32 to 35
 		case 0:
 			cout << "1. Go on a trip" << endl;
 			cout << "2. Attend swimming classes" << endl;
@@ -787,6 +813,7 @@ void resultsevents32_to_35( int index, Show &s, ofstream & fout ) {
 			}
 			break;
 
+		// case 1 - One of the events that may happen at the age of 32 to 35
 		case 1:
 			cout << "1. Happy school" << endl;
 			cout << "2. International schools that are expensive but are said to have good teachers" << endl;
@@ -813,6 +840,7 @@ void resultsevents32_to_35( int index, Show &s, ofstream & fout ) {
 			}
 			break;
 
+		// case 2 - One of the events that may happen at the age of 32 to 35
 		case 2:
 			cout << "1. Go to the doctor for a prescription" << endl;
 			cout << "2. Start exercising" << endl;
@@ -849,6 +877,7 @@ void resultsevents32_to_35( int index, Show &s, ofstream & fout ) {
 			}
 			break;
 		
+		// case 3 - One of the events that may happen at the age of 32 to 35
 		case 3:
 			cout << "1. Take out a loan to buy a 200 sq m house." << endl;
 			cout << "2. Buy a house of 80 sq m with full payment." << endl;
@@ -875,6 +904,7 @@ void resultsevents32_to_35( int index, Show &s, ofstream & fout ) {
 			}
 			break;
 		
+		// case 4 - One of the events that may happen at the age of 32 to 35
 		case 4:
 			cout << "1. Buy the opposite" << endl;
 			cout << "2. You still want to back your favorite Lionel Messi." << endl;
@@ -911,6 +941,7 @@ void resultsevents32_to_35( int index, Show &s, ofstream & fout ) {
 			}
 			break;
 
+		// case 5 - One of the events that may happen at the age of 32 to 35
 		case 5:
 			cout << "1. You are confident in your own strength and sign the contract without knowing more about the company." << endl;
 			cout << "2. You think he's a scam artist and don't want to believe him, so you just walk away." << endl;
@@ -937,6 +968,7 @@ void resultsevents32_to_35( int index, Show &s, ofstream & fout ) {
 			}
 			break;
 
+		// case 6 - One of the events that may happen at the age of 32 to 35
 		case 6:
 			cout << "1. Not to lend it to him, you know your brother's personality and that money borrowed will never be repaid." << endl;
 			cout << "2. You lend him the money anyway because your mother and father are also struggling with your brother's business." << endl;
