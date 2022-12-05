@@ -1,4 +1,4 @@
-# Group21_Life-Simulator
+# LiveLaughLove_Life-Simulator
 ## 1. Team members
 ### Author(s): 
 1. Wu Hanbo 3035834876
