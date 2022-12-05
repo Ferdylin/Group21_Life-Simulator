@@ -17,7 +17,6 @@ Please enjoy this game, you can simply download this zipfile and cd to the direc
 
 ## 3. Game rules
 #### The age range from the beginning to the end: 13-36
-#### 
 **1. Character stats will be made up of three variables:  **
     **health**
     **wealth**
